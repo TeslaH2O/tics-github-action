@@ -1,0 +1,37 @@
+name: 'TiCS Github Action'
+author: 'TIOBE'
+description: 'Integrates TICS Client analysis to measure your code quality. The incorporated Quality gating feature enables you to analyze and decorate pull requests.'
+inputs:
+  projectName:
+    description: 'Name of the TICS project'
+    required: true
+  branchName:
+    description: 'Name of the branch in TICS'
+    required: true
+  branchDir:
+    description: 'Location of the files to analyze'
+    required: false
+  viewerUrl:
+    description: 'TICS Viewer url'
+    required: true
+  calc:
+    description: 'Comma-separated list of metrics to be used'
+    required: false
+  ticsAuthToken:
+    description: 'Authentication token to connect to the TICS Viewer'
+    required: false
+  cdToken:
+    description: 'A custom client-data token for the purpose of the Client Viewer functionality.'
+    required: false
+  tmpDir:
+    description: 'Location to store debug information'
+    required: false
+  installTics:
+    description: 'Boolean parameter to install TICS command-line tools on a runner before executing the analysis'
+    required: false
+branding:
+  icon: 'flag'  
+  color: 'blue'
+runs:
+  using: 'node12'
+  main: 'index.js'
