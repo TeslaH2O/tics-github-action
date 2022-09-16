@@ -11,16 +11,13 @@ inputs:
   branchDir:
     description: 'Location of the files to analyze'
     required: false
-  viewerUrl:
-    description: 'TICS Viewer url'
-    required: true
   calc:
     description: 'Comma-separated list of metrics to be used'
     required: false
   ticsAuthToken:
     description: 'Authentication token to connect to the TICS Viewer'
     required: false
-  cdToken:
+  clientToken:
     description: 'A custom client-data token for the purpose of the Client Viewer functionality.'
     required: false
   tmpDir:
@@ -30,8 +27,8 @@ inputs:
     description: 'Boolean parameter to install TICS command-line tools on a runner before executing the analysis'
     required: false
 branding:
-  icon: 'flag'  
+  icon: 'flag'
   color: 'blue'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'src/index.js'
