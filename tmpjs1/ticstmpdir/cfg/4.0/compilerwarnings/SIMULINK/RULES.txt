@@ -1,8 +1,0 @@
-15222	1	Compiler Warning	A TargetLink function block resides in the 'virtual' system. It is strongly recommended to set the system's block parameter 'treat as atomic unit' as it may result in different simulation behavior.
-17001	1	Compiler Warning	A variable should be initialized if it is specified in the EXTERN_MACRO variable class.
-17352	4	Compiler Advice	Implementing 64-bit operation addition
-20281	1	Compiler Warning	The scaling range of the input for vector is wider than the scaling range of the vector. This might cause an overflow in the look-up function's call.
-20741	1	Compiler Warning	Multiport Switch Block Messages
-20742	1	Compiler Warning	The range of the control inport does not cover all possible inputs - some inports will never be propagated to the outport.
-30022	1	Compiler Warning	A subsystem has the 'enable reuse' attribute set, but has no library link.
-31414	4	Compiler Advice	The output variable gets 0 and 1 values within an If-Then construct. This construct will not be replaced by a 'var = <cond>' or 'var = !<cond>' statement, because the data type of the variable is not Boolean.

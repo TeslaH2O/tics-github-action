@@ -1,5 +1,0 @@
-JSC_DUP_VAR_DECLARATION_TYPE_MISMATCH	1	Compiler Warning	Subsequent variable declarations must have the same type.
-JSC_INEXISTENT_PROPERTY	3	Compiler Warning	Property does not exist.
-JSC_INCOMPATIBLE_STRICT_COMPARISON	1	Compiler Warning	Invalid use of reserved keyword.
-JSC_WRONG_NUMBER_OF_PARAMS	1	Compiler Warning	Wrong number of params.
-JSC_TOO_MANY_ARGUMENTS_ERROR	1	Compiler Warning	Too many arguments.

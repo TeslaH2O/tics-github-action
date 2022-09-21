@@ -1,4 +1,0 @@
-DetectIntegerOverflow	1	Design error	Detect Integer Overflow.
-DetectDivisionByZero	1	Design error	Detect Division By Zero.
-DetectOutOfBound	1	Design error	Detect Out Of Bound Array Access.
-DesignMinMaxCheck	1	Design error	Detect Violation of Specified Intermediate Minimum and Maximum Values.

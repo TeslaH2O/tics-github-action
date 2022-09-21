@@ -1,7 +1,0 @@
-# Default configuration file for the expiration dates of the Parasoft tools (cpptest, dottest, jtest).
-# Please add the respective expiration dates in YYYY-MM-DD formats, like this:
-
-# cpptest: 2021-01-01
-# dottest: 2021-02-02
-# jtest: 2021-03-03
----

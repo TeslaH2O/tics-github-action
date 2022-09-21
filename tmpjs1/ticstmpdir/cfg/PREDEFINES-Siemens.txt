@@ -1,8 +1,0 @@
-bdata
-bit='int'
-code
-huge
-sbit='unsigned char'
-sdata
-sfr='unsigned char'
-xdata

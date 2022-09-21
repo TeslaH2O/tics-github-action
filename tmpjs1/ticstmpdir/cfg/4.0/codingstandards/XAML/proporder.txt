@@ -1,6 +1,0 @@
-Name:Name
-Style:Style
-Attached:Grid.Row,Grid.Column,DockPanel.Dock
-Content:Content,ToopTip,Text
-Layout:Width,Height,HorizontalAlignment,VerticalAlignment,Stretch
-Visibility:Visibility,Opacity

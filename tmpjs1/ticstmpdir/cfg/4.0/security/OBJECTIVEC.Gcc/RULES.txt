@@ -1,2 +1,0 @@
-OBJECTIVEC.Gcc-Wformat-nonliteral	3	Compiler warning	added to -Wformat-security that are not included in -Wformat-nonliteral.
-OBJECTIVEC.Gcc-Wformat-security	3	Compiler warning	If -Wformat is specified, also warn about uses of format functions that represent possible security problems.
