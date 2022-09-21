@@ -61,7 +61,7 @@ export class TicsPublisher {
             return qualityGateObj;
 
         } catch (error) {
-            core.setFailed("An error occured when trying to retrieve quality gates " + error);
+            core.setFailed("An error occurred when trying to retrieve quality gates " + error);
         }
     }
 

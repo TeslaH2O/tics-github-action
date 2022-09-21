@@ -5,7 +5,7 @@ import { generateLinkMarkdown,
     generateExpandableAreaMarkdown } from './markdownGenerator.js';
 
 export const getErrorSummary = (errorList) => {
-    let errorMessage = `## TICS Quality Gate\r\n\r\n### :x: Failed \r\n\r\n #### The following errors have occured during analysis:\r\n\r\n`;
+    let errorMessage = `## TICS Quality Gate\r\n\r\n### :x: Failed \r\n\r\n #### The following errors have occurred during analysis:\r\n\r\n`;
 
    if (errorList && Array.isArray(errorList)) {
        errorList.forEach(item => errorMessage += `> :x: ${item}\r\n`); 

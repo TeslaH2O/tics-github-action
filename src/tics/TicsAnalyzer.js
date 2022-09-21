@@ -56,8 +56,8 @@ export class TicsAnalyzer {
 
     getTicsClientArgs() {
         let execString = 'TICS ';
-        const ticsCalcWithGate = ticsConfig.calc.includes("GATE") ? ticsConfig.calc : "GATE"; 
-        execString += ticsConfig.calc ? `-calc ${ticsCalcWithGate} -changed `: '-calc ALL -changed ';
+        execString += ticsConfig.calc.includes("GATE") ? '' : '-viewer ';
+        execString += ticsConfig.calc ? `-calc ${ticsConfig.calc} -changed `: '-calc ALL -changed ';
         execString += ticsConfig.projectName ? `-project ${ticsConfig.projectName} ` : '';
         execString += ticsConfig.clientToken ? `-cdtoken ${ticsConfig.clientToken} ` : '';
         execString += ticsConfig.tmpDir ? `-tmpdir ${ticsConfig.tmpDir} ` : '';
@@ -112,7 +112,7 @@ export class TicsAnalyzer {
             return installTICSUrlTemp;
 
         } catch (error) {
-            core.setFailed("An error occured when trying to retrieve configuration information " + error);
+            core.setFailed("An error occurred when trying to retrieve configuration information " + error);
         }
     }
 }
