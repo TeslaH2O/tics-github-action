@@ -1,0 +1,19 @@
+// Coverity 2022.03 and below
+COV_SWIFT_PATH_MANIPULATION	1	High impact security	An attacker may access, modify, or corrupt files that contain sensitive information or are critical to the application
+COV_SWIFT_SCRIPT_CODE_INJECTION	1	High impact security	An attacker may be able to alter the behavior of the program or run malicious code
+COV_SWIFT_SQLI	1	High impact security	A user can change the intent of the SQL query, which may inappropriately disclose or corrupt data within the database
+COV_SWIFT_UNENCRYPTED_SENSITIVE_DATA	1	High impact security	Attackers can read the sensitive data from the cookie with widely available tools
+
+COV_SWIFT_REGEX_INJECTION	3	Low impact security	An attacker may be able to retrieve sensitive information, alter the behavior of the program, or exhaust resources within the application
+COV_SWIFT_WEAK_BIOMETRIC_AUTH	3	Low impact security	LocalAuthentication can be trivially bypassed allowing unauthenticated access
+
+COV_SWIFT_BAD_CERT_VERIFICATION	2	Medium impact security	An attacker can execute a man-in-the-middle attack to eavesdrop on or interfere with all traffic in the session
+COV_SWIFT_CONFIG.ATS_INSECURE	2	Medium impact security	Insecure connections will not be blocked by App Transport Security (ATS), allowing for potential man-in-the-middle attacks
+COV_SWIFT_CUSTOM_KEYBOARD_DATA_LEAK	2	Medium impact security	Permitting the use of untrusted keyboard extensions could expose the user to data theft. A malicious keyboard might log user data or forward it to remote servers
+COV_SWIFT_HARDCODED_CREDENTIALS	2	Medium impact security	Users with access to this source code can use these credentials to access production services or data. Changing these credentials requires changing the code and re-deploying the application
+COV_SWIFT_INSECURE_COMMUNICATION	2	Medium impact security	Sensitive data sent to or received from the application may be read or manipulated by unintended actors
+COV_SWIFT_INSECURE_MULTIPEER_CONNECTION	2	Medium impact security	An attacker can force the negotiated communication session to be unencrypted. The data transmitted on the channel can then be intercepted as cleartext
+COV_SWIFT_RISKY_CRYPTO	2	Medium impact security	A violation of user-specified RISKY_CRYPTO policy was detected.
+COV_SWIFT_SENSITIVE_DATA_LEAK	2	Medium impact security	Exception error messages and stack traces may leak information useful for attacking the application
+COV_SWIFT_XML_EXTERNAL_ENTITY	2	Medium impact security	Resolving arbitrary external entities may result in exposing sensitive data or in making unwanted server requests
+COV_SWIFT_XPATH_INJECTION	2	Medium impact security	An attacker can change the intent of the XPath query, which may inappropriately disclose data or grant unauthorized access to application functionality

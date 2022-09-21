@@ -1,0 +1,166 @@
+JAVA.BD.API.ARGWRITE	2	API	Do not rely on the write() method to output integers outside the range 0 to 255
+JAVA.BD.API.EQNULL	1	API	Make sure implementation of Object.equals(Object) properly handles null values
+JAVA.BD.API.EQREFL	1	API	Make sure implementation of Object.equals(Object) is reflexive
+
+JAVA.BD.CO.ITMOD	3	Collections	Do not modify collection while iterating over it
+
+JAVA.BD.EXCEPT.NP	1	Exceptions	Avoid NullPointerException
+
+JAVA.BD.OPT.INEFCOL	5	Optimization	Avoid inefficient removal of Collection elements
+JAVA.BD.OPT.INEFMAP	5	Optimization	Avoid inefficient iteration over Map entries
+JAVA.BD.OPT.INEFMAPRM	5	Optimization	Avoid inefficient removal of Map entries
+
+JAVA.BD.PB.ARRAY	1	Possible Bugs	Avoid accessing arrays out of bounds
+JAVA.BD.PB.ARRAYINP	4	Possible Bugs	Avoid unvalidated input in array indexes
+JAVA.BD.PB.BADSHIFT	2	Possible Bugs	Avoid incorrect shift operations
+JAVA.BD.PB.CC	2	Possible Bugs	Avoid conditions that always evaluate to the same value
+JAVA.BD.PB.CHECKRET	2	Possible Bugs	Consistently check the returned value of non-void methods
+JAVA.BD.PB.DEREF	2	Possible Bugs	Avoid dereferencing before checking for null
+JAVA.BD.PB.EXCEPT	2	Possible Bugs	Always catch exceptions
+JAVA.BD.PB.GETPERM	2	Possible Bugs	Method getPermission() is supposed to be invoked when user-defined class loaders are applied
+JAVA.BD.PB.INFREC	2	Possible Bugs	Avoid infinite recursion
+JAVA.BD.PB.INTOVER	3	Possible Bugs	Avoid integer overflows
+JAVA.BD.PB.MULBUF	2	Possible Bugs	Do not create multiple buffered wrappers on a single byte or character stream
+JAVA.BD.PB.NOTEXPLINIT	1	Possible Bugs	Avoid use before explicit initialization
+JAVA.BD.PB.NOTINITCTOR	1	Possible Bugs	Avoid use of fields before initialization in constructors and static initializers
+JAVA.BD.PB.PBIOS	3	Possible Bugs	Prevent external processes from blocking on input and output streams
+JAVA.BD.PB.POVR	1	Possible Bugs	Prevent external processes from blocking on input and output streams
+JAVA.BD.PB.REVOBJ	5	Possible Bugs	Restore prior object state on method failure
+JAVA.BD.PB.SBONE	2	Possible Bugs	Ensure proper usage of StringBuilder/StringBuffer objects
+JAVA.BD.PB.STRNULL	6	Possible Bugs	Do not append null value to strings
+JAVA.BD.PB.SWITCH	2	Possible Bugs	Avoid switch with unreachable branches
+JAVA.BD.PB.VREADOBJ	2	Possible Bugs	Do not invoke overridable methods from the readObject() method
+JAVA.BD.PB.VOVR	3	Possible Bugs	Avoid unused values
+JAVA.BD.PB.ZERO	1	Possible Bugs	Avoid division by zero
+
+JAVA.BD.RES.FREE	1	Resources	Do not use resources that have been freed
+JAVA.BD.RES.LEAKS	2	Resources	Ensure resources are deallocated
+
+JAVA.BD.TRS.DIFCS	1	Threads & Synchronization	Variable should be used in context of single critical section
+JAVA.BD.TRS.DLOCK	1	Threads & Synchronization	Avoid double locking
+JAVA.BD.TRS.INSTLOCK	2	Threads & Synchronization	Do not use an instance lock to protect shared static data
+JAVA.BD.TRS.LOCK	3	Threads & Synchronization	Do not abandon unreleased locks
+JAVA.BD.TRS.ORDER	1	Threads & Synchronization	Do not acquire locks in different order
+JAVA.BD.TRS.TSHL	3	Threads & Synchronization	Do not use blocking methods while holding a lock
+
+JAVA.BEAN.BLNC	7	JavaBeans	Use appropriate signatures for listener method names in JavaBean classes
+JAVA.BEAN.SERIALIZABLE	7	JavaBeans	Ensure that JavaBean classes implement 'java.io.Serializable'
+
+JAVA.CODSTA.EPC.NCBAV	3	Error-Prone Coding	Do not perform bitwise and arithmetic operations on the same data
+JAVA.CODSTA.OIM.OVERRIDE	5	Overriding and Implementing Methods	Override 'Object.hashCode()' when you override 'Object.equals()' and vice versa
+JAVA.CODSTA.READ.LONG	5	Readability	Avoid having a lower-case 'l' or the number '1' at the end of a 'long' integer constant
+
+JAVA.GC.FCF	4	Garbage Collection	Call 'super.finalize()' from 'finalize()'
+JAVA.GC.FM	4	Garbage Collection	Do not use 'finalize()' methods to unregister listeners
+JAVA.GC.IFF	4	Garbage Collection	Call 'super.finalize()' in the 'finally' block of 'finalize()' methods
+JAVA.GC.NCF	4	Garbage Collection	Do not call 'finalize()' explicitly
+
+JAVA.HIBERNATE.UPWD	6	Hibernate Framework	Avoid storing unencrypted Hibernate usernames and passwords in 'web.xml' files
+
+JAVA.INIT.ADI	3	Initialization	Avoid explicitly initializing fields which have already been initialized by a superclass' constructor
+JAVA.INIT.UIRC	1	Initialization	Avoid uninitialized reads of fields before or during constructor execution
+
+JAVA.JDBC.BRSA	3	Java Database Connectivity	Ensure index is valid in JDBC method invocation
+
+JAVA.JUNIT.AST	8	JUnit Test Case	Do not include assertion statements in threads other than the main thread
+JAVA.JUNIT.CSUPER	8	JUnit Test Case	Call the superclass' 'setUp' and 'tearDown' methods in the 'setUp' and 'tearDown' methods of JUnit test classes
+JAVA.JUNIT.SIA	8	JUnit Test Case	Ensure JUnit test cases include assertion methods
+JAVA.JUNIT.SUITE	8	JUnit Test Case	Make 'suite()' methods 'public' and 'static'
+
+JAVA.OOP.AHF	4	Object Oriented Programming	Do not hide inherited fields
+JAVA.OOP.AHSM	4	Object Oriented Programming	Do not hide inherited 'static' member methods
+
+JAVA.OPT.SI	5	Optimization	Declare member classes 'static' if possible
+JAVA.OPT.UISO	5	Optimization	Avoid unnecessary 'instanceof' evaluations
+JAVA.OPT.USC	6	Optimization	Use 'String' instead of 'StringBuffer' for constant strings
+JAVA.OPT.USCL	3	Optimization	Avoid questionable uses of non-short-circuit logic
+
+JAVA.PB.API.DNCSS	2	API Usage and Implementation	Do not call 'setSize()' in 'ComponentListener.componentResized()'
+JAVA.PB.API.EQNL	5	API Usage and Implementation	Avoid calling 'equals(null)'
+JAVA.PB.API.HNCN	2	API Usage and Implementation	Do not call the 'next' method from the 'hasNext' method of an Iterator
+JAVA.PB.API.IUMS	5	API Usage and Implementation	Do not use 'URL' objects in 'Collections' or 'Maps'
+JAVA.PB.API.REP	5	API Usage and Implementation	Avoid using '.' as a regular expression in 'String.replaceAll()' and 'String.replaceFirst()'
+JAVA.PB.API.SBCC	5	API Usage and Implementation	Do not pass a 'char' to the 'StringBuffer(int)' constructor
+JAVA.PB.API.UNI	2	API Usage and Implementation	Avoid improper casting of the results of the 'next' methods in the 'java.util.Random' class
+JAVA.PB.API.URL	2	API Usage and Implementation	Avoid using the 'equals()' and 'hashCode()' methods of 'java.net.URL'
+JAVA.PB.CUB.ADE	2	Confusing or Unintended Behavior	Avoid dangling 'else' statements
+JAVA.PB.CUB.ARCF	4	Confusing or Unintended Behavior	Avoid using 'return's inside 'finally blocks if thare are other 'return's inside the try-catch block
+JAVA.PB.CUB.ATSF	3	Confusing or Unintended Behavior	Do not exit 'finally' blocks abruptly
+JAVA.PB.CUB.DCP	3	Confusing or Unintended Behavior	Do not use the '+' string concatenation operator to concatenate numbers; use it only to add numbers
+JAVA.PB.CUB.MAIN	3	Confusing or Unintended Behavior	Use the method name 'main()' only for the entry point method
+JAVA.PB.CUB.NCUCP	3	Confusing or Unintended Behavior	Do not assume that a Java char fully represents a Unicode code point
+JAVA.PB.CUB.SAC	3	Confusing or Unintended Behavior	Do not use 'char' arrays in 'String' concatenations
+JAVA.PB.CUB.TOS	3	Confusing or Unintended Behavior	Avoid invoking 'toString()' on array variables
+JAVA.PB.LOGIC.AIL	1	Logical Errors	Avoid infinite loops
+JAVA.PB.LOGIC.AULV	3	Logical Errors	Avoid loop variables which are not used in the condition of the loop
+JAVA.PB.LOGIC.CRRV	2	Logical Errors	Check the return value of methods which read or skip input
+JAVA.PB.LOGIC.DJNCR	2	Logical Errors	Do not discard the result of a call to 'readLine()' after checking that the return value is non-null
+JAVA.PB.LOGIC.EQUS	1	Logical Errors	Do not call 'equals()' methods that always return false
+JAVA.PB.LOGIC.FLRC	1	Logical Errors	Avoid infinite recursive method calls
+JAVA.PB.LOGIC.JI	2	Logical Errors	Do not increment or decrement on the same variable over multiple nested 'for' loop statements
+JAVA.PB.LOGIC.OOR	1	Logical Errors	Avoid out of range comparisons
+JAVA.PB.LOGIC.SG	1	Logical Errors	Ensure get/set methods are accessing the correct variables
+JAVA.PB.NUM.BSA	1	Numerical Errors	Do not use an integer outside the range of [0, 31] as the amount of a shift
+JAVA.PB.NUM.FPLI	1	Numerical Errors	Do not use floating point variables as loop indices
+JAVA.PB.NUM.IDCD	2	Numerical Errors	Do not assign the result of an integer division to a floating point variable
+JAVA.PB.NUM.NAN	3	Numerical Errors	Avoid comparisons to Double.NaN or Float.NaN
+JAVA.PB.NUM.NIA	2	Numerical Errors	Do not initialize array dimensions with negative numbers
+JAVA.PB.NUM.PMRWLED	4	Numerical Errors	Provide methods to read and write little-endian data
+JAVA.PB.OCSF	5	Possible Bugs	Ensure that exactly one type has the same name as the file name
+JAVA.PB.PDCL	4	Possible Bugs	Place 'default' as the last case of the 'switch' statement
+JAVA.PB.RE.ACTI	1	Runtime Exceptions	Do not add a collection to itself
+JAVA.PB.RE.AMFSL	1	Runtime Exceptions	Avoid modifying fixed-size Collections
+JAVA.PB.RE.CTNSE	1	Runtime Exceptions	Ensure 'Iterator.next()' method implementations throw 'NoSuchElementException'
+JAVA.PB.RE.IDRL	3	Runtime Exceptions	Check whether or not 'readLine()' returned null before dereferencing the return value
+JAVA.PB.RE.IIAE	3	Runtime Exceptions	Make sure the IllegalArgumentException message matches the code logic
+JAVA.PB.TYPO.ASI	3	Typographical Errors	Avoid assignment within a condition
+JAVA.PB.TYPO.EB	3	Typographical Errors	Avoid control statements with empty bodies
+JAVA.PB.TYPO.IMO	2	Typographical Errors	Ensure the overriding method name does not have a typo
+JAVA.PB.TYPO.NAMING	4	Typographical Errors	Do not give methods and fields the same name as the enclosing class or each other
+JAVA.PB.TYPO.TLS	1	Typographical Errors	Ensure 'switch' statements do not contain typos
+JAVA.PB.TYPO.UOL	4	Typographical Errors	Do not use octal integer literals
+JAVA.PB.TYPO.WT	2	Typographical Errors	Ensure that arguments passed to Java wrapper classes do not contain typos
+JAVA.PB.USC.FCBS	4	Useless Code	Avoid using 'private' fields which are never given a meaningful value
+JAVA.PB.USC.NACC	2	Useless Code	Avoid classes with no accessible members
+JAVA.PB.USC.OI	1	Useless Code	Avoid increment and decrement statements which have no effect
+JAVA.PB.USC.SAFL	1	Useless Code	Avoid self assignments/initializations to fields and/or local variables
+JAVA.PB.USC.UIF	2	Useless Code	Avoid unreachable 'else if' and 'else' cases
+JAVA.PB.USC.UNARY	6	Useless Code	Do not use the unary operator '+'
+
+JAVA.PORT.ENV	5	Portability	Do not use the non-portable 'System.getenv()' method
+
+JAVA.PROPS.DUPN	4	Property Files	Avoid duplicated property names
+
+JAVA.SERIAL.ENNAC	3	Serialization	Avoid classes that implement 'Externalizable' but do not define a no-argument constructor
+JAVA.SERIAL.MRWD	4	Serialization	Ensure the return type of 'readResolve()' and 'writeReplace()' methods are 'java.lang.Object'
+JAVA.SERIAL.NSFSC	3	Serialization	Ensure Serializable classes are correct
+JAVA.SERIAL.OC	3	Serialization	Ensure outer class is serializable if its inner class is serializable
+JAVA.SERIAL.ROWO	3	Serialization	Ensure that the 'readObject()' and 'writeObject()' methods have the correct signature
+JAVA.SERIAL.RWAF	3	Serialization	Ensure that all fields are assigned by the 'readObject()' method and written by the 'writeObject()' method
+JAVA.SERIAL.SNNAC	4	Serialization	Avoid serializable classes that extend a superclass without a zero-argument constructor
+
+JAVA.SERVLET.MDC	5	Servlets	Declare a 'public' constructor that takes no parameters
+
+JAVA.STRUTS.AIV	7	Struts Framework	Specify an @input attribute if '&lt;action>' element has validation in 'struts-config.xml' files
+JAVA.STRUTS.AMFB	7	Struts Framework	Specify a '&lt;form-bean>' for each named '&lt;action>' element in 'struts-config.xml' files
+JAVA.STRUTS.DFV	7	Struts Framework	Avoid duplicated forms in the 'validation.xml'
+JAVA.STRUTS.FWD	7	Struts Framework	Specify a non-empty name and path for each '&lt;forward>' element in 'struts-config.xml' files
+JAVA.STRUTS.NTFB	7	Struts Framework	Specify a name and type for each form bean in 'struts-config.xml' files
+JAVA.STRUTS.PLUGIN	7	Struts Framework	Ensure Plugins are added in the 'struts-config.xml'
+JAVA.STRUTS.TAFP	7	Struts Framework	Specify a valid 'type' attribute for each '&lt;form-property>' element in 'struts-config.xml' files
+
+JAVA.TRS.SCS	4	Threads & Synchronization	Do not synchronize on constant Strings
+JAVA.TRS.SSCI	4	Threads & Synchronization	Manually synchronize on 'synchronized' collections when iterating over them
+JAVA.TRS.THRD	2	Threads & Synchronization	Avoid calling unsafe deprecated methods of 'Thread' and 'Runtime'
+JAVA.TRS.UWIL	3	Threads & Synchronization	Call 'wait()' and 'await()' only inside a loop that tests the liveness condition
+
+JAVA.UC.AESTAT	3	Unused Code	Avoid empty static and non-static initializers
+JAVA.UC.AUL	3	Unused Code	Avoid unused labels
+JAVA.UC.AURCO	3	Unused Code	Avoid collection objects that are never read
+JAVA.UC.AURV	4	Unused Code	Avoid local variables that are never read
+JAVA.UC.EF	3	Unused Code	Avoid empty 'finalize()' methods
+JAVA.UC.PF	3	Unused Code	Avoid unused 'private' fields
+JAVA.UC.PM	3	Unused Code	Avoid unused 'private' methods
+JAVA.UC.SNE	3	Unused Code	Avoid empty 'synchronized' statements
+
+JAVA.XML.WF	6	XML Development	Ensure that XML files are well-formatted

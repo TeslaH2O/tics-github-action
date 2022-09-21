@@ -17,23 +17,33 @@ export async function run() {
     try {
         core.info(`\u001b[35m > Analysing new pull request for project ${ticsConfig.projectName}.`)
         const ticsAnalyzer = new TicsAnalyzer();
-        const exitCode = await ticsAnalyzer.run();
+        const result = await ticsAnalyzer.run();
 
-        if (exitCode == 0) {
-            core.info("TiCS Github Action run finished with  code " + exitCode);
+        if (result) {
+            core.info(result);
+
+            let locateExplorerUrl = result.match(/http.*Explorer.*/g);
+            let explorerUrl = "";
+            
+            if (!!locateExplorerUrl) {
+                explorerUrl = locateExplorerUrl.slice(-1).pop();
+                core.info(`\u001b[35m > Explorer url retrieved ${explorerUrl}`); 
+            } else {
+                postSummary("There is a problem while running TICS Client Viewer", true);
+                core.setFailed("There is a problem while running TICS Client Viewer.");
+                return;
+            }
+
             const ticsPublisher = new TicsPublisher();
             const qualitygates = await ticsPublisher.run();
             const changedFiles = await getPRChangedFiles();
 
             let results = {
-                explorerUrl: "",
+                explorerUrl: explorerUrl,
                 changeSet: changedFiles,
                 qualitygates: qualitygates
             };
             postSummary(results, false);
-
-        } else if (exitCode != 0 && exitCode!= undefined) {
-            core.setFailed("TiCS Github Action run failed with a non-zero exit code " + exitCode);
         }
 
     } catch (error) {
@@ -43,7 +53,7 @@ export async function run() {
     }
 }
 
-async function postSummary(summary, isError) {
+export async function postSummary(summary, isError) {
     let commentBody = {};
 
     if (isError) {

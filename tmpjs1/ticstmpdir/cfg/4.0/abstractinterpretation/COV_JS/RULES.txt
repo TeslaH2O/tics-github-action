@@ -1,0 +1,19 @@
+// Coverity 2022.03 and below
+COV_JAVASCRIPT_DEADCODE_JAVASCRIPT	1	Control flow issues	Reports statements after break, continue, or return statements and also in loop increments that can never be reached
+COV_JAVASCRIPT_NESTING_INDENT_MISMATCH	4	Control flow issues	Detects cases where the indentation structure of the code does not match the syntactic nesting
+COV_JAVASCRIPT_STRAY_SEMICOLON	2	Control flow issues	Detects instances where an extraneous semicolon alters the logic of the code
+COV_JAVASCRIPT_UNEXPECTED_CONTROL_FLOW	1	Control flow issues	Execution jumps out of the loop rather than continuing.
+COV_JAVASCRIPT_UNREACHABLE	1	Control flow issues	Reports many instances in which the control flow cannot reach certain areas of the code base
+
+COV_JAVASCRIPT_CONSTANT_EXPRESSION_RESULT	2	Incorrect expression	Shows an expression that contains runtime variables but whose result value does not vary at runtime
+COV_JAVASCRIPT_COPY_PASTE_ERROR	2	Incorrect expression	Shows two or more pieces of code having the same structure. It includes an "original copy" and zero or more examples where the original copy has been copy-pasted and updated
+COV_JAVASCRIPT_EXPLICIT_THIS_EXPECTED	2	Incorrect expression	Function calls having an implicit this argument when the callee references the this value explicitly, which suggests that an explicit this argument is expected
+COV_JAVASCRIPT_IDENTICAL_BRANCHES	1	Incorrect expression	Detects conditional statements and expressions that execute identical code regardless of the condition
+COV_JAVASCRIPT_IDENTIFIER_TYPO	1	Incorrect expression	Reported at the occurrence of the suspiciously unique identifier
+COV_JAVASCRIPT_MISSING_BREAK	2	Incorrect expression	Detects many instances of missing break statements in switch statements
+COV_JAVASCRIPT_NO_EFFECT	4	Incorrect expression	Detects many instances of statements or expressions that do not accomplish anything, or statements that perform an action that is not the intended action
+COV_JAVASCRIPT_UNINTENDED_GLOBAL	3	Incorrect expression	Detects assignments to implicitly created global variables where an explicitly declared local variable was likely intended
+
+COV_JAVASCRIPT_FORWARD_NULL	1	Null pointer dereferences	Detects many instances where a value is checked against or assigned null or undefined and later used as an object or function
+COV_JAVASCRIPT_NULL_RETURNS	1	Null pointer dereferences	Detects errors that can result in program termination or a runtime exception
+COV_JAVASCRIPT_REVERSE_INULL	2	Null pointer dereferences	Detects many instances of checks against null, Nothing, nil, or undefined values that occur after uses of the value that would have already failed if it were indeed null, Nothing, nil, or undefined

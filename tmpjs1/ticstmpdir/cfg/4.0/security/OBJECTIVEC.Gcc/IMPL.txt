@@ -1,0 +1,2 @@
+OBJECTIVEC.Gcc-Wformat-nonliteral	Gcc	-Wformat-nonliteral
+OBJECTIVEC.Gcc-Wformat-security	Gcc	-Wformat-security

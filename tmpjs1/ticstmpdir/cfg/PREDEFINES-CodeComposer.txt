@@ -1,0 +1,10 @@
+-dfar=
+-dcregister=
+-dinline=
+-d__inline=
+-d"__PTRDIFF_T_TYPE__=int"
+-d__cregister=
+-dinterrupt=
+-dUint8="unsigned char"
+-dUint16="unsigned short"
+-dUint32="unsigned int"

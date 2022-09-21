@@ -1,0 +1,258 @@
+FortifyPythonAccessControlAdministrativeInterface	1	Access Control	Failure to restrict access to administrative interfaces could allow an attacker gain complete control over the application.
+FortifyPythonAccessControlDatabase	1	Access Control	Without proper access control, executing a SQL statement that contains a user-controlled primary key can allow an attacker to view unauthorized records.
+FortifyPythonAccessControlMissingAuthentication	1	Access Control	The target web application contains a page with sensitive information or privileged functionality that does not require authentication.
+FortifyPythonAccessControlMissingURLNormalization	1	Access Control	Failure to convert request URLs into their canonical form before performing URL authorization can allow attackers to bypass Basic Authentication and gain unauthorized access to resources.
+FortifyPythonCacheManagementHeaders	3	Cache Management	Insecure cache management policies could allow attackers to extract application content through header manipulation.
+FortifyPythonCacheManagementInsecureManifest	3	Cache Management	Insecure cache management policy for HTML5 offline application manifest can hinder timely updates to cached contents, resulting in unexpected application behavior.
+FortifyPythonCacheManagementInsecurePolicy	3	Cache Management	Insecure caching policies could allow an attacker to conduct content spoofing or information theft attacks.
+FortifyPythonCacheManagementLanguage	3	Cache Management	Insecure cache management policies could allow attackers to gain access to restricted content by manipulating the language setting.
+FortifyPythonCacheManagementSessionCookies	3	Cache Management	Failure to restrict proxy servers from caching responses establishing authentication cookies can expose sensitive session information to attackers enabling to conduct session hijacking attacks.
+FortifyPythonCacheManagementUnspecifiedCriteria	3	Cache Management	Insecure cache management policies could lead to information exposure.
+FortifyPythonCacheManagementUserAgent	3	Cache Management	Insecure cache management policies could lead to information exposure.
+FortifyPythonClassLoaderManipulationStruts	1	ClassLoader Manipulation	The target application uses a version of Apache Struts known to contain a remote command injection vulnerability (CVE-2014-0112 and CVE-2014-0114).
+FortifyPythonCommandInjection	1	Command Injection	Executing commands from an untrusted source or in an untrusted environment can cause an application to execute malicious commands on behalf of an attacker.
+FortifyPythonCommandInjectionServerSideInclude	1	Command Injection	Improper handling of data by server-side includes can result in arbitrary command injection.
+FortifyPythonComplianceFailureMissingPrivacyPolicy	2	Compliance Failure	The application fails to clearly state the policy to protect user information.
+FortifyPythonConnectionStringParameterPollution	3	Connection String Parameter Pollution	Concatenating unvalidated input into a database connection may allow an attacker to override the value of a request parameter. An attacker may be able to override existing parameter values, inject a new parameter or exploit variables out of a direct reach.
+FortifyPythonCookieSecurityCookienotSentOverSSL	2	Cookie Security	A cookie is created without the secure flag set to true.
+FortifyPythonCookieSecurityCSRFCookienotSentOverSSL	2	Cookie Security	The program does not explicitly set the CSRF_COOKIE_SECURE property to True or set it to False.
+FortifyPythonCookieSecurityHTTPOnlynotSet	2	Cookie Security	The program creates a cookie, but fails to set the HttpOnly flag to true.
+FortifyPythonCookieSecurityHTTPOnlynotSetonCSRFCookie	2	Cookie Security	The application fails to set the HttpOnly flag to true for CSRF cookies.
+FortifyPythonCookieSecurityHTTPOnlynotSetonSessionCookie	2	Cookie Security	The program fails to set the HttpOnly flag on session cookies.
+FortifyPythonCookieSecurityOverlyBroadDomain	2	Cookie Security	A cookie with an overly broad domain opens an application to attack through other applications.
+FortifyPythonCookieSecurityOverlyBroadPath	2	Cookie Security	A cookie with an overly broad path can be accessed through other applications on the same domain.
+FortifyPythonCookieSecurityPersistentCookie	2	Cookie Security	Storing sensitive data in a persistent cookie can lead to a breach of confidentiality or account compromise.
+FortifyPythonCookieSecuritySessionCookienotSentOverSSL	2	Cookie Security	The program sets the session.cookie_secure property to 0> or off.
+FortifyPythonCredentialManagementDefaultCredentials	2	Credential Management	Failure to remove default credentials can lead to severe system compromise.
+FortifyPythonCredentialManagementSensitiveInformationDisclosure	2	Credential Management	An attacker can capture sensitive information such as username, password and pin from HTML comments, URLs and unencrypted requests/responses.
+FortifyPythonCredentialManagementSensitiveInformationinURL	2	Credential Management	Attackers can capture any passwords transmitted in the URL.
+FortifyPythonCrossFrameScripting	1	Cross-Frame Scripting	Failure to restrict framing of an application within an Iframe can lead to Cross-Site Request Forgery or phishing attacks.
+FortifyPythonCrossSiteRequestForgery	2	Cross-Site Request Forgery	Form posts must contain a user-specific secret in order to prevent an attacker from making unauthorized requests.
+FortifyPythonCrossSiteScriptingContentSniffing	1	Cross-Site Scripting	Sending unvalidated data to a web browser may result in certain browsers executing malicious code.
+FortifyPythonCrossSiteScriptingPersistent	1	Cross-Site Scripting	Sending unvalidated data to a web browser can result in the browser executing malicious code.
+FortifyPythonCrossSiteScriptingPoorValidation	1	Cross-Site Scripting	Relying on HTML, XML, and other types of encoding to validate user input can result in the browser executing malicious code.
+FortifyPythonCrossSiteScriptingReflected	1	Cross-Site Scripting	Sending unvalidated data to a web browser can result in the browser executing malicious code.
+FortifyPythonDangerousFileInclusionLocal	1	Dangerous File Inclusion	Allowing unvalidated user input to control files that are included dynamically in an HTML file can lead to malicious code execution.
+FortifyPythonDangerousFileInclusionRemote	1	Dangerous File Inclusion	Allowing unvalidated user input to control files that are included dynamically in an HTML file can lead to malicious code execution.
+FortifyPythonDeadCodeUnusedParameter	4	Dead Code	Supporting parameters to trigger unexposed, privileged functionality could allow an attacker to gain unauthorized access to application resources.
+FortifyPythonDenialofServiceRegularExpression	1	Denial of Service	Untrusted data is passed to the application and used as a regular expression. This can cause the thread to overconsume CPU resources.
+FortifyPythonDirectoryTraversal	2	Directory Traversal	Failure to sufficiently validate user supplied input could allow an attacker read arbitrary files on the system.
+FortifyPythonDjangoBadPracticesBlacklistedAttributes	2	Django Bad Practices	The application uses a blacklist to control which attributes are exposed by a form. Developers can forget to update the blacklist when adding new attributes and may accidentally expose sensitive fields to attackers.
+FortifyPythonDjangoBadPracticesCookieStoredSessions	2	Django Bad Practices	Cookie-based sessions are not invalidated when a user logs out. If an attacker were to find, steal, or intercept a user's cookie they could impersonate the user even if that user had logged out.
+FortifyPythonDjangoBadPracticesOverlyBroadHostHeaderVerification	2	Django Bad Practices	Not validating the Host header can allow an attacker to send a fake Host value that can be used for Cross-Site Request Forgery, cache poisoning attacks, and poisoning links in emails.
+FortifyPythonDjangoBadPracticesPickleSerializedSessions	2	Django Bad Practices	Pickle-serialized sessions can lead to remote code execution if attackers can control session data.
+FortifyPythonDynamicCodeEvaluationCodeInjection	1	Dynamic Code Evaluation	Interpreting user-controlled instructions at run-time can allow attackers to execute malicious code.
+FortifyPythonDynamicCodeEvaluationRubyYAMLDeserialization	1	Dynamic Code Evaluation	Unsafe deserialization of user supplied input could allow  an attacker to inject arbitrary commands and gain unauthorized access to the system.
+FortifyPythonDynamicCodeEvaluationUnsafePickleDeserialization	1	Dynamic Code Evaluation	Deserializing user-controlled data at run-time can allow attackers to execute arbitrary code.
+FortifyPythonDynamicCodeEvaluationUnsafeYAMLDeserialization	1	Dynamic Code Evaluation	Deserializing user-controlled YAML streams might enable attackers to execute arbitrary code on the server, abuse application logic, and/or lead to denial of service.
+FortifyPythonExposureofPOSTParametersinGETRequest	2	Exposure of POST Parameters in GET Request	Transmitting sensitive information via GET parameters can expose the application to Cross-Site Request Forgery attacks.
+FortifyPythonFileDisclosureDjango	1	File Disclosure	Constructing a FileResponse instance with user input could allow an attacker to download application binaries or view arbitrary files within protected directories.
+FortifyPythonFilePermissionManipulation	1	File Permission Manipulation	Allowing user input to directly alter file permissions may enable an attacker to access otherwise protected system resources.
+FortifyPythonHardcodedDomaininHTML	2	Hardcoded Domain in HTML	Including a script from another domain means that the security of this web page is dependent on the security of the other domain.
+FortifyPythonHeaderManipulation	2	Header Manipulation	Including unvalidated data in an HTTP response header can enable cache-poisoning, cross-site scripting, cross-user defacement, page hijacking, cookie manipulation or open redirect.
+FortifyPythonHeaderManipulationCookies	2	Header Manipulation	Including unvalidated data in Cookies can lead to HTTP Response header manipulation and enable cache-poisoning, cross-site scripting, cross-user defacement, page hijacking, cookie manipulation or open redirect.
+FortifyPythonHeaderManipulationIMAP	2	Header Manipulation	The target application unsafely constructs and saves an email over the Internet Message Access Protocol (IMAP), potentially allowing for an injection attack.
+FortifyPythonHeaderManipulationSMTP	2	Header Manipulation	Including unvalidated data in an SMTP header can enable attackers to add arbitrary headers, such as CC or BCC that they can use to leak the mail contents to themselves or use the mail server as a spam bot.
+FortifyPythonHiddenField	3	Hidden Field	A hidden form field is used.
+FortifyPythonHTML5CORSFunctionalityAbuse	2	HTML5	Failure to properly restrict cross domain access to sensitive resources could allow an attacker to carry out data theft or content spoofing attacks.
+FortifyPythonHTML5CORSProlongedCachingofPreflightResponse	2	HTML5	Unsafe caching of the preflight response could result in unauthorized cross domain access to sensitive resources based on an invalid policy.
+FortifyPythonHTML5CORSUnsafeMethodsAllowed	2	HTML5	Allowing unsafe HTTP methods such as PUT or DELETE could allow an attacker to inject malicious code, backdoor, deface site, or delete and lock resources to cause denial of service attacks.
+FortifyPythonHTML5CrossSiteScriptingProtection	2	HTML5	The X-XSS-Protection header is explicitly disabled which may increase the risk of cross-site scripting attacks.
+FortifyPythonHTML5DeprecatedContentSecurityPolicy	2	HTML5	Using deprecated Content Security Policy headers can cause unexpected behaviour in web browswers. 
+FortifyPythonHTML5FormValidationTurnedOff	2	HTML5	HTML5 validation of input form fields is disabled.
+FortifyPythonHTML5MIMESniffing	2	HTML5	The web.config file does not include the required header to mitigate MIME sniffing attacks
+FortifyPythonHTML5MisconfiguredContentSecurityPolicy	2	HTML5	Incorrectly configured Content Security Policy could expose an application against client-side threats including Cross-Site Scripting, Cross Frame Scripting and Cross-Site Request Forgery.
+FortifyPythonHTML5MissingContentSecurityPolicy	2	HTML5	The Content Security Policy (CSP) is an HTTP response security header that developers and security architects can leverage to whitelist domains from which the site is allowed to load resources.
+FortifyPythonHTML5OverlyPermissiveContentSecurityPolicy	2	HTML5	Content Security Policy (CSP) is configured with an overly permissive policy which defeats its purpose by allowing the client to load resources from any host.
+FortifyPythonHTML5OverlyPermissiveCORSPolicy	2	HTML5	The program defines an overly permissive Cross-Origin Resource Sharing (CORS) policy.
+FortifyPythonHTML5OverlyPermissiveReferrerPolicy	2	HTML5	Setting Referrer-Policy header to "Unsafe-URL" may cause applications to expose sensitive site and user data, such as session token and username and passwords to third party sites.
+FortifyPythonHTML5SensitiveInformationDisclosureviaClientSideStorage	2	HTML5	Improper use of client-side storage could lead to disclosure of sensitive information.
+FortifyPythonInsecureDeploymentDefaultConfiguration	1	Insecure Deployment	Leaving third-party application installations in default configuration could allow an attacker to gain unauthorized access or steal sensitive information.
+FortifyPythonInsecureDeploymentHTTPsys	1	Insecure Deployment	The target server uses a version of Microsoft's IIS web server software that contains a critical remote code execution vulnerability (CVE-2015-1635).
+FortifyPythonInsecureDeploymentKnownApplicationFingerprint	1	Insecure Deployment	Deploying unpatched versions of applications can allow attackers to exploit known vulnerabilities to compromise the target system.
+FortifyPythonInsecureDeploymentKnownCAPTCHAFingerprint	1	Insecure Deployment	Use of insecure CAPTCHA implementations can allow attackers to bypass anti-automation protections.
+FortifyPythonInsecureDeploymentKnownFrameworkFingerprint	1	Insecure Deployment	Knowledge about the framework used to build the application can allow attackers to devise attacks targeted for vulnerabilities specific to detected framework.
+FortifyPythonInsecureDeploymentKnownServerFingerprint	1	Insecure Deployment	Deploying web applications on unpatched or insecurely configured servers can allow attackers to compromise the target by exploiting known vulnerabilities against detected server.
+FortifyPythonInsecureDeploymentKnownTechnologyFingerprint	1	Insecure Deployment	Failure to follow security best practices guidelines established for the underlying technology can expose an application to exploits targeting known security weaknesses.
+FortifyPythonInsecureDeploymentMaliciousApplication	1	Insecure Deployment	Presence of a malicious application could indicate that an attacker installed backdoor that could render all the application security controls ineffective.
+FortifyPythonInsecureDeploymentNonProductionReady	1	Insecure Deployment	The application contains a component that is not designed to be deployed on a production environment.
+FortifyPythonInsecureDeploymentOpenSSL	1	Insecure Deployment	Deploying vulnerable versions of the OpenSSL library could allow an attacker to intercept and hijack secure SSL/TLS communication.
+FortifyPythonInsecureDeploymentPathNormalizationConflict	1	Insecure Deployment	Path Normalization Conflict can allow attackers to gain access to sensitive resources that would otherwise be inaccessible.
+FortifyPythonInsecureDeploymentPredictableResourceName	1	Insecure Deployment	Use of predictable names for sensitive resources could aid an attacker in the application discovery process.
+FortifyPythonInsecureDeploymentSampleApplication	1	Insecure Deployment	Deploying sample applications alongside custom application code and resources could allow an attacker to gain unauthorized access to sensitive resources and functionality or remotely execute arbitrary commands.
+FortifyPythonInsecureDeploymentSitemap	1	Insecure Deployment	Ensure that restricted sensitive resources are not exposed through the sitemap.
+FortifyPythonInsecureDeploymentUnpatchedApplication	1	Insecure Deployment	Failure to install up-to-date patches could lead to severe system compromise
+FortifyPythonInsecureRandomness	1	Insecure Randomness	Standard pseudorandom number generators cannot withstand cryptographic attacks.
+FortifyPythonInsecureRandomnessHardcodedSeed	1	Insecure Randomness	Functions that generate random or pseudorandom values, which are passed a seed, should not be called with a constant argument.
+FortifyPythonInsecureRandomnessUserControlledSeed	1	Insecure Randomness	Functions that generate random or pseudorandom values, which are passed a seed, should not be called with a tainted argument.
+FortifyPythonInsecureRandomnessWeakEntropySource	1	Insecure Randomness	The random or pseudorandom number generator relies on a weak entropy source.
+FortifyPythonInsecureSSLServerIdentityVerificationDisabled	1	Insecure SSL	Server identity verification is disabled when making SSL connections.
+FortifyPythonInsecureTemporaryFile	1	Insecure Temporary File	Creating and using insecure temporary files can leave application and system data vulnerable to attacks.
+FortifyPythonInsecureTransport	1	Insecure Transport	The application uses an unencrypted protocol instead of an encrypted protocol to communicate with the server.
+FortifyPythonInsecureTransportChannelMixing	1	Insecure Transport	Mixing HTTP and HTTPS content in a single web page can lead to data exposure vulnerabilities.
+FortifyPythonInsecureTransportHSTSDoesNotIncludeSubdomains	1	Insecure Transport	The application sets HTTP Strict Transport Security (HSTS) headers but fails to apply this protection to subdomains, allowing attackers to steal sensitive information from subdomains connections by performing HTTPS stripping attacks.
+FortifyPythonInsecureTransportHSTSnotSet	1	Insecure Transport	The application does not set HTTP Strict Transport Security (HSTS) headers, allowing attackers to replace SSL/TLS connections with plain HTTP ones and steal sensitive information by performing HTTPS stripping attacks.
+FortifyPythonInsecureTransportInsufficientDiffieHellmanStrength	1	Insecure Transport	Using Diffie-Hellman group with prime(p or small prime) of size 1024-bit or less leaves the server vulnerable to man in the middle attack (MitM).
+FortifyPythonInsecureTransportInsufficientHSTSExpirationTime	1	Insecure Transport	The application sets HTTP Strict Transport Security (HSTS) headers using an insufficient expiration time which allows attackers to replace HTTPS connections with plain HTTP ones and steal sensitive information by performing HTTPS stripping attacks.
+FortifyPythonInsecureTransportMailTransmission	1	Insecure Transport	Establishing an unencrypted connection to a mail server allows an attacker to carry out a man-in-the-middle attack and read all the mail transmissions.
+FortifyPythonInsecureTransportMisconfiguredPublicKeyPinning	1	Insecure Transport	Failure to configure Public-Key-Pins header as per RFC7469 guidance may result in an ineffective or weak protection against man-in-the-middle attacks arising from rogue or compromised certificate authority (CA).
+FortifyPythonInsecureTransportMissingPerfectForwardSecrecy	1	Insecure Transport	The target application does not support a cipher suite that implements Perfect Forward Secrecy (PFS).
+FortifyPythonInsecureTransportMissingPublicKeyPinning	1	Insecure Transport	Failure to include Public-Key-Pins security header may result in a hostile pinning attack against a host as described in header RFC7469. Usage of the header provides a declarative way to implement public key pinning and provides protection against threats arising from rogue or compromised certificate authorities (CA).
+FortifyPythonInsecureTransportOAuthCommunicationChannel	1	Insecure Transport	Conducting OAuth communication over an insecure channel could allow an attacker to gain access to sensitive information and perform privileged actions on behalf of the user.
+FortifyPythonInsecureTransportSecureSectionAccessNotSSLEnabled	1	Insecure Transport	Access to secure sections of a web site over an unencrypted communication channel can lead to unintended exposure of sensitive information.
+FortifyPythonInsecureTransportSSLv3TLSRenegotiationStreamInjection	1	Insecure Transport	Use of unsafe renegotiation could allow an attacker to inject plaintext into the SSL/TLS protocol stream.
+FortifyPythonInsecureTransportTLS_RSA	1	Insecure Transport	ROBOT attack allows an attacker to perform RSA signing operations with a private key of TLS server and decrypt previously recorded TLS sessions established with RSA key exchange. It may allow an attacker to potentially extract critical sensitive data including, but not limited to, usernames and passwords, business intellectual properties, personal identity, financial, social and political secrets etc.
+FortifyPythonInsecureTransportWeakSSLCipher	1	Insecure Transport	Relying on weak cipher suites to enable encrypted communication could allow an attacker to steal sensitive information.
+FortifyPythonInsecureTransportWeakSSLProtocol	1	Insecure Transport	The SSLv2, SSLv23, and SSLv3 protocols contain several flaws that make them insecure, so they should not be used to transmit sensitive data.
+FortifyPythonInsufficientAntiAutomation	1	Insufficient Anti-Automation	Failure to detect and block automated attacks could allow an attacker to conduct brute force attacks or trigger denial of service conditions.
+FortifyPythonJavaScriptHijackingConstructorPoisoning	1	JavaScript Hijacking	Applications that use JavaScript notation to transport sensitive data can be vulnerable to JavaScript hijacking, which allows an unauthorized attacker to read confidential data from a vulnerable application. JavaScript arraya can be stolen if browser's JavaScript engine allows array constructor poisoning.
+FortifyPythonKeyManagementEmptyEncryptionKey	1	Key Management	Empty encryption keys can compromise security in a way that cannot be easily remedied.
+FortifyPythonKeyManagementEmptyHMACKey	1	Key Management	Empty HMAC keys could compromise system security in a way that cannot be easily remedied.
+FortifyPythonKeyManagementEmptyPBEPassword	1	Key Management	Using a key generated by a password-based key derivation function that was passed an empty value for its password argument may compromise system security in a way that cannot be easily remedied.
+FortifyPythonKeyManagementHardcodedEncryptionKey	1	Key Management	Hardcoded encryption keys can compromise security in a way that cannot be easily remedied.
+FortifyPythonKeyManagementHardcodedHMACKey	1	Key Management	Hardcoded HMAC keys could compromise system security in a way that cannot be easily remedied.
+FortifyPythonKeyManagementHardcodedPBEPassword	1	Key Management	Using a key generated by a password-based key derivation function that was passed a hardcoded value for its password argument may compromise system security in a way that cannot be easily remedied.
+FortifyPythonKeyManagementNullEncryptionKey	1	Key Management	Null encryption keys can compromise security in a way that cannot be easily remedied.
+FortifyPythonKeyManagementUnencryptedPrivateKey	1	Key Management	Cryptographic encryption or signing private keys should not be stored in plain text.
+FortifyPythonLogForging	2	Log Forging	Writing unvalidated user input to log files can allow an attacker to forge log entries or inject malicious content into the logs.
+FortifyPythonLogForgingdebug	2	Log Forging (debug)	Writing unvalidated user input to log files can allow an attacker to forge log entries or inject malicious content into the logs.
+FortifyPythonMailCommandInjectionSMTP	1	Mail Command Injection	Executing SMTP commands from an untrusted source can cause the SMTP server to execute malicious commands on behalf of an attacker.
+FortifyPythonMemcachedInjection	1	Memcached Injection	Invoking a Memcached operation with input from an untrusted source might allow an attacker to introduce new key/value pairs in Memcached cache.
+FortifyPythonNoSQLInjectionMongoDB	1	NoSQL Injection	Constructing a dynamic MongoDB query with input coming from an untrusted source could allow an attacker to modify the statement's meaning.
+FortifyPythonOftenMisusedFileSystem	4	Often Misused	Passing an inadequately-sized output buffer to a path manipulation function can result in a buffer overflow.
+FortifyPythonOftenMisusedFileUpload	4	Often Misused	Permitting users to upload files can allow attackers to inject dangerous content or malicious code to run on the server.
+FortifyPythonOftenMisusedHTTPMethodOverride	4	Often Misused	Attackers may bypass server protections against dangerous HTTP verbs using override techniques.
+FortifyPythonOftenMisusedLogin	4	Often Misused	Insecure handling of login information can allow attackers to circumvent the application's authentication system.
+FortifyPythonOftenMisusedMACAddress	4	Often Misused	A MAC address is intended to be used as a network identifier. Since a MAC address permanently identifies a device, all apps using it as a user identifier will have the same ID value.  Hence, by correlating information from various apps, it is possible to identify a device and its user, threatening user privacy.
+FortifyPythonOftenMisusedMobileUDID	4	Often Misused	The target mobile application sends data that looks like a Universal Device Identifier (UDID) in a request.
+FortifyPythonOftenMisusedMobileUUID	4	Often Misused	The target mobile application sends data that looks like a Universally Unique Identifier (UUID) in a request.
+FortifyPythonOftenMisusedPriceRelatedFields	4	Often Misused	Relying solely on client-side security controls and failure to perform server-side validation can allow attackers to manipulate sensitive data and adversely affect the application operation.
+FortifyPythonOftenMisusedPrivilegeManagement	4	Often Misused	Failure to adhere to the principle of least privilege amplifies the risk posed by other vulnerabilities.
+FortifyPythonOftenMisusedWeakSSLCertificate	4	Often Misused	The target server uses a self-signed certificate.
+FortifyPythonOftenMisusedXDomainRequestAllowed	4	Often Misused	The target server included the XDomainRequestAllowed header in an HTTP request with a value of "1," potentially enabling unauthorized cross-domain requests.
+FortifyPythonOpenRedirect	2	Open Redirect	Allowing unvalidated input to control the URL used in a redirect can aid phishing attacks.
+FortifyPythonParameterTamperingSpecialCharacters	2	Parameter Tampering	Processing of user supplied input without proper validation could allow an attacker to gain unauthorized access to server resources, extract information from a database, or execute arbitrary operating-system level commands.
+FortifyPythonPasswordManagement	2	Password Management	Storing a password in plain text can result in a system compromise.
+FortifyPythonPasswordManagementEmptyPassword	2	Password Management	Empty passwords may compromise system security in a way that cannot be easily remedied.
+FortifyPythonPasswordManagementHardcodedPassword	2	Password Management	Hardcoded passwords could compromise system security in a way that cannot be easily remedied.
+FortifyPythonPasswordManagementInsecureSubmission	2	Password Management	Submitting a password as part of an HTTP GET request will cause the password to be displayed, logged, or stored in a cache.
+FortifyPythonPasswordManagementLackofKeyDerivationFunction	2	Password Management	Cryptographic hash functions should not be used on their own to generate digests for passwords to be stored.
+FortifyPythonPasswordManagementNullPassword	2	Password Management	Null passwords can compromise security.
+FortifyPythonPasswordManagementPasswordinComment	2	Password Management	Storing passwords or password details in plain text anywhere in the system or system code may compromise system security in a way that cannot be easily remedied.
+FortifyPythonPasswordManagementPasswordinHTMLForm	2	Password Management	Populating password fields in an HTML form could result in a system compromise.
+FortifyPythonPasswordManagementWeakCryptography	2	Password Management	Obscuring a password with trivial encoding does not protect the password.
+FortifyPythonPasswordManagementWeakPasswordPolicy	2	Password Management	Weak passwords can be easily guessed and are an easy target for brute force attacks. This can lead to an authentication system failure and compromise system security.
+FortifyPythonPathManipulation	3	Path Manipulation	Allowing user input to control paths used in file system operations could enable an attacker to access or modify otherwise protected files.
+FortifyPythonPathManipulationAbsolutePathTraversal	3	Path Manipulation	Allowing user to supply file paths to access without sufficient validation and access control checks could lead to sensitive data disclosure and potential recovery of proprietary business logic.
+FortifyPythonPathManipulationRelativePathOverwrite	3	Path Manipulation	Anomalous handling of relative paths by an application server may allow attackers to bypass existing protections for vulnerabilities such as Cross-Site Scripting and provide new ways to attack the application.
+FortifyPythonPathManipulationSpecialCharacters	3	Path Manipulation	Use of unfiltered data in selection of requested application file path could lead to sensitive data disclosure and potential theft of proprietary business logic.
+FortifyPythonPathManipulationZipEntryOverwrite	3	Path Manipulation	Allowing user input to control paths used in file system operations could enable an attacker to arbitrarily overwrite files on the system.
+FortifyPythonPoorErrorHandlingColdFusionError	3	Poor Error Handling	The target ColdFusion application reveals potentially sensitive information within a publicly-displayed error message.
+FortifyPythonPoorErrorHandlingEmptyCatchBlock	3	Poor Error Handling	Ignoring an exception can cause the program to overlook unexpected states and conditions.
+FortifyPythonPoorLoggingPracticeUseofaSystemOutputStream	3	Poor Logging Practice	Using Console.Out or Console.Error rather than a dedicated logging facility makes it difficult to monitor the behavior of the program.
+FortifyPythonPortabilityFlawFileSeparator	3	Portability Flaw	The use of hardcoded file separators causes portability problems.
+FortifyPythonPrivacyViolation	2	Privacy Violation	Mishandling private information, such as customer passwords or social security numbers, can compromise user privacy and is often illegal.
+FortifyPythonPrivacyViolationAutocomplete	2	Privacy Violation	Autocompletion of forms allows some browsers to retain sensitive information in their history.
+FortifyPythonPrivacyViolationBREACH	2	Privacy Violation	The application may leak sensitive data contained in HTTP responses transferred over an SSL/TLS-enabled channel.
+FortifyPythonPrivacyViolationCaliforniaDriverLicenseNumber	2	Privacy Violation	Revealing driver license numbers could contribute to successful identity theft attempts.
+FortifyPythonPrivacyViolationCreditCardNumber	2	Privacy Violation	Revealing a credit card number could pose a significant financial risk to the user and also contribute to successful identity theft attempts.
+FortifyPythonPrivacyViolationDatabaseConnectionString	2	Privacy Violation	Revealing database connection details through hardcoded connection strings can lead to data theft and data corruption by unauthorized parties.
+FortifyPythonPrivacyViolationEmailDisclosure	2	Privacy Violation	Disclosure of a personal email address can compromise an individual's identity, their privacy and is in direct violation of the EU General Data Protection Regulation (GDPR).
+FortifyPythonPrivacyViolationGeolocation	2	Privacy Violation	The target mobile application sends device geolocation data in a request to an external host.
+FortifyPythonPrivacyViolationInconsistentFeedback	2	Privacy Violation	When entering an invalid user name or password during a login, forgotten password or new user signup function, an application may provide meaningful feedback through a response discrepancy. For the potential attacker, this discrepancy increases the chances of a successful brute force attack against the site's authentication.
+FortifyPythonPrivacyViolationNationalIDDisclosure	2	Privacy Violation	Disclosure of a person's national identification number can compromise an individual's identity, their privacy and is in direct violation of the EU General Data Protection Regulation (GDPR).
+FortifyPythonPrivacyViolationShoulderSurfing	2	Privacy Violation	A viewed password endangers system security.
+FortifyPythonPrivacyViolationSocialSecurityNumber	2	Privacy Violation	Revealing a social security number could contribute to successful identity theft attempts.
+FortifyPythonResourceInjection	1	Resource Injection	Allowing user input to control resource identifiers could enable an attacker to access or modify otherwise protected system resources.
+FortifyPythonSAMLBadPracticesInsecureMessageIDImplementation	2	SAML Bad Practices	SAML message that do not provide same unique ID for AuthnRequest, InResponseTo attributes and a unique ID for SAML Assertion  might be susceptible to replay attacks.
+FortifyPythonSAMLBadPracticesInsufficientMessageExpiration	2	SAML Bad Practices	Failure to properly restrict validity period for SAML Assertion could allow an attacker to carry out SAML Replay attacks.
+FortifyPythonSAMLBadPracticesMissingAssertionSignature	2	SAML Bad Practices	Service provider can not prove validity and integrity of SAML responses that are not cryptographically signed.
+FortifyPythonServerSideRequestForgery	1	Server-Side Request Forgery	The application initiates a network connection to a third-party system using user-controlled data to craft the resource URI.
+FortifyPythonServerSideScriptInjection	1	Server-Side Script Injection	Failure to validate user-supplied input could allow an attacker to bypass authentication, steal sensitive information or trigger a denial of service condition.
+FortifyPythonServerSideTemplateInjection	1	Server-Side Template Injection	User-controlled data is used as a template engine's template, allowing attackers to access the template context and in some cases inject and run arbitrary code on the application server.
+FortifyPythonSessionFixationOAuth	2	Session Fixation	Authenticating a user without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.
+FortifyPythonSessionManagementEasytoGuessSessionIdentifierName	2	Session Management	An easy-to-guess session identifier name can be used by an attacker for hijacking sessions or application reconnaissance.
+FortifyPythonSessionManagementInsufficientSessionIDEntropy	2	Session Management	Session identifiers with entropy lower than 64 bits can allow attackers to hijack legitimate user session and lead to information theft.
+FortifyPythonSessionManagementInsufficientSessionIDLength	2	Session Management	Session identifiers should be at least 128 bits long to prevent brute-force session guessing attacks.
+FortifyPythonSettingManipulation	3	Setting Manipulation	Allowing external control of system settings can disrupt service or cause an application to behave in unexpected ways.
+FortifyPythonSettingManipulationCharacterSet	3	Setting Manipulation	Allowing external control of system settings can disrupt service or cause an application to behave in unexpected ways.
+FortifyPythonSQLInjection	1	SQL Injection	Constructing a dynamic SQL statement with input that comes from an untrusted source could allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
+FortifyPythonSystemInformationLeakCVSEntries	2	System Information Leak	Insufficient access control could reveal system information and allow an attacker to better map the application attack surface.
+FortifyPythonSystemInformationLeakExternal	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyPythonSystemInformationLeakInternal	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyPythonSystemInformationLeakInternalIP	2	System Information Leak	Disclosing the IP addressing scheme of the internal network can allow attackers to discover internal systems and expand the attack surface.
+FortifyPythonSystemInformationLeakLDAPError	2	System Information Leak	Revealing verbose error messages could allow an attacker to learn about the application and form a plan of attack.
+FortifyPythonSystemInformationLeakLDAPQuery	2	System Information Leak	Disclosure of LDAP queries can allow attackers to retrieve information from an LDAP server using LDAP injection.
+FortifyPythonSystemInformationLeakSQLQuery	2	System Information Leak	Disclosing SQL queries used by an application to communicate with the backend database could allow an attacker to steal sensitive information, manipulate the application's behavior or interrupt the database operation.
+FortifyPythonSystemInformationLeakXPathError	2	System Information Leak	Revealing detailed error messages could allow an attacker to learn about the application and form a plan of attack.
+FortifyPythonSystemInformationLeakXPathQuery	2	System Information Leak	Disclosing XPath queries used by an application to interact with XML documents could allow an attacker to steal sensitive information or disrupt the execution of the application.
+FortifyPythonTrustBoundaryViolation	3	Trust Boundary Violation	Commingling trusted and untrusted data in the same data structure encourages programmers to mistakenly trust unvalidated data.
+FortifyPythonUnauthenticatedServiceMongoDB	2	Unauthenticated Service	The application initializes a MongoDB client without setting any credentials.
+FortifyPythonUnsafeReflection	3	Unsafe Reflection	An attacker may be able to create unexpected control flow paths through the application, potentially bypassing security checks.
+FortifyPythonWeakCryptographicHash	1	Weak Cryptographic Hash	Weak cryptographic hashes cannot guarantee data integrity and should not be used in security-critical contexts.
+FortifyPythonWeakCryptographicHashEmptyPBESalt	1	Weak Cryptographic Hash	An empty salt may compromise system security in a way that cannot be easily remedied.
+FortifyPythonWeakCryptographicHashEmptySalt	1	Weak Cryptographic Hash	An empty salt defeats its own purpose and may compromise system security in a way that cannot be easily remedied.
+FortifyPythonWeakCryptographicHashHardcodedPBESalt	1	Weak Cryptographic Hash	A hardcoded salt may compromise system security in a way that cannot be easily remedied.
+FortifyPythonWeakCryptographicHashHardcodedSalt	1	Weak Cryptographic Hash	A hardcoded salt may compromise system security in a way that cannot be easily remedied.
+FortifyPythonWeakCryptographicHashInsecurePBEIterationCount	1	Weak Cryptographic Hash	The iteration count used by a password-based key derivation function is too low.
+FortifyPythonWeakCryptographicHashNullPBESalt	1	Weak Cryptographic Hash	A null (nil) salt may compromise system security in a way that cannot be easily remedied.
+FortifyPythonWeakCryptographicHashNullSalt	1	Weak Cryptographic Hash	A null salt (None) defeats its own purpose and may compromise system security in a way that cannot be easily remedied.
+FortifyPythonWeakCryptographicHashPredictableSalt	1	Weak Cryptographic Hash	Salt values should be created using a cryptographic pseudorandom number generator.
+FortifyPythonWeakCryptographicHashUserControlledPBESalt	1	Weak Cryptographic Hash	Potentially tainted user inputs should not be passed as the salt parameter to a Password-Based Key Derivation Function (PBKDF).
+FortifyPythonWeakCryptographicHashUserControlledSalt	1	Weak Cryptographic Hash	Functions that generate cryptographic hashes, which are passed a salt, should not be called with a tainted salt argument.
+FortifyPythonWeakCryptographicSignatureInsufficientKeySize	1	Weak Cryptographic Signature	An otherwise strong cryptographic signature algorithm can be significantly more vulnerable to brute-force attacks if an insufficient key size is used.
+FortifyPythonWeakEncryption	1	Weak Encryption	The identified call uses a weak encryption algorithm that cannot guarantee the confidentiality of sensitive data.
+FortifyPythonWeakEncryptionInadequateRSAPadding	1	Weak Encryption	Public key RSA encryption is performed without using OAEP padding, thereby making the encryption weak.
+FortifyPythonWeakEncryptionInsecureInitializationVector	1	Weak Encryption	Initialization vectors should be created using a cryptographic pseudorandom number generator.
+FortifyPythonWeakEncryptionInsecureModeofOperation	1	Weak Encryption	Cryptographic encryption algorithms should not be used with an insecure mode of operation.
+FortifyPythonWeakEncryptionInsufficientKeySize	1	Weak Encryption	An otherwise strong encryption algorithm is vulnerable to brute-force attack when an insufficient key size is used.
+FortifyPythonWeakEncryptionStreamCipher	1	Weak Encryption	Stream ciphers are dangerous to use when encrypted data is going to be stored on disk, or if the key is used more than once.
+FortifyPythonWeakEncryptionUserControlledKeySize	1	Weak Encryption	Encryption functions that take a key size parameter should not be passed a tainted key size value.
+FortifyPythonWeakWSSecurityPolicyInsecureTransport	1	Weak WS-SecurityPolicy	The application configuration should ensure that HTTPS is used to transport all sensitive information.
+FortifyPythonWeakWSSecurityPolicyInsufficientSupportingTokenProtection	1	Weak WS-SecurityPolicy	The integrity of tokens cannot be guaranteed on unsigned tokens. Similarly, the confidentiality of tokens cannot be guaranteed on unencrypted tokens.
+FortifyPythonWeakWSSecurityPolicyMissingEncryptiononMessageAttachments	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyPythonWeakWSSecurityPolicyMissingEncryptiononMessageBody	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyPythonWeakWSSecurityPolicyMissingEncryptiononMessageHeaders	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyPythonWeakWSSecurityPolicyMissingEncryptionToken	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyPythonWeakWSSecurityPolicyMissingInitiatorEncryptionToken	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyPythonWeakWSSecurityPolicyMissingInitiatorSignatureToken	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyPythonWeakWSSecurityPolicyMissingRecipientEncryptionToken	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyPythonWeakWSSecurityPolicyMissingRecipientSignatureToken	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyPythonWeakWSSecurityPolicyMissingSignatureonMessageAttachments	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyPythonWeakWSSecurityPolicyMissingSignatureonMessageBody	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyPythonWeakWSSecurityPolicyMissingSignatureonMessageHeaders	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyPythonWeakWSSecurityPolicyMissingSignatureToken	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyPythonWeakWSSecurityPolicyMissingTimestamp	1	Weak WS-SecurityPolicy	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyPythonWeakWSSecurityPolicyTokensNotProtected	1	Weak WS-SecurityPolicy	When token protection is not enabled, the integrity of tokens might not be guaranteed since token protection enforces token signing.
+FortifyPythonWeakWSSecurityPolicyWeakToken	1	Weak WS-SecurityPolicy	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyPythonWeakXMLSchemaLaxProcessing	3	Weak XML Schema	When the processContents attribute is set to lax or skip, no input validation is performed for wildcard elements and attributes.
+FortifyPythonWeakXMLSchemaTypeAny	3	Weak XML Schema	The <any> element makes it easier to perform attacks like XML injection.
+FortifyPythonWeakXMLSchemaUnboundedOccurrences	3	Weak XML Schema	Setting a maxOccurs value to unbounded can lead to resources exhaustion and ultimately a denial of service.
+FortifyPythonWeakXMLSchemaUndefinedNamespace	3	Weak XML Schema	Specifying a namespace of ##any in the <any> element means the schema allows elements beyond what is explicitly defined in the schema, thereby making it easier to craft malicious documents.
+FortifyPythonWebServerMisconfigurationAccountInformation	2	Web Server Misconfiguration	Disclosure of user account information could allow an attacker to impersonate a user with higher privileges, steal sensitive information or execute arbitrary commands.
+FortifyPythonWebServerMisconfigurationCaseSensitivity	2	Web Server Misconfiguration	Failure to properly restrict access to application resources could allow an attacker to steal sensitive information.
+FortifyPythonWebServerMisconfigurationDeprecatedSSLTLSCertificate	2	Web Server Misconfiguration	Use of a deprecated SSL/TLS certificate on the target server can compromise the privacy and integrity of user data on the communication channel.
+FortifyPythonWebServerMisconfigurationDirectoryListing	2	Web Server Misconfiguration	Listing directory contents without restriction can expose sensitive information and private resources.
+FortifyPythonWebServerMisconfigurationExpiredSSLCertificate	2	Web Server Misconfiguration	Presenting an invalid certificate breaks the trust relationship between the client and the server and could also make it easier for an attacker to trick victim into accepting a spoofed SSL certificate.
+FortifyPythonWebServerMisconfigurationHTTPBasicAuthentication	2	Web Server Misconfiguration	Using HTTP Basic authentication mechanism over insecure channel can allow attackers to steal credentials.
+FortifyPythonWebServerMisconfigurationInformationDisclosure	2	Web Server Misconfiguration	Failure to restrict access to files could lead to exposure of sensitive information or interfaces.
+FortifyPythonWebServerMisconfigurationInsecureContentTypeSetting	2	Web Server Misconfiguration	Failure to correctly enforce the content-type could allow an attacker to conduct Cross-Site Scripting or information theft attacks.
+FortifyPythonWebServerMisconfigurationInsecureMappingDirectives	2	Web Server Misconfiguration	Misconfiguration of mapping directives can allow attackers to gain unauthorized access to sensitive resources.
+FortifyPythonWebServerMisconfigurationMissingUnicodeCharset	2	Web Server Misconfiguration	Allowing user input to control the web page's character set could allow an attacker to bypass application's user input filters.
+FortifyPythonWebServerMisconfigurationOpenProxyAccess	2	Web Server Misconfiguration	A proxy server allowing CONNECT or GET requests without any restriction can enable an attacker to masquerade the origin of their attacks or access resources internal to the network.
+FortifyPythonWebServerMisconfigurationOPTIONSHTTPMethod	2	Web Server Misconfiguration	Revealing the HTTP methods supported by web server configuration helps an adversary learn further about the system and form a specific plan of attack.
+FortifyPythonWebServerMisconfigurationRequestThrottlingNotEnabled	2	Web Server Misconfiguration	Misconfiguration of a server could leave the application vulnerable to Denial of Service attacks.
+FortifyPythonWebServerMisconfigurationResponseHeaders	2	Web Server Misconfiguration	Each browser responds differently to an incorrectly formatted response header which may pose security implication.
+FortifyPythonWebServerMisconfigurationServerErrorMessage	2	Web Server Misconfiguration	Server error responses could offer invaluable information about the application and the server allowing an attacker to formulate more effective attack payloads.
+FortifyPythonWebServerMisconfigurationServiceEnumeration	2	Web Server Misconfiguration	Allowing public access to a web services description document could allow an attacker to gain unauthorized access to critical server data.
+FortifyPythonWebServerMisconfigurationServletRuntimeError	2	Web Server Misconfiguration	Unhandled runtime exceptions could reveal sensitive system information or lead to denial of service conditions.
+FortifyPythonWebServerMisconfigurationSOAPExceptionMessage	2	Web Server Misconfiguration	An unhandled SOAP exception could reveal sensitive system information or trigger a denial of service condition.
+FortifyPythonWebServerMisconfigurationSSLCertificateHostnameDiscrepancy	2	Web Server Misconfiguration	Incorrect SSL certificate information can cause the validation process to fail, negating the security benefits of using a certificate to verify the server is trusted.
+FortifyPythonWebServerMisconfigurationUnprotectedDirectory	2	Web Server Misconfiguration	Insecure deployment and exposure of directories can supply attackers with invaluable information about the application enabling them to conduct targeted attacks.
+FortifyPythonWebServerMisconfigurationUnprotectedFile	2	Web Server Misconfiguration	Insecure deployment and exposure of files can supply attackers with invaluable information about the application enabling them to orchestrate targeted attacks.
+FortifyPythonWebServerMisconfigurationWeakAuthentication	2	Web Server Misconfiguration	Insecure configuration of a web server's authentication module could allow an attacker to gain administrative privileges and orchestrate complete system compromise.
+FortifyPythonXMLEntityExpansionInjection	1	XML Entity Expansion Injection	Using XML parsers configured to not prevent nor limit document type definition (DTD) entity resolution can expose the parser to an XML Entity Expansion injection attack
+FortifyPythonXMLExternalEntityInjection	1	XML External Entity Injection	The identified method allows external entity references. This call could allow an attacker to inject an XML external entity into the XML document to reveal the contents of files or internal network resources.
+FortifyPythonXMLInjection	1	XML Injection	The identified method writes unvalidated XML input. This call could allow an attacker to inject arbitrary elements or attributes into the XML document.
+FortifyPythonXPathInjection	1	XPath Injection	Constructing a dynamic XPath query with user input could allow an attacker to modify the statement's meaning.
+FortifyPythonXSLTInjection	1	XSLT Injection	Processing an unvalidated XSL stylesheet can allow an attacker to change the structure and contents of the resultant XML, include arbitrary files from the file system, or execute arbitrary code.

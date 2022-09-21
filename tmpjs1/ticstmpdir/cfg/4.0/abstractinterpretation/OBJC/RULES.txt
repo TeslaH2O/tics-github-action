@@ -1,0 +1,29 @@
+OBJC.core.CallAndMessage	1	Abstract Interpretation	Check for logical errors for function calls and Objective-C message expressions (e.g., uninitialized arguments, null function pointers).
+OBJC.core.DivideZero	1	Abstract Interpretation	Check for division by zero.
+OBJC.core.DynamicTypePropagation	1	Abstract Interpretation	Generate dynamic type information.
+OBJC.core.NonNullParamChecker	1	Abstract Interpretation	Check for null pointers passed as arguments to a function whose arguments are references or marked with the 'nonnull' attribute.
+OBJC.core.NullDereference	1	Abstract Interpretation	Check for dereferences of null pointers.
+OBJC.core.StackAddressEscape	1	Abstract Interpretation	Check that addresses to stack memory do not escape the function.
+OBJC.core.UndefinedBinaryOperatorResult	1	Abstract Interpretation	Check for undefined results of binary operators.
+OBJC.core.VLASize	1	Abstract Interpretation	Check for declarations of VLA of undefined or zero size.
+OBJC.core.builtin.BuiltinFunctions	1	Abstract Interpretation	Evaluate compiler builtin functions (e.g., alloca()).
+OBJC.core.builtin.NoReturnFunctions	1	Abstract Interpretation	Evaluate "panic" functions that are known to not return to the caller.
+OBJC.core.uninitialized.ArraySubscript	1	Abstract Interpretation	Check for uninitialized values used as array subscripts.
+OBJC.core.uninitialized.Assign	1	Abstract Interpretation	Check for assigning uninitialized values.
+OBJC.core.uninitialized.Branch	1	Abstract Interpretation	Check for uninitialized values used as branch conditions.
+OBJC.core.uninitialized.CapturedBlockVariable	1	Abstract Interpretation	Check for blocks that capture uninitialized values.
+OBJC.core.uninitialized.UndefReturn	1	Abstract Interpretation	Check for uninitialized values being returned to the caller.
+OBJC.cplusplus.NewDelete	1	Abstract Interpretation	Check for double-free and use-after-free problems. Traces memory managed by new/delete.
+OBJC.deadcode.DeadStores	1	Abstract Interpretation	Dead initialization
+OBJC.security.insecureAPI.UncheckedReturn	1	Abstract Interpretation	Warn on uses of functions whose return values must be always checked.
+OBJC.security.insecureAPI.getpw	1	Abstract Interpretation	Warn on uses of the 'getpw' function.
+OBJC.security.insecureAPI.gets	1	Abstract Interpretation	Warn on uses of the 'gets' function.
+OBJC.security.insecureAPI.mkstemp	1	Abstract Interpretation	Warn when 'mkstemp' is passed fewer than 6 X's in the format string.
+OBJC.security.insecureAPI.mktemp	1	Abstract Interpretation	Warn on uses of the 'mktemp' function.
+OBJC.security.insecureAPI.vfork	1	Abstract Interpretation	Warn on uses of the 'vfork' function.
+OBJC.unix.API	1	Abstract Interpretation	Check calls to various UNIX/Posix functions.
+OBJC.unix.Malloc	1	Abstract Interpretation	Check for memory leaks, double free, and use-after-free problems. Traces memory managed by malloc()/free().
+OBJC.unix.MallocSizeof	1	Abstract Interpretation	Check for dubious malloc arguments involving sizeof.
+OBJC.unix.MismatchedDeallocator	1	Abstract Interpretation	Check for mismatched deallocators.
+OBJC.unix.cstring.BadSizeArg	1	Abstract Interpretation	Check the size argument passed into C string functions for common erroneous patterns.
+OBJC.unix.cstring.NullArg	1	Abstract Interpretation	Warn about Objective-C methods that lack a necessary call to super.

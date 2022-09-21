@@ -1,0 +1,62 @@
+AssignIvarOutsideAccessors	2	Convention	Ivar assignment outside accessors or init.
+AvoidBranchingStatementAsLastInLoop	4	Convention	Avoid branching statement as last in loop.
+BitwiseOperatorInConditional	3	Basic	Bitwise operator in conditional.
+BrokenNilCheck	1	Basic	Broken nil check.
+BrokenNullCheck	1	Basic	Broken null check.
+BrokenOddnessCheck	3	Basic	Broken oddness check.
+CollapsibleIfStatements	5	Basic	Collapsible if statements.
+ConstantConditionalOperator	1	Basic	Constant conditional operator.
+ConstantIfExpression	1	Basic	Constant if expression.
+CoveredSwitchStatementsDontNeedDefault	4	Convention	Switch statements don't need default when fully covered.
+CyclomaticComplexity	5	Size	High cyclomatic complexity.
+DeadCode	2	Basic	Dead code.
+DefaultLabelNotLastInSwitchStatement	5	Convention	Default label not last in switch statement.
+DoubleNegative	2	Basic	Double negative.
+EmptyCatchStatement	1	Empty	Empty catch statement.
+EmptyDoWhileStatement	2	Empty	Empty do while statement.
+EmptyElseBlock	3	Empty	Empty else block.
+EmptyFinallyStatement	2	Empty	Empty finally statement.
+EmptyForStatement	3	Empty	Empty for statement.
+EmptyIfStatement	2	Empty	Empty if statement.
+EmptySwitchStatement	1	Empty	Empty switch statement.
+EmptyTryStatement	2	Empty	Empty try statement.
+EmptyWhileStatement	3	Empty	Empty while statement.
+ForLoopShouldBeWhileLoop	4	Basic	For loop should be while loop.
+GotoStatement	4	Basic	Goto statement.
+InvertedLogic	6	Convention	Inverted logic.
+JumbledIncrementer	2	Convention	Jumbled incrementer.
+LongClass	5	Size	Long class.
+LongLine	7	Size	Long line.
+LongMethod	5	Size	Long method.
+LongVariableName	6	Naming	Long variable name.
+MisplacedNilCheck	1	Basic	Misplaced nil check.
+MisplacedNullCheck	1	Basic	Misplaced null check.
+MissingBreakInSwitchStatement	2	Convention	Missing break in switch statement.
+MultipleUnaryOperator	4	Basic	Multiple unary operator.
+NPathComplexity	5	Size	High npath complexity.
+NcssMethodCount	5	Size	High ncss method.
+NestedBlockDepth	5	Size	Deep nested block.
+NonCaseLabelInSwitchStatement	3	Convention	Non case label in switch statement.
+ObjCVerifyIsEqualHash	2	Cocoa	Must override hash with isEqual.
+ObjCBoxedExpressions	5	Migration	Replace with boxed expression.
+ObjCContainerLiterals	5	Migration	Replace with container literal.
+ObjCNSNumberLiterals	5	Migration	Replace with number literal.
+ObjCObjectSubscripting	5	Migration	Replace with object subscripting.
+ParameterReassignment	4	Convention	Parameter reassignment.
+PreferEarlyExit	4	Convention	Use early exits and continue.
+RedundantConditionalOperator	5	Redundant	Redundant conditional operator.
+RedundantIfStatement	5	Redundant	Redundant if statement.
+RedundantLocalVariable	6	Redundant	Redundant local variable.
+RedundantNilCheck	4	Redundant	Redundant nil check.
+ReturnFromFinallyBlock	4	Basic	Return from finally block.
+ShortVariableName	7	Naming	Short variable name.
+SwitchStatementsShouldHaveDefault	2	Convention	Switch statements should have default.
+ThrowExceptionFromFinallyBlock	2	Basic	Throw exception from finally block.
+TooFewBranchesInSwitchStatement	4	Convention	Too few branches in switch statement.
+TooManyFields	6	Size	Too many fields.
+TooManyMethods	6	Size	Too many methods.
+TooManyParameters	5	Size	Too many parameters.
+UnnecessaryElseStatement	7	Redundant	Unnecessary else statement.
+UnusedLocalVariable	5	Unused	Unused local variable.
+UnusedMethodParameter	7	Unused	Unused method parameter.
+UselessParentheses	7	Redundant	Useless parentheses.

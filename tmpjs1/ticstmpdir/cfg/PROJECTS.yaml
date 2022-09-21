@@ -1,0 +1,9 @@
+tics:
+  VIEWS:
+    main: {}
+test:
+  GROUP: foo/bar
+  DATABASE:
+    NROFBACKUPS: 2
+  VIEWS:
+    master: {}

@@ -1,0 +1,138 @@
+5.1.1.1.b	2	Conceptual Models	The content (body) of every header file shall be enclosed in #ifndef, #defineand #endif.
+5.1.1.1.c	6	Conceptual Models	Naming convention of the include guard of an include file named CCBB_foo.h is of format: CCBB_FOO_H.
+5.1.1.2.b	8	Conceptual Models	Each non-trivial function shall be accompanied by a doxygen style function header.
+5.1.1.b	8	Conceptual Models	Each source file shall start with a file header, for which the "file name", "description" and "history information" and copyright notice are to be filled in.
+5.1.1.f	8	Conceptual Models	With respect to user files, it is good practice to place the include of the header file with the own definitions of the source file at the top.
+5.1.2.3.a	3	Conceptual Models	Side effects should not be relied upon between successive sequence points. The evaluation order is undefined for those objects.
+5.1.2.3.b	8	Conceptual Models	Expressions which mix operators from the set ">,", " >=", " <", " <=", " ==", " !=", with the binary operators from the set "<<", ">>", "^", " &", "|", "&&", "||" and which use two or more distinct operators from the latter set shall be fully parenthesised and shall not depend on the C precedence rules.
+5.1.2.b	3	Conceptual Models	Local variables shall not cause stack overflow.
+5.2.1.1.b	2	Environmental Considerations	Digraphs shall not be used: "<:", ":>", "<%", "%>", "%:".
+6.10.1.a	6	Preprocessor Directives	Code checker flags shall not be used in the source code.
+6.10.1.c	3	Preprocessor Directives	#ifdef, #ifndef, #if defined and #if !defined are not allowed in external header files.
+6.10.2.a	2	Preprocessor Directives	All headers files shall be identified by an #include directive.
+6.10.2.b	6	Preprocessor Directives	Including source files is not allowed.
+6.10.2.c	5	Preprocessor Directives	It is forbidden to include hpp files in C files
+6.10.3.2.b	2	Preprocessor Directives	A macro shall not comprise both the "#" and "##" operators simultaneously.
+6.10.3.3.a	2	Preprocessor Directives	Result of "##" operator shall be a legal pre-processing token.
+6.10.3.4.a	4	Preprocessor Directives	Recursive macro definitions shall not be used.
+6.10.3.5.a	4	Preprocessor Directives	Macros shall only be #define'd and #undef'd at file scope.
+6.10.3.b	2	Preprocessor Directives	#define macros shall only be used for symbolic constants. They shall not be used for function like macros if a function can be written to accomplish the same task.
+6.10.3.c	8	Preprocessor Directives	Any instance of macro parameters, macro body and macro operations shall be enclosed within parenthesis.
+6.10.3.d	6	Preprocessor Directives	Macros should not end with a semicolon.
+6.10.3.e	6	Preprocessor Directives	Use a semicolon at the end of a function-like macro call
+6.10.4.a	8	Preprocessor Directives	The line splicing character ('\' at the end of line) shall not be used, except in preprocessor macros.
+6.10.4.b	6	Preprocessor Directives	When used, the line-splicing character ('\' at the end of a line) shall immediately be followed by the newline character.
+6.10.4.c	8	Preprocessor Directives	Don't use mixed EOL characters in a file.
+6.10.6.a	2	Preprocessor Directives	The pragma directive and pragma operator shall not be used.
+6.10.8.b	3	Preprocessor Directives	Only the predefined macro names __FILE__, __LINE__ and __func__ may be used.
+6.10.b	8	Preprocessor Directives	Only perform token pasting with the token pasting operator (##).
+6.2.2.b	6	Concepts	Objects and functions with external linkage shall be declared in header files and defined after including the header file that declares them.
+6.2.2.c	4	Concepts	A variable declaration with storage class static shall have a scope limited to the source file.
+6.2.3.a	2	Concepts	To avoid name collision, one shall not use the same name for different identifiers.
+6.2.4.b	4	Concepts	Memory operations shall be symmetric; allocation and de-allocation shall take place in the same scope where the allocated variable is defined.
+6.2.5.a	6	Concepts	One must not rely on the actual numerical value of an enum.
+6.3.1.a	2	Conversions	Mixed type arithmetic shall not be used.
+6.3.2.1.a	8	Conversions	void expressions shall not be used in expressions.
+6.3.2.2.a	4	Conversions	Pointer to and from integer conversions shall not be used.
+6.3.2.2.c	6	Conversions	Pointers shall not be converted to other pointer types.
+6.3.2.2.d	1	Conversions	Pointers shall not be added, multiplied nor divided.
+6.3.2.2.e	2	Conversions	Pointers shall not be subtracted from each other, unless their unqualified type is the same.
+6.3.2.3.a	5	Conversions	bool shall be used as boolean type.
+6.3.2.3.d	6	Conversions	Avoid conversions between booleans and non-boolean types.
+6.3.a	4	Conversions	Unsafe implicit conversions in expressions, return statement, assignment statements or argument lists shall not be used. Unsafe means: conversions where values are truncated and/or sign can be lost.
+6.3.b	8	Conversions	Unsafe implicit conversions of literals shall be avoided.
+6.4.1.1.a	6	Lexical Elements	Do not use C++ keywords.
+6.4.1.1.b	4	Lexical Elements	Do not use C++ alternative representations that are not part of the C keywords (see also 6.4.1.a).
+6.4.1.a	2	Lexical Elements	C keywords are reserved for use as keywords and shall not be used otherwise.
+6.4.1.b	2	Lexical Elements	Only with a very good reason, the asm keyword may be used to insert assembly language directly into the translator output.
+6.4.2.b	5	Lexical Elements	Identifiers shall not be defined with one or more leading underscores (_).
+6.4.2.d	7	Lexical Elements	Don't use variables definitions in header files, except for consts.
+6.4.4.1.a	6	Lexical Elements	Integer constants may only use decimal or hexadecimal constant.
+6.4.4.1.b	8	Lexical Elements	It is a good practice to be explicit with constant values. Small letters shall not be used to avoid especially any confusion between l (letter l) and 1 (digit one). The letter U shall be written in uppercase to be consistent with the case of the letter L.
+6.4.4.3.a	8	Lexical Elements	Only first entry in enumerator list shall be explicitly defined using '='.
+6.4.4.4.a	2	Lexical Elements	Only ANSI [1.1] defined escape sequences shall be used.
+6.4.4.b	8	Lexical Elements	Use suffix 'L' instead of 'l' to avoid confusion.
+6.4.5.a	2	Lexical Elements	A character string literal token shall not be adjacent to a wide string literal token.
+6.4.9.a	2	Lexical Elements	Comments in the form of opening (/*) and closing (*/) shall not be nested.
+6.4.9.c	8	Lexical Elements	Don't use mixed comments.
+6.4.b	8	Lexical Elements	The tab character (0x09 ASCII) shall not be used.
+6.5.13.a	6	Recommendations	The right-hand operand of the "&&" or "||" operator shall not contain any side-effects.
+6.5.15.a	6	Recommendations	The second and third operand of a conditional expression of the conditional operator shall not contain sideeffects.
+6.5.16.a	8	Recommendations	Do not use nested assignments.
+6.5.16.b	6	Expressions	Do not discard const qualifiers in pointer assignments in C
+6.5.17.a	6	Expressions	The comma operator shall not be used.
+6.5.2.1.a	1	Expressions	Array subscripting requires a pointer to object type and one or more integral subscript expressions. The indices must be within the bounds values of the (allocated) array.
+6.5.2.1.b	1	Expressions	typedef for an array of unknown size shall not be used.
+6.5.2.2.b	3	Expressions	Do not declare functions within functions.
+6.5.2.2.c	6	Expressions	Do not use functions marked as deprecated.
+6.5.2.3.a	8	Expressions	When structures are accessed by means of a pointer, the pointer-to notation -> not the member notation *. shall be used to denote a specified member of the structure.
+6.5.2.3.b	5	Expressions	Passing structs or unions by value for variable arguments is not allowed.
+6.5.2.3.d	6	Expressions	Do not use nested structures.
+6.5.3.1.a	3	Expressions	Do not mix postfix and prefix increment and/or decrement in a statement.
+6.5.3.1.b	2	Expressions	Don't increment (decrement) a pointer to a function.
+6.5.3.2.a	6	Expressions	A variable declared as an array shall not be used as a pointer.
+6.5.3.3.a	6	Expressions	The unary plus operator shall not be used.
+6.5.3.3.b	1	Expressions	Unary minus shall only be applied to an operand having signed, arithmetic type.
+6.5.3.4.a	3	Expressions	sizeof shall not be applied to an expression with side-effects.
+6.5.3.4.b	2	Expressions	Don't use sizeof on a variable of an array type that is passed as argument.
+6.5.3.4.c	2	Expressions	Don't apply sizeof to a function.
+6.5.4.a	8	Expressions	Casting shall only be used to denote required casting.
+6.5.8.a	6	Expressions	Comparison of unsigned operands shall not occur against negative values.
+6.5.8.c	6	Expressions	Don't compare floats of different types.
+6.5.8.e	2	Expressions	Use memcmp only to compare arrays of scalar types.
+6.5.8.f	8	Expressions	Do not compare floating point numbers with memcmp.
+6.5.9.a	2	Expressions	Pointer comparison shall only be done for compatible pointer types.
+6.5.9.b	3	Expressions	Floating point expressions shall not be compared using the "==", "!=" operators.
+6.5.a	4	Expressions	Bitwise operations shall only be applied on positive integral numbers.
+6.7.1.b	5	Declarations	Since auto is redundant it shall be omitted to avoid cluttering up declarations.
+6.7.1.c	4	Declarations	Since register is redundant it shall be omitted to avoid cluttering up declarations.
+6.7.2.1.a	4	Declarations	Do not use bit-fields for combining multiple logical values in one memory location.
+6.7.2.2.a	4	Declarations	Mixing of different enum types is not allowed.
+6.7.2.b	6	Declarations	Every identifier declaration shall include a type specifier.
+6.7.5.2.a	5	Declarations	Array bounds shall be specified as integral constant expressions.
+6.7.5.3.b	2	Declarations	Function prototype shall be known before the function is being used.
+6.7.5.a	8	Declarations	Only variables and parameters that are used shall be declared.
+6.7.8.a	8	Declarations	All variables shall be initialised or assigned before being read.
+6.7.8.b	4	Declarations	The initialiser for a struct, union or array shall be enclosed in braces.
+6.7.8.c	4	Declarations	For a struct the initialiser should be {0} or all fields should be initialized.
+6.7.8.d	6	Declarations	All variables containing a pointer shall be initialized.
+6.7.a	8	Declarations	Only one identifier type shall be declared on each source line.
+6.8.1.a	3	Statements and Blocks	Statements shall not be labelled except for case and default in a switch-statement.
+6.8.3.a	6	Statements and Blocks	Each expression and statement shall have an effect.
+6.8.3.b	6	Statements and Blocks	A null statement (;) shall not be used.
+6.8.4.1.b	6	Statements and Blocks	N-ary selection constructs programmed using if ... else if ... shall have an else clause.
+6.8.4.2.a	5	Statements and Blocks	The switch expression shall not contain any logical expression (one or more of the ">", ">=", "<", "<=","==", "!=", "&&", "||" or "!" operators.
+6.8.4.2.b	2	Statements and Blocks	switch statements shall have one and only one default clause.
+6.8.4.2.c	2	Statements and Blocks	Each non empty case clause and default clause shall end with a break statement.
+6.8.4.2.d	5	Statements and Blocks	The default clause shall be the last entry in the switch statement.
+6.8.4.2.e	6	Statements and Blocks	No statements shall appear before the first case label in a switch construct.
+6.8.4.b	6	Statements and Blocks	The condition (or guard) of a selective alternative shall be a logical operator, an equality operator or a relational expression (and not be an assignment). Exception is made for boolean type. For boolean type no relational expression is required. It is unsafe to compare to TRUE if it is not a genuine boolean type. An explicit comparison to TRUE or FALSE is prohibited.
+6.8.5.1.a	6	Statements and Blocks	The variables used in expression 2 of a for loop shall not be changed in the loop body and expression 3 at the same time.
+6.8.5.1.c	8	Expressions	The loop variable of a for loop shall be used in the loop body.
+6.8.5.a	4	Statements and Blocks	The termination condition of iteration shall not have a constant value.
+6.8.6.1.a	6	Statements and Blocks	The goto statement shall not be used
+6.8.6.2.a	6	Statements and Blocks	The continue statement shall not be used.
+6.8.6.3.a	6	Statements and Blocks	The break statement shall not be used to exit from an iteration statement, (for or while).
+6.8.6.4.a	9	Statements and Blocks	There shall be exactly one return statement in a function returning non-void.
+6.8.6.4.b	9	Statements and Blocks	There shall be no return statement in a void function.
+6.8.6.4.c	2	Statements and Blocks	A function return expression shall be compatible with its explicitly defined type.
+6.8.6.4.d	6	Statements and Blocks	Function error codes shall not be ignored.
+6.8.a	5	Statements and Blocks	All control statements shall be fully brace enclosed. This means that all if, while, for, do, switch statements are followed by a brace-enclosed compound statement.
+6.8.c	3	Statements and Blocks	Statement that is logically never executed shall not occur in the source code.
+6.8.d	8	Statements and Blocks	Avoid magic numbers.
+6.9.1.a	6	External Definitions	Function pointer parameters should not be declared as ordinary pointer type. A type should be used which is declared by a typedef declaration.
+6.9.1.b	6	External Definitions	Do not use K&R declaration style.
+6.9.2.a	6	External Definitions	Explicitly use static or extern on all global const declarations.
+7.12.a	2	Library	The arguments to any mathematical function shall be within the appropriate range.
+7.13.a	3	Library	The setjmp() function and its counterpart longjmp() shall not be used.
+7.18.a	4	Library	Do not define types or macros with the same name as types or macros in stdint.h
+7.19.a	2	Library	Only standard output specifiers and standard flags shall be used in output format specifications.
+7.19.b	1	Library	The arguments in a formatted output function shall match the output specifiers in the format specification.
+7.19.c	2	Library	Only standard input specifiers and standard flags shall be used in input format specifications.
+7.19.d	1	Library	The arguments in a formatted input function shall match the input specifiers in the format specification.
+7.19.f	6	Library	Do not access members of type FILE directly.
+7.19.g	1	Library	Don't use the same buffer for reading and writing when calling input/output functions.
+7.2.a	4	Library	Standard header file assert.h shall not be used.
+7.21.a	4	Library	Don't use the functions strerror and strtok, instead use their reentrant counterparts strerror_r and strtok_r.
+7.23.a	5	Library	Don't use the functions asctime, ctime, gmtime instead use their reentrant counterparts asctime_r, ctime_r, gmtime_r.
+7.26.2.a	5	Library	Don't use the functions rand. Instead use the reentrant counterpart rand_r.

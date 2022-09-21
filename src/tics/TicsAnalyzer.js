@@ -5,12 +5,13 @@ import path from 'path';
 import core from '@actions/core';
 import { ticsConfig, githubConfig } from '../github/configuration.js';
 import { getTiobewebBaseUrlFromGivenUrl, doHttpRequest } from "./ApiHelper.js";
+import { postSummary } from "../index.js";
 const execWithPromise = util.promisify(exec);
 
 export class TicsAnalyzer {
 
     run = async()  => {
-        let exitCode = 0;
+        let result = "";
         let installTicsApiFullUrl = "";
 
         try {
@@ -20,13 +21,13 @@ export class TicsAnalyzer {
                 let installTicsUrl = await this.retrieveInstallTics(ticsInstallApiBaseUrl);
                 installTicsApiFullUrl = tiobeWebBaseUrl + installTicsUrl;
             }
-            exitCode = this.runTICSClient(installTicsApiFullUrl).then((exitCode)=> {
-                return exitCode;
+            result = this.runTICSClient(installTicsApiFullUrl).then((result)=> {
+                return result;
             });
         } catch (error) {
            core.setFailed(error.message);
         }
-        return exitCode;
+        return result;
     }
 
     runTICSClient = async(url) => {
@@ -34,9 +35,23 @@ export class TicsAnalyzer {
         const ticsAnalysisCommand = this.getTicsClientArgs();
 
         core.info(`Invoking: ${this.runCommand(bootstrapCommand, ticsAnalysisCommand)}`);
-        const {stdout, stderr} = await execWithPromise(this.runCommand(bootstrapCommand, ticsAnalysisCommand));
-
-        return 0;
+        const {stdout, stderr} = await execWithPromise(this.runCommand(bootstrapCommand, ticsAnalysisCommand), (err, stdout,stderr) => {
+            if (err && err.code != 0) {
+                core.info(stderr);
+                core.info(stdout);
+                let errorList = stdout.match(/\[ERROR.*/g);
+                
+                if (errorList) {
+                    postSummary(errorList, true);
+                } else {
+                    postSummary(stderr, true);
+                }
+                core.setFailed("There is a problem while running TICS Client Viewer. Please check that TICS is configured and all required parameters have been set in your workflow.");
+                return;
+            } else {
+                return stdout;
+            }
+        });
     }
 
     getTicsClientArgs() {
@@ -85,7 +100,7 @@ export class TicsAnalyzer {
             let configInfo = await doHttpRequest(installTicsApiFullUrl).then((data) => {
                 let response = {
                     statusCode: 200,
-                    body: JSON.stringify(data.links.installTics), //FIX ME; do a check
+                    body: JSON.stringify(data.links.installTics),
                 };
 
                 return response;

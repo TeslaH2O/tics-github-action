@@ -1,0 +1,48 @@
+W111	3	CODINGSTANDARD	Setting an undefined global variable.
+W112	3	CODINGSTANDARD	Mutating an undefined global variable.
+W113	1	CODINGSTANDARD	Accessing an undefined global variable.
+W121	2	CODINGSTANDARD	Setting a read-only global variable.
+W122	2	CODINGSTANDARD	Setting a read-only field of a global variable.
+W131	3	CODINGSTANDARD	Unused implicitly defined global variable.
+W142	1	CODINGSTANDARD	Setting an undefined field of a global variable.
+W143	1	CODINGSTANDARD	Accessing an undefined field of a global variable.
+W211	3	CODINGSTANDARD	Unused local variable.
+W212	3	CODINGSTANDARD	Unused argument.
+W213	3	CODINGSTANDARD	Unused loop variable.
+W221	1	CODINGSTANDARD	Local variable is accessed but never set.
+W231	2	CODINGSTANDARD	Local variable is set but never accessed.
+W232	2	CODINGSTANDARD	An argument is set but never accessed.
+W233	3	CODINGSTANDARD	Loop variable is set but never accessed.
+W241	2	CODINGSTANDARD	Local variable is mutated but never accessed.
+W311	3	CODINGSTANDARD	Value assigned to a local variable is unused.
+W312	3	CODINGSTANDARD	Value of an argument is unused.
+W313	3	CODINGSTANDARD	Value of a loop variable is unused.
+W314	3	CODINGSTANDARD	Value of a field in a table literal is unused.
+W321	1	CODINGSTANDARD	Accessing uninitialized local variable.
+W331	2	CODINGSTANDARD	Value assigned to a local variable is mutated but never accessed.
+W341	1	CODINGSTANDARD	Mutating uninitialized local variable.
+W411	1	CODINGSTANDARD	Redefining a local variable.
+W412	1	CODINGSTANDARD	Redefining an argument.
+W413	1	CODINGSTANDARD	Redefining a loop variable.
+W421	2	CODINGSTANDARD	Shadowing a local variable.
+W422	2	CODINGSTANDARD	Shadowing an argument.
+W423	2	CODINGSTANDARD	Shadowing a loop variable.
+W431	2	CODINGSTANDARD	Shadowing an upvalue.
+W432	2	CODINGSTANDARD	Shadowing an upvalue argument.
+W433	2	CODINGSTANDARD	Shadowing an upvalue loop variable.
+W511	1	CODINGSTANDARD	Unreachable code.
+W512	1	CODINGSTANDARD	Loop can be executed at most once.
+W521	3	CODINGSTANDARD	Unused label.
+W531	2	CODINGSTANDARD	Left-hand side of an assignment is too short.
+W532	2	CODINGSTANDARD	Left-hand side of an assignment is too long.
+W541	2	CODINGSTANDARD	An empty do end block.
+W542	2	CODINGSTANDARD	An empty if branch.
+W551	2	CODINGSTANDARD	An empty statement.
+W561	3	CODINGSTANDARD	Cyclomatic complexity of a function is too high.
+W571	1	CODINGSTANDARD	A numeric for loop goes from #(expr) down to 1 or less without negative step.
+W611	4	CODINGSTANDARD	A line consists of nothing but whitespace.
+W612	4	CODINGSTANDARD	A line contains trailing whitespace.
+W613	4	CODINGSTANDARD	Trailing whitespace in a string.
+W614	4	CODINGSTANDARD	Trailing whitespace in a comment.
+W621	4	CODINGSTANDARD	Inconsistent indentation (SPACE followed by TAB).
+W631	4	CODINGSTANDARD	Line is too long.

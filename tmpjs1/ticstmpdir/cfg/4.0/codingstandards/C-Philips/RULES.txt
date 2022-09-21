@@ -1,0 +1,140 @@
+//Rule ID	Level	Category	Synopsis
+2.2#1	6	LEXICAL CONVENTIONS	Comments shall not be nested.
+2.3#1	2	LEXICAL CONVENTIONS	Identifiers reserved by Standard C must not be used.
+
+2.3#2	3	LEXICAL CONVENTIONS	Identifiers shall not use more than the maximum number of characters required for unique identification as specified in the compliance matrix, described in section 1.7.
+2.5.2#1	2	LEXICAL CONVENTIONS	Only ANSI defined escape sequences shall be used.
+
+6#1	2	CONVERSIONS	Make implicit type conversions explicit.
+6.2#1	1	CONVERSIONS	Since conversion between signed and unsigned integral types involves implementation defined behaviour, signed and unsigned data items shall not be mixed within the same expression.
+6.3#1	1	CONVERSIONS	Values shall not be implicitly converted to a narrower type.
+6.3#2	2	CONVERSIONS	Floating values should not be converted to integral types except through use of standard library routines.
+6.3#3	4	CONVERSIONS	Conversion of integral values to floating types should be avoided since loss of precision can occur.
+6.4#1	3	CONVERSIONS	Mixed precision arithmetic should be avoided if possible.
+6.5#1	4	CONVERSIONS	Mixed type arithmetic should be avoided.
+6.5#2	1	CONVERSIONS	Array indices must be within bounds.
+6.6#1	2	CONVERSIONS	Pointer to and from integer conversions shall not be used.
+6.9#1	2	CONVERSIONS	Pointers must not be cast to have potentially stricter alignment.
+6.9#2	4	CONVERSIONS	Pointers should not be type cast in general.
+
+7#1	6	EXPRESSIONS	Expressions which either mix operators from the set >, >=, >, ^, &, |, &&, || or which use two or more distinct operators from the latter set shall be fully parenthesised and make no use of the C precedence rules.
+7#2	2	EXPRESSIONS	Expressions shall not contain multiple side-effects due either to the same identifier being modified more than once, or due to the same identifier being modified and accessed.
+7#3	3	EXPRESSIONS	Expressions containing multiple function references should be avoided due to the possibility of side-effects occurring in an undefined order.
+7.2#2	1	EXPRESSIONS	Constant expressions must not lead to division by zero.
+7.2#3	1	EXPRESSIONS	The value of an incomplete 'union' must not be used.
+7.2#4	1	EXPRESSIONS	The value of an incomplete 'struct' must not be used.
+7.3.4#1	4	EXPRESSIONS	The increment and decrement operators should not be mixed with prefix forms in the same expression.
+7.4.5#1	3	EXPRESSIONS	Unary minus shall not be applied to an unsigned expression.
+7.4.8#1	3	EXPRESSIONS	sizeof shall not be applied to an expression with side-effects.
+7.4.8#2	6	EXPRESSIONS	Wherever possible, use sizeof entity; rather than sizeof (type).
+7.5#1	6	EXPRESSIONS	Expressions shall not be cast to the same type.
+7.5#2	4	EXPRESSIONS	Explicit casting from and to any other type from void * is forbidden.
+7.5#3	7	EXPRESSIONS	Avoid explicit casting where possible.
+7.8#2	10	EXPRESSIONS	The left operand of a shift operator must not be signed.
+7.9#1	7	EXPRESSIONS	The operands of relational operators should be parenthesised unless both are simple values, identifiers, or function calls.
+7.10#1	2	EXPRESSIONS	Floating point expressions shall not be compared using either the == or != operators.
+7.10#2	7	EXPRESSIONS	The operands of equality operators should be parenthesised unless both are simple values, identifiers, or function calls.
+7.14#1	7	EXPRESSIONS	The right-hand operand of the logical AND operator shall not contain any side-effects because it is conditionally executed.
+7.14#2	7	EXPRESSIONS	The operands of logical AND should be parenthesised unless both are simple values, identifiers, or function calls.
+7.15#1	4	EXPRESSIONS	The right-hand operand of the logical OR operator shall not contain any side-effects because it is conditionally executed.
+7.15#2	7	EXPRESSIONS	The operands of logical OR shall be parenthesised unless both are simple values, identifiers, or function calls.
+7.16#1	4	EXPRESSIONS	The second and third operands of the conditional operator shall not contain side-effects because they are conditionally executed.
+7.16#2	6	EXPRESSIONS	Use parentheses to improve readability of the conditional operator.
+7.16#3	7	EXPRESSIONS	The convenience of the conditional operator should be weighed against the clarity of the code.
+7.18#1	5	EXPRESSIONS	The comma operator must be used only within a for statement or within macros.
+7.18#2	6	EXPRESSIONS	In general, the comma operator should be avoided.
+
+8#1	8	DECLARATIONS	Any specifiers present should appear in the following order: typedef, storage-class-specifier, type-specifier.
+8.1#1	2	DECLARATIONS	The address of an array declared with register is undefined and shall not be used.
+8.1#2	5	DECLARATIONS	Since auto is almost always redundant it shall be omitted to avoid cluttering up declarations.
+8.1#3	5	DECLARATIONS	register is a hint to the compiler.
+8.2#1	7	DECLARATIONS	const and volatile, if present, should appear before other type-specifiers.
+8.3#2	4	DECLARATIONS	The concept of union whereby different kinds of data can be manipulated in a single area of storage is allowed only as the solution to certain kinds of problem but caution is urged in its use.
+8.3#4	5	DECLARATIONS	Do not use bitfields.
+8.3#6	5	DECLARATIONS	The use of typedef to declare a struct or union is strongly recommended.
+8.4#1	4	DECLARATIONS	Only the first member of an enum may be explicitly initialised, if any, unless all items are explicitly initialised.
+8.6.2#1	2	DECLARATIONS	An array base type must not have function type.
+8.6.2#2	3	DECLARATIONS	Arrays must not be constructed from incomplete types.
+8.6.3#1	6	DECLARATIONS	Function prototype declarations and definitions of user-supplied functions shall be used.
+8.6.3#2	6	DECLARATIONS	Function return types shall be explicitly given.
+8.6.3#3	5	DECLARATIONS	Pointers to functions should be declared and indirected using a typedef.
+8.7#1	2	DECLARATIONS	The initialiser for a struct, union or array bound, must be enclosed in braces.
+8.7#4	2	DECLARATIONS	For nested initialisers, the braces should match the structure.
+8.9#1	4	DECLARATIONS	An identifier declared as a typedef, must not be redeclared in an inner scope without a type specifier.
+8.9#2	4	DECLARATIONS	An identifier declared as a typedef, must not be redeclared as a member of a struct or union without a type specifier.
+
+9.1#1	5	STATEMENTS	Statements must not be labelled.
+9.1#2	3	STATEMENTS	Only a conventional case .. default construct may follow a switch statement.
+9.1#3	9	STATEMENTS	A label should be on a separate line.
+9.2#1	1	STATEMENTS	A statement must have a side-effect, i.e., it must do something.
+9.2#2	6	STATEMENTS	A null statement, if used, shall appear on a line by itself.
+9.4#1	2	STATEMENTS	Controlling expressions shall not contain assignments.
+9.4#2	4	STATEMENTS	To clarify the actual test performed in a selection statement, there should be an explicit comparison operator unless the compared object is of effectively 'Boolean' type.
+9.4.1#1	7	STATEMENTS	Multiple choice constructs programmed using if ... else if ... shall have a "catch-all" clause.
+9.4.1#6	4	STATEMENTS	An if statement must not lead to a degenerate comparison, for example the comparison of an unsigned quantity against a negative-valued constant.
+9.4.2#1	3	STATEMENTS	All switch statements shall have a default clause, even if that clause is empty.
+9.4.2#2	2	STATEMENTS	Each case clause and default clause shall be terminated by a break statement unless empty.
+9.4.2#3	4	STATEMENTS	The default clause should be the last entry in the switch statement.
+9.4.2#5	5	STATEMENTS	The switch expression shall not contain the ">", ">=", "<", "<=", "==", "!=", "&&", "||" or "!" operators.
+9.4.2#6	7	STATEMENTS	The switch expression shall contain at least one case label.
+9.5#1	8	STATEMENTS	To clarify the actual test performed in an iteration statement, there should be an explicit comparison operator.
+9.5.2#2	2	STATEMENTS	The use of floating point variables as loop variables is forbidden.
+9.5.2#3	3	STATEMENTS	A control variable shall not be altered by the body of a for statement.
+9.5.2#4	4	STATEMENTS	Only loop control variable expressions should appear in the for statement.
+9.5.2#5	8	STATEMENTS	Use a "for" loop construction for an infinite loop.
+9.6.1#1	3	STATEMENTS	The break statement should not be used to exit from an iteration statement, (for or while).
+9.6.2#1	3	STATEMENTS	The continue statement shall not be used.
+9.6.3#1	1	STATEMENTS	The address of an object of automatic storage shall not be returned.
+9.6.3#2	5	STATEMENTS	There should only be one return statement in a function returning non-void and this should appear at the bottom of the function. There should be no return statement in a function returning void.
+9.7#1	1	STATEMENTS	The goto statement is unstructured and shall not be used.
+
+10.1#1	2	EXTERNAL DECLARATIONS	Function return types must not use const or volatile.
+10.1#2	1	EXTERNAL DECLARATIONS	A parameter must not have void type.
+10.1#3	7	EXTERNAL DECLARATIONS	Identifiers must be given for all or none of the parameters in a function prototype declaration.
+10.1#5	1	EXTERNAL DECLARATIONS	main() must have a defined type of int (void) or int (int, char *[]).
+10.1#7	1	EXTERNAL DECLARATIONS	No attempt must be made to use the result of a function returning void.
+10.1#8	2	EXTERNAL DECLARATIONS	No const qualified void function of any kind is allowed.
+10.1#9	9	EXTERNAL DECLARATIONS	Identifiers in function definition and declaration should be the same.
+10.2#1	4	EXTERNAL DECLARATIONS	A function declared locally must have no storage-class specifier other than 'extern'.
+10.2#2	5	EXTERNAL DECLARATIONS	Functions should not be declared locally.
+10.2#3	1	EXTERNAL DECLARATIONS	An external identifier declaration after a previous external declaration must not have a different type.
+
+11.1#1	2	SCOPE AND LINKAGE	Identifiers shall not be redeclared within nested scopes.
+11.2#2	2	SCOPE AND LINKAGE	Variables must not have both internal and external linkage.
+11.2#3	4	SCOPE AND LINKAGE	Variables must not have more than one definition with external linkage.
+
+12#2	2	PREPROCESSING	Avoid esoteric aspects of preprocessing such as token pasting, text after #else or #endif, or relying on macro argument substitution within string literals.
+12.1#1	3	PREPROCESSING	Trigraphs shall not be used.
+12.3#1	1	PREPROCESSING	Always enclose any instances of macro parameters within parentheses.
+12.3#2	1	PREPROCESSING	If a macro body contains any operator, enclose it within parentheses.
+12.3#3	1	PREPROCESSING	Do not use macros to redefine keywords.
+12.3#4	3	PREPROCESSING	Avoid defining macros with unbalanced brackets or parentheses.
+12.3#7	5	PREPROCESSING	Use functions in preference to function-like macros unless performance is a genuine issue.
+12.3#8	1	PREPROCESSING	Defining a macro called defined or attempting to #undef it, is forbidden.
+12.3#9	3	PREPROCESSING	Attempting to #define or #undef any of __LINE__, __FILE__, __DATE__, __TIME__, or __STDC__ is forbidden.
+12.3#10	2	PREPROCESSING	A function-like macro must be supplied with its expected arguments.
+12.3#11	6	PREPROCESSING	Macro arguments must not contain a sequence of tokens which look like a preprocessor directive.
+12.3.1#1	7	PREPROCESSING	A macro shall not comprise both the "#" and "##" operators simultaneously.
+12.3.2#1	3	PREPROCESSING	Result of "##" operator shall be a legal pre-processing token.
+12.4#1	2	PREPROCESSING	The #include directive must only be followed by a <...> or a "..." file sequence.
+12.4#2	3	PREPROCESSING	Use of the ' " \ or /* characters in the #include file sequence <...> or "...", is forbidden.
+12.5#1	5	PREPROCESSING	The defined macro must appear in the form 'defined(identifier)' or 'defined identifier'.
+12.6#1	3	PREPROCESSING	The #line directive shall specify a line number in the range 1 to 32767.
+12.8#1	4	PREPROCESSING	The #pragma directive shall not be used without sign-off according to local quality procedures.
+12.9#1	4	PREPROCESSING	The null preprocessor directive # should not be used.
+
+13#3	5	MONITORING OF COMPLEXITY	Functions shall be restricted to have a maximum cyclomatic complexity.
+
+14#1	3	RESTRICTIONS ON SPECIFIC FUNCTIONS	The dynamic memory allocation functions malloc, realloc and calloc shall not be used directly.
+14#2	1	RESTRICTIONS ON SPECIFIC FUNCTIONS	The signal handling routine signal and the non-specific jump functions setjmp and longjmp shall not be used without specific sign-off according to local procedures.
+14#3	10	RESTRICTIONS ON SPECIFIC FUNCTIONS	None of the following functions should be used directly if possible: ungetc, fopen, fgetpos, ftell, gets, remove, rename, bsearch, qsort, time, date, clock, isalnum, isalpha, iscntrl, islower, isprint, isupper, perror, strerror, calloc, malloc, realloc, exit, fmod.
+
+A.2.4#1	6	NON-LANGUAGE ISSUES	Only one identifier shall be declared on each source line.
+A.2.5#1	5	NON-LANGUAGE ISSUES	Only one statement shall appear on each source line.
+A.2.5#2	3	NON-LANGUAGE ISSUES	All control statements shall be fully brace enclosed.
+A.3.1#2	2	NON-LANGUAGE ISSUES	Every header file shall use #ifndef .. #endif to prevent its body being #included multiple times.
+A.5.1#1	6	LEXICAL CONVENTIONS	C++ keywords must not be used as identifiers.
+
+C#1	3	ISSUES IN K&R V. ANSI C	Make sure enums are not mixed with other types.
+C#2	5	PREPROCESSING	The #error directive should be used with caution.
+C#3	10	ISSUES IN K&R V. ANSI C	Preprocessor directives should begin in column 1 and there should be no white space between the # and the directive keyword.

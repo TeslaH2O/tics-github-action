@@ -1,0 +1,4 @@
+DetectIntegerOverflow	SimulinkAI	Overflow
+DetectDivisionByZero	SimulinkAI	Division by zero
+DetectOutOfBound	SimulinkAI	Array bounds
+DesignMinMaxCheck	SimulinkAI	Design Range

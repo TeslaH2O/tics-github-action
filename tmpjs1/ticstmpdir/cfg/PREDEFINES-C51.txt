@@ -1,0 +1,12 @@
+bdata
+bit="char"
+code
+far
+huge
+idata
+sbit="char"
+sdata
+sfr="char"
+xdata
+xhuge
+

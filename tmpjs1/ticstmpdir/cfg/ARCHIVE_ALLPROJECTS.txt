@@ -1,0 +1,54 @@
+'FILE' =>
+  !"[/._]AssemblyInfo\.cs$" &&
+  !"/GlobalAssemblyInfo\.cs$" &&
+  !"\.Designer\.cs$" &&
+  !"/Reference\.cs$" &&
+  !"\.g\.cs$" &&
+  !"\.min\.js$" &&
+  !"\.release\.js$" &&
+  !"\.d\.ts$" &&
+  !"[/._-]jquery.*\.js$" &&
+  !"\.conf\.js$" &&
+  !"\.config\.js$" &&
+  !"/gulpfile\.js$" &&
+  !"/gruntfile\.js$" &&
+  !"/resource\.h$"
+
+'DIR' =>
+  !"/\.git/" &&
+  !"/\.github/" &&
+  !"/\.idea/" &&
+  !"/\.metadata/" &&
+  !"/\.recommenders/" &&
+  !"/\.svn/" &&
+  !"/\.vs/" &&
+  !"/\.vscode/" &&
+  !"/CVS/" &&
+  !"/3rdparty/" &&
+  !"/bin/" &&
+  !"/bld/" &&
+  !"/build/" &&
+  !"/extern/" &&
+  !"/gen/" &&
+  !"/generated/" &&
+  !"/obj/" &&
+  !"/object/" &&
+  !"/packages/" &&
+  !"/target/" &&
+  !"/thirdparty/" &&
+  !"/third_party/" &&
+  !"/third_party_packages/" &&
+  !"/tools/" &&
+  !"/node_modules/" &&
+  !"/bower_modules/" &&
+  !"/bower_components/"
+
+'TESTCODE_FILE' =>
+  "/e2e/" ||
+  "/test/" ||
+  "/tests/" ||
+  "/tst/" ||
+  "\.UnitTests\." ||
+  "\.Test/" ||
+  "/Test[^/]+$" ||
+  "[/\-\.]spec\.[jt]s$"

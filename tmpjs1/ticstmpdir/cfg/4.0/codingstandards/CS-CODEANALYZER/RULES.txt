@@ -1,0 +1,198 @@
+CA1000	2	Design	Do not declare static members on generic types
+CA1001	2	Design	Types that own disposable fields should be disposable
+CA1002	3	Design	Do not expose generic lists
+CA1003	3	Design	Use generic event handler instances
+CA1004	3	Design	Generic methods should provide type parameter
+CA1005	5	Design	Avoid excessive parameters on generic types
+CA1006	4	Design	Do not nest generic types in member signatures
+CA1007	5	Design	Use generics where appropriate
+CA1008	5	Design	Enums should have zero value
+CA1009	2	Design	Declare event handlers correctly
+CA1010	3	Design	Collections should implement generic interface
+CA1011	5	Design	Consider passing base types as parameters
+CA1012	2	Design	Abstract types should not have constructors
+CA1013	2	Design	Overload operator equals on overloading add and subtract
+CA1014	4	Design	Mark assemblies with CLSCompliantAttribute
+CA1016	4	Design	Mark assemblies with AssemblyVersionAttribute
+CA1017	4	Design	Mark assemblies with ComVisibleAttribute
+CA1018	4	Design	Mark attributes with AttributeUsageAttribute
+CA1019	4	Design	Define accessors for attribute arguments
+CA1020	5	Design	Avoid namespaces with few types
+CA1021	5	Design	Avoid out parameters
+CA1023	3	Design	Indexers should not be multidimensional
+CA1024	3	Design	Use properties where appropriate
+CA1025	4	Design	Replace repetitive arguments with params array
+CA1026	4	Design	Default parameters should not be used
+CA1027	4	Design	Mark enums with FlagsAttribute
+CA1028	2	Design	Enum storage should be Int32
+CA1030	3	Design	Use events where appropriate
+CA1031	2	Design	Do not catch general exception types
+CA1032	2	Design	Implement standard exception constructors
+CA1033	4	Design	Interface methods should be callable by child types
+CA1034	2	Design	Nested types should not be visible
+CA1035	3	Design	ICollection implementations have strongly typed members
+CA1036	2	Design	Override methods on comparable types
+CA1038	3	Design	Enumerators should be strongly typed
+CA1039	3	Design	Lists are strongly typed
+CA1040	5	Design	Avoid empty interfaces
+CA1041	3	Design	Provide ObsoleteAttribute message
+CA1043	2	Design	Use integral or string argument for indexers
+CA1044	3	Design	Properties should not be write only
+CA1045	3	Design	Do not pass types by reference
+CA1046	2	Design	Do not overload operator equals on reference types
+CA1047	2	Design	Do not declare protected members in sealed types
+CA1048	2	Design	Do not declare virtual members in sealed types
+CA1049	2	Design	Types that own native resources should be disposable
+CA1050	2	Design	Declare types in namespaces
+CA1051	3	Design	Do not declare visible instance fields
+CA1052	4	Design	Static holder types should be sealed
+CA1053	4	Design	Static holder types should not have constructors
+CA1058	2	Design	Types should not extend certain base types
+CA1059	4	Design	Members should not expose certain concrete types
+CA1060	3	Design	Move P-Invokes to NativeMethods class
+CA1061	3	Design	Do not hide base class methods
+CA1062	1	Design	Validate arguments of public methods
+CA1063	3	Design	Implement IDisposable correctly
+CA1064	3	Design	Exceptions should be public
+CA1065	3	Design	Do not raise exceptions in unexpected locations
+CA1068	5	Design	CancellationToken parameters must come last
+CA2210	3	Design	Assemblies should have valid strong names
+
+CA1200	4	Documentation	Avoid using cref tags with a prefix
+
+CA1300	4	Globalization	Specify MessageBoxOptions
+CA1301	4	Globalization	Avoid duplicate accelerators
+CA1302	4	Globalization	Do not hardcode locale specific strings
+CA1303	4	Globalization	Do not pass literals as localized parameters
+CA1304	4	Globalization	Specify CultureInfo
+CA1305	4	Globalization	Specify IFormatProvider
+CA1306	4	Globalization	Set locale for data types
+CA1307	4	Globalization	Specify StringComparison
+CA1308	4	Globalization	Normalize strings to uppercase
+CA1309	4	Globalization	Use ordinal StringComparison
+CA2101	4	Globalization	Specify marshaling for P-Invoke string arguments
+
+CA1400	3	Interoperability	P-Invoke entry points should exist
+CA1401	3	Interoperability	P-Invokes should not be visible
+CA1402	3	Interoperability	Avoid overloads in COM visible interfaces
+CA1403	3	Interoperability	Auto layout types should not be COM visible
+CA1404	3	Interoperability	Call GetLastError immediately after P-Invoke
+CA1405	3	Interoperability	COM visible type base types should be COM visible
+CA1406	3	Interoperability	Avoid Int64 arguments for Visual Basic 6 clients
+CA1407	3	Interoperability	Avoid static members in COM visible types
+CA1408	3	Interoperability	Do not use AutoDual ClassInterfaceType
+CA1409	3	Interoperability	Com visible types should be creatable
+CA1410	3	Interoperability	COM registration methods should be matched
+CA1411	3	Interoperability	COM registration methods should not be visible
+CA1412	3	Interoperability	Mark ComSource Interfaces as IDispatch
+CA1413	3	Interoperability	Avoid non-public fields in COM visible value types
+CA1414	3	Interoperability	Mark boolean P-Invoke arguments with MarshalAs
+CA1415	3	Interoperability	Declare P-Invokes correctly
+
+CA1500	4	Maintainability	Variable names should not match field names
+CA1501	4	Maintainability	Avoid excessive inheritance
+CA1502	4	Maintainability	Avoid excessive complexity
+CA1504	4	Maintainability	Review misleading field names
+CA1505	4	Maintainability	Avoid unmaintainable code
+CA1506	4	Maintainability	Avoid excessive class coupling
+CA1507	4	Maintainability	Use nameof in place of string
+
+CA1600	4	Mobility	Do not use idle process priority
+CA1601	4	Mobility	Do not use timers that prevent power state changes
+
+CA1700	6	Naming	Do not name enum values 'Reserved'
+CA1701	6	Naming	Resource string compound words should be cased correctly
+CA1702	6	Naming	Compound words should be cased correctly
+CA1703	6	Naming	Resource strings should be spelled correctly
+CA1704	6	Naming	Identifiers should be spelled correctly
+CA1707	6	Naming	Identifiers should not contain underscores
+CA1708	6	Naming	Identifiers should differ by more than case
+CA1709	6	Naming	Identifiers should be cased correctly
+CA1710	6	Naming	Identifiers should have correct suffix
+CA1711	6	Naming	Identifiers should not have incorrect suffix
+CA1712	6	Naming	Do not prefix enum values with type name
+CA1713	6	Naming	Events should not have before or after prefix
+CA1714	6	Naming	Flags enums should have plural names
+CA1715	6	Naming	Identifiers should have correct prefix
+CA1716	6	Naming	Identifiers should not match keywords
+CA1717	6	Naming	Only FlagsAttribute enums should have plural names
+CA1719	6	Naming	Parameter names should not match member names
+CA1720	6	Naming	Identifiers should not contain type names
+CA1721	6	Naming	Property names should not match get methods
+CA1722	6	Naming	Identifiers should not have incorrect prefix
+CA1724	6	Naming	Type Names Should Not Match Namespaces
+CA1725	6	Naming	Parameter names should match base declaration
+CA1726	6	Naming	Use preferred terms
+
+CA1800	4	Performance	Do not cast unnecessarily
+CA1801	4	Performance	Review unused parameters
+CA1802	4	Performance	Use Literals Where Appropriate
+CA1804	4	Performance	Remove unused locals
+CA1806	4	Performance	Do not ignore method results
+CA1809	4	Performance	Avoid excessive locals
+CA1810	4	Performance	Initialize reference type static fields inline
+CA1811	4	Performance	Avoid uncalled private code
+CA1812	4	Performance	Avoid uninstantiated internal classes
+CA1813	4	Performance	Avoid unsealed attributes
+CA1814	4	Performance	Prefer jagged arrays over multidimensional
+CA1815	4	Performance	Override equals and operator equals on value types
+CA1816	4	Performance	Call GC.SuppressFinalize correctly
+CA1819	4	Performance	Properties should not return arrays
+CA1820	4	Performance	Test for empty strings using string length
+CA1821	4	Performance	Remove empty finalizers
+CA1822	4	Performance	Mark members as static
+CA1823	4	Performance	Avoid unused private fields
+CA1824	4	Performance	Mark assemblies with NeutralResourcesLanguageAttribute
+CA1825	4	Performance	Avoid zero-length array allocations
+
+CA1900	3	Portability	Value type fields should be portable
+CA1901	3	Portability	P-Invoke declarations should be portable
+CA1903	3	Portability	Use only API from targeted framework
+
+CA2000	2	Reliability	Dispose objects before losing scope
+CA2001	2	Reliability	Avoid calling problematic methods
+CA2002	2	Reliability	Do not lock on objects with weak identity
+CA2003	2	Reliability	Do not treat fibers as threads
+CA2004	2	Reliability	Remove calls to GC.KeepAlive
+CA2006	2	Reliability	Use SafeHandle to encapsulate native resources
+CA2007	2	Reliability	Do not directly await a Task
+
+CA2200	2	Usage	Rethrow to preserve stack details
+CA2201	2	Usage	Do not raise reserved exception types
+CA2202	2	Usage	Do not dispose objects multiple times
+CA2204	2	Usage	Literals should be spelled correctly
+CA2205	2	Usage	Use managed equivalents of Win32 API
+CA2207	2	Usage	Initialize value type static fields inline
+CA2208	2	Usage	Instantiate argument exceptions correctly
+CA2211	2	Usage	Non-constant fields should not be visible
+CA2212	2	Usage	Do not mark serviced components with WebMethod
+CA2213	2	Usage	Disposable fields should be disposed
+CA2214	2	Usage	Do not call overridable methods in constructors
+CA2215	2	Usage	Dispose methods should call base class dispose
+CA2216	2	Usage	Disposable types should declare finalizer
+CA2217	2	Usage	Do not mark enums with FlagsAttribute
+CA2218	2	Usage	Override GetHashCode on overriding Equals
+CA2219	2	Usage	Do not raise exceptions in exception clauses
+CA2220	2	Usage	Finalizers should call base class finalizer
+CA2222	2	Usage	Do not decrease inherited member visibility
+CA2223	2	Usage	Members should differ by more than return type
+CA2224	2	Usage	Override equals on overloading operator equals
+CA2225	2	Usage	Operator overloads have named alternates
+CA2226	2	Usage	Operators should have symmetrical overloads
+CA2227	2	Usage	Collection properties should be read only
+CA2228	2	Usage	Do not ship unreleased resource formats
+CA2229	2	Usage	Implement serialization constructors
+CA2230	2	Usage	Use params for variable arguments
+CA2231	2	Usage	Overload operator equals on overriding ValueType.Equals
+CA2232	2	Usage	Mark Windows Forms entry points with STAThread
+CA2233	2	Usage	Operations should not overflow
+CA2234	2	Usage	Pass System.Uri objects instead of strings
+CA2235	2	Usage	Mark all non-serializable fields
+CA2236	2	Usage	Call base class methods on ISerializable typesr.
+CA2237	2	Usage	Mark ISerializable types with SerializableAttribute
+CA2238	2	Usage	Implement serialization methods correctly
+CA2239	2	Usage	Provide deserialization methods for optional fields
+CA2240	2	Usage	Implement ISerializable correctly
+CA2241	2	Usage	Provide correct arguments to formatting methods
+CA2242	2	Usage	Test for NaN correctly
+CA2243	2	Usage	Attribute string literals should parse correctly

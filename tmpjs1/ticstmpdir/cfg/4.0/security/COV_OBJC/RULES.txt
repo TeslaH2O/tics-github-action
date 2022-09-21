@@ -1,0 +1,36 @@
+// Coverity 2022.03 and below
+COV_OBJC_AUDIT.SPECULATIVE_EXECUTION_DATA_LEAK_OBJECTIVEC	1	High impact security	If an attacker can control the value compared against the speculative memory access they might be able to read the process' memory.
+COV_OBJC_OS_CMD_INJECTION_OBJECTIVEC	1	High impact security	A user can change the intent of an operating system command. This change may result in the disclosure, destruction, or modification of sensitive data or operating system resources.
+COV_OBJC_PATH_MANIPULATION_OBJECTIVEC	1	High impact security	An attacker may access, modify, or corrupt files that contain sensitive information or are critical to the application.
+COV_OBJC_SENSITIVE_DATA_LEAK_OBJECTIVEC	1	High impact security	Attackers can read the sensitive data from the cookie with widely available tools.
+COV_OBJC_SQLI_OBJECTIVEC	1	High impact security	A user can change the intent of the SQL query, which may inappropriately disclose or corrupt data within the database.
+COV_OBJC_UNENCRYPTED_SENSITIVE_DATA_OBJECTIVEC	1	High impact security	Attackers can read the sensitive data from the cookie with widely available tools.
+COV_OBJC_WEAK_GUARD_OBJECTIVEC	1	High impact security	An attacker that compromises a DNS server or pollutes its cache can bypass this check.
+COV_OBJC_WEAK_PASSWORD_HASH_OBJECTIVEC	1	High impact security	An attacker may recover passwords with feasible amounts of computational effort.
+COV_OBJC_XSS_OBJECTIVEC	1	High impact security	A user can execute arbitrary JavaScript on a web page viewed or accessed by another user, potentially allowing session hijacking, disclosing sensitive data in the DOM, or viewing of keyboard and mouse events.
+
+COV_OBJC_FORMAT_STRING_INJECTION_OBJECTIVEC	3	Insecure data handling	An attacker could craft a format string containing unexpected formatting directives and force a buffer overflow, which may be used to take control of the application.
+COV_OBJC_INTEGER_OVERFLOW_OBJECTIVEC	2	Insecure data handling	The argument will be too small or even negative, likely resulting in unexpected behavior (for example, under-allocation in a memory allocation function).
+COV_OBJC_TAINTED_SCALAR_OBJECTIVEC	2	Insecure data handling	The array index could be controlled by an attacker, leading to reads outside the bounds of the array.
+COV_OBJC_TAINTED_STRING_OBJECTIVEC	2	Insecure data handling	An attacker could craft a format string containing unexpected formatting directives and force a buffer overflow, which may be used to take control of the application.
+
+COV_OBJC_HARDCODED_CREDENTIALS_OBJECTIVEC	2	Medium impact security	Users with access to this source code can use this key to access encrypted production data.  Changing this key requires changing the code and re-deploying the application.
+COV_OBJC_HEADER_INJECTION_OBJECTIVEC	2	Medium impact security	An attacker may be able to set important HTTP headers and disable security protections or fix the session ID. The severity of the defect depends on which headers can be manipulated and if the attacker is able to directly or indirectly control the header value.
+COV_OBJC_RISKY_CRYPTO_OBJECTIVEC	2	Medium impact security	A violation of user-specified RISKY_CRYPTO policy was detected.
+COV_OBJC_URL_MANIPULATION_OBJECTIVEC	2	Medium impact security	An attacker may access unintended files or make the application access a malicious website.
+COV_OBJC_XPATH_INJECTION_OBJECTIVEC	2	Medium impact security	An attacker can change the intent of the XPath query, which may inappropriately disclose data or grant unauthorized access to application functionality.
+
+COV_OBJC_BUFFER_SIZE_OBJECTIVEC	3	Security best practices violations	Some memory locations will be written with incorrect values, possibly corrupting data structures or data integrity.
+COV_OBJC_DC.PREDICTABLE_KEY_PASSWORD_OBJECTIVEC	2	Security best practices violations	May result in a security violation
+COV_OBJC_DC.STREAM_BUFFER_OBJECTIVEC	3	Security best practices violations	May result in a security violation
+COV_OBJC_DC.STRING_BUFFER_OBJECTIVEC	2	Security best practices violations	May result in a security violation
+COV_OBJC_DC.WEAK_CRYPTO_OBJECTIVEC	3	Security best practices violations	May result in a security violation
+COV_OBJC_SECURE_CODING_OBJECTIVEC	2	Security best practices violations	Calling this function may result in security implications.
+COV_OBJC_STRING_OVERFLOW_OBJECTIVEC	3	Security best practices violations	The string operation will write past the end of the fixed-size destination buffer if the source buffer is too large.
+COV_OBJC_TAINTED_STRING_WARNING_OBJECTIVEC	3	Security best practices violations	A non-constant format string can potentially be exploited by a user to take control of the application.
+COV_OBJC_TOCTOU_OBJECTIVEC	3	Security best practices violations	An attacker could change the filename's file association or other attributes between the check and use.
+COV_OBJC_USER_POINTER_OBJECTIVEC	2	Security best practices violations	An attacker could craft the pointer to read or write kernel memory and take over the system, or cause a crash.
+
+// New in Coverity 2022.03
+COV_OBJC_SIGMA.trojan_source_bidi_char_anywhere_OBJECTIVEC	3	Sigma: Low impact security	Trojan Source: The file contains bidirectional Unicode text which may cause the code to be compiled or interpreted differently than how it appears rendered.
+COV_OBJC_SIGMA.trojan_source_bidi_char_unterminated_OBJECTIVEC	2	Sigma: Medium impact security	Trojan Source: The file contains an unterminated right-to-left bidirectional Unicode character which may cause the code to be compiled or interpreted differently than how it appears rendered.

@@ -1,0 +1,624 @@
+FortifyJavaAccessControlACLManipulation	1	Access Control	The application allows an attacker to manipulate the Access Control Policy (ACP) on an AWS S3 bucket or object.
+FortifyJavaAccessControlAdministrativeInterface	1	Access Control	Failure to restrict access to administrative interfaces could allow an attacker gain complete control over the application.
+FortifyJavaAccessControlAmazonWebServices	1	Access Control	Accessing a SimpleDB database with a user-controlled item name and without proper access control can allow an attacker to view unauthorized records.
+FortifyJavaAccessControlAndroidProvider	1	Access Control	Without proper access control, executing a SQLite statement that contains a user-controlled primary key can allow an attacker to view unauthorized records.
+FortifyJavaAccessControlAnonymousLDAPBind	1	Access Control	Without proper access control, executing an LDAP statement that contains a user-controlled value can allow an attacker to access unauthorized records.
+FortifyJavaAccessControlCaseInsensitivePackageNameComparison	1	Access Control	The applications compares an Android package with a user-controlled value in a case-insensitive way that might enable attackers to bypass access controls based on package names.
+FortifyJavaAccessControlDatabase	1	Access Control	Without proper access control, executing a SQL statement that contains a user-controlled primary key can allow an attacker to view unauthorized records.
+FortifyJavaAccessControlLDAP	1	Access Control	Without proper access control, executing an LDAP statement that contains a user-controlled value can allow an attacker to access unauthorized directory entries.
+FortifyJavaAccessControlMissingAuthentication	1	Access Control	The target web application contains a page with sensitive information or privileged functionality that does not require authentication.
+FortifyJavaAccessControlMissingURLNormalization	1	Access Control	Failure to convert request URLs into their canonical form before performing URL authorization can allow attackers to bypass Basic Authentication and gain unauthorized access to resources.
+FortifyJavaAccessControlSecurityManagerBypass	1	Access Control	Invoking this function on untrusted code can allow attackers access to restricted packages and provides them with the ability to execute arbitrary code.
+FortifyJavaAccessControlWeakSecurityConstraint	1	Access Control	Weak security constraints do not provide adequate protection for security-critical resources.
+FortifyJavaAccessSpecifierManipulation	3	Access Specifier Manipulation	The method call changes an access specifier.
+FortifyJavaAcegiMisconfigurationInsecureChannelMixing	2	Acegi Misconfiguration	Allowing users jump between HTTP and HTTPS leaves the application vulnerable to session hijacking.
+FortifyJavaAcegiMisconfigurationRunAsAuthenticationReplacement	2	Acegi Misconfiguration	Using the Run-As authentication replacement feature in Acegi can lead to a privilege escalation vulnerability.
+FortifyJavaADFBadPracticesDefaulturlinvokedisallowedSetting	1	ADF Bad Practices	Relying on an implicit default url-invoke-disallowed setting lacks clarity and can lead to unwanted behavior if the default changes unexpectedly.
+FortifyJavaADFBadPracticesMissingURLParameterConverter	1	ADF Bad Practices	An Oracle ADF Faces bookmarkable view is missing a URL parameter converter.
+FortifyJavaADFFacesBadPracticesunsecureAttribute	3	ADF Faces Bad Practices	The unsecure attribute specifies a list of attributes whose values can be set on the client.
+FortifyJavaAndroidBadPracticesEncryptionSecretHeldinStaticField	1	Android Bad Practices	The application holds encryption keys in static class fields, allowing for easy recovery by attackers.
+FortifyJavaAndroidBadPracticesJustProviderwritePermissionDefined	1	Android Bad Practices	The program declares a content provider with only the writePermission defined.
+FortifyJavaAndroidBadPracticesLeftoverDebugCode	1	Android Bad Practices	Debug code may affect performance or leak sensitive data to an attacker.
+FortifyJavaAndroidBadPracticesMissingBroadcasterPermission	1	Android Bad Practices	The program registers a receiver without specifying the broadcaster permission.
+FortifyJavaAndroidBadPracticesMissingComponentPermission	1	Android Bad Practices	The program does not explicitly assign an access permission to this public component.
+FortifyJavaAndroidBadPracticesMissingexportedFlagorComponentPermission	1	Android Bad Practices	The program does not explicitly assign an access permission to a component.
+FortifyJavaAndroidBadPracticesMissingGooglePlayServicesUpdatedSecurityProvider	1	Android Bad Practices	The application does not use the Google Play Service Updated Security Provider which may leave it vulnerable to future vulnerabilities in OpenSSL Library.
+FortifyJavaAndroidBadPracticesMissingNetworkSecurityConfiguration	1	Android Bad Practices	The application does not use Network Security Configuration.
+FortifyJavaAndroidBadPracticesMissingReceiverPermission	1	Android Bad Practices	The program sends a broadcast without specifying the receiver permission.
+FortifyJavaAndroidBadPracticesMixedComponentFunctionality	1	Android Bad Practices	This receiver component is registered to receive messages from the system and also other components.
+FortifyJavaAndroidBadPracticesnormalPermission	1	Android Bad Practices	The program declares a permission with the normal protection level.
+FortifyJavaAndroidBadPracticesProviderPermissionDefined	1	Android Bad Practices	The program declares a content provider with the combined read and write access permission.
+FortifyJavaAndroidBadPracticesStickyBroadcast	1	Android Bad Practices	The program sends a sticky broadcast.
+FortifyJavaAndroidBadPracticesSystemPermissionDefined	1	Android Bad Practices	The program defines a new permission on the android.permission namespace.
+FortifyJavaAndroidBadPracticesUnnecessaryComponentExposure	1	Android Bad Practices	This receiver component is  unnecessarily accessible to third-party components increasing the risk of malicious information injection.
+FortifyJavaAndroidBadPracticesUseofFileSchemeCookies	1	Android Bad Practices	The application allows cookies to be used for file:// protocol which may have undesirable security implications.
+FortifyJavaAndroidBadPracticesUseofInternalAPIs	1	Android Bad Practices	The application invokes internal or hidden APIs.
+FortifyJavaAndroidBadPracticesUseofReleasedCameraResource	1	Android Bad Practices	The code references the Camera object after it has already been released.
+FortifyJavaAndroidBadPracticesUseofReleasedMediaResource	1	Android Bad Practices	The code references the Android media object after it has already been released.
+FortifyJavaAndroidBadPracticesUseofReleasedSQLiteResource	1	Android Bad Practices	The code references the Android database handler after it has already been released.
+FortifyJavaAndroidBadPracticesWeakAuthentication	1	Android Bad Practices	The program uses private and/or device specific information to generate a universally unique identifier.
+FortifyJavaAndroidClassLoadingHijacking	1	Android Class Loading Hijacking	Loading classes from an untrusted source or in an untrusted environment can cause an application to execute malicious commands on behalf of an attacker.
+FortifyJavaAndroidMisconfigurationDebugInformation	2	Android Misconfiguration	Debugging messages help attackers learn about the system and plan a form of attack.
+FortifyJavaAxis2MisconfigurationDebugInformation	2	Axis 2 Misconfiguration	The SOAP Monitor module allows attackers to sniff SOAP traffic.
+FortifyJavaAxis2MisconfigurationInsecureMessageSecurity	2	Axis 2 Misconfiguration	Apache Axis 2 is configured to use REST, and REST does not have message security standards.
+FortifyJavaAxis2MisconfigurationInsecureTransportReceiver	2	Axis 2 Misconfiguration	The configuration should ensure SSL is required for access to sensitive information.
+FortifyJavaAxis2MisconfigurationInsecureTransportSender	2	Axis 2 Misconfiguration	The configuration should ensure SSL is required for access to sensitive information.
+FortifyJavaAxis2ServiceProviderMisconfigurationInboundWSSecurityNotEnabled	2	Axis 2 Service Provider Misconfiguration	Service providers that don't require WS-Security might not be able to guarantee message integrity or confidentiality.
+FortifyJavaAxis2ServiceProviderMisconfigurationMissingInboundEncryption	2	Axis 2 Service Provider Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaAxis2ServiceProviderMisconfigurationMissingInboundSignature	2	Axis 2 Service Provider Misconfiguration	If a message is not signed, the integrity the message cannot be guaranteed.
+FortifyJavaAxis2ServiceProviderMisconfigurationMissingInboundTimestamp	2	Axis 2 Service Provider Misconfiguration	A missing timestamp leaves SOAP messages open to replay attacks.
+FortifyJavaAxis2ServiceProviderMisconfigurationMissingOutboundEncryption	2	Axis 2 Service Provider Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaAxis2ServiceProviderMisconfigurationMissingOutboundSignature	2	Axis 2 Service Provider Misconfiguration	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaAxis2ServiceProviderMisconfigurationMissingOutboundTimestamp	2	Axis 2 Service Provider Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaAxis2ServiceProviderMisconfigurationOutboundWSSecurityNotEnabled	2	Axis 2 Service Provider Misconfiguration	Service providers that don't use WS-Security might not be able to guarantee message integrity or confidentiality.
+FortifyJavaAxis2ServiceProviderMisconfigurationUnsignedInboundTimestamp	2	Axis 2 Service Provider Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaAxis2ServiceProviderMisconfigurationUnsignedOutboundTimestamp	2	Axis 2 Service Provider Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaAxis2ServiceProviderMisconfigurationWeakToken	2	Axis 2 Service Provider Misconfiguration	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaAxis2ServiceProviderMisconfigurationWSSecurityNotEnabled	2	Axis 2 Service Provider Misconfiguration	Turning off WS-Security makes it hard to guarantee message integrity and confidentiality.
+FortifyJavaAxis2ServiceRequesterMisconfigurationInboundWSSecurityNotEnabled	2	Axis 2 Service Requester Misconfiguration	Service providers that don't use WS-Security make it hard to guarantee message integrity or confidentiality.
+FortifyJavaAxis2ServiceRequesterMisconfigurationMissingInboundEncryption	2	Axis 2 Service Requester Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaAxis2ServiceRequesterMisconfigurationMissingInboundSignature	2	Axis 2 Service Requester Misconfiguration	The lack of a signature means the integrity of SOAP messages cannot be guaranteed.
+FortifyJavaAxis2ServiceRequesterMisconfigurationMissingInboundTimestamp	2	Axis 2 Service Requester Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaAxis2ServiceRequesterMisconfigurationMissingOutboundEncryption	2	Axis 2 Service Requester Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaAxis2ServiceRequesterMisconfigurationMissingOutboundSignature	2	Axis 2 Service Requester Misconfiguration	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaAxis2ServiceRequesterMisconfigurationMissingOutboundTimestamp	2	Axis 2 Service Requester Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaAxis2ServiceRequesterMisconfigurationOutboundWSSecurityNotEnabled	2	Axis 2 Service Requester Misconfiguration	Service providers that don't use WS-Security make it hard to guarantee message integrity or confidentiality.
+FortifyJavaAxis2ServiceRequesterMisconfigurationPlainTextPassword	2	Axis 2 Service Requester Misconfiguration	Avoid the WS-Security password type PasswordText.
+FortifyJavaAxis2ServiceRequesterMisconfigurationUnsignedInboundTimestamp	2	Axis 2 Service Requester Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaAxis2ServiceRequesterMisconfigurationUnsignedOutboundTimestamp	2	Axis 2 Service Requester Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaAxis2ServiceRequesterMisconfigurationWeakToken	2	Axis 2 Service Requester Misconfiguration	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaAxis2ServiceRequesterMisconfigurationWSSecurityNotEnabled	2	Axis 2 Service Requester Misconfiguration	Turning off WS-Security makes it hard to guarantee message integrity and confidentiality.
+FortifyJavaAxisMisconfigurationDebugInformation	2	Axis Misconfiguration	Debugging information helps attackers learn about the system and plan a form of attack.
+FortifyJavaAxisMisconfigurationServiceEnumeration	2	Axis Misconfiguration	Publicly exposing information about a service can provide attackers with valuable insight into how they might exploit the service.
+FortifyJavaAxisServiceProviderMisconfigurationPlainTextPassword	2	Axis Service Provider Misconfiguration	Avoid the WS-Security password type PasswordText.
+FortifyJavaAxisServiceProviderMisconfigurationWeakToken	2	Axis Service Provider Misconfiguration	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaAxisServiceRequesterMisconfigurationPlainTextPassword	2	Axis Service Requester Misconfiguration	Avoid the WS-Security password type PasswordText.
+FortifyJavaAxisServiceRequesterMisconfigurationWeakToken	2	Axis Service Requester Misconfiguration	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaBeanManipulation	3	Bean Manipulation	An attacker may set arbitrary bean properties that can compromise system integrity.
+FortifyJavaBuildMisconfigurationDynamicDependencyVersionUsage	2	Build Misconfiguration	Retrieving build dependencies using a dynamic version can leave the build system vulnerable to malicious binaries or cause the system to experience unexpected behavior.
+FortifyJavaBuildMisconfigurationExternalAntDependencyRepository	2	Build Misconfiguration	This ant build script relies on external sources, which could allow an attacker to insert malicious code into the final product or to take control of the build machine.
+FortifyJavaBuildMisconfigurationExternalIvyDependencyRepository	2	Build Misconfiguration	This ant build script relies on external sources, which could allow an attacker to insert malicious code into the final product or to take control of the build machine.
+FortifyJavaBuildMisconfigurationExternalMavenDependencyRepository	2	Build Misconfiguration	This maven build script relies on external sources, which could allow an attacker to insert malicious code into the final product or to take control of the build machine.
+FortifyJavaCacheManagementHeaders	3	Cache Management	Insecure cache management policies could allow attackers to extract application content through header manipulation.
+FortifyJavaCacheManagementInsecureManifest	3	Cache Management	Insecure cache management policy for HTML5 offline application manifest can hinder timely updates to cached contents, resulting in unexpected application behavior.
+FortifyJavaCacheManagementInsecurePolicy	3	Cache Management	Insecure caching policies could allow an attacker to conduct content spoofing or information theft attacks.
+FortifyJavaCacheManagementLanguage	3	Cache Management	Insecure cache management policies could allow attackers to gain access to restricted content by manipulating the language setting.
+FortifyJavaCacheManagementSessionCookies	3	Cache Management	Failure to restrict proxy servers from caching responses establishing authentication cookies can expose sensitive session information to attackers enabling to conduct session hijacking attacks.
+FortifyJavaCacheManagementUnspecifiedCriteria	3	Cache Management	Insecure cache management policies could lead to information exposure.
+FortifyJavaCacheManagementUserAgent	3	Cache Management	Insecure cache management policies could lead to information exposure.
+FortifyJavaCastorBadPracticesQueryModeNotReadOnly	2	Castor Bad Practices	A Castor query that is not read-only can have performance implications.
+FortifyJavaCastorBadPracticesUnspecifiedQueryMode	2	Castor Bad Practices	The Castor query does not explicitly define a query mode.
+FortifyJavaClassLoaderManipulationStruts	1	ClassLoader Manipulation	The target application uses a version of Apache Struts known to contain a remote command injection vulnerability (CVE-2014-0112 and CVE-2014-0114).
+FortifyJavaClassLoaderManipulationStruts1	1	ClassLoader Manipulation	Struts 1 applications that use ActionForms are vulnerable to ClassLoader manipulation.
+FortifyJavaCodeCorrectnessByteArraytoStringConversion	4	Code Correctness	Converting a byte array into a String may lead to data loss.
+FortifyJavaCodeCorrectnessCalltonotify	4	Code Correctness	It is ambiguous which thread will wake up when notify() is called.
+FortifyJavaCodeCorrectnessCalltosleepinLock	4	Code Correctness	Calling sleep() while holding a lock can cause a loss of performance and might cause a deadlock.
+FortifyJavaCodeCorrectnessCalltoSystemgc	4	Code Correctness	Explicit requests for garbage collection are a bellwether indicating likely performance problems.
+FortifyJavaCodeCorrectnessCalltoThreadrun	4	Code Correctness	The program calls a thread's run() method instead of calling start().
+FortifyJavaCodeCorrectnessCalltoThreadstop	4	Code Correctness	The program calls a thread's stop() method, potentially leaking resources.
+FortifyJavaCodeCorrectnessClassDoesNotImplementCloneable	4	Code Correctness	This class implements a clone() method but does not implement the Cloneable interface.
+FortifyJavaCodeCorrectnessClassDoesNotImplementequals	4	Code Correctness	The equals() method is called on an object that does not implement equals().
+FortifyJavaCodeCorrectnesscloneInvokesOverridableFunction	4	Code Correctness	The clone() method within the class calls a function that can be overridden.
+FortifyJavaCodeCorrectnessComparisonofBoxedPrimitiveTypes	4	Code Correctness	Comparing boxed primitives using equality operators instead of their equals() method can result in unexpected behavior.
+FortifyJavaCodeCorrectnessComparisonwithNaN	4	Code Correctness	Making a comparison with NaN is always an error.
+FortifyJavaCodeCorrectnessConstructorInvokesOverridableFunction	4	Code Correctness	A constructor of the class calls a function that can be overridden.
+FortifyJavaCodeCorrectnessDoubleCheckedLocking	4	Code Correctness	Double-checked locking is an incorrect idiom that does not achieve the intended effect.
+FortifyJavaCodeCorrectnessErroneousClassCompare	4	Code Correctness	Determining an object's type based on its class name can lead to unexpected behavior or allow an attacker to inject a malicious class.
+FortifyJavaCodeCorrectnessErroneousfinalizeMethod	4	Code Correctness	This finalize() method should call super.finalize().
+FortifyJavaCodeCorrectnessErroneousNegativeValue	4	Code Correctness	A field is erroneously assigned a negative value.
+FortifyJavaCodeCorrectnessErroneousStringCompare	4	Code Correctness	Strings should be compared with the equals() method, not == or !=.
+FortifyJavaCodeCorrectnessErroneousZeroValue	4	Code Correctness	A variable is erroneously assigned a zero value.
+FortifyJavaCodeCorrectnessHiddenMethod	4	Code Correctness	Static methods cannot be overridden, but may appear to be hidden when called as an instance method.
+FortifyJavaCodeCorrectnessIncorrectSerializableMethodSignature	4	Code Correctness	Using the incorrect method signature on a method used in serialization may lead to it never being called.
+FortifyJavaCodeCorrectnessIncorrectserialPersistentFieldsModifier	4	Code Correctness	To use serialPersistentFields correctly, it must be declared private, static, and final.
+FortifyJavaCodeCorrectnessInvalidCalltoObjectequals	4	Code Correctness	The program calls Object.equals() on an array instead of java.util.Arrays.equals().
+FortifyJavaCodeCorrectnessMisleadingMethodSignature	4	Code Correctness	This looks like an effort to override a common .NET method, but it probably does not have the intended effect.
+FortifyJavaCodeCorrectnessMultipleStreamCommits	4	Code Correctness	After a servlet's output stream has already been committed, it is erroneous to reset the stream buffer or perform any other action that recommits to the stream. Likewise, it is erroneous to call getWriter() after calling getOutputStream or vice versa.
+FortifyJavaCodeCorrectnessNegativeContentLength	4	Code Correctness	Content-Length header is set as negative.
+FortifyJavaCodeCorrectnessNonStaticInnerClassImplementsSerializable	4	Code Correctness	Inner classes implementing java.io.Serializable may cause problems and leak information from the outer class.
+FortifyJavaCodeCorrectnessNonSynchronizedMethodOverridesSynchronizedMethod	4	Code Correctness	Synchronized methods should not be overridden with non-syncrhonized methods.
+FortifyJavaCodeCorrectnessnullArgumenttoequals	4	Code Correctness	The expression obj.equals(null) will always be false.
+FortifyJavaCodeCorrectnessreadObjectInvokesOverridableFunction	4	Code Correctness	The readObject() method within the class calls a function that may be overridden.
+FortifyJavaCodeCorrectnessStringComparisonofFloat	4	Code Correctness	Comparing a floating-point value with a String object is unreliable and should not be done.
+FortifyJavaCodeCorrectnesstoStringonArray	4	Code Correctness	toString() is called on an array.
+FortifyJavaCommandInjection	1	Command Injection	Executing commands from an untrusted source or in an untrusted environment can cause an application to execute malicious commands on behalf of an attacker.
+FortifyJavaCommandInjectionServerSideInclude	1	Command Injection	Improper handling of data by server-side includes can result in arbitrary command injection.
+FortifyJavaComplianceFailureMissingPrivacyPolicy	2	Compliance Failure	The application fails to clearly state the policy to protect user information.
+FortifyJavaContentProviderURIInjection	1	Content Provider URI Injection	Constructing a Content Provider query statement that contains user input can allow an attacker to access unauthorized records.
+FortifyJavaCookieSecurityCookienotSentOverSSL	2	Cookie Security	A cookie is created without the secure flag set to true.
+FortifyJavaCookieSecurityHTTPOnlynotSet	2	Cookie Security	The program creates a cookie, but fails to set the HttpOnly flag to true.
+FortifyJavaCookieSecurityOverlyBroadDomain	2	Cookie Security	A cookie with an overly broad domain opens an application to attack through other applications.
+FortifyJavaCookieSecurityOverlyBroadPath	2	Cookie Security	A cookie with an overly broad path can be accessed through other applications on the same domain.
+FortifyJavaCookieSecurityPersistentCookie	2	Cookie Security	Storing sensitive data in a persistent cookie can lead to a breach of confidentiality or account compromise.
+FortifyJavaCredentialManagementDefaultCredentials	2	Credential Management	Failure to remove default credentials can lead to severe system compromise.
+FortifyJavaCredentialManagementSensitiveInformationDisclosure	2	Credential Management	An attacker can capture sensitive information such as username, password and pin from HTML comments, URLs and unencrypted requests/responses.
+FortifyJavaCredentialManagementSensitiveInformationinURL	2	Credential Management	Attackers can capture any passwords transmitted in the URL.
+FortifyJavaCrossFrameScripting	1	Cross-Frame Scripting	Failure to restrict framing of an application within an Iframe can lead to Cross-Site Request Forgery or phishing attacks.
+FortifyJavaCrossSiteRequestForgery	2	Cross-Site Request Forgery	Form posts must contain a user-specific secret in order to prevent an attacker from making unauthorized requests.
+FortifyJavaCrossSiteScriptingContentSniffing	1	Cross-Site Scripting	Sending unvalidated data to a web browser may result in certain browsers executing malicious code.
+FortifyJavaCrossSiteScriptingDOM	1	Cross-Site Scripting	Sending unvalidated data to a web browser can result in the browser executing malicious code.
+FortifyJavaCrossSiteScriptingExternalLinks	1	Cross-Site Scripting	Sending unvalidated data to a web browser can result in the browser executing malicious code. Settings in the configuration can minimize and reduce the exposure to cross-site scripting
+FortifyJavaCrossSiteScriptingInterComponentCommunication	1	Cross-Site Scripting	Sending unvalidated data to a web browser can result in the browser executing malicious code.
+FortifyJavaCrossSiteScriptingPersistent	1	Cross-Site Scripting	Sending unvalidated data to a web browser can result in the browser executing malicious code.
+FortifyJavaCrossSiteScriptingPoorValidation	1	Cross-Site Scripting	Relying on HTML, XML, and other types of encoding to validate user input can result in the browser executing malicious code.
+FortifyJavaCrossSiteScriptingReflected	1	Cross-Site Scripting	Sending unvalidated data to a web browser can result in the browser executing malicious code.
+FortifyJavaCrossSiteWebSocketHijacking	2	Cross-Site WebSocket Hijacking	Server fails to verify request origin effectively accepting cross-domain requests which can be used by an attacker to hijack a bidirectional WebSocket connection.
+FortifyJavaDangerousField	3	Dangerous Field	The field has been annotated as dangerous. All uses will be flagged.
+FortifyJavaDangerousFileInclusion	1	Dangerous File Inclusion	Allowing unvalidated user input to control files that are included dynamically in a HTML file can lead to malicious code execution.
+FortifyJavaDangerousFileInclusionLocal	1	Dangerous File Inclusion	Allowing unvalidated user input to control files that are included dynamically in an HTML file can lead to malicious code execution.
+FortifyJavaDangerousFileInclusionRemote	1	Dangerous File Inclusion	Allowing unvalidated user input to control files that are included dynamically in an HTML file can lead to malicious code execution.
+FortifyJavaDangerousMethod	3	Dangerous Method	The method has been annotated as dangerous. All uses of this method will be flagged as issues.
+FortifyJavaDangerousType	3	Dangerous Type	The variable is of a type which has been annotated as dangerous.
+FortifyJavaDeadCodeEmptyTryBlock	4	Dead Code	Empty try blocks are either dead code or indicate the presence of debug code.
+FortifyJavaDeadCodeExpressionisAlwaysfalse	4	Dead Code	This expression (or part of it) will always evaluate to false.
+FortifyJavaDeadCodeExpressionisAlwaystrue	4	Dead Code	This expression (or part of it) will always evaluate to true.
+FortifyJavaDeadCodeUnusedField	4	Dead Code	This field is never used directly or indirectly by a public method.
+FortifyJavaDeadCodeUnusedMethod	4	Dead Code	This method is not reachable from any method outside the class.
+FortifyJavaDeadCodeUnusedParameter	4	Dead Code	Supporting parameters to trigger unexposed, privileged functionality could allow an attacker to gain unauthorized access to application resources.
+FortifyJavaDenialofService	1	Denial of Service	An attacker could cause the program to crash or otherwise become unavailable to legitimate users.
+FortifyJavaDenialofServiceFormatString	1	Denial of Service	Allowing user input to control format parameters could enable an attacker to cause exceptions to be thrown or leak information.
+FortifyJavaDenialofServiceParseDouble	1	Denial of Service	The program calls a method that parses doubles and can cause the thread to hang.
+FortifyJavaDenialofServiceRegularExpression	1	Denial of Service	Untrusted data is passed to the application and used as a regular expression. This can cause the thread to overconsume CPU resources.
+FortifyJavaDenialofServiceStringBuilder	1	Denial of Service	Appending untrusted data to StringBuilder instance initialized with the default backing-array size can cause the JVM to over-consume heap memory space.
+FortifyJavaDeserializationBadPracticeBlacklist	2	Deserialization Bad Practice	Defensive deserialization based on preventing the deserialization of known bad classes (blacklist) may allow attackers to bypass this protection and make it useless.
+FortifyJavaDirectoryTraversal	2	Directory Traversal	Failure to sufficiently validate user supplied input could allow an attacker read arbitrary files on the system.
+FortifyJavaDynamicCodeEvaluationCodeInjection	1	Dynamic Code Evaluation	Interpreting user-controlled instructions at run-time can allow attackers to execute malicious code.
+FortifyJavaDynamicCodeEvaluationCodeManipulation	1	Dynamic Code Evaluation	Allowing unvalidated user-input to influence the run-time environment of dynamically executed code can allow attackers to execute malicious code.
+FortifyJavaDynamicCodeEvaluationJNDIReferenceInjection	1	Dynamic Code Evaluation	The program runs a JNDI lookup with an untrusted address that might enable an attacker to run arbitrary Java code remotely.
+FortifyJavaDynamicCodeEvaluationRubyYAMLDeserialization	1	Dynamic Code Evaluation	Unsafe deserialization of user supplied input could allow  an attacker to inject arbitrary commands and gain unauthorized access to the system.
+FortifyJavaDynamicCodeEvaluationScriptInjection	1	Dynamic Code Evaluation	Interpreting user-controlled instructions at runtime can allow attackers to execute malicious code.
+FortifyJavaDynamicCodeEvaluationUnsafeBeanUtilsDeserialization	1	Dynamic Code Evaluation	Deserializing user-controlled objects using BeanUtils may allow attackers to execute arbitrary code on the server, abuse application logic, and/or lead to denial of service.
+FortifyJavaDynamicCodeEvaluationUnsafeDeserialization	1	Dynamic Code Evaluation	Deserializing user-controlled object streams at runtime can allow attackers to execute arbitrary code on the server, abuse application logic, and/or lead to denial of service.
+FortifyJavaDynamicCodeEvaluationUnsafeJSONDeserialization	1	Dynamic Code Evaluation	Deserializing user-controlled Json streams might enable attackers to execute arbitrary code on the server, abuse application logic, and/or lead to denial of service.
+FortifyJavaDynamicCodeEvaluationUnsafeXStreamDeserialization	1	Dynamic Code Evaluation	Deserializing user-controlled XML documents at run-time can allow attackers to execute malicious arbitrary code on the server.
+FortifyJavaDynamicCodeEvaluationUnsafeYAMLDeserialization	1	Dynamic Code Evaluation	Deserializing user-controlled YAML streams might enable attackers to execute arbitrary code on the server, abuse application logic, and/or lead to denial of service.
+FortifyJavaDynamicCodeEvaluationXMLDecoderInjection	1	Dynamic Code Evaluation	Deserializing user-controlled XML documents at run-time can allow attackers to execute malicious arbitrary code on the server.
+FortifyJavaEJBBadPracticesUseofAWTSwing	4	EJB Bad Practices	The program violates the Enterprise JavaBeans specification by using AWT/Swing.
+FortifyJavaEJBBadPracticesUseofClassLoader	4	EJB Bad Practices	The program violates the Enterprise JavaBeans specification by using the class loader.
+FortifyJavaEJBBadPracticesUseofjavaio	4	EJB Bad Practices	The program violates the Enterprise JavaBeans specification by using the java.io package.
+FortifyJavaEJBBadPracticesUseofSockets	4	EJB Bad Practices	The program violates the Enterprise JavaBeans specification by using sockets.
+FortifyJavaEJBBadPracticesUseofSynchronizationPrimitives	4	EJB Bad Practices	The program violates the Enterprise JavaBeans specification by using thread synchronization primitives.
+FortifyJavaExposureofPOSTParametersinGETRequest	2	Exposure of POST Parameters in GET Request	Transmitting sensitive information via GET parameters can expose the application to Cross-Site Request Forgery attacks.
+FortifyJavaExpressionLanguageInjection	1	Expression Language Injection	Failure to validate untrusted user data before assigning it to attribute values of certain Spring MVC JSP tags could allow an attacker to steal sensitive application information as well as bypass HTTPOnly cookie access restrictions.
+FortifyJavaExpressionLanguageInjectionSpring	1	Expression Language Injection	The evaluation of unvalidated SpEL expressions can lead to remote code execution.
+FortifyJavaFileBasedCrossZoneScripting	1	File Based Cross-Zone Scripting	Loading a file that can run unstrusted scripts within the context of your application is dangerous.
+FortifyJavaFileDisclosureJ2EE	1	File Disclosure	Constructing a server-side redirect path with user input could allow an attacker to download application binaries (including application classes or jar files) or view arbitrary files within protected directories.
+FortifyJavaFileDisclosureSpring	1	File Disclosure	Constructing a server-side redirect path with user input could allow an attacker to download application binaries (including application classes or jar files) or view arbitrary files within protected directories.
+FortifyJavaFileDisclosureSpringWebflow	1	File Disclosure	Constructing a server-side redirect path with user input could allow an attacker to download application binaries (including application classes or jar files) or view arbitrary files within protected directories.
+FortifyJavaFileDisclosureStruts	1	File Disclosure	Constructing a server-side redirect path with user input could allow an attacker to download application binaries (including application classes or jar files) or view arbitrary files within protected directories.
+FortifyJavaFilePermissionManipulation	1	File Permission Manipulation	Allowing user input to directly alter file permissions may enable an attacker to access otherwise protected system resources.
+FortifyJavaFlexMisconfigurationDebugInformation	2	Flex Misconfiguration	Debugging information helps attackers learn about the system and plan a form of attack.
+FortifyJavaFormulaInjection	1	Formula Injection	Attackers may control data written to a spreadsheet, which could enable them to target users opening the file on certain spreadsheet processors.
+FortifyJavaFragmentInjection	1	Fragment Injection	An Android activity extending PreferenceActivity fails to restrict the fragment classes it can instantiate.
+FortifyJavaHadoopClusterManipulation	1	Hadoop Cluster Manipulation	The program allows an attacker to control core components of the Hadoop cluster on which the client application runs.
+FortifyJavaHadoopJobManipulation	1	Hadoop Job Manipulation	The Job submitted to a Hadoop cluster can be tampered in a hostile environment.
+FortifyJavaHardcodedDomaininHTML	2	Hardcoded Domain in HTML	Including a script from another domain means that the security of this web page is dependent on the security of the other domain.
+FortifyJavaHeaderManipulation	2	Header Manipulation	Including unvalidated data in an HTTP response header can enable cache-poisoning, cross-site scripting, cross-user defacement, page hijacking, cookie manipulation or open redirect.
+FortifyJavaHeaderManipulationCookies	2	Header Manipulation	Including unvalidated data in Cookies can lead to HTTP Response header manipulation and enable cache-poisoning, cross-site scripting, cross-user defacement, page hijacking, cookie manipulation or open redirect.
+FortifyJavaHeaderManipulationIMAP	2	Header Manipulation	The target application unsafely constructs and saves an email over the Internet Message Access Protocol (IMAP), potentially allowing for an injection attack.
+FortifyJavaHeaderManipulationSMTP	2	Header Manipulation	Including unvalidated data in an SMTP header can enable attackers to add arbitrary headers, such as CC or BCC that they can use to leak the mail contents to themselves or use the mail server as a spam bot.
+FortifyJavaHiddenField	3	Hidden Field	A hidden form field is used.
+FortifyJavaHTML5CORSFunctionalityAbuse	2	HTML5	Failure to properly restrict cross domain access to sensitive resources could allow an attacker to carry out data theft or content spoofing attacks.
+FortifyJavaHTML5CORSProlongedCachingofPreflightResponse	2	HTML5	Unsafe caching of the preflight response could result in unauthorized cross domain access to sensitive resources based on an invalid policy.
+FortifyJavaHTML5CORSUnsafeMethodsAllowed	2	HTML5	Allowing unsafe HTTP methods such as PUT or DELETE could allow an attacker to inject malicious code, backdoor, deface site, or delete and lock resources to cause denial of service attacks.
+FortifyJavaHTML5DeprecatedContentSecurityPolicy	2	HTML5	Using deprecated Content Security Policy headers can cause unexpected behaviour in web browswers. 
+FortifyJavaHTML5FormValidationTurnedOff	2	HTML5	HTML5 validation of input form fields is disabled.
+FortifyJavaHTML5MisconfiguredContentSecurityPolicy	2	HTML5	Incorrectly configured Content Security Policy could expose an application against client-side threats including Cross-Site Scripting, Cross Frame Scripting and Cross-Site Request Forgery.
+FortifyJavaHTML5MissingContentSecurityPolicy	2	HTML5	The Content Security Policy (CSP) is an HTTP response security header that developers and security architects can leverage to whitelist domains from which the site is allowed to load resources.
+FortifyJavaHTML5OverlyPermissiveCORSPolicy	2	HTML5	The program defines an overly permissive Cross-Origin Resource Sharing (CORS) policy.
+FortifyJavaHTML5OverlyPermissiveMessagePostingPolicy	2	HTML5	The program posts a cross-document message with an overly permissive target origin.
+FortifyJavaHTML5OverlyPermissiveReferrerPolicy	2	HTML5	Setting Referrer-Policy header to "Unsafe-URL" may cause applications to expose sensitive site and user data, such as session token and username and passwords to third party sites.
+FortifyJavaHTML5SensitiveInformationDisclosureviaClientSideStorage	2	HTML5	Improper use of client-side storage could lead to disclosure of sensitive information.
+FortifyJavaHTTPParameterPollution	3	HTTP Parameter Pollution	Concatenating unvalidated input into a URL can allow an attacker to override the value of a request parameter. Attacker may be able to override existing parameter values, inject a new parameter or exploit variables out of a direct reach.
+FortifyJavaHTTPVerbTampering	2	HTTP Verb Tampering	Security constraints that specify HTTP verbs often allow more access than intended.
+FortifyJavaImmutableClassesFieldMutation	4	Immutable Classes	The class is annotated as immutable, but a field is mutated.
+FortifyJavaImmutableClassesNonfinalFields	4	Immutable Classes	The class is annotated as immutable, but a field is not final.
+FortifyJavaImmutableClassesPublicMutableFields	4	Immutable Classes	The class is annotated as immutable, but a field is mutated.
+FortifyJavaInsecureDeploymentDefaultConfiguration	1	Insecure Deployment	Leaving third-party application installations in default configuration could allow an attacker to gain unauthorized access or steal sensitive information.
+FortifyJavaInsecureDeploymentHTTPsys	1	Insecure Deployment	The target server uses a version of Microsoft's IIS web server software that contains a critical remote code execution vulnerability (CVE-2015-1635).
+FortifyJavaInsecureDeploymentJavaApplet	1	Insecure Deployment	Use of Java applets could lead to sensitive information disclosure.
+FortifyJavaInsecureDeploymentKnownApplicationFingerprint	1	Insecure Deployment	Deploying unpatched versions of applications can allow attackers to exploit known vulnerabilities to compromise the target system.
+FortifyJavaInsecureDeploymentKnownCAPTCHAFingerprint	1	Insecure Deployment	Use of insecure CAPTCHA implementations can allow attackers to bypass anti-automation protections.
+FortifyJavaInsecureDeploymentKnownFrameworkFingerprint	1	Insecure Deployment	Knowledge about the framework used to build the application can allow attackers to devise attacks targeted for vulnerabilities specific to detected framework.
+FortifyJavaInsecureDeploymentKnownServerFingerprint	1	Insecure Deployment	Deploying web applications on unpatched or insecurely configured servers can allow attackers to compromise the target by exploiting known vulnerabilities against detected server.
+FortifyJavaInsecureDeploymentKnownTechnologyFingerprint	1	Insecure Deployment	Failure to follow security best practices guidelines established for the underlying technology can expose an application to exploits targeting known security weaknesses.
+FortifyJavaInsecureDeploymentMaliciousApplication	1	Insecure Deployment	Presence of a malicious application could indicate that an attacker installed backdoor that could render all the application security controls ineffective.
+FortifyJavaInsecureDeploymentOpenSSL	1	Insecure Deployment	Deploying vulnerable versions of the OpenSSL library could allow an attacker to intercept and hijack secure SSL/TLS communication.
+FortifyJavaInsecureDeploymentPathNormalizationConflict	1	Insecure Deployment	Path Normalization Conflict can allow attackers to gain access to sensitive resources that would otherwise be inaccessible.
+FortifyJavaInsecureDeploymentPredictableResourceName	1	Insecure Deployment	Use of predictable names for sensitive resources could aid an attacker in the application discovery process.
+FortifyJavaInsecureDeploymentSampleApplication	1	Insecure Deployment	Deploying sample applications alongside custom application code and resources could allow an attacker to gain unauthorized access to sensitive resources and functionality or remotely execute arbitrary commands.
+FortifyJavaInsecureDeploymentSitemap	1	Insecure Deployment	Ensure that restricted sensitive resources are not exposed through the sitemap.
+FortifyJavaInsecureDeploymentUnpatchedApplication	1	Insecure Deployment	Failure to install up-to-date patches could lead to severe system compromise
+FortifyJavaInsecureRandomness	1	Insecure Randomness	Standard pseudorandom number generators cannot withstand cryptographic attacks.
+FortifyJavaInsecureRandomnessHardcodedSeed	1	Insecure Randomness	Functions that generate random or pseudorandom values, which are passed a seed, should not be called with a constant argument.
+FortifyJavaInsecureRandomnessUserControlledSeed	1	Insecure Randomness	Functions that generate random or pseudorandom values, which are passed a seed, should not be called with a tainted argument.
+FortifyJavaInsecureSanitizerPolicy	1	Insecure Sanitizer Policy	Usage of user-controlled or untrusted data to define HTML sanitizer policy could allow an attacker to circumvent the sanitization requirements and launch cross-site scripting (XSS) attacks.
+FortifyJavaInsecureSSLAndroidCustomizedImplementation	1	Insecure SSL	The application implements a custom SSL interface.
+FortifyJavaInsecureSSLAndroidHostnameVerificationDisabled	1	Insecure SSL	Hostname verification is disabled when making SSL connections.
+FortifyJavaInsecureSSLAndroidSocket	1	Insecure SSL	The method fails to make SSL verification checks.
+FortifyJavaInsecureSSLInadequateCertificateVerification	1	Insecure SSL	The application calls a method that is not suitable for certificate chain validation.
+FortifyJavaInsecureSSLOverlyBroadCertificateTrust	1	Insecure SSL	An SSL/TLS connection is created using the default pre-loaded system Certificate Authorities (CAs), that might enable attackers to intercept encrypted communications by performing man-in-the-middle (MiTM) attacks using certificates signed with compromised root CAs.
+FortifyJavaInsecureSSLServerIdentityVerificationDisabled	1	Insecure SSL	Server identity verification is disabled when making SSL connections.
+FortifyJavaInsecureStorageAndroidBackupStorage	1	Insecure Storage	The program uses Android's backup service to save persistent application data to a remote cloud storage.
+FortifyJavaInsecureStorageAndroidExternalStorage	1	Insecure Storage	The program writes data to the Android device's external storage.
+FortifyJavaInsecureStorageAndroidWorldReadableorWriteable	1	Insecure Storage	The application makes the data accessible to all applications on the Android device.
+FortifyJavaInsecureStorageHTTPResponseCacheLeak	1	Insecure Storage	The identified method sets up the HTTP(S) response cache in an insecure shared storage.
+FortifyJavaInsecureStorageMissingDatabaseEncryption	1	Insecure Storage	The identified method establishes a connection to an unencrypted database.
+FortifyJavaInsecureStorageS3FullAnonymousAccess	1	Insecure Storage	The application grants full anonymous access to an AWS S3 bucket or object.
+FortifyJavaInsecureStorageS3ReadACPAnonymousAccess	1	Insecure Storage	The application grants anonymous permission to read the Access Control Policy (ACP) of an AWS S3 bucket or object.
+FortifyJavaInsecureStorageS3ReadAnonymousAccess	1	Insecure Storage	The application grants anonymous read access to an AWS S3 bucket or object.
+FortifyJavaInsecureStorageS3WriteACPAnonymousAccess	1	Insecure Storage	The application grants anonymous permission to write the Access Control Policy (ACP) of an AWS S3 bucket or object.
+FortifyJavaInsecureStorageS3WriteAnonymousAccess	1	Insecure Storage	The application grants anonymous write access to an AWS S3 bucket or object.
+FortifyJavaInsecureTransport	1	Insecure Transport	The application uses an unencrypted protocol instead of an encrypted protocol to communicate with the server.
+FortifyJavaInsecureTransportChannelMixing	1	Insecure Transport	Mixing HTTP and HTTPS content in a single web page can lead to data exposure vulnerabilities.
+FortifyJavaInsecureTransportInsufficientDiffieHellmanStrength	1	Insecure Transport	Using Diffie-Hellman group with prime(p or small prime) of size 1024-bit or less leaves the server vulnerable to man in the middle attack (MitM).
+FortifyJavaInsecureTransportMailTransmission	1	Insecure Transport	Establishing an unencrypted connection to a mail server allows an attacker to carry out a man-in-the-middle attack and read all the mail transmissions.
+FortifyJavaInsecureTransportMisconfiguredPublicKeyPinning	1	Insecure Transport	Failure to configure Public-Key-Pins header as per RFC7469 guidance may result in an ineffective or weak protection against man-in-the-middle attacks arising from rogue or compromised certificate authority (CA).
+FortifyJavaInsecureTransportMissingPerfectForwardSecrecy	1	Insecure Transport	The target application does not support a cipher suite that implements Perfect Forward Secrecy (PFS).
+FortifyJavaInsecureTransportMissingPublicKeyPinning	1	Insecure Transport	Failure to include Public-Key-Pins security header may result in a hostile pinning attack against a host as described in header RFC7469. Usage of the header provides a declarative way to implement public key pinning and provides protection against threats arising from rogue or compromised certificate authorities (CA).
+FortifyJavaInsecureTransportOAuthCommunicationChannel	1	Insecure Transport	Conducting OAuth communication over an insecure channel could allow an attacker to gain access to sensitive information and perform privileged actions on behalf of the user.
+FortifyJavaInsecureTransportRFCOMMBluetoothSocket	1	Insecure Transport	The application creates an insecure RFCOMM BlueTooth socket which is subject to man-in-the-middle attacks.
+FortifyJavaInsecureTransportSecureSectionAccessNotSSLEnabled	1	Insecure Transport	Access to secure sections of a web site over an unencrypted communication channel can lead to unintended exposure of sensitive information.
+FortifyJavaInsecureTransportSSLv3TLSRenegotiationStreamInjection	1	Insecure Transport	Use of unsafe renegotiation could allow an attacker to inject plaintext into the SSL/TLS protocol stream.
+FortifyJavaInsecureTransportTLS_RSA	1	Insecure Transport	ROBOT attack allows an attacker to perform RSA signing operations with a private key of TLS server and decrypt previously recorded TLS sessions established with RSA key exchange. It may allow an attacker to potentially extract critical sensitive data including, but not limited to, usernames and passwords, business intellectual properties, personal identity, financial, social and political secrets etc.
+FortifyJavaInsecureTransportWeakSSLCipher	1	Insecure Transport	Relying on weak cipher suites to enable encrypted communication could allow an attacker to steal sensitive information.
+FortifyJavaInsecureTransportWeakSSLProtocol	1	Insecure Transport	The SSLv2, SSLv23, and SSLv3 protocols contain several flaws that make them insecure, so they should not be used to transmit sensitive data.
+FortifyJavaInsufficientAntiAutomation	1	Insufficient Anti-Automation	Failure to detect and block automated attacks could allow an attacker to conduct brute force attacks or trigger denial of service conditions.
+FortifyJavaIntentManipulation	1	Intent Manipulation	Allowing user input to control Intent parameters could enable an attacker to control the behavior of the subsequent activity.
+FortifyJavaJ2EEBadPracticesgetConnection	4	J2EE Bad Practices	The J2EE standard forbids the direct management of connections.
+FortifyJavaJ2EEBadPracticesInsufficientSessionExpiration	4	J2EE Bad Practices	The method sets up a session that never expires.
+FortifyJavaJ2EEBadPracticesJVMTermination	4	J2EE Bad Practices	A web application should not attempt to shut down its container.
+FortifyJavaJ2EEBadPracticesLeftoverDebugCode	4	J2EE Bad Practices	Debug code can create unintended entry points in a deployed web application.
+FortifyJavaJ2EEBadPracticesNonSerializableObjectStoredinSession	4	J2EE Bad Practices	Storing a non-serializable object as an HttpSession attribute can damage application reliability.
+FortifyJavaJ2EEBadPracticesSockets	4	J2EE Bad Practices	Socket-based communication in web applications is prone to error.
+FortifyJavaJ2EEBadPracticesThreads	4	J2EE Bad Practices	Thread management in a web application is forbidden in some circumstances and is always highly error prone.
+FortifyJavaJ2EEMisconfigurationCookiesDisabled	3	J2EE Misconfiguration	The program does not use cookies to transmit session identifiers, which can leave the door open to Session Fixation and Session Hijacking attacks.
+FortifyJavaJ2EEMisconfigurationDebugInformation	3	J2EE Misconfiguration	A Tomcat debug level of 3 or greater could cause sensitive data, including passwords, to be logged.
+FortifyJavaJ2EEMisconfigurationDirectJSPAccess	3	J2EE Misconfiguration	Direct access to Java Server Pages can lead to system information leak, source code disclosure and even arbitrary code execution.
+FortifyJavaJ2EEMisconfigurationDuplicateSecurityRole	3	J2EE Misconfiguration	Multiple security roles with the same name exist. Duplicate security roles often indicate left over debug code or a typographical error.
+FortifyJavaJ2EEMisconfigurationDuplicateServletMapping	3	J2EE Misconfiguration	Multiple servlet mappings for the same URL pattern exist. Duplicate servlet mappings often indicate left over debug code or a typographical error.
+FortifyJavaJ2EEMisconfigurationExcessiveServletMappings	3	J2EE Misconfiguration	Multiple URL patterns map to a single Servlet, which often indicates poor a architecture or a lack of standardization.
+FortifyJavaJ2EEMisconfigurationExcessiveSessionTimeout	3	J2EE Misconfiguration	An overly long session timeout gives attackers more time to potentially compromise user accounts.
+FortifyJavaJ2EEMisconfigurationIncompleteErrorHandling	3	J2EE Misconfiguration	A web application must define default error pages in order to prevent attackers from mining information from the application container's built-in error response.
+FortifyJavaJ2EEMisconfigurationInsecureTransport	3	J2EE Misconfiguration	The application configuration should ensure that SSL is used for all access controlled pages.
+FortifyJavaJ2EEMisconfigurationInsufficientSessionIDLength	3	J2EE Misconfiguration	Session identifiers should be at least 128 bits long to prevent brute-force session guessing attacks.
+FortifyJavaJ2EEMisconfigurationInvalidServletName	3	J2EE Misconfiguration	An invalid servlet name can prevent legitimate access to the intended Servlet.
+FortifyJavaJ2EEMisconfigurationMissingAuthenticationMethod	3	J2EE Misconfiguration	Security and authorization constraints will fail without a login configuration.
+FortifyJavaJ2EEMisconfigurationMissingDataTransportConstraint	3	J2EE Misconfiguration	A security constraint that does not specify a user data constraint cannot guarantee that restricted resources will be protected at the transport layer.
+FortifyJavaJ2EEMisconfigurationMissingErrorHandling	3	J2EE Misconfiguration	A web application must define default error pages in order to prevent attackers from mining information from the application container's built-in error response.
+FortifyJavaJ2EEMisconfigurationMissingFilterDefinition	3	J2EE Misconfiguration	Filter mappings that reference a non-existent filter will not be applied.
+FortifyJavaJ2EEMisconfigurationMissingSecurityRole	3	J2EE Misconfiguration	A security constraint that references a non-existent role-name prevents legitimate access to all resources it protects.
+FortifyJavaJ2EEMisconfigurationMissingServletMapping	3	J2EE Misconfiguration	A Servlet defined in web.xml cannot be accessed without a corresponding servlet mapping.
+FortifyJavaJ2EEMisconfigurationUnsafeBeanDeclaration	3	J2EE Misconfiguration	Entity beans should not be declared remote.
+FortifyJavaJ2EEMisconfigurationWeakAccessPermissions	3	J2EE Misconfiguration	Permission to invoke EJB methods should not be granted to the ANYONE role.
+FortifyJavaJavaScriptHijacking	1	JavaScript Hijacking	Applications that use JavaScript notation to transport sensitive data can be vulnerable to JavaScript hijacking, which allows an unauthorized attacker to read confidential data from a vulnerable application.
+FortifyJavaJavaScriptHijackingVulnerableFramework	1	JavaScript Hijacking	Applications that leverage versions of the DWR Ajax framework 1.1.4 and earlier are vulnerable to JavaScript hijacking, which allows an unauthorized attacker to read confidential data.
+FortifyJavaJSONInjection	1	JSON Injection	The method writes unvalidated input into JSON. This call could allow an attacker to inject arbitrary elements or attributes into the JSON entity.
+FortifyJavaKeyManagementEmptyEncryptionKey	1	Key Management	Empty encryption keys can compromise security in a way that cannot be easily remedied.
+FortifyJavaKeyManagementEmptyHMACKey	1	Key Management	Empty HMAC keys could compromise system security in a way that cannot be easily remedied.
+FortifyJavaKeyManagementHardcodedEncryptionKey	1	Key Management	Hardcoded encryption keys can compromise security in a way that cannot be easily remedied.
+FortifyJavaKeyManagementHardcodedHMACKey	1	Key Management	Hardcoded HMAC keys could compromise system security in a way that cannot be easily remedied.
+FortifyJavaKeyManagementNullEncryptionKey	1	Key Management	Null encryption keys can compromise security in a way that cannot be easily remedied.
+FortifyJavaLDAPEntryPoisoning	1	LDAP Entry Poisoning	An application that performs an object-returning LDAP search will allow attackers to control the LDAP response to run arbitrary code on the server.
+FortifyJavaLDAPInjection	1	LDAP Injection	Constructing a dynamic LDAP filter with user input could allow an attacker to modify the statement's meaning.
+FortifyJavaLDAPManipulation	1	LDAP Manipulation	Executing an LDAP statement that contains a user-controlled value outside the filter string can allow an attacker to alter the statement's meaning or execute arbitrary LDAP commands.
+FortifyJavaLogForging	2	Log Forging	Writing unvalidated user input to log files can allow an attacker to forge log entries or inject malicious content into the logs.
+FortifyJavaLogForgingdebug	2	Log Forging (debug)	Writing unvalidated user input to log files can allow an attacker to forge log entries or inject malicious content into the logs.
+FortifyJavaMailCommandInjectionIMAP	1	Mail Command Injection	Executing IMAP commands coming from an untrusted source can cause the IMAP server to execute malicious commands on behalf of an attacker.
+FortifyJavaMailCommandInjectionPOP3	1	Mail Command Injection	Executing POP3 commands coming from an untrusted source can cause the POP3 server to execute malicious commands on behalf of an attacker.
+FortifyJavaMailCommandInjectionSMTP	1	Mail Command Injection	Executing SMTP commands from an untrusted source can cause the SMTP server to execute malicious commands on behalf of an attacker.
+FortifyJavaMassAssignmentInsecureBinderConfiguration	2	Mass Assignment	The framework binder used for binding the HTTP request parameters to the model class has not been explicitly configured to allow, or disallow certain attributes
+FortifyJavaMassAssignmentRequestParametersBoundintoPersistedObjects	2	Mass Assignment	Allowing database persistent entities to be auto-populated by request parameters can allow an attacker to create unintended records in association entities or update unintended fields in the entity object.
+FortifyJavaMassAssignmentSensitiveFieldExposure	2	Mass Assignment	A sensitive field is exposed to the model binder.
+FortifyJavaMissingCheckagainstNull	4	Missing Check against Null	The program can dereference a null-pointer because it does not check the return value of a function that might return null.
+FortifyJavaMissingCheckforNullParameter	4	Missing Check for Null Parameter	This function violates the contract that it must compare its parameter with null.
+FortifyJavaMissingFormFieldValidation	4	Missing Form Field Validation	The application does not perform any validation for form data.
+FortifyJavaMissingSecurityManagerCheckCloneable	2	Missing SecurityManager Check	A cloneable class that performs this check in its constructor needs to perform the same check in its clone() method.
+FortifyJavaMissingSecurityManagerCheckSerializable	2	Missing SecurityManager Check	A serializable class that performs a SecurityManager check in its constructor needs to perform the same check in its readObject() and readObjectNoData methods.
+FortifyJavaMissingXMLValidation	2	Missing XML Validation	Failure to enable validation when parsing XML gives an attacker the opportunity to supply malicious input.
+FortifyJavaMissingXMLValidationUntypedResponse	2	Missing XML Validation	Failure to enable validation when parsing XML gives an attacker the opportunity to supply malicious input.
+FortifyJavaNoSQLInjectionDynamoDB	1	NoSQL Injection	Constructing a dynamic DynamoDB query with input from an untrusted source could allow an attacker to modify the statement's meaning.
+FortifyJavaNoSQLInjectionMongoDB	1	NoSQL Injection	Constructing a dynamic MongoDB query with input coming from an untrusted source could allow an attacker to modify the statement's meaning.
+FortifyJavaNullDereference	4	Null Dereference	The program can potentially dereference a null-pointer, thereby causing a segmentation fault.
+FortifyJavaObjectModelViolationErroneouscloneMethod	3	Object Model Violation	A clone() method should call super.clone() to obtain the new object.
+FortifyJavaObjectModelViolationJustoneofequalsandhashCodeDefined	3	Object Model Violation	This class overrides only one of equals() and hashCode().
+FortifyJavaObjectModelViolationJustoneofrestoreStateandsaveStateDefined	3	Object Model Violation	This class overrides only one of saveState() and restoreState().
+FortifyJavaObsolete	3	Obsolete	The use of deprecated or obsolete functions could indicate neglected code.
+FortifyJavaObsoleteDeprecatedbyESAPI	3	Obsolete	ESAPI offers a safer version of this method.
+FortifyJavaOftenMisusedAndroidPermissionCheck	4	Often Misused	The functions, checkCallingOrSelfPermission() or checkCallingOrSelfUriPermission(), should be used with care as it allows the calling program, without the required or no permissions, to bypass the permission check, by using your application's permissions.
+FortifyJavaOftenMisusedAuthentication	4	Often Misused	The getlogin() function is easy to spoof. Do not rely on the name it returns.
+FortifyJavaOftenMisusedBooleangetBoolean	4	Often Misused	The method Boolean.getBoolean() is often confused with Boolean.valueOf() or Boolean.parseBoolean() method calls.
+FortifyJavaOftenMisusedEncoding	4	Often Misused	Improper overriding of the classes in the .NET Framework, may lead to arbitrary code execution on the server, abuse of application logic or denial of service.
+FortifyJavaOftenMisusedFileSystem	4	Often Misused	Passing an inadequately-sized output buffer to a path manipulation function can result in a buffer overflow.
+FortifyJavaOftenMisusedFileUpload	4	Often Misused	Permitting users to upload files can allow attackers to inject dangerous content or malicious code to run on the server.
+FortifyJavaOftenMisusedHTTPMethodOverride	4	Often Misused	Attackers may bypass server protections against dangerous HTTP verbs using override techniques.
+FortifyJavaOftenMisusedLogin	4	Often Misused	Insecure handling of login information can allow attackers to circumvent the application's authentication system.
+FortifyJavaOftenMisusedMACAddress	4	Often Misused	A MAC address is intended to be used as a network identifier. Since a MAC address permanently identifies a device, all apps using it as a user identifier will have the same ID value.  Hence, by correlating information from various apps, it is possible to identify a device and its user, threatening user privacy.
+FortifyJavaOftenMisusedMobileUDID	4	Often Misused	The target mobile application sends data that looks like a Universal Device Identifier (UDID) in a request.
+FortifyJavaOftenMisusedMobileUUID	4	Often Misused	The target mobile application sends data that looks like a Universally Unique Identifier (UUID) in a request.
+FortifyJavaOftenMisusedPriceRelatedFields	4	Often Misused	Relying solely on client-side security controls and failure to perform server-side validation can allow attackers to manipulate sensitive data and adversely affect the application operation.
+FortifyJavaOftenMisusedPrivilegeManagement	4	Often Misused	Failure to adhere to the principle of least privilege amplifies the risk posed by other vulnerabilities.
+FortifyJavaOftenMisusedSpringRemoteService	4	Often Misused	Remote services are configured in the Spring application. By default, these remote services do not require authentication and information transferred to or from this service is in plain text. This could allow an attacker to access privileged operations or expose sensitive data.
+FortifyJavaOftenMisusedSpringWebService	4	Often Misused	Web services are configured in the Spring application By default, these web services do not require authentication and information transferred to/from this service is in plain text. This could allow an attacker to access privileged operations or expose sensitive data.
+FortifyJavaOftenMisusedWeakSSLCertificate	4	Often Misused	The target server uses a self-signed certificate.
+FortifyJavaOftenMisusedXDomainRequestAllowed	4	Often Misused	The target server included the XDomainRequestAllowed header in an HTTP request with a value of "1," potentially enabling unauthorized cross-domain requests.
+FortifyJavaOGNLExpressionInjection	1	OGNL Expression Injection	The evaluation of unvalidated OGNL expressions can lead to remote code execution.
+FortifyJavaOGNLExpressionInjectionDoubleEvaluation	1	OGNL Expression Injection	Double OGNL evaluation allows attackers to evaluate arbitrary OGNL expressions when controlling the output of the first evaluation.
+FortifyJavaOGNLExpressionInjectionDynamicMethodInvocation	1	OGNL Expression Injection	The Struts 2 application enables Dynamic Method Invocation which is known to be vulnerable to OGNL injection attacks in some Struts 2 versions.
+FortifyJavaOGNLExpressionInjectionStruts2	1	OGNL Expression Injection	Application is deployed in Development Mode (devMode) allowing arbitrary command execution on the server and leaking detailed information about how the application is coded.
+FortifyJavaOpenRedirect	2	Open Redirect	Allowing unvalidated input to control the URL used in a redirect can aid phishing attacks.
+FortifyJavaParameterTamperingSpecialCharacters	2	Parameter Tampering	Processing of user supplied input without proper validation could allow an attacker to gain unauthorized access to server resources, extract information from a database, or execute arbitrary operating-system level commands.
+FortifyJavaPasswordManagement	2	Password Management	Storing a password in plain text can result in a system compromise.
+FortifyJavaPasswordManagementEmptyPassword	2	Password Management	Empty passwords may compromise system security in a way that cannot be easily remedied.
+FortifyJavaPasswordManagementEmptyPasswordinConfigurationFile	2	Password Management	Using an empty string as a password is insecure.
+FortifyJavaPasswordManagementHardcodedPassword	2	Password Management	Hardcoded passwords could compromise system security in a way that cannot be easily remedied.
+FortifyJavaPasswordManagementInsecureSubmission	2	Password Management	Submitting a password as part of an HTTP GET request will cause the password to be displayed, logged, or stored in a cache.
+FortifyJavaPasswordManagementNullPassword	2	Password Management	Null passwords can compromise security.
+FortifyJavaPasswordManagementPasswordinComment	2	Password Management	Storing passwords or password details in plain text anywhere in the system or system code may compromise system security in a way that cannot be easily remedied.
+FortifyJavaPasswordManagementPasswordinConfigurationFile	2	Password Management	Storing a plain text password in a configuration file could result in a system compromise.
+FortifyJavaPasswordManagementPasswordinHTMLForm	2	Password Management	Populating password fields in an HTML form could result in a system compromise.
+FortifyJavaPasswordManagementPasswordinRedirect	2	Password Management	Sending a password as part of an HTTP redirect will cause the password to be displayed, logged, or stored in a cache.
+FortifyJavaPasswordManagementWeakCryptography	2	Password Management	Obscuring a password with trivial encoding does not protect the password.
+FortifyJavaPasswordManagementWeakPasswordPolicy	2	Password Management	Weak passwords can be easily guessed and are an easy target for brute force attacks. This can lead to an authentication system failure and compromise system security.
+FortifyJavaPasswordManagementWeakRedundancy	2	Password Management	The password should be given twice instead of duplicated.
+FortifyJavaPathManipulation	3	Path Manipulation	Allowing user input to control paths used in file system operations could enable an attacker to access or modify otherwise protected files.
+FortifyJavaPathManipulationAbsolutePathTraversal	3	Path Manipulation	Allowing user to supply file paths to access without sufficient validation and access control checks could lead to sensitive data disclosure and potential recovery of proprietary business logic.
+FortifyJavaPathManipulationRelativePathOverwrite	3	Path Manipulation	Anomalous handling of relative paths by an application server may allow attackers to bypass existing protections for vulnerabilities such as Cross-Site Scripting and provide new ways to attack the application.
+FortifyJavaPathManipulationSpecialCharacters	3	Path Manipulation	Use of unfiltered data in selection of requested application file path could lead to sensitive data disclosure and potential theft of proprietary business logic.
+FortifyJavaPathManipulationZipEntryOverwrite	3	Path Manipulation	Allowing user input to control paths used in file system operations could enable an attacker to arbitrarily overwrite files on the system.
+FortifyJavaPCIPrivacyViolation	3	PCI Privacy Violation	Mishandling private information, such as customer passwords or social security numbers, can compromise user privacy and is often illegal.
+FortifyJavaPoorErrorHandlingColdFusionError	3	Poor Error Handling	The target ColdFusion application reveals potentially sensitive information within a publicly-displayed error message.
+FortifyJavaPoorErrorHandlingEmptyCatchBlock	3	Poor Error Handling	Ignoring an exception can cause the program to overlook unexpected states and conditions.
+FortifyJavaPoorErrorHandlingOverlyBroadCatch	3	Poor Error Handling	The catch block handles a broad swath of exceptions, potentially trapping dissimilar issues or problems that should not be dealt with at this point in the program.
+FortifyJavaPoorErrorHandlingOverlyBroadThrows	3	Poor Error Handling	The method throws a generic exception making it harder for callers to do a good job of error handling and recovery.
+FortifyJavaPoorErrorHandlingProgramCatchesNullPointerException	3	Poor Error Handling	It is generally a bad practice to catch NullPointerException.
+FortifyJavaPoorErrorHandlingReturnInsideFinally	3	Poor Error Handling	Returning from inside a finally block will cause exceptions to be lost.
+FortifyJavaPoorErrorHandlingSwallowedThreadDeath	3	Poor Error Handling	If a ThreadDeath error is not re-thrown, the thread in question might not actually die.
+FortifyJavaPoorErrorHandlingThrowInsideFinally	3	Poor Error Handling	Using a throw statement inside a finally block breaks the logical progression through the try-catch-finally.
+FortifyJavaPoorErrorHandlingUnhandledSSLException	3	Poor Error Handling	Failing to explicitly handle SSL exceptions can cause the application to overlook unexpected states and conditions.
+FortifyJavaPoorLoggingPracticeLoggerNotDeclaredStaticFinal	3	Poor Logging Practice	Declare loggers to be static and final.
+FortifyJavaPoorLoggingPracticeMultipleLoggers	3	Poor Logging Practice	Use logging levels rather than multiple loggers in a single class.
+FortifyJavaPoorLoggingPracticeUseofaSystemOutputStream	3	Poor Logging Practice	Using Console.Out or Console.Error rather than a dedicated logging facility makes it difficult to monitor the behavior of the program.
+FortifyJavaPoorStyleConfusingNaming	5	Poor Style	The class contains a field and a method with the same name.
+FortifyJavaPoorStyleEmptySynchronizedBlock	5	Poor Style	This synchronized block contains no statements; it is unlikely the synchronization achieves the intended effect.
+FortifyJavaPoorStyleExplicitCalltofinalize	5	Poor Style	The finalize() method should only be called by the JVM after the object has been garbage collected.
+FortifyJavaPoorStyleIdentifierContainsDollarSymbol	5	Poor Style	Using a dollar sign ($) as part of an identifier is not recommended.
+FortifyJavaPoorStyleNonfinalPublicStaticField	5	Poor Style	Non-final public static fields can be changed by external classes.
+FortifyJavaPoorStyleRedundantInitialization	5	Poor Style	The variable's value is assigned but never used, making it a dead store.
+FortifyJavaPoorStyleValueNeverRead	5	Poor Style	The variable's value is assigned but never used, making it a dead store.
+FortifyJavaPortabilityFlawFileSeparator	3	Portability Flaw	The use of hardcoded file separators causes portability problems.
+FortifyJavaPortabilityFlawLocaleDependentComparison	3	Portability Flaw	Unexpected portability problems can be found when the locale is not specified.
+FortifyJavaPortabilityFlawNativeSQL	3	Portability Flaw	The use of native SQL causes portability problems.
+FortifyJavaPrivacyViolation	2	Privacy Violation	Mishandling private information, such as customer passwords or social security numbers, can compromise user privacy and is often illegal.
+FortifyJavaPrivacyViolationAndroidInternalStorage	2	Privacy Violation	Mishandling private information, such as customer passwords or social security numbers, can compromise user privacy and is often illegal.
+FortifyJavaPrivacyViolationAutocomplete	2	Privacy Violation	Autocompletion of forms allows some browsers to retain sensitive information in their history.
+FortifyJavaPrivacyViolationCaliforniaDriverLicenseNumber	2	Privacy Violation	Revealing driver license numbers could contribute to successful identity theft attempts.
+FortifyJavaPrivacyViolationCreditCardNumber	2	Privacy Violation	Revealing a credit card number could pose a significant financial risk to the user and also contribute to successful identity theft attempts.
+FortifyJavaPrivacyViolationDatabaseConnectionString	2	Privacy Violation	Revealing database connection details through hardcoded connection strings can lead to data theft and data corruption by unauthorized parties.
+FortifyJavaPrivacyViolationEmailDisclosure	2	Privacy Violation	Disclosure of a personal email address can compromise an individual's identity, their privacy and is in direct violation of the EU General Data Protection Regulation (GDPR).
+FortifyJavaPrivacyViolationGeolocation	2	Privacy Violation	The target mobile application sends device geolocation data in a request to an external host.
+FortifyJavaPrivacyViolationHeapInspection	2	Privacy Violation	Storing sensitive data in an insecure manner makes it possible to extract the data via inspecting the heap.
+FortifyJavaPrivacyViolationInconsistentFeedback	2	Privacy Violation	When entering an invalid user name or password during a login, forgotten password or new user signup function, an application may provide meaningful feedback through a response discrepancy. For the potential attacker, this discrepancy increases the chances of a successful brute force attack against the site's authentication.
+FortifyJavaPrivacyViolationNationalIDDisclosure	2	Privacy Violation	Disclosure of a person's national identification number can compromise an individual's identity, their privacy and is in direct violation of the EU General Data Protection Regulation (GDPR).
+FortifyJavaPrivacyViolationShoulderSurfing	2	Privacy Violation	A viewed password endangers system security.
+FortifyJavaPrivacyViolationSocialSecurityNumber	2	Privacy Violation	Revealing a social security number could contribute to successful identity theft attempts.
+FortifyJavaPrivilegeManagementAmazonWebServicesUncheckedPermissions	2	Privilege Management	Unchecked arguments to methods that control permissions or access control lists can allow attackers to access sensitive data.
+FortifyJavaPrivilegeManagementAndroidDataStorage	2	Privilege Management	The program requests permission to write data to Android's external storage.
+FortifyJavaPrivilegeManagementAndroidDisable	2	Privilege Management	The program requests permission to disable the handset.
+FortifyJavaPrivilegeManagementAndroidLocation	2	Privilege Management	The program requests permission to access the device's GPS location.
+FortifyJavaPrivilegeManagementAndroidMessaging	2	Privilege Management	The program asks to perform SMS operations.
+FortifyJavaPrivilegeManagementAndroidNetwork	2	Privilege Management	The program requests permission to make a network connection.
+FortifyJavaPrivilegeManagementAndroidRecording	2	Privilege Management	The program performs audio recording operations.
+FortifyJavaPrivilegeManagementAndroidTelephony	2	Privilege Management	The program requests permission to make and receive telephone calls.
+FortifyJavaPrivilegeManagementDangerousIntentPermission	2	Privilege Management	Some permissions on Intents are there to be able to grant permissions to external programs that do not usually have that permission, such as FLAG_GRANT_READ_URI_PERMISSION and FLAG_GRANT_WRITE_URI_PERMISSION. If a malicious program is able to intercept this intent, it will then gain permission to read from or write to the specified URI. These can often be more susceptible to being intercepted if the intent is implicit rather than explicit.Example 1: The following code sets the permission flag to enable writing to a URI within the Intent.  myIntent.setFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+FortifyJavaPrivilegeManagementMissingAPIPermission	2	Privilege Management	The program attempts to perform an operation without requesting the required permission.
+FortifyJavaPrivilegeManagementMissingContentProviderPermission	2	Privilege Management	The program attempts to perform an operation without requesting the required permission.
+FortifyJavaPrivilegeManagementMissingIntentPermission	2	Privilege Management	The program attempts to perform an operation without requesting the required permission.
+FortifyJavaPrivilegeManagementOverlyBroadAccessSpecifier	2	Privilege Management	Privileged code in public methods can be called from anywhere in the JVM.
+FortifyJavaPrivilegeManagementOverridingPermissionVerification	2	Privilege Management	Some functions may enable a programmer to be able to override the permissions specified by a user on an Android device at certain times.
+FortifyJavaPrivilegeManagementUnnecessaryPermission	2	Privilege Management	The application fails to adhere to the principle of least privilege, which greatly amplifies the risk posed by other vulnerabilities.
+FortifyJavaProcessControl	3	Process Control	Transferring program control to an untrusted program or a transaction, or in an untrusted environment can cause an application to execute malicious commands on behalf of an attacker.
+FortifyJavaProcessControlInvokerServlet	3	Process Control	The InvokerServlet class can allow attackers to invoke any class on the server.
+FortifyJavaQueryStringInjectionAmazonWebServices	1	Query String Injection	Constructing a SimpleDB select statement that contains user input can allow an attacker to view unauthorized records.
+FortifyJavaQueryStringInjectionAndroidProvider	1	Query String Injection	Constructing a SQLite query statement that contains user input can allow an attacker to view unauthorized records.
+FortifyJavaRaceConditionAppDownload	2	Race Condition	The application installs an application from shared storage, allowing a malicious app to replace the package to be installed.
+FortifyJavaRaceConditionClassInitializationCycle	2	Race Condition	Assigning a static field to a new object calls the constructor even if it is dependent on other variables initialization, which may lead to objects being initialized incorrectly.
+FortifyJavaRaceConditionFormatFlaw	2	Race Condition	The methods parse() and format() in java.text.Format contain a design flaw that can cause one user to see another user's data.
+FortifyJavaRaceConditionSingletonMemberField	2	Race Condition	Servlet member fields might allow one user to see another user's data.
+FortifyJavaRaceConditionStaticDatabaseConnection	2	Race Condition	Database connections stored in static fields will be shared between threads.
+FortifyJavaRedundantNullCheck	4	Redundant Null Check	The program can potentially dereference a null-pointer, thereby causing a segmentation fault.
+FortifyJavaReflectedFileDownload	1	Reflected File Download	The application allows an attacker to craft a URL that forces a download of arbitrary content that appears to have originated from a trusted domain.
+FortifyJavaResourceInjection	1	Resource Injection	Allowing user input to control resource identifiers could enable an attacker to access or modify otherwise protected system resources.
+FortifyJavaSameOriginMethodExecution	2	Same-Origin Method Execution	The application reflects a user-controllable parameter as the JavaScript callback function to be executed by the browser that might enable an attacker to execute arbitrary JavaScript functions on any pages on the same endpoint's domain.
+FortifyJavaSAMLBadPracticesInsecureMessageIDImplementation	2	SAML Bad Practices	SAML message that do not provide same unique ID for AuthnRequest, InResponseTo attributes and a unique ID for SAML Assertion  might be susceptible to replay attacks.
+FortifyJavaSAMLBadPracticesInsufficientMessageExpiration	2	SAML Bad Practices	Failure to properly restrict validity period for SAML Assertion could allow an attacker to carry out SAML Replay attacks.
+FortifyJavaSAMLBadPracticesMissingAssertionSignature	2	SAML Bad Practices	Service provider can not prove validity and integrity of SAML responses that are not cryptographically signed.
+FortifyJavaServerSideRequestForgery	1	Server-Side Request Forgery	The application initiates a network connection to a third-party system using user-controlled data to craft the resource URI.
+FortifyJavaServerSideScriptInjection	1	Server-Side Script Injection	Failure to validate user-supplied input could allow an attacker to bypass authentication, steal sensitive information or trigger a denial of service condition.
+FortifyJavaServerSideTemplateInjection	1	Server-Side Template Injection	User-controlled data is used as a template engine's template, allowing attackers to access the template context and in some cases inject and run arbitrary code on the application server.
+FortifyJavaSessionFixation	2	Session Fixation	Authenticating a user without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.
+FortifyJavaSessionFixationOAuth	2	Session Fixation	Authenticating a user without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.
+FortifyJavaSessionManagementEasytoGuessSessionIdentifierName	2	Session Management	An easy-to-guess session identifier name can be used by an attacker for hijacking sessions or application reconnaissance.
+FortifyJavaSessionManagementInsufficientSessionIDEntropy	2	Session Management	Session identifiers with entropy lower than 64 bits can allow attackers to hijack legitimate user session and lead to information theft.
+FortifyJavaSessionManagementInsufficientSessionIDLength	2	Session Management	Session identifiers should be at least 128 bits long to prevent brute-force session guessing attacks.
+FortifyJavaSessionPuzzlingSpring	3	Session Puzzling	Attackers may modify Spring session attributes which may lead to application logic abuse.
+FortifyJavaSettingManipulation	3	Setting Manipulation	Allowing external control of system settings can disrupt service or cause an application to behave in unexpected ways.
+FortifyJavaSettingManipulationCharacterSet	3	Setting Manipulation	Allowing external control of system settings can disrupt service or cause an application to behave in unexpected ways.
+FortifyJavaSpringBeansInjection	1	Spring Beans Injection	Loading user-controlled Bean definition resources may allow attackers to execute arbitrary code on the server, abuse application logic, and/or lead to denial of service.
+FortifyJavaSpringBootMisconfigurationActuatorEndpointSecurityDisabled	2	Spring Boot Misconfiguration	The Spring Boot application uses Actuator endpoints requiring no authentication.
+FortifyJavaSpringBootMisconfigurationAdminMBeanEnabled	2	Spring Boot Misconfiguration	The Spring Boot application is configured to expose an administration MBean.
+FortifyJavaSpringBootMisconfigurationDevToolsEnabled	2	Spring Boot Misconfiguration	The Spring Boot application is configured in developer mode.
+FortifyJavaSpringBootMisconfigurationShutdownActuatorEndpointEnabled	2	Spring Boot Misconfiguration	Spring Boot Shutdown Actuator is enabled and may allow users to shut down the application.
+FortifyJavaSpringMisconfigurationHTMLEscapingDisabled	2	Spring Misconfiguration	The application is configured to disable the automatic HTML escaping for Spring tags which may lead to Cross-Site Scripting vulnerabilities.
+FortifyJavaSQLInjection	1	SQL Injection	Constructing a dynamic SQL statement with input that comes from an untrusted source could allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
+FortifyJavaSQLInjectionHibernate	1	SQL Injection	Using Hibernate to execute a dynamic SQL statement built with input coming from an untrusted source can allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
+FortifyJavaSQLInjectioniBatisDataMap	1	SQL Injection	Constructing a dynamic SQL statement with input that comes from an untrusted source could allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
+FortifyJavaSQLInjectionJDO	1	SQL Injection	Using Java Data Objects (JDO) to execute a dynamic SQL or JDOQL statement built with input coming from an untrusted source can allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
+FortifyJavaSQLInjectionMyBatisMapper	1	SQL Injection	Constructing a dynamic SQL statement with input that comes from an untrusted source could allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
+FortifyJavaSQLInjectionPersistence	1	SQL Injection	Constructing a dynamic SQL statement with input that comes from an untrusted source could allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
+FortifyJavaStruts2BadPracticesApplicationMapTampering	2	Struts 2 Bad Practices	A Struts 2.x Action implements a class which allows an attacker to modify the application business logic by binding arbitrary data into the session, application or request server side objects
+FortifyJavaStruts2BadPracticesDynamicMethodInvocation	2	Struts 2 Bad Practices	The Struts 2 Action exposes a public method that can be invoked by end users overriding the Action's execute() method.
+FortifyJavaStruts2BadPracticesRequestMapTampering	2	Struts 2 Bad Practices	A Struts 2.x Action implements a class which allows an attacker to modify the application business logic by binding arbitrary data into the session, application or request server side objects
+FortifyJavaStruts2BadPracticesSessionMapTampering	2	Struts 2 Bad Practices	A Struts 2.x Action implements a class which allows an attacker to modify the application business logic by binding arbitrary data into the session, application or request server side objects
+FortifyJavaStruts2ActionFieldWithoutValidator	2	Struts 2	An Action Field was found without a corresponding validation definition.
+FortifyJavaStruts2DuplicateActionFieldValidators	2	Struts 2	Multiple Struts2 field validator references with the same name exist. Duplicate validator references are an indication that validation is not up to date.
+FortifyJavaStruts2DuplicateValidationFiles	2	Struts 2	Multiple Struts2 Validation files exist for this Action. Multiple validation forms are an indication that validation is not up to date.
+FortifyJavaStruts2DuplicateValidators	2	Struts 2	Multiple Struts2 validator references with the same name exist. Duplicate validator references are an indication that validation is not up to date.
+FortifyJavaStruts2UndeclaredValidator	2	Struts 2	A validator referenced in ActionClass-validation.xml is not declared in validators.xml
+FortifyJavaStruts2UnvalidatedAction	2	Struts 2	Struts2 Actions should utilize the Struts Validation framework to prevent vulnerabilities that result from unchecked input.
+FortifyJavaStruts2ValidationFileWithoutAction	2	Struts 2	Struts2 Validation file found with no corresponding Struts2 Action.
+FortifyJavaStruts2ValidatorWithoutActionField	2	Struts 2	A Struts2 validator is defined for an action field that does not exist.
+FortifyJavaStrutsMisconfigurationDuplicateFormBean	2	Struts Misconfiguration	Multiple form-bean entries with the same name exist. Duplicate form-bean names often indicate left over debug code or a typographical error.
+FortifyJavaStrutsMisconfigurationInvalidPath	2	Struts Misconfiguration	Invalid path entries prevent Struts from locating the correct resource to service requests.
+FortifyJavaStrutsMisconfigurationMissingActionInput	2	Struts Misconfiguration	It is an error to omit the input attribute for named Struts actions that can return validation errors..
+FortifyJavaStrutsMisconfigurationMissingExceptionType	2	Struts Misconfiguration	An <exception> tag that does not contain a type attribute will not be used.
+FortifyJavaStrutsMisconfigurationMissingFormBean	2	Struts Misconfiguration	A Struts action that points to a nonexistent form-bean will not be mapped correctly.
+FortifyJavaStrutsMisconfigurationMissingFormBeanName	2	Struts Misconfiguration	A form-bean without a name attribute will not be used.
+FortifyJavaStrutsMisconfigurationMissingFormBeanType	2	Struts Misconfiguration	A form-bean without a type attribute will not be mapped correctly.
+FortifyJavaStrutsMisconfigurationMissingFormPropertyType	2	Struts Misconfiguration	It is an error to define a form-property without a type type attribute.
+FortifyJavaStrutsMisconfigurationMissingForwardName	2	Struts Misconfiguration	A <forward> tag with a missing name attribute often indicates leftover debug code or a typographical error.
+FortifyJavaStrutsMisconfigurationMissingForwardPath	2	Struts Misconfiguration	A <forward> tag with a missing path attribute often indicates leftover debug code or a typographical error.
+FortifyJavaStrutsDuplicateValidationForms	2	Struts	Multiple validation forms with the same name indicate that validation logic is not up-to-date.
+FortifyJavaStrutsErroneousvalidateMethod	2	Struts	The validator form defines a validate() method that fails to call super.validate().
+FortifyJavaStrutsFormDoesNotExtendValidationClass	2	Struts	All Struts forms should extend a Validator class.
+FortifyJavaStrutsFormFieldWithoutValidator	2	Struts	Every field in a form should be validated in the corresponding validation form.
+FortifyJavaStrutsPluginFrameworkNotInUse	2	Struts	Use the Struts Validator to prevent vulnerabilities that result from unchecked input.
+FortifyJavaStrutsUnusedActionForm	2	Struts	An unused action form indicates that application logic might not be up-to-date.
+FortifyJavaStrutsUnusedValidationForm	2	Struts	An unused validation form indicates that validation logic is not up-to-date.
+FortifyJavaStrutsUnvalidatedActionForm	2	Struts	Every Action Form must have a corresponding validation form.
+FortifyJavaStrutsValidatorTurnedOff	2	Struts	This action form mapping disables the form's validate() method.
+FortifyJavaStrutsValidatorWithoutFormField	2	Struts	Validation fields that do not appear in forms they are associated with indicate that the validation logic is out of date.
+FortifyJavaSystemInformationLeak	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakApacheAxis	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakApacheAxis2	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakCVSEntries	2	System Information Leak	Insufficient access control could reveal system information and allow an attacker to better map the application attack surface.
+FortifyJavaSystemInformationLeakExternal	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakHTMLCommentinJSP	2	System Information Leak	Any information revealed in an HTML comment might help an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakIncompleteServletErrorHandling	2	System Information Leak	If a Servlet fails to catch all exceptions, it might reveal debugging information that will help an adversary form a plan of attack.
+FortifyJavaSystemInformationLeakInternal	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakInternalIP	2	System Information Leak	Disclosing the IP addressing scheme of the internal network can allow attackers to discover internal systems and expand the attack surface.
+FortifyJavaSystemInformationLeakLDAPError	2	System Information Leak	Revealing verbose error messages could allow an attacker to learn about the application and form a plan of attack.
+FortifyJavaSystemInformationLeakLDAPQuery	2	System Information Leak	Disclosure of LDAP queries can allow attackers to retrieve information from an LDAP server using LDAP injection.
+FortifyJavaSystemInformationLeakOverlyBroadSQLLogging	2	System Information Leak	Logging too much information about SQL queries can leak system information or compromise private user data.
+FortifyJavaSystemInformationLeakSpringBootActuatorsEnabled	2	System Information Leak	Enabling Spring Boot Actuators may reveal system data and debugging information which may help an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakSQLQuery	2	System Information Leak	Disclosing SQL queries used by an application to communicate with the backend database could allow an attacker to steal sensitive information, manipulate the application's behavior or interrupt the database operation.
+FortifyJavaSystemInformationLeakStruts2	2	System Information Leak	Revealing system data or debugging information helps an adversary learn about the system and form a plan of attack.
+FortifyJavaSystemInformationLeakXPathError	2	System Information Leak	Revealing detailed error messages could allow an attacker to learn about the application and form a plan of attack.
+FortifyJavaSystemInformationLeakXPathQuery	2	System Information Leak	Disclosing XPath queries used by an application to interact with XML documents could allow an attacker to steal sensitive information or disrupt the execution of the application.
+FortifyJavaTomcatConfigurationInsecureTransport	2	Tomcat Configuration	The program transits information over insecure HTTP connections.
+FortifyJavaTrustBoundaryViolation	3	Trust Boundary Violation	Commingling trusted and untrusted data in the same data structure encourages programmers to mistakenly trust unvalidated data.
+FortifyJavaUnauthenticatedServiceMongoDB	2	Unauthenticated Service	The application initializes a MongoDB client without setting any credentials.
+FortifyJavaUnauthenticatedServiceRedis	2	Unauthenticated Service	The application initializes a Redis client without setting any credentials.
+FortifyJavaUncheckedReturnValue	4	Unchecked Return Value	Ignoring a method's return value can cause the program to overlook unexpected states and conditions.
+FortifyJavaUnreleasedResourceAndroidCamera	4	Unreleased Resource	An Android activity fails to release the Camera instance in its onPause(), onStop(), or onDestroy() event handlers.
+FortifyJavaUnreleasedResourceAndroidMedia	4	Unreleased Resource	An Android activity fails to release the MediaRecorder, MediaPlayer, or AudioRecord object in its onPause(), onStop(), or onDestroy() event handlers.
+FortifyJavaUnreleasedResourceAndroidSQLiteDatabase	4	Unreleased Resource	An Android activity fails to release the Android database handler in its onPause(), onStop(), or onDestroy() event handlers.
+FortifyJavaUnreleasedResourceDatabase	4	Unreleased Resource	The program can potentially fail to release a database resource.
+FortifyJavaUnreleasedResourceFiles	4	Unreleased Resource	The program can potentially fail to release a file handle.
+FortifyJavaUnreleasedResourceSockets	4	Unreleased Resource	The program can potentially fail to release a socket.
+FortifyJavaUnreleasedResourceStreams	4	Unreleased Resource	The program can potentially fail to release a system resource.
+FortifyJavaUnreleasedResourceSynchronization	4	Unreleased Resource	The program fails to release a lock it holds, which might lead to deadlock.
+FortifyJavaUnsafeJNI	3	Unsafe JNI	Improper use of the Java Native Interface (JNI) can render Java applications vulnerable to security flaws in other languages.
+FortifyJavaUnsafeJSNI	3	Unsafe JSNI	Improper use of the JavaScript Native Interface (JSNI) can render GWT applications vulnerable to security flaws in JavaScript.
+FortifyJavaUnsafeMobileCodeAccessViolation	3	Unsafe Mobile Code	The program violates secure coding principles for mobile code by returning a private array variable from a public access method.
+FortifyJavaUnsafeMobileCodeDatabaseAccess	3	Unsafe Mobile Code	Applets that perform JDBC database operations in an untrusted environment can compromise database credentials.
+FortifyJavaUnsafeMobileCodeInnerClass	3	Unsafe Mobile Code	The program violates secure coding principles for mobile code by making use of an inner class.
+FortifyJavaUnsafeMobileCodePublicfinalizeMethod	3	Unsafe Mobile Code	The program violates secure coding principles for mobile code by declaring a finalize()method public.
+FortifyJavaUnsafeMobileCodeUnsafeArrayDeclaration	3	Unsafe Mobile Code	The program violates secure coding principles for mobile code by declaring an array public, final and static.
+FortifyJavaUnsafeMobileCodeUnsafePublicField	3	Unsafe Mobile Code	The program violates secure coding principles for mobile code by declaring a member variable public but not final.
+FortifyJavaUnsafeReflection	3	Unsafe Reflection	An attacker may be able to create unexpected control flow paths through the application, potentially bypassing security checks.
+FortifyJavaWeakCryptographicHash	1	Weak Cryptographic Hash	Weak cryptographic hashes cannot guarantee data integrity and should not be used in security-critical contexts.
+FortifyJavaWeakCryptographicHashHardcodedPBESalt	1	Weak Cryptographic Hash	A hardcoded salt may compromise system security in a way that cannot be easily remedied.
+FortifyJavaWeakCryptographicHashHardcodedSalt	1	Weak Cryptographic Hash	A hardcoded salt may compromise system security in a way that cannot be easily remedied.
+FortifyJavaWeakCryptographicHashInsecurePBEIterationCount	1	Weak Cryptographic Hash	The iteration count used by a password-based key derivation function is too low.
+FortifyJavaWeakCryptographicHashMissingRequiredStep	1	Weak Cryptographic Hash	The code misses invoking a required step during the process of generating a cryptographic hash.
+FortifyJavaWeakCryptographicHashUserControlledAlgorithm	1	Weak Cryptographic Hash	Using a user-controlled algorithm within a cryptographic hash may enable the attacker to specify a weak cryptographic hash algorithm, compromising data integrity and security of the application.
+FortifyJavaWeakCryptographicHashUserControlledPBESalt	1	Weak Cryptographic Hash	Potentially tainted user inputs should not be passed as the salt parameter to a Password-Based Key Derivation Function (PBKDF).
+FortifyJavaWeakCryptographicHashUserControlledSalt	1	Weak Cryptographic Hash	Functions that generate cryptographic hashes, which are passed a salt, should not be called with a tainted salt argument.
+FortifyJavaWeakCryptographicSignatureMissingRequiredStep	1	Weak Cryptographic Signature	The code misses invoking a required step during the process of generating a cryptographic signature.
+FortifyJavaWeakEncryption	1	Weak Encryption	The identified call uses a weak encryption algorithm that cannot guarantee the confidentiality of sensitive data.
+FortifyJavaWeakEncryptionByteArraytoStringConversion	1	Weak Encryption	Converting an encryption key to a String can lead to a significant loss of entropy.
+FortifyJavaWeakEncryptionInadequateRSAPadding	1	Weak Encryption	Public key RSA encryption is performed without using OAEP padding, thereby making the encryption weak.
+FortifyJavaWeakEncryptionInsecureInitializationVector	1	Weak Encryption	Initialization vectors should be created using a cryptographic pseudorandom number generator.
+FortifyJavaWeakEncryptionInsecureModeofOperation	1	Weak Encryption	Cryptographic encryption algorithms should not be used with an insecure mode of operation.
+FortifyJavaWeakEncryptionInsufficientKeySize	1	Weak Encryption	An otherwise strong encryption algorithm is vulnerable to brute-force attack when an insufficient key size is used.
+FortifyJavaWeakEncryptionMissingRequiredStep	1	Weak Encryption	The code misses invoking a required step during a symmetric key generation, encryption, or decryption process.
+FortifyJavaWeakEncryptionUserControlledKeySize	1	Weak Encryption	Encryption functions that take a key size parameter should not be passed a tainted key size value.
+FortifyJavaWeakSecurityManagerCheckOverridableMethod	1	Weak SecurityManager Check	Non-final methods that perform security checks may be overridden in ways that bypass security checks.
+FortifyJavaWeakWSSecurityPolicyInsecureTransport	1	Weak WS-SecurityPolicy	The application configuration should ensure that HTTPS is used to transport all sensitive information.
+FortifyJavaWeakWSSecurityPolicyInsufficientSupportingTokenProtection	1	Weak WS-SecurityPolicy	The integrity of tokens cannot be guaranteed on unsigned tokens. Similarly, the confidentiality of tokens cannot be guaranteed on unencrypted tokens.
+FortifyJavaWeakWSSecurityPolicyMissingEncryptiononMessageAttachments	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWeakWSSecurityPolicyMissingEncryptiononMessageBody	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWeakWSSecurityPolicyMissingEncryptiononMessageHeaders	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWeakWSSecurityPolicyMissingEncryptionToken	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWeakWSSecurityPolicyMissingInitiatorEncryptionToken	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWeakWSSecurityPolicyMissingInitiatorSignatureToken	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWeakWSSecurityPolicyMissingRecipientEncryptionToken	1	Weak WS-SecurityPolicy	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWeakWSSecurityPolicyMissingRecipientSignatureToken	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWeakWSSecurityPolicyMissingSignatureonMessageAttachments	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWeakWSSecurityPolicyMissingSignatureonMessageBody	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWeakWSSecurityPolicyMissingSignatureonMessageHeaders	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWeakWSSecurityPolicyMissingSignatureToken	1	Weak WS-SecurityPolicy	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWeakWSSecurityPolicyMissingTimestamp	1	Weak WS-SecurityPolicy	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaWeakWSSecurityPolicyTokensNotProtected	1	Weak WS-SecurityPolicy	When token protection is not enabled, the integrity of tokens might not be guaranteed since token protection enforces token signing.
+FortifyJavaWeakWSSecurityPolicyWeakToken	1	Weak WS-SecurityPolicy	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaWeakXMLSchemaLaxProcessing	3	Weak XML Schema	When the processContents attribute is set to lax or skip, no input validation is performed for wildcard elements and attributes.
+FortifyJavaWeakXMLSchemaTypeAny	3	Weak XML Schema	The <any> element makes it easier to perform attacks like XML injection.
+FortifyJavaWeakXMLSchemaUnboundedOccurrences	3	Weak XML Schema	Setting a maxOccurs value to unbounded can lead to resources exhaustion and ultimately a denial of service.
+FortifyJavaWeakXMLSchemaUndefinedNamespace	3	Weak XML Schema	Specifying a namespace of ##any in the <any> element means the schema allows elements beyond what is explicitly defined in the schema, thereby making it easier to craft malicious documents.
+FortifyJavaWebServerMisconfigurationAccountInformation	2	Web Server Misconfiguration	Disclosure of user account information could allow an attacker to impersonate a user with higher privileges, steal sensitive information or execute arbitrary commands.
+FortifyJavaWebServerMisconfigurationCaseSensitivity	2	Web Server Misconfiguration	Failure to properly restrict access to application resources could allow an attacker to steal sensitive information.
+FortifyJavaWebServerMisconfigurationDeprecatedSSLTLSCertificate	2	Web Server Misconfiguration	Use of a deprecated SSL/TLS certificate on the target server can compromise the privacy and integrity of user data on the communication channel.
+FortifyJavaWebServerMisconfigurationDirectoryListing	2	Web Server Misconfiguration	Listing directory contents without restriction can expose sensitive information and private resources.
+FortifyJavaWebServerMisconfigurationExpiredSSLCertificate	2	Web Server Misconfiguration	Presenting an invalid certificate breaks the trust relationship between the client and the server and could also make it easier for an attacker to trick victim into accepting a spoofed SSL certificate.
+FortifyJavaWebServerMisconfigurationHTTPBasicAuthentication	2	Web Server Misconfiguration	Using HTTP Basic authentication mechanism over insecure channel can allow attackers to steal credentials.
+FortifyJavaWebServerMisconfigurationInformationDisclosure	2	Web Server Misconfiguration	Failure to restrict access to files could lead to exposure of sensitive information or interfaces.
+FortifyJavaWebServerMisconfigurationInsecureContentTypeSetting	2	Web Server Misconfiguration	Failure to correctly enforce the content-type could allow an attacker to conduct Cross-Site Scripting or information theft attacks.
+FortifyJavaWebServerMisconfigurationInsecureMappingDirectives	2	Web Server Misconfiguration	Misconfiguration of mapping directives can allow attackers to gain unauthorized access to sensitive resources.
+FortifyJavaWebServerMisconfigurationMissingUnicodeCharset	2	Web Server Misconfiguration	Allowing user input to control the web page's character set could allow an attacker to bypass application's user input filters.
+FortifyJavaWebServerMisconfigurationOpenProxyAccess	2	Web Server Misconfiguration	A proxy server allowing CONNECT or GET requests without any restriction can enable an attacker to masquerade the origin of their attacks or access resources internal to the network.
+FortifyJavaWebServerMisconfigurationOPTIONSHTTPMethod	2	Web Server Misconfiguration	Revealing the HTTP methods supported by web server configuration helps an adversary learn further about the system and form a specific plan of attack.
+FortifyJavaWebServerMisconfigurationRequestThrottlingNotEnabled	2	Web Server Misconfiguration	Misconfiguration of a server could leave the application vulnerable to Denial of Service attacks.
+FortifyJavaWebServerMisconfigurationResponseHeaders	2	Web Server Misconfiguration	Each browser responds differently to an incorrectly formatted response header which may pose security implication.
+FortifyJavaWebServerMisconfigurationServerErrorMessage	2	Web Server Misconfiguration	Server error responses could offer invaluable information about the application and the server allowing an attacker to formulate more effective attack payloads.
+FortifyJavaWebServerMisconfigurationServiceEnumeration	2	Web Server Misconfiguration	Allowing public access to a web services description document could allow an attacker to gain unauthorized access to critical server data.
+FortifyJavaWebServerMisconfigurationServletRuntimeError	2	Web Server Misconfiguration	Unhandled runtime exceptions could reveal sensitive system information or lead to denial of service conditions.
+FortifyJavaWebServerMisconfigurationSOAPExceptionMessage	2	Web Server Misconfiguration	An unhandled SOAP exception could reveal sensitive system information or trigger a denial of service condition.
+FortifyJavaWebServerMisconfigurationSSLCertificateHostnameDiscrepancy	2	Web Server Misconfiguration	Incorrect SSL certificate information can cause the validation process to fail, negating the security benefits of using a certificate to verify the server is trusted.
+FortifyJavaWebServerMisconfigurationUnprotectedDirectory	2	Web Server Misconfiguration	Insecure deployment and exposure of directories can supply attackers with invaluable information about the application enabling them to conduct targeted attacks.
+FortifyJavaWebServerMisconfigurationUnprotectedFile	2	Web Server Misconfiguration	Insecure deployment and exposure of files can supply attackers with invaluable information about the application enabling them to orchestrate targeted attacks.
+FortifyJavaWebServerMisconfigurationWeakAuthentication	2	Web Server Misconfiguration	Insecure configuration of a web server's authentication module could allow an attacker to gain administrative privileges and orchestrate complete system compromise.
+FortifyJavaWeblogicMisconfigurationMissingTimestamp	2	Weblogic Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaWeblogicMisconfigurationWeakToken	2	Weblogic Misconfiguration	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaWebSphereMisconfigurationMissingNonce	2	WebSphere Misconfiguration	A SOAP message with a timestamp that does not expire is vulnerable to replay attacks.
+FortifyJavaWebSphereMisconfigurationServletsServedByClassName	2	WebSphere Misconfiguration	The application is configured to allow WebSphere to serve Servlets by their class names.
+FortifyJavaWebSphereServiceProviderMisconfigurationInboundWSSecurityNotEnabled	2	WebSphere Service Provider Misconfiguration	Service providers that don't use WS-Security make it hard to guarantee message integrity or confidentiality.
+FortifyJavaWebSphereServiceProviderMisconfigurationMissingInboundEncryption	2	WebSphere Service Provider Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWebSphereServiceProviderMisconfigurationMissingInboundSignature	2	WebSphere Service Provider Misconfiguration	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWebSphereServiceProviderMisconfigurationMissingInboundTimestamp	2	WebSphere Service Provider Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaWebSphereServiceProviderMisconfigurationMissingOutboundEncryption	2	WebSphere Service Provider Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWebSphereServiceProviderMisconfigurationMissingOutboundSignature	2	WebSphere Service Provider Misconfiguration	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWebSphereServiceProviderMisconfigurationMissingOutboundTimestamp	2	WebSphere Service Provider Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaWebSphereServiceProviderMisconfigurationMissingTimestampExpiration	2	WebSphere Service Provider Misconfiguration	A SOAP message with a timestamp that does not expire is vulnerable to replay attacks.
+FortifyJavaWebSphereServiceProviderMisconfigurationOutboundWSSecurityNotEnabled	2	WebSphere Service Provider Misconfiguration	Service providers that don't use WS-Security make it hard to guarantee message integrity or confidentiality.
+FortifyJavaWebSphereServiceProviderMisconfigurationUnsignedInboundTimestamp	2	WebSphere Service Provider Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaWebSphereServiceProviderMisconfigurationUnsignedOutboundTimestamp	2	WebSphere Service Provider Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaWebSphereServiceProviderMisconfigurationWeakToken	2	WebSphere Service Provider Misconfiguration	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaWebSphereServiceRequesterMisconfigurationInboundWSSecurityNotEnabled	2	WebSphere Service Requester Misconfiguration	Requests that do not use WS-Security make it hard to guarantee message integrity or confidentiality.
+FortifyJavaWebSphereServiceRequesterMisconfigurationMissingInboundEncryption	2	WebSphere Service Requester Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWebSphereServiceRequesterMisconfigurationMissingInboundSignature	2	WebSphere Service Requester Misconfiguration	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWebSphereServiceRequesterMisconfigurationMissingInboundTimestamp	2	WebSphere Service Requester Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaWebSphereServiceRequesterMisconfigurationMissingOutboundEncryption	2	WebSphere Service Requester Misconfiguration	Unencrypted messages fail to protect confidentiality.
+FortifyJavaWebSphereServiceRequesterMisconfigurationMissingOutboundSignature	2	WebSphere Service Requester Misconfiguration	A missing signature means the integrity of a SOAP message cannot be guaranteed.
+FortifyJavaWebSphereServiceRequesterMisconfigurationMissingOutboundTimestamp	2	WebSphere Service Requester Misconfiguration	A missing timestamp can leave a SOAP message open to replay attacks.
+FortifyJavaWebSphereServiceRequesterMisconfigurationMissingTimestampExpiration	2	WebSphere Service Requester Misconfiguration	A SOAP message with a timestamp that does not expire is vulnerable to replay attacks.
+FortifyJavaWebSphereServiceRequesterMisconfigurationOutboundWSSecurityNotEnabled	2	WebSphere Service Requester Misconfiguration	Requests that do not use WS-Security make it hard to guarantee message integrity or confidentiality.
+FortifyJavaWebSphereServiceRequesterMisconfigurationUnsignedInboundTimestamp	2	WebSphere Service Requester Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaWebSphereServiceRequesterMisconfigurationUnsignedOutboundTimestamp	2	WebSphere Service Requester Misconfiguration	An unsigned timestamp can leave a SOAP message open to tampering and replay attacks.
+FortifyJavaWebSphereServiceRequesterMisconfigurationWeakToken	2	WebSphere Service Requester Misconfiguration	Using a UsernameToken with a plain text password over an unencrypted channel exposes the password to attackers who can sniff the SOAP messages.
+FortifyJavaXMLEntityExpansionInjection	1	XML Entity Expansion Injection	Using XML parsers configured to not prevent nor limit document type definition (DTD) entity resolution can expose the parser to an XML Entity Expansion injection attack
+FortifyJavaXMLExternalEntityInjection	1	XML External Entity Injection	The identified method allows external entity references. This call could allow an attacker to inject an XML external entity into the XML document to reveal the contents of files or internal network resources.
+FortifyJavaXMLInjection	1	XML Injection	The identified method writes unvalidated XML input. This call could allow an attacker to inject arbitrary elements or attributes into the XML document.
+FortifyJavaXPathInjection	1	XPath Injection	Constructing a dynamic XPath query with user input could allow an attacker to modify the statement's meaning.
+FortifyJavaXQueryInjection	1	XQuery Injection	Constructing a dynamic XQuery expression with user input could allow an attacker to modify the statement's meaning.
+FortifyJavaXSLTInjection	1	XSLT Injection	Processing an unvalidated XSL stylesheet can allow an attacker to change the structure and contents of the resultant XML, include arbitrary files from the file system, or execute arbitrary code.

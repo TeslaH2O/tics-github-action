@@ -1,0 +1,25 @@
+// Coverity 2022.03 and below
+// Part of Abstract Interpretation for all customers
+
+COV_EXPLICIT_THIS_EXPECTED_TYPESCRIPT	2	API usage errors	The function call will not have its intended effect.
+
+COV_NESTING_INDENT_MISMATCH_TYPESCRIPT_01	3	Code maintainability issues	Readers of this code might be misled as to its structure.
+
+COV_MISSING_BREAK_TYPESCRIPT	2	Control flow issues	Execution falls through to the next case statement or default; this might indicate a common typo.
+COV_STRAY_SEMICOLON_TYPESCRIPT	1	Control flow issues	A misplaced semicolon is a common typo that can cause unexpected changes to the flow of control in the program that results in logical errors.
+COV_UNEXPECTED_CONTROL_FLOW_TYPESCRIPT	2	Control flow issues	Execution jumps out of the loop rather than continuing.
+COV_UNREACHABLE_TYPESCRIPT	1	Control flow issues	Actions intended to be performed by the unreachable code will never occur.
+
+COV_COPY_PASTE_ERROR_TYPESCRIPT	2	Incorrect expression	The copied code will not have its intended effect.
+COV_IDENTICAL_BRANCHES_TYPESCRIPT_01	1	Incorrect expression	The case is redundant or can be combined
+COV_IDENTIFIER_TYPO_TYPESCRIPT	2	Incorrect expression	The wrong entity will be referenced, usually resulting in a useless write or a read of an unset value.
+COV_NO_EFFECT_TYPESCRIPT_01	4	Incorrect expression	Perhaps the code was intended to affect the behavior of the program, but it does not.
+COV_UNINTENDED_GLOBAL_TYPESCRIPT	3	Incorrect expression	The assignment will implicitly create a global variable.
+
+COV_CONSTANT_EXPRESSION_RESULT_TYPESCRIPT_01	2	Integer handling issues	The expression's value is always zero; construct may indicate an inadvertent logic error.
+
+COV_FORWARD_NULL_TYPESCRIPT	2	Null pointer dereferences	If the value is null or undefined, this code will cause an exception such as a TypeError.
+COV_NULL_RETURNS_TYPESCRIPT_01	2	Null pointer dereferences	If the function returns a null or undefined value, this code will cause an exception such as a TypeError.
+COV_REVERSE_INULL_TYPESCRIPT	2	Null pointer dereferences	There may be an exception, or else the comparison against null is unnecessary.
+
+COV_DEADCODE_TYPESCRIPT	1	Possible Control flow issues	By the time the program execution reaches this switch statement, the value cannot be equal to the given case. The code at the case is not dead, because it can be reached by falling through from a previous case.

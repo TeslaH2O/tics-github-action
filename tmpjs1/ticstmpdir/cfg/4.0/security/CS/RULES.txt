@@ -1,0 +1,93 @@
+CS.BD.SECURITY.AUTH	1	Security	Prevent untrusted inputs that may affect authorization
+CS.BD.SECURITY.CUSTOM	1	Security	Prevent security vulnerability (custom rule)
+CS.BD.SECURITY.IDENTITY	1	Security	Always revert the context of an impersonated user to the previous identity
+CS.BD.SECURITY.SALT	2	Security	Ensure that a random salt is used
+CS.BD.SECURITY.SENS	1	Security	Prevent exposure of sensitive data
+CS.BD.SECURITY.SENSLOG	2	Security	Avoid passing sensitive data to functions that write to log files
+CS.BD.SECURITY.TDALLOC	1	Security	Validate potentially tainted data before it is used to determine the size of memory allocation
+CS.BD.SECURITY.TDCMD	1	Security	Protect against command injection
+CS.BD.SECURITY.TDCODE	1	Security	Validate potentially tainted data before it is used in methods that generate code
+CS.BD.SECURITY.TDFNAMES	1	Security	Protect against file name injection
+CS.BD.SECURITY.TDINPUT	1	Security	Exclude unsanitized user input from format strings
+CS.BD.SECURITY.TDLDAP	1	Security	Protect against LDAP injection
+CS.BD.SECURITY.TDLOG	1	Security	Protect against log forging
+CS.BD.SECURITY.TDNET	1	Security	Protect against network resource injection
+CS.BD.SECURITY.TDPASSWD	2	Security	Protect against using unprotected credentials
+CS.BD.SECURITY.TDRESP	1	Security	Protect against HTTP response splitting
+CS.BD.SECURITY.TDRFL	1	Security	Protect against Reflection injection
+CS.BD.SECURITY.TDSQL	1	Security	Protect against SQL query injection
+CS.BD.SECURITY.TDSQLC	1	Security	Protect against SQL connection injection
+CS.BD.SECURITY.TDXSS	1	Security	Protect against XSS vulnerabilities
+CS.BD.SECURITY.USXRS	2	Security	Use object with secure XmlResolver property
+
+CS.CS.SEC.RSFSS	2	Security	Do not re-create string from SecureString
+CS.CS.SEC.SSFP	2	Security	Use SecureString instead of String for password
+
+CS.SEC.ADSVSP	1	Security	Do not attempt to deny the SkipVerification security permission
+CS.SEC.CDBCLV	1	Security	Close database connection local variable
+CS.SEC.CDRLV	1	Security	Close database resource local variable
+CS.SEC.DNCCKS	1	Security	Do not change the RSA/DSA KeySize property
+CS.SEC.UOWR	1	Security	Use OAEP with RSA algorithm encryption.
+CS.SEC.VPPD	1	Security	Encapsulate all dangerous data sources with validation methods
+
+CS.SEC.ACCA	2	Security	Avoid using custom cryptographic algorithms.
+CS.SEC.ACWNS	2	Security	There should be no classes without namespace.
+CS.SEC.AIWIL	2	Security	Avoid indexer wraparound in loops.
+CS.SEC.APDM	2	Security	Avoid using potentially dangerous methods.
+CS.SEC.ATA	2	Security	Do not use the Trace.Assert() method in production code
+CS.SEC.CDBC	2	Security	Review closing database connection
+CS.SEC.CDR	2	Security	Review closing database resource
+CS.SEC.HPW	2	Security	Do not use hardcoded string for password related parameters
+CS.SEC.ICA	2	Security	Avoid using insecure algorithms for cryptography
+CS.SEC.LGE	2	Security	Ensure all exceptions are either logged with a standard logger or rethrown
+CS.SEC.PBRTE	2	Security	Always specify absolute path to execute commands
+CS.SEC.RSAKS	2	Security	Use RSA keys of 2048 bits or longer.
+CS.SEC.SDE	2	Security	Avoid inclusion of sensitive data in exception.
+CS.SEC.USSCR	2	Security	Use System.Security.Cryptography.RandomNumberGenerator instead of System.Random
+
+CS.SEC.ACPST	3	Security	Do not call the 'StackTrace' property of System.Exception
+CS.SEC.ACWFB	3	Security	Always cleanup before an exception filtering method is invoked
+CS.SEC.AFNRO	3	Security	Inspect array fields that are declared as readonly
+CS.SEC.ALBM	3	Security	Inspect calls to late-binding methods
+CS.SEC.ALSI	3	Security	Avoid logging sensitive information
+CS.SEC.APBIF	3	Security	Avoid public instance fields that could be accessed by external classes
+CS.SEC.AUEP	3	Security	Avoid using elevated privileges.
+CS.SEC.CNCLSCE	3	Security	Ensure that non CLS-compliant exceptions are being caught while catching all exceptions
+CS.SEC.HPTR	3	Security	Make pointer type fields private
+CS.SEC.MCMF	3	Security	For security, avoid making your 'Clone()' method " virtual "
+CS.SEC.MSCPV	3	Security	Make static constructors private
+CS.SEC.NLT	3	Security	Do not lock using objects obtained with typeof(ClassName)/GetType(ClassName)
+CS.SEC.SMIII	3	Security	Seal methods which implement internal interfaces
+
+CS.SEC.AASV	4	Security	Inspect calls to access environment variables
+CS.SEC.APTIF	4	Security	Avoid protected instance fields that could be accessed by untrusted classes
+CS.SEC.ASNRF	4	Security	Inspect static fields that are not readonly and consider making them readonly
+CS.SEC.AUIC	4	Security	Avoid using public inner classes to prevent access from untrusted classes
+CS.SEC.AUMS	4	Security	Inspect uses of Millisecond on System.DateTime for security problems
+CS.SEC.AUSD	4	Security	Inspect uses of System.DateTime for security holes
+CS.SEC.DMSC	4	Security	Inspect modifications to security settings
+CS.SEC.VLT	4	Security	Validate shortcut target paths before use.
+
+CS.SEC.ADLL	5	Security	Inspect calls to dynamically load libraries
+CS.SEC.AUPS	5	Security	Inspect calls to Process.Start()
+CS.SEC.IREC	5	Security	Do not execute external code without integrity check.
+CS.SEC.SIF	5	Security	Inspect instance fields of serializable types to make sure they will not expose sensitive information
+
+CS.SEC.WEB.AAM	2	Web Security	Add authorization services to MVC Core
+CS.SEC.WEB.AXSSE	2	Web Security	Enable anti-XSS protection in Web.config files
+CS.SEC.WEB.CSP	2	Web Security	Enable Content Security Policy in Web.config files
+CS.SEC.WEB.DNICV	1	Web Security	Do not disable SSL certificate validation
+CS.SEC.WEB.IIPHEU	5	Web Security	Do not rely on reverse DNS resolution for security decisions
+CS.SEC.WEB.ISE	2	Web Security	Ensure sufficient session expiration
+CS.SEC.WEB.LUAFLA	2	Web Security	Lock out the user after failed login attempts
+CS.SEC.WEB.UAA	3	Web Security	Use authorization attributes on pages and controllers
+CS.SEC.WEB.UAAMC	1	Web Security	Ensure that authorization attributes match the controller
+CS.SEC.WEB.UHCF	2	Web Security	Avoid instantiating the HttpClient class by creating a HttpClient object
+CS.SEC.WEB.VAFT	3	Web Security	Use anti-forgery attributes on POST methods
+
+CS.SPR.ENFL	3	Security	Ensure all sensitive function invocations are logged
+CS.SPR.HARDCONN	3	Security	Avoid hard coded connection strings
+CS.SPR.PEO	3	Security	Do not pass exception messages into output in order to prevent the application from leaking sensitive information
+CS.SPR.SELSPLAT	3	Security	Avoid select * statements
+CS.SPR.VPPD	3	Security	Do not call tainted methods outside the wrapper methods
+CS.SPR.VPPDIMPL	3	Security	Ensure all 'dangerous' functions are called within wrapper methods

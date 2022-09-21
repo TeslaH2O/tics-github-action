@@ -1,0 +1,99 @@
+Dir1.1	2	Implementation	Any implementation-defined behaviour on which the output of the program depends shall be documented and understood
+//Dir4.4 to be implemented	Sections of code should not be 'commented out'
+//Dir4.5 to be implemented	Identifiers in the same namespace with overlapping visibility should be typographically unambiguous
+Dir4.6	5	Code Design	Typedefs that indicate size and signedness should be used in place of the basic numerical types
+Dir4.9	5	Code Design	A function should be used in preference to a function-like macro where they are interchangeable
+Dir4.10	2	Code Design	Precautions shall be taken in order to prevent the contents of a header file being included more than once
+//Dir4.13 to be implemented	Functions which are designed to provide operations on a resource should be called in an appropriate sequence
+Rule2.3	5	Unused Code	A project should not contain unused type declarations
+Rule3.1	2	Comments	The required character sequences // and /* shall not be used within a comment
+Rule3.2	2	Comments	Line-splicing shall not be used in // comments
+Rule4.2	5	Character Sets and Lexical Conventions	Trigraphs should not be used
+Rule5.1	2	Identifiers	External identifiers shall be distinct
+Rule5.2	2	Identifiers	Identifiers in the same scope and name space shall be distinct
+Rule5.3	2	Identifiers	An identifier declared in an inner scope shall not hide an identifier declared in an outer scope
+Rule5.4	2	Identifiers	Macro identifiers shall be distinct
+Rule5.7	2	Identifiers	A tag name shall be a unique identifier
+Rule6.1	2	Types	Bit-fields shall only be declared with an appropriate type
+Rule6.2	2	Types	Single-bit named bit fields shall not be of a signed type
+Rule7.1	2	Literals and Constants	Octal constants shall not be used
+Rule7.2	2	Literals and Constants	A "u" or "U" suffix shall be applied to all integer constants that are represented in an unsigned type
+Rule7.3	2	Literals and Constants	The lowercase character "l" shall not be used in a literal suffix
+Rule8.1	2	Declarations and Definitions	Types shall be explicitly specified
+Rule8.2	2	Declarations and Definitions	Function types shall be in prototype form with named parameters
+Rule8.3	2	Declarations and Definitions	All declarations of an object or function shall use the same names and type qualifiers
+Rule8.4	2	Declarations and Definitions	A compatible declaration shall be visible when an object or function with external linkage is defined
+Rule8.5	2	Declarations and Definitions	An external object or function shall be declared once in one and only one file
+Rule8.6	2	Declarations and Definitions	An identifier with external linkage shall have exactly one external definition
+Rule8.8	2	Declarations and Definitions	The static storage class specifier shall be used in all declarations of objects and functions that have internal linkage
+Rule8.11	5	Declarations and Definitions	When an array with external linkage is declared, its size should be explicitly specified
+Rule8.12	1	Declarations and Definitions	Within an enumerator list, the value of an implicitly-specified enumeration constant shall be unique
+//Rule8.14 to be implemented	The restrict type qualifier shall not be used
+Rule9.1	1	Initialization	The value of an object with automatic storage duration shall not be read before it has been set
+Rule9.2	2	Initialization	The initializer for an aggregate or union shall be enclosed in braces
+Rule9.3	2	Initialization	Arrays shall not be partially initialized
+//Rule9.5 to be implemented	Where designated initialisers are used to initialize an array object the size of the array shall be specified explicitly
+Rule10.1	2	The Essential Type Model	Operands shall not be of an inappropriate essential type
+Rule10.2	2	The Essential Type Model	Expressions of essentially character type shall not be used inappropriately in addition and abstraction operations
+Rule10.3	2	The Essential Type Model	The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category
+Rule10.4	2	The Essential Type Model	Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category
+Rule11.1	2	Pointer Type Conversions	Conversions shall not be performed between a pointer to a function and any other type
+Rule11.2	2	Pointer Type Conversions	Conversions shall not be performed between a pointer to an incomplete type and any other type
+Rule11.3	2	Pointer Type Conversions	A cast shall not be performed between a pointer to object type and a pointer to a different object type
+Rule11.4	5	Pointer Type Conversions	A conversion should not be performed between a pointer to object and an integer type
+Rule11.8	2	Pointer Type Conversions	A cast shall not remove any const or volatile qualification from the type pointed to by a pointer
+Rule12.1	5	Expressions	The precedence of operators within expressions should be made explicit
+Rule12.2	2	Expressions	The right operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand
+Rule12.3	5	Expressions	The comma operator should not be used
+Rule13.2	2	Side Effects	The value of an expression and its persistent side effects shall be the same under all permitted evaluation orders
+Rule13.4	5	Side Effects	The result of an assignment operator should not be used
+Rule13.5	2	Side Effects	The right hand operand of a logical && or || operator shall not contain persistent side effects
+Rule13.6	1	Side Effects	The operand of the sizeof operator shall not contain any expression which has potential side effects
+Rule14.1	2	Control Statement Expressions	A loop counter shall not have essential floating type
+Rule14.2	2	Control Statement Expressions	A for loop shall be well-formed
+Rule14.3	2	Control Statement Expressions	Controlling expressions shall not be invariant
+Rule14.4	2	Control Statement Expressions	The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type
+Rule15.1	5	Control Flow	The goto statement should not be used
+//Rule 15.3 to be implemented	Any label referenced by a goto statement shall be declared in the same block, or in any block enclosing the goto statement
+//Rule 15.4 to be implemented	There should be no more than one break or goto statement used to terminate any iteration statement
+Rule15.5	5	Control Flow	A function should have a single point of exit at the end
+Rule15.6	2	Control Flow	The body of an iteration-statement or a selection-statement shall be a compound-statement
+Rule15.7	2	Control Flow	All if...else if constructs shall be terminated with an else statement
+Rule16.1	2	Switch Statements	All switch statements shall be well-formed
+Rule16.3	2	Switch Statements	An unconditional break statement shall terminate every switch-clause
+Rule16.4	2	Switch Statements	Every switch statement shall have a default label
+//Rule16.5	to be implemented	A default label shall appear as either the first or the last switch label of a switch statement
+Rule16.6	2	Switch Statements	Every switch statement shall have at least two switch-clauses
+Rule16.7	2	Switch Statements	A switch-expression shall not have essentially Boolean type
+//Rule17.1 to be implemented	The features of <stdarg.h> shall not be used
+//Rule17.2 to be implemented	Functions shall not call themselves, either directly or indirectly
+Rule17.3	2	Functions	A function shall not be declared implicitly
+Rule17.4	2	Functions	All exit paths from a function with non-void return type shall have an explicit return statement with an expression
+//Rule17.6 to be implemented	The declaration of an array parameter shall not contain the static keyword between the [ ]
+Rule17.7	2	Functions	The value returned by a function having non-void return type shall be used
+Rule18.2	2	Pointers and Arrays	Subtraction between pointers shall only be applied to pointers that address elements of the same array
+Rule18.3	2	Pointers and Arrays	The relational operators >, >=, < and <= shall not be applied to objects of pointer type except where they point into the same object
+Rule18.4	5	Pointers and Arrays	The +, -, += and -= operators should not be applied to an expression of pointer type
+Rule18.5	5	Pointers and Arrays	Declarations should contain no more than two levels of pointer nesting
+Rule18.6	2	Pointers and Arrays	The address of an object with automatic storage shall not be copied to another object that persists after the first object has ceased to exist
+//Rule19.2 to be implemented	The union keyword should not be used
+//Rule20.1 to be implemented	#include directives should only be preceded by preprocessor directives or comments
+Rule20.2	2	Preprocessing Directives	The ', " or \ characters and the /* and // character sequences shall not occur in a header file name
+Rule20.3	2	Preprocessing Directives	The #include directive shall be followed by either a <filename> or "filename" sequence
+Rule20.4	2	Preprocessing Directives	A macro shall not be defined with the same name as a keyword
+//Rule20.5 to be implemented	#undef should not be used
+Rule20.6	2	Preprocessing Directives	Tokens that look like a preprocessing directive shall not occur within a macro argument
+Rule20.7	2	Preprocessing Directives	Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses
+Rule20.10	5	Preprocessing Directives	The # and ## preprocessor operators should not be used
+Rule20.11	2	Preprocessing Directives	A macro parameter immediately following a # operator shall not immediately be followed by a ## operator
+//Rule20.14 to be implemented	All #else, #elif and #endif preprocessor directives shall reside in the same file as the #if, #ifdef
+Rule21.3	2	Standard Libraries	The memory allocation and deallocation functions of <stdlib.h> shall not be used
+Rule21.4	2	Standard Libraries	The standard header file <setjmp.h> shall not be used
+Rule21.5	2	Standard Libraries	The standard header file <signal.h> shall not be used
+//Rule21.7 to be implemented	The atof, atoi, atol and atoll functions of <stdlib.h> shall not be used
+Rule21.8	2	Standard Libraries	The library functions abort, exit, getenv and system of <stdlib.h> shall not be used
+Rule21.9	2	Standard Libraries	The library functions bsearch and qsort of <stdlib.h> shall not be used
+//Rule21.10 split off of Rule21.9	The Standard Library time and date routines shall not be used
+//Rule21.11 to be implemented	The standard header file <tgmath.h> shall not be used
+//Rule21.12 to be implemented	The exception handling features of <fenv.h> should not be used
+Rule22.5	1	Resources	A pointer to a FILE object shall not be dereferenced

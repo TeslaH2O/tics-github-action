@@ -1,0 +1,58 @@
+##########################################################
+# TIOBE CODE CHECKER CUSTOM BUILD CONFIGURATION
+##########################################################
+# COPYRIGHT 2006, TIOBE Software B.V.
+# DESCRIPTION: Custom build settings
+# $Id: TICSBuildCustom.pm.default 15247 2009-03-31 14:02:28Z goud $
+# $URL: svn+ssh://andriopoulou@esp.tiobe.com/home/wilde/svnrepository/tics/trunk/configuration/installTICS/TICSBuildCustom.pm.default $
+#
+
+# Implement the following functions
+# 1. IsMakeFile
+# 2. GetCompilerOptions
+# 3. ExtractFilesFromMakefile
+
+package TICSBuildCustom;
+
+use strict;
+
+use TICSAccess;
+
+# pre: TICSFile::FILE object may not be set
+# in $makefile: name of a makefile candidate
+# return: true if the given name is valid makefile name for this build type
+sub IsMakeFile ($) : Protected {
+  my $makefile = shift;
+
+  return 0;
+}
+
+# pre: TICSFile::FILE object is fully initialized
+# return: the compiler options for the current input file based on the
+# current makefile (as an array)
+sub GetCompilerOptions () : Protected {
+  my @options = ();
+
+  return @options;
+}
+
+# pre: TICSFile::FILE object may not be set
+# in $makefile: name of the makefile to extract files from
+# return: the checkable files from the makefile (as an array). File
+# names are fully qualified (absolute paths).
+sub ExtractFilesFromMakefile ($) : Protected {
+  my $makefile = shift;
+  my @files = ();
+
+  return @files;
+}
+
+# in $makefile: name of the makefile candidate
+# return: whether the makefile is a group makefile
+sub IsGroupMakeFile ($) : Protected {
+  my $makefile = shift;
+
+  return 0;
+}
+
+1;

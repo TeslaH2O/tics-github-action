@@ -1,0 +1,46 @@
+#if defined(__ICCARM__) || defined(__ARM__)
+typedef void * _VA_LIST;
+typedef _VA_LIST va_list;
+#else
+typedef __Va_list va_list;
+#endif
+
+#if __cplusplus
+#define __intrinsic
+#define __nounwind
+#define __constrange(x,y)
+#define __noreturn
+
+#else
+
+#define __packed
+#define __interrupt
+#define __data
+#define __idata
+#define __xdata
+#define __root
+#define __flash
+#define __intrinsic
+#define __io
+#define __ext_io
+#define __z
+#define __farflash
+#define __x_z
+#define _Bool int
+#define __idata_reentrant
+#define __near_func
+#define __no_init
+#define __sfr
+#define __code
+#define __generic
+#define __nounwind 
+#define __constrange(x,y) int
+#define inline
+#define __noreturn
+#define __absolute
+#define __c99_generic(...) 1
+#define __big_endian
+#define __ramfunc
+#define __spec_string
+
+#endif

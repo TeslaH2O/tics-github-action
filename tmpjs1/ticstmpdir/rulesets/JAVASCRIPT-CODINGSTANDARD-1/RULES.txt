@@ -1,0 +1,61 @@
+js-constructor-super	5	ECMAScript 6	Require `super()` calls in constructors.
+js-for-direction	2	Possible Errors	Enforce "for" loop update clause moving the counter in the right direction.
+js-getter-return	2	Possible Errors	Enforce `return` statements in getters.
+js-no-async-promise-executor	3	Possible Errors	Disallow using an async function as a promise executor.
+js-no-case-declarations	3	Best Practices	Disallow lexical declarations in case clauses.
+js-no-class-assign	3	ECMAScript 6	Disallow reassigning class members.
+js-no-compare-neg-zero	2	Possible Errors	Disallow comparing against -0.
+js-no-cond-assign	2	Possible Errors	Disallow assignment operators in conditional expressions.
+js-no-const-assign	2	ECMAScript 6	Disallow reassigning `const` variables.
+js-no-constant-condition	2	Possible Errors	Disallow constant expressions in conditions.
+js-no-control-regex	4	Possible Errors	Disallow control characters in regular expressions.
+js-no-debugger	3	Possible Errors	Disallow the use of `debugger`.
+js-no-delete-var	3	Variables	Disallow deleting variables.
+js-no-dupe-args	1	Possible Errors	Disallow duplicate arguments in `function` definitions.
+js-no-dupe-class-members	1	ECMAScript 6	Disallow duplicate class members.
+js-no-dupe-else-if	1	Possible Errors	Disallow duplicate conditions in if-else-if chains.
+js-no-dupe-keys	1	Possible Errors	Disallow duplicate keys in object literals.
+js-no-duplicate-case	1	Possible Errors	Disallow duplicate case labels.
+js-no-empty	2	Possible Errors	Disallow empty block statements.
+js-no-empty-character-class	1	Possible Errors	Disallow empty character classes in regular expressions.
+js-no-empty-pattern	1	Best Practices	Disallow empty destructuring patterns.
+js-no-ex-assign	3	Possible Errors	Disallow reassigning exceptions in `catch` clauses.
+js-no-extra-boolean-cast	5	Possible Errors	Disallow unnecessary boolean casts.
+js-no-extra-semi	5	Possible Errors	Disallow unnecessary semicolons.
+js-no-fallthrough	2	Best Practices	Disallow fallthrough of `case` statements.
+js-no-func-assign	3	Possible Errors	Disallow reassigning `function` declarations.
+js-no-global-assign	2	Best Practices	Disallow assignments to native objects or read-only global variables.
+js-no-import-assign	1	Possible Errors	Disallow assigning to imported bindings.
+js-no-inner-declarations	7	Possible Errors	Disallow variable or `function` declarations in nested blocks.
+js-no-invalid-regexp	1	Possible Errors	Disallow invalid regular expression strings in the RegExp constructor.
+js-no-irregular-whitespace	3	Possible Errors	Disallow irregular whitespace outside of strings and comments.
+js-no-loss-of-precision	3	Possible Errors	Avoid the use of number literals that immediately lose precision at runtime when converted to a JS Number due to 64-bit floating-point rounding.
+js-no-misleading-character-class	4	Possible Errors	Disallow characters which are made with multiple code points in character class syntax.
+js-no-mixed-spaces-and-tabs	5	Style	Disallow mixed spaces and tabs for indentation.
+js-no-new-symbol	5	ECMAScript 6	Disallow `new` operators with the `symbol` object.
+js-no-nonoctal-decimal-escape	5	Best Practices	Avoid `\8` and `\9` escape sequences in string literals.
+js-no-obj-calls	4	Possible Errors	Disallow calling global object properties as functions.
+js-no-octal	5	Best Practices	Disallow octal literals.
+js-no-prototype-builtins	5	Possible Errors	Disallow calling some `object.prototype` methods directly on objects.
+js-no-redeclare	3	Best Practices	Disallow variable redeclaration.
+js-no-regex-spaces	4	Possible Errors	Disallow multiple spaces in regular expressions.
+js-no-self-assign	1	Best Practices	Disallow assignments where both sides are exactly the same.
+js-no-setter-return	2	Possible Errors	Disallow returning values from setters.
+js-no-shadow-restricted-names	3	Variables	Disallow identifiers from shadowing restricted names.
+js-no-sparse-arrays	3	Possible Errors	Disallow sparse arrays.
+js-no-this-before-super	3	ECMAScript 6	Disallow `this`/`super` before calling `super()` in constructors.
+js-no-undef	3	Variables	Disallow use of undeclared variables unless mentioned in a /*global */ block.
+js-no-unexpected-multiline	3	Possible Errors	Disallow confusing multiline expressions.
+js-no-unreachable	2	Possible Errors	Disallow unreachable code after `return`, `throw`, `continue`, and `break` statements.
+js-no-unsafe-finally	2	Possible Errors	Disallow control flow statements in `finally` blocks.
+js-no-unsafe-negation	5	Possible Errors	Disallow negating the left operand of relational operators.
+js-no-unsafe-optional-chaining	2	Possible Errors	The optional chaining (?.) expression can short-circuit with a return value of undefined. Therefore, treating an evaluated optional chaining expression as a function, object, number, etc., can cause TypeError or unexpected results.
+js-no-unused-labels	2	Best Practices	Disallow unused labels.
+js-no-unused-vars	4	Variables	Disallow declaration of variables that are not used in the code.
+js-no-useless-backreference	4	Possible Errors	Avoid useless backreferences in regular expressions.
+js-no-useless-catch	4	Best Practices	disallow unnecessary `catch` clauses
+js-no-useless-escape	3	Best Practices	Disallow unnecessary escape characters.
+js-no-with	5	Best Practices	Disallow `with` statements.
+js-require-yield	4	ECMAScript 6	Require generator functions to contain `yield`.
+js-use-isnan	4	Possible Errors	Require calls to `isnan()` when checking for `nan`.
+js-valid-typeof	2	Possible Errors	Enforce comparing `typeof` expressions against valid strings.

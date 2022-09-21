@@ -1,0 +1,407 @@
+OWNER: ''
+MAILTO: 'mailto:danai.andriopoulou@tiobe.com'
+OWNERVERBOSE: ''
+SITE: ''
+ORGANIZATION: ''
+SCMTOOL:
+  NAME: 'None'
+  AUTOUPDATE: 0
+  USECHANGEDFILES: 1
+DATABASE:
+  SERVER: localhost
+  DBPATH: /opt/tiobe/TICS/DBServer
+  NROFBACKUPS: 1
+SCHEDULE:
+  NROFBACKUPS: 20
+LICDIR: ../common
+CONFIGURATION:
+  NROFBACKUPS: 50
+COMPILERS:
+  CodeComposer:
+    COMMENTPRESERVATION:
+      C: 1
+      CPP: 1
+  Gcc:
+    COMMENTPRESERVATION:
+      C: 1
+      CPP: 1
+    WARNINGFLAGS: ['-fno-diagnostics-show-caret']
+  VC:
+    COMMENTPRESERVATION:
+      C: 1
+      CPP: 1
+FILEFILTERS:
+  ARCHIVE: ARCHIVE_ALLPROJECTS.txt
+  CONTENT:
+  - CONTAINS:
+      NONE: AUTOGEN.txt
+    MARKERS:
+      ANY: AUTOGEN.txt
+  - CONTAINS:
+      ANY: COMPANY.txt
+    MARKERS:
+      ANY: COPYRIGHT.txt
+LANGUAGES:
+  C:
+    EXTENSIONS: ['c']
+    BUILDTYPE:
+    - {'name': 'VCXProjMSBuild', 'compiler': [{'VC': ['-wd4335']}]}
+    - {'name': 'Sln', 'compiler': [{'VC': ['-wd4335']}]}
+    CYCLOMATICCOMPLEXITY:
+      TOOL: 'TICScyclox'
+    DEADCODE:
+      TOOL: 'Cppcheck'
+    FANOUT:
+      TOOL: 'C'
+    PATHCOUNT:
+      TOOL: 'TICSc'
+    PATHCOUNT_MAX:
+      TOOL: 'TICSc'
+    GENERATED:
+    - OPEN: '/\*\h*\{\{\{RME classifier ''Logical View::'
+      CLOSE: \z
+      GENERATED: 1
+    - OPEN: /\*\h*\{\{\{RME operation '
+      CLOSE: '[;{]'
+      GENERATED: 0
+    - OPEN: /\*\h*\{\{\{USR \*/
+      CLOSE: /\*\h*}}}USR \*/
+      GENERATED: 0
+    - OPEN: /\*\h*\{\{\{RME (?:classAttribute|associationEnd)
+      CLOSE: /\*\h*}}}RME \*/
+      GENERATED: 0
+    - OPEN: '/\*\h*\{\{\{RME '
+      CLOSE: /\*\h*}}}RME \*/
+      GENERATED: 1
+    - OPEN: // Start custom code section
+      CLOSE: // End custom code section
+      GENERATED: 0
+    RULESETS:
+    - NAME: C Coding Standard
+      METRIC: CODINGSTANDARD
+      RULESDIR: 4.0/codingstandards/C
+      DOCNAME: <webserver>/codingstandards/C/csviewer/index.php
+    TESTCOVERAGE:
+      'TOOLS': ['None']
+  CPP:
+    EXTENSIONS: ['cpp', 'cxx', 'cc']
+    BUILDTYPE:
+    - {'name': 'VCXProjMSBuild', 'compiler': [{'VC': ['-wd4335']}]}
+    - {'name': 'Sln', 'compiler': [{'VC': ['-wd4335']}]}
+    CYCLOMATICCOMPLEXITY:
+      TOOL: 'TICScyclox'
+    DEADCODE:
+      TOOL: 'Cppcheck'
+    FANOUT:
+      TOOL: 'Cpp'
+    GENERATED:
+    - OPEN: ^\h*BEGIN_ACCESSOR_MAP
+      CLOSE: ^\h*END_ACCESSOR_MAP
+    - OPEN: ^\h*BEGIN_COM_MAP
+      CLOSE: ^\h*END_COM_MAP
+    - OPEN: ^\h*BEGIN_CONNECTION_POINT_MAP
+      CLOSE: ^\h*END_CONNECTION_POINT_MAP
+    - OPEN: ^\h*BEGIN_MESSAGE_MAP
+      CLOSE: ^\h*END_MESSAGE_MAP
+    - OPEN: ^\h*BEGIN_OBJECT_MAP
+      CLOSE: ^\h*END_OBJECT_MAP
+    - OPEN: '//\h*\{\{\{RME classifier ''Logical View::'
+      CLOSE: \z
+      GENERATED: 1
+    - OPEN: //\h*\{\{\{RME operation '
+      CLOSE: '[;{]'
+      GENERATED: 0
+    - OPEN: //\h*\{\{\{USR
+      CLOSE: //\h*}}}USR
+      GENERATED: 0
+    - OPEN: //\h*\{\{\{RME classAttribute[^\n]*\s*[,{]
+      CLOSE: //\h*}}}RME
+    - OPEN: //\h*\{\{\{RME (?:classAttribute|associationEnd)
+      CLOSE: //\h*}}}RME
+      GENERATED: 0
+    - OPEN: // \{\{\{RME tool 'OT::Cpp' property 'GenerateDefaultConstructor'
+      CLOSE: // }}}RME
+      GENERATED: 0
+    - OPEN: '//\h*\{\{\{RME '
+      CLOSE: //\h*}}}RME
+      GENERATED: 1
+    - OPEN: ^\h*//\{\{AFX
+      CLOSE: ^\h*//}}AFX
+      GENERATED: 1
+    - OPEN: '^\n(?=[^\n]+\n^\{\n^// ELEMENT: [\w:]+$)'
+      CLOSE: '^\{\n^// ELEMENT: [\w:]+'
+      GENERATED: 0
+    - OPEN: '\A.*?^// ELEMENT:'
+      CLOSE: \z
+      GENERATED: 1
+    - OPEN: // Start custom code section
+      CLOSE: // End custom code section
+      GENERATED: 0
+    RULESETS: []
+    TESTCOVERAGE:
+      TOOLS: ['None']
+  CS:
+    EXTENSIONS: ['cs']
+    BUILDTYPE:
+    - {'compiler': ['Csc'], 'name': 'CSProjMSBuild'}
+    - {'compiler': ['None'], 'name': 'Sln'}
+    CYCLOMATICCOMPLEXITY:
+      'TOOL': 'TICScyclox'
+    FANOUT:
+      'INTERNALNAMESPACE': []
+      'TOOL': 'TICSCil'
+    GENERATED:
+    - OPEN: ^\h*#\h*region\h+Windows Form Designer generated code
+      CLOSE: ^\h*#\h*endregion\b
+    - OPEN: ^\h*#\h*region\h+Component Designer generated code
+      CLOSE: ^\h*#\h*endregion\b
+    RULESETS:
+    - NAME: C# Coding Standard
+      METRIC: CODINGSTANDARD
+      RULESDIR: 4.0/codingstandards/CS
+      DOCNAME: <webserver>/codingstandards/CS/csviewer/index.php
+    - NAME: C# Compiler Warnings
+      METRIC: COMPILERWARNING
+      RULESDIR: 4.0/compilerwarnings/CS
+    TESTCOVERAGE:
+      TOOLS: ['None']
+  JAVA:
+    EXTENSIONS: ['java']
+    BUILDTYPE:
+    - {'name': 'Maven', 'compiler': ['None']}
+    - {'name': 'Ant', 'compiler': ['None']}
+    - {'name': 'Gradle', 'compiler': ['None']}
+    CYCLOMATICCOMPLEXITY:
+      TOOL: 'TICScyclox'
+    FANOUT:
+      INTERNALNAMESPACE: []
+      TOOL: 'Java'
+    RULESETS:
+    - NAME: Java Coding Standard
+      METRIC: CODINGSTANDARD
+      RULESDIR: 4.0/codingstandards/JAVA
+      DOCNAME: <webserver>/codingstandards/JAVA/csviewer/index.php
+    - NAME: Java Compiler Warnings
+      METRIC: COMPILERWARNING
+      RULESDIR: 4.0/compilerwarnings/JAVA
+    TESTCOVERAGE:
+      TOOLS: ['None']
+  JAVASCRIPT:
+    EXTENSIONS: ['js']
+    CYCLOMATICCOMPLEXITY:
+      TOOL: 'TICScyclox'
+    FANOUT:
+      TOOL: 'Javascript'
+    RULESETS:
+    - NAME: JavaScript Coding Standard
+      METRIC: CODINGSTANDARD
+      RULESDIR: 4.0/codingstandards/JAVASCRIPT
+    - NAME: JavaScript Compiler Warnings
+      METRIC: COMPILERWARNING
+      RULESDIR: 4.0/compilerwarnings/JAVASCRIPT
+    TESTCOVERAGE:
+      TOOLS: ['None']
+  MATLAB:
+    EXTENSIONS: ['matlab']
+    BUILDTYPE: []
+    CYCLOMATICCOMPLEXITY:
+      'TOOL': 'mlint'
+    FANOUT:
+      TOOL: 'mlint'
+    TESTCOVERAGE:
+      TOOLS: ['Matlab']
+    RULESETS:
+    - NAME: Matlab Coding Standard
+      METRIC: CODINGSTANDARD
+      RULESDIR: 4.0/codingstandards/MATLAB
+    - NAME: Matlab Compiler Warnings
+      METRIC: COMPILERWARNING
+      RULESDIR: 4.0/compilerwarnings/MATLAB
+  PYTHON:
+    EXTENSIONS: ['py']
+    CYCLOMATICCOMPLEXITY:
+      TOOL: 'TICScyclox'
+    FANOUT:
+      TOOL: 'Python'
+    RULESETS:
+    - NAME: Python3 Coding Standard
+      METRIC: CODINGSTANDARD
+      DYNAMICRULESET: 1
+      RULESDIR: 4.0/codingstandards/PYTHON
+      DOCNAME: http://pylint-messages.wikidot.com/messages
+      ANCHOR: ':'
+    - NAME: Python Compiler Warnings
+      METRIC: COMPILERWARNING
+      RULESDIR: 4.0/compilerwarnings/PYTHON
+    TESTCOVERAGE:
+      TOOLS: ['None']
+  SQL:
+    EXTENSIONS: ['sql', 'pkb']
+    CYCLOMATICCOMPLEXITY:
+      TOOL: 'TICSsql'
+    FANOUT:
+      TOOL: 'TICSsql'
+    RULESETS:
+    - NAME: SQL Coding Standard
+      METRIC: CODINGSTANDARD
+      RULESDIR: 4.0/codingstandards/SQL
+    TESTCOVERAGE:
+      TOOLS: ['None']
+  TYPESCRIPT:
+    EXTENSIONS: ['ts', 'tsx']
+    BUILDTYPE:
+    - {'name': 'AngularCLI', 'compiler': ['None']}
+    - {'name': 'Tsc', 'compiler': ['None']}
+    CYCLOMATICCOMPLEXITY:
+      TOOL: 'TICScyclox'
+    FANOUT:
+      TOOL: 'Typescript'
+    RULESETS:
+    - NAME: TypeScript Coding Standard
+      METRIC: CODINGSTANDARD
+      RULESDIR: 4.0/codingstandards/TYPESCRIPT
+    - NAME: TypeScript Compiler Warnings
+      METRIC: COMPILERWARNING
+      RULESDIR: 4.0/compilerwarnings/TYPESCRIPT
+    TESTCOVERAGE:
+      TOOLS: ['None']
+METRICS:
+  CODINGSTANDARD:
+    ENABLED: 1
+  COMPILERWARNING:
+    ENABLED: 1
+  ABSTRACTINTERPRETATION:
+    ENABLED: 0
+  SECURITY:
+    ENABLED: 0
+  UNITBRANCHCOVERAGE:
+    ENABLED: 0
+  UNITDECISIONCOVERAGE:
+    ENABLED: 0
+  UNITFUNCTIONCOVERAGE:
+    ENABLED: 0
+  UNITSTATEMENTCOVERAGE:
+    ENABLED: 0
+  INTEGRATIONBRANCHCOVERAGE:
+    ENABLED: 0
+  INTEGRATIONDECISIONCOVERAGE:
+    ENABLED: 0
+  INTEGRATIONFUNCTIONCOVERAGE:
+    ENABLED: 0
+  INTEGRATIONSTATEMENTCOVERAGE:
+    ENABLED: 0
+  SYSTEMBRANCHCOVERAGE:
+    ENABLED: 0
+  SYSTEMDECISIONCOVERAGE:
+    ENABLED: 0
+  SYSTEMFUNCTIONCOVERAGE:
+    ENABLED: 0
+  SYSTEMSTATEMENTCOVERAGE:
+    ENABLED: 0
+  TOTALBRANCHCOVERAGE:
+    ENABLED: 0
+  TOTALDECISIONCOVERAGE:
+    ENABLED: 0
+  TOTALFUNCTIONCOVERAGE:
+    ENABLED: 0
+  TOTALSTATEMENTCOVERAGE:
+    ENABLED: 0
+  LOC:
+    ENABLED: 1
+  ELOC:
+    ENABLED: 1
+  GLOC:
+    ENABLED: 1
+  CHANGERATE:
+    ENABLED: 1
+  LINESADDED:
+    ENABLED: 1
+  LINESCHANGED:
+    ENABLED: 0
+  LINESDELETED:
+    ENABLED: 1
+  ACCUCHANGERATE:
+    ENABLED: 1
+  ACCULINESADDED:
+    ENABLED: 1
+  ACCULINESCHANGED:
+    ENABLED: 0
+  ACCULINESDELETED:
+    ENABLED: 1
+  AVGCYCLOMATICCOMPLEXITY:
+    ENABLED: 1
+  MAXCYCLOMATICCOMPLEXITY:
+    ENABLED: 1
+  PATHCOUNT:
+    ENABLED: 0
+  PATHCOUNT_MAX:
+    ENABLED: 0
+  FANOUT:
+    ENABLED: 1
+  DEADCODE:
+    ENABLED: 1
+  DUPLICATEDCODE:
+    ENABLED: 1
+  HIS_CODINGSTANDARD:
+    ENABLED: 0
+  HIS_AVGCYCLOMATICCOMPLEXITY:
+    ENABLED: 0
+  HIS_MAXCYCLOMATICCOMPLEXITY:
+    ENABLED: 0
+  HIS_COMMENTDENSITY:
+    ENABLED: 0
+  HIS_GOTOSTATEMENTS:
+    ENABLED: 0
+  HIS_RETURNPOINTS:
+    ENABLED: 0
+  HIS_CALLLEVELS:
+    ENABLED: 0
+  HIS_FUNCCALLS:
+    ENABLED: 0
+  HIS_FUNCCYCLE:
+    ENABLED: 0
+  HIS_PARAMCOUNT:
+    ENABLED: 0
+  HIS_PATHCOUNT:
+    ENABLED: 0
+  HIS_FUNCSIZE:
+    ENABLED: 0
+  HIS_GOTOSTATEMENTS_MAX:
+    ENABLED: 0
+  HIS_RETURNPOINTS_MAX:
+    ENABLED: 0
+  HIS_CALLLEVELS_MAX:
+    ENABLED: 0
+  HIS_FUNCCALLS_MAX:
+    ENABLED: 0
+  HIS_FUNCCYCLE_MAX:
+    ENABLED: 0
+  HIS_PARAMCOUNT_MAX:
+    ENABLED: 0
+  HIS_PATHCOUNT_MAX:
+    ENABLED: 0
+  HIS_FUNCSIZE_MAX:
+    ENABLED: 0
+  HIS_VOCF:
+    ENABLED: 0
+SOAKTIME: 100
+METAINFO: 1
+MSBUILDINPLACE: 0
+EMAIL:
+  FROM: 'danai.andriopoulou@tiobe.com'
+  MAILER: Http
+  PASSWORD: 'Leic9M9j5CdEEheFS7PYhw=='
+  USERNAME: 'ticsqserver'
+NOTIFICATIONS:
+  STATUS:
+    TO: 'danai.andriopoulou@tiobe.com'
+  TED:
+    TO: 'danai.andriopoulou@tiobe.com'
+TQIVERSION: '4.6'
+WEBSERVER:
+  MERGEKEY: default
+  PORTALURL: http://localhost:20222/tiobeweb/2022.2/
+  SHOWANNOTATEDSOURCES: 1
+POSTQDB: 'POSTQDB.pm'
+PREPAREQDB: 'PREPAREQDB.pm'
+DOSUBST: 1

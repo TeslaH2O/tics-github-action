@@ -1,0 +1,164 @@
+C_IAR_CONTAINER	1	Compiler warning	CONTAINER
+C_Pa001	2	Compiler warning	type attributes are incompatible with previous declaration
+C_Pa002	1	Compiler warning	the type attribute %sq is not allowed on this declaration
+C_Pa003	5	Compiler warning	type attribute specified more than once
+C_Pa004	1	Compiler warning	illegal declaration
+C_Pa005	1	Compiler warning	illegal literal
+C_Pa006	3	Compiler warning	old unsupported #pragma encountered
+C_Pa007	4	Compiler warning	unrecognized syntax in #pragma
+C_Pa008	1	Compiler warning	illegal usage of location operator in declaration
+C_Pa009	1	Compiler warning	cannot create a pointer to the type
+C_Pa010	2	Compiler warning	type attributes on parameters are ignored
+C_Pa011	5	Compiler warning	memory attribute duplicated
+C_Pa012	2	Compiler warning	type attributes data and functions are mixed
+C_Pa013	5	Compiler warning	type attribute duplicated
+C_Pa014	5	Compiler warning	object attribute duplicated
+C_Pa016	4	Compiler warning	unrecognized syntax in memory #pragma
+C_Pa017	4	Compiler warning	unrecognized syntax in dataseg #pragma
+C_Pa018	4	Compiler warning	unrecognized syntax in constseg #pragma
+C_Pa019	4	Compiler warning	unrecognized syntax in function #pragma
+C_Pa020	2	Compiler warning	more than one #pragma type_attribute active for this declaration
+C_Pa021	2	Compiler warning	more than one #pragma object active for this declaration
+C_Pa022	2	Compiler warning	more than one #pragma locate active for this declaration
+C_Pa023	2	Compiler warning	more than one #pragma vector active for this declaration
+C_Pa024	5	Compiler warning	duplicate type qualifier
+C_Pa025	3	Compiler warning	location specified using #pragma location is different from that specified here
+C_Pa026	3	Compiler warning	vector supplied both from #pragma function_attribute and ##pragma vector, #pragma vector used
+C_Pa027	3	Compiler warning	expected data object attributes from #pragma object_attribute
+C_Pa028	3	Compiler warning	expected function object attributes from #pragma object_attribute
+C_Pa029	2	Compiler warning	illegal diagnostic tag supplied, discarded
+C_Pa030	2	Compiler warning	diagnostic tag can not have it's level changed, discarded
+C_Pa031	2	Compiler warning	IAR keyword used with IAR extended language disabled
+C_Pa032	2	Compiler warning	the type "long long" does not exist
+C_Pa033	1	Compiler warning	no integer type can hold all these values
+C_Pa034	3	Compiler warning	initialized variable can not have __no_init attribute, discarded
+C_Pa035	4	Compiler warning	shouldn't happen
+C_Pa036	2	Compiler warning	initializer must have a constant value
+C_Pa037	1	Compiler warning	function type not callable
+C_Pa038	1	Compiler warning	type cannot be constructed/destructed in memory
+C_Pa039	2	Compiler warning	use of address of unaligned structure member
+C_Pa040	3	Compiler warning	expected a string literal
+C_Pa041	2	Compiler warning	type attribute is not allowed on function types
+C_Pa042	2	Compiler warning	type attribute is not allowed on object types
+C_Pa043	2	Compiler warning	keyword is not available with the current settings
+C_Pa044	4	Compiler warning	no more than one representation changing cast allowed in constant expression
+C_Pa045	3	Compiler warning	has no prototype
+C_Pa046	3	Compiler warning	function type has no prototype
+C_Pa047	3	Compiler warning	expected a "}%%"
+C_Pa048	3	Compiler warning	object attribute not allowed
+C_Pa049	5	Compiler warning	multiple lines not allowed in inline assembler statement
+C_Pa050	7	Compiler warning	non-native end of line sequence detected (this diagnostic is only issued once)
+C_Pa051	2	Compiler warning	not a function or a variable
+C_Pa052	4	Compiler warning	#pragma can only be used on a definition
+C_Pa053	3	Compiler warning	segment/section has not been declared using #pragma segment/section
+C_Pa054	3	Compiler warning	incompatible with previous segment/section declaration
+C_Pa055	1	Compiler warning	expected a type attribute
+C_Pa056	5	Compiler warning	included from:
+C_Pa057	5	Compiler warning	%pv
+C_Pa058	4	Compiler warning	illegal use of a __single_inheritance class
+C_Pa059	4	Compiler warning	inheritance kind is too restrictive
+C_Pa060	4	Compiler warning	more than one pragma of this kind active for this declaration
+C_Pa061	2	Compiler warning	invalid data alignment value
+C_Pa062	1	Compiler warning	expected a non-negative integer constant
+C_Pa063	2	Compiler warning	data alignment is different from previous declaration
+C_Pa064	2	Compiler warning	type qualifiers are in conflict with those of base
+C_Pa065	4	Compiler warning	pragma may not be used here
+C_Pa066	2	Compiler warning	first parameter of non-default allocation function must be the appropriate index type
+C_Pa067	2	Compiler warning	allocation function requires "void MEM *" return type, for the appropriate memory MEM
+C_Pa068	2	Compiler warning	first parameter of deallocation function must be of type "void MEM *", for some memory MEM
+C_Pa069	1	Compiler warning	dynamic memory allocation is not available for %sq memory
+C_Pa070	1	Compiler warning	member functions for objects of type are not allowed
+C_Pa071	5	Compiler warning	both, or neither, must be system includes
+C_Pa072	3	Compiler warning	memory attribute not allowed
+C_Pa073	3	Compiler warning	invalid type conversion
+C_Pa074	4	Compiler warning	"#pragma language = save" still open
+C_Pa075	4	Compiler warning	no matching save pragma
+C_Pa076	3	Compiler warning	illegal atttributes for virtual member function - a default function pointer cannot point to this function
+C_Pa077	3	Compiler warning	pointer to member of type is not allowed - a default function pointer cannot point to this function type
+C_Pa078	2	Compiler warning	undefined behavior: an lvalue is modified more than once without an intervening sequence point in this statement
+C_Pa079	2	Compiler warning	undefined behavior: (or a value reached by some form of indirection through it) is modified more than once without an intervening sequence point in this statement
+C_Pa080	2	Compiler warning	undefined behavior: the order of read and modification is undefined in this statement
+C_Pa081	2	Compiler warning	undefined behavior: the order of read and modification (or a value reached by some form of indirection through it) is undefined in this statement
+C_Pa082	2	Compiler warning	undefined behavior: the order of volatile accesses is undefined in this statement
+C_Pa083	2	Compiler warning	undefined behavior: the order of volatile accesses (or a value reached by some form of indirection through it) is undefined in this statement
+C_Pa084	2	Compiler warning	pointless integer comparison
+C_Pa085	2	Compiler warning	undefined behavior: (or a value reached by some form of indirection through it) is modified more than once without an intervening sequence point in this statement
+C_Pa086	2	Compiler warning	undefined behavior: the order of read and modification (or a value reached by some form of indirection through it) is undefined in this statement
+C_Pa087	2	Compiler warning	undefined behavior: the order of volatile accesses (or a value reached by some form of indirection through it) is undefined in this statement
+C_Pa088	3	Compiler warning	non-constructor dynamic initialization of const variables not allowed in this memory model
+C_Pa089	2	Compiler warning	enumerated type mixed with another enumerated type
+C_Pa091	2	Compiler warning	operator operates on value promoted to int (with possibly unexpected result)
+C_Pa092	2	Compiler warning	implicit conversion to integer does not preserve the value
+C_Pa093	2	Compiler warning	implicit conversion from floating point to integer
+C_Pa094	2	Compiler warning	the object attribute %sq is not allowed here
+C_Pa095	2	Compiler warning	dynamic initialization not allowed in %sq memory
+C_Pa096	2	Compiler warning	delete of class with virtual functions but no virtual destructor
+C_Pa097	2	Compiler warning	this call could cause an exception to escape from a nothrow function
+C_Pa098	2	Compiler warning	construction of this object could cause an exception to escape from a nothrow function
+C_Pa099	2	Compiler warning	destruction of this object could cause an exception to escape from a nothrow function
+C_Pa100	3	Compiler warning	this try has no catch-all clause. This could permit an exception to escape from a nothrow function
+C_Pa101	1	Compiler warning	this throw would escape from a nothrow function
+C_Pa102	5	Compiler warning	searched: %sq
+C_Pa103	3	Compiler warning	__constrange is only valid in parameter declarations
+C_Pa104	3	Compiler warning	argument must be between %s1 and %s2, inclusive
+C_Pa105	6	Compiler warning	this directive is inside an active namespace scope
+C_Pa106	3	Compiler warning	the preceding STDC pragma argument is unsupported
+C_Pa107	2	Compiler warning	this runtime model attribute declaration is in conflict with previous declaration
+C_Pa108	3	Compiler warning	no variant of the generic intrinsic function available for type
+C_Pa109	2	Compiler warning	the unary minus operator is applied to an unsigned expression (with possibly unexpected results)
+C_Pa110	3	Compiler warning	c99 inline definition not allowed
+C_Pa111	3	Compiler warning	[error pragma]: %s
+C_Pa112	3	Compiler warning	throw not allowed in exception neutral mode
+C_Pa113	3	Compiler warning	rtti not allowed in C++/EC++ neutral mode
+C_Pa114	2	Compiler warning	the address of this object cannot be used in static initialization
+C_Pa115	3	Compiler warning	no support for exported templates
+C_Pa116	3	Compiler warning	throw used outside of a try block in a __nounwind function
+C_Pa117	2	Compiler warning	declaration for virtual function is incompatible with that of overridden function
+C_Pa118	3	Compiler warning	mixing boolean and non-boolean types in a comparison results in the boolean being promoted
+C_Pa119	2	Compiler warning	virtual functions cannot be used in this mode as the virtual function tables cannot be statically initialized.
+C_Pa120	3	Compiler warning	failed to obtain absolute path
+C_Pa121	3	Compiler warning	register location not allowed for functions
+C_Pa122	2	Compiler warning	expected an integer constant or a string
+C_Pa123	2	Compiler warning	expected an integer constant, a string, or a register name
+C_Pa124	1	Compiler warning	constant value outside range of bit field
+C_Pa125	2	Compiler warning	relational operator used with pointer values
+C_Pa126	2	Compiler warning	not a variable
+C_Pa127	2	Compiler warning	not a function
+C_Pa128	3	Compiler warning	truncating cast in constant expression
+C_Pa129	3	Compiler warning	type attribute not allowed
+C_Pa130	3	Compiler warning	value is not used
+C_Pe066	1	Compiler warning	enumeration value is out of <item> range
+C_Pe040	2	Compiler warning	expected an identifier};^
+C_Pe618	4	Compiler warning	struct or union declares no named members};^
+C_Pe068	3	Compiler warning	integer conversion resulted in a change of signSYS_E_ASSERT_FATAL, SYS_ASSERT_WRONG_EVENT_SUBSCRIBE);^
+C_Pe047	1	Compiler warning	incompatible redefinition of macro <item> 
+C_Pe177	3	Compiler warning	variable was declared but never referenced
+C_Pe111	2	Compiler warning	statement is unreachable
+C_Pe550	3	Compiler warning	variable was set but never used
+
+
+C_Pe1665	1	Compiler warning	concatenation in macro does not create a valid token
+C_Pe174	1	Compiler warning	expression has no effect
+C_Pe186	3	Compiler warning	pointless comparison of unsigned integer with zero
+C_Pe188	2	Compiler warning	enumerated type mixed with another type
+C_Pe223	2	Compiler warning	function declared implicitly
+C_Pe167	2	Compiler warning	argument type is incompatible with parameter type
+C_Pe014	3	Compiler warning	extra text after expected end of preprocessing directive
+C_Pe427	3	Compiler warning	qualified name is not allowed in member declaration
+C_Pe767	2	Compiler warning	conversion from pointer to smaller integer
+
+C_Pe161	3	Compiler warning	unrecognized #pragma
+C_Pe940	2	Compiler warning	missing return statement at end of non-void function
+C_Pe549	1	Compiler warning	variable is used before its value is set
+C_Pe1105	3	Compiler warning	#warning directive: %s
+C_Pe186	3	Compiler warning	pointless comparison of unsigned integer with zero
+
+C_Pe035	3	Compiler warning	#error directive: %s
+C_Pe181	2	Compiler warning	argument is incompatible with corresponding format string
+C_Pa166	3	Compiler warning	item attribute is not supported
+C_Pe382	4	Compiler warning	in-class initializer for nonstatic member is nonstandard
+C_Pe1072	2	Compiler warning	a declaration cannot have a label
+
+C_Go004	3	Compiler warning	Could not inline function
+C_Go005	3	Compiler warning	Cannot inline function at this level of optimization
+C_Go003	4	Compiler warning	Optimization can only be lowered from the default, not raised

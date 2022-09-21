@@ -1,0 +1,865 @@
+{
+   "branch" : "master",
+   "cacheversion" : 2,
+   "date" : "2022-09-21 11:02:16",
+   "files" : [
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js",
+         "md5" : "6489df06b9f7edb63ba8f990703c9916"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js",
+         "md5" : "91c5ca9f22a86d58f12c1dcaf9969d52"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js",
+         "md5" : "6314c85641fb55cbaa59bf052b1170c5"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js",
+         "md5" : "62e2626632f3501e38d2aed6449ed90b"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js",
+         "md5" : "f724de02893ddf1b4a2b4bae9f204623"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js",
+         "md5" : "03850937b15506b38c2f9e8c49db7aae"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js",
+         "md5" : "063d9dfd37e76e5696abd9ff52ea4a94"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js",
+         "md5" : "0cd5fdeb4e3d8e5b4bf60b51382394ce"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js",
+         "md5" : "459539b6609497704f9296f543f1202c"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js",
+         "md5" : "86994db150764e526447ca529aa2f885"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js",
+         "md5" : "cfeb00a74556047d2439b0266fd86647"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js",
+         "md5" : "6fe8527de2b82c45d207e831038c62d0"
+      },
+      {
+         "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js",
+         "md5" : "50c0c20c2833fadb5d3c21be90e9584f"
+      }
+   ],
+   "lastqserver" : "2022-07-06 16:39:02.000",
+   "metrics" : [
+      {
+         "data" : [
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 189
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 73
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 63
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 48
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 50
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 41
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 71
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 40
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 13
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 11
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 82
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 50
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js",
+               "scoreboarddata" : {
+                  "LOC" : {
+                     "TICSMetricValue::VAL" : 56
+                  }
+               }
+            }
+         ],
+         "id" : "LOC"
+      },
+      {
+         "data" : [
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 11,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 6,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 10,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 5,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 3,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 13,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 4,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 14,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 9,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 7,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 2,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 1,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 8,'metricname': 'CODINGSTANDARD','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js"
+            }
+         ],
+         "id" : "CODINGSTANDARD"
+      },
+      {
+         "data" : [
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 11,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 6,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 10,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 5,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 3,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 13,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 4,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 14,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 9,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 7,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 2,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 1,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 8,'metricname': 'COMPILERWARNING','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js"
+            }
+         ],
+         "id" : "COMPILERWARNING"
+      },
+      {
+         "data" : [
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 2,
+                        "FUNCTIONNAME" : "postSummary",
+                        "LINENR" : 179
+                     },
+                     {
+                        "COMPLEXITY" : 5,
+                        "FUNCTIONNAME" : "runTICSClient",
+                        "LINENR" : 43
+                     },
+                     {
+                        "COMPLEXITY" : 5,
+                        "FUNCTIONNAME" : "bootstrapTICS",
+                        "LINENR" : 20
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 3,
+                     "TICSMetricValueRatio::VAL" : 12
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "editCheckRun",
+                        "LINENR" : 59
+                     },
+                     {
+                        "COMPLEXITY" : 2,
+                        "FUNCTIONNAME" : "addCheckRun",
+                        "LINENR" : 34
+                     },
+                     {
+                        "COMPLEXITY" : 6,
+                        "FUNCTIONNAME" : "getParams",
+                        "LINENR" : 8
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 3,
+                     "TICSMetricValueRatio::VAL" : 9
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 2,
+                        "FUNCTIONNAME" : "deleteIssueComments",
+                        "LINENR" : 37
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "deleteIssueComment",
+                        "LINENR" : 33
+                     },
+                     {
+                        "COMPLEXITY" : 2,
+                        "FUNCTIONNAME" : "createIssueComment",
+                        "LINENR" : 24
+                     },
+                     {
+                        "COMPLEXITY" : 3,
+                        "FUNCTIONNAME" : "getParams",
+                        "LINENR" : 9
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 4,
+                     "TICSMetricValueRatio::VAL" : 8
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 3,
+                        "FUNCTIONNAME" : "getPRChangedFiles",
+                        "LINENR" : 23
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getParams",
+                        "LINENR" : 9
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 2,
+                     "TICSMetricValueRatio::VAL" : 4
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : []
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 0,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 2,
+                        "FUNCTIONNAME" : "getAnnotations",
+                        "LINENR" : 18
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getAPIEndpoint",
+                        "LINENR" : 5
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 2,
+                     "TICSMetricValueRatio::VAL" : 3
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 2,
+                        "FUNCTIONNAME" : "getInstallTicsLink",
+                        "LINENR" : 42
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getAPIEndpoint",
+                        "LINENR" : 34
+                     },
+                     {
+                        "COMPLEXITY" : 3,
+                        "FUNCTIONNAME" : "getCommand",
+                        "LINENR" : 11
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 3,
+                     "TICSMetricValueRatio::VAL" : 6
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 3,
+                        "FUNCTIONNAME" : "getQualityGates",
+                        "LINENR" : 11
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getAPIEndpoint",
+                        "LINENR" : 5
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 2,
+                     "TICSMetricValueRatio::VAL" : 4
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "InvalidTicsViewerUrl",
+                        "LINENR" : 5
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getTiobewebBaseUrlFromGivenUrl",
+                        "LINENR" : 1
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 2,
+                     "TICSMetricValueRatio::VAL" : 2
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : []
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 0,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getTableCellsDetails",
+                        "LINENR" : 67
+                     },
+                     {
+                        "COMPLEXITY" : 4,
+                        "FUNCTIONNAME" : "getQGCondtionsSummary",
+                        "LINENR" : 45
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getFilesSummary",
+                        "LINENR" : 38
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getLinkSummary",
+                        "LINENR" : 34
+                     },
+                     {
+                        "COMPLEXITY" : 3,
+                        "FUNCTIONNAME" : "getQualityGateSummary",
+                        "LINENR" : 20
+                     },
+                     {
+                        "COMPLEXITY" : 3,
+                        "FUNCTIONNAME" : "getErrorSummary",
+                        "LINENR" : 8
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 6,
+                     "TICSMetricValueRatio::VAL" : 13
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "generateExpandableAreaMarkdown",
+                        "LINENR" : 41
+                     },
+                     {
+                        "COMPLEXITY" : 2,
+                        "FUNCTIONNAME" : "generateTableHeaders",
+                        "LINENR" : 35
+                     },
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "generateTableMarkdown",
+                        "LINENR" : 25
+                     },
+                     {
+                        "COMPLEXITY" : 4,
+                        "FUNCTIONNAME" : "generateStatusMarkdown",
+                        "LINENR" : 7
+                     },
+                     {
+                        "COMPLEXITY" : 3,
+                        "FUNCTIONNAME" : "generateLinkMarkdown",
+                        "LINENR" : 3
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 5,
+                     "TICSMetricValueRatio::VAL" : 11
+                  }
+               }
+            },
+            {
+               "annotations" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : [
+                     {
+                        "COMPLEXITY" : 1,
+                        "FUNCTIONNAME" : "getSubstring",
+                        "LINENR" : 45
+                     },
+                     {
+                        "COMPLEXITY" : 4,
+                        "FUNCTIONNAME" : "doHttpRequest",
+                        "LINENR" : 6
+                     }
+                  ]
+               },
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js",
+               "scoreboarddata" : {
+                  "AVGCYCLOMATICCOMPLEXITY" : {
+                     "TICSMetricValueRatio::TOTAL" : 2,
+                     "TICSMetricValueRatio::VAL" : 5
+                  }
+               }
+            }
+         ],
+         "id" : "AVGCYCLOMATICCOMPLEXITY"
+      },
+      {
+         "data" : [
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 11,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 6,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 10,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 5,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 3,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 13,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 4,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 14,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 9,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 7,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 2,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 1,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 8,'metricname': 'FANOUT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js"
+            }
+         ],
+         "id" : "FANOUT"
+      },
+      {
+         "data" : [
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 11,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 6,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 10,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 5,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 3,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 13,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 4,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 14,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 9,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 7,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 2,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 1,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js"
+            },
+            {
+               "error" : "[ERROR 5014] Error on query '{'pars': {'branchid': 1,'dbscmid': '','fileid': 8,'metricname': 'FANOUT_INTEXT','rows': 10},'qid': 'f6498c34-4cc0-4816-870c-3ec3ebbe922b'}', with error: Data query 'f6498c34-4cc0-4816-870c-3ec3ebbe922b' for project 'test' failed: Unknown query id: f6498c34-4cc0-4816-870c-3ec3ebbe922b. Please contact your TICS representative for more information.",
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js"
+            }
+         ],
+         "id" : "FANOUT_INTEXT"
+      },
+      {
+         "data" : [
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 189,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/checkruns/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 73,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/issues/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 63,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/api/pulls/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 48,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/github/configuration.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 50,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/annotations/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 41,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/installTics/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 71,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/api/qualitygates/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 40,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/ValidationHelper.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 13,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/constants.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 11,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/index.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 82,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/helpers/summary/markdownGenerator.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 50,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            },
+            {
+               "fullPath" : "/home/danai/Tics-Plugins/TiCS-Github-Action/src/tics/utils.js",
+               "scoreboarddata" : {
+                  "DUPLICATEDCODE" : {
+                     "TICSMetricValueRatio::TOTAL" : 56,
+                     "TICSMetricValueRatio::VAL" : 0
+                  }
+               }
+            }
+         ],
+         "id" : "DUPLICATEDCODE"
+      }
+   ],
+   "project" : "test",
+   "ticsversion" : "2022.2.1.47532"
+}

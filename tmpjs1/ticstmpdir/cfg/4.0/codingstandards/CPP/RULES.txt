@@ -1,0 +1,114 @@
+CFL#001	2	Control Flow	Statements following a case label shall be terminated by a statement that exits the switch statement
+CFL#002	2	Control Flow	All switch statements shall have a default label as the last case label
+CFL#004	7	Control Flow	Do not use goto
+CFL#005	1	Control Flow	Do not access a modified object more than once  in an expression
+CFL#006	1	Control Flow	Do not apply sizeof to an expression with side-effects
+CFL#007	2	Control Flow	Do not change a loop variable inside a for loop block
+CFL#009	9	Control Flow	Never use continue in a nested loop
+CFL#011	9	Control Flow	The test condition in control statements shall be a non-assignment expression
+CFL#014	9	Control Flow	Do not return from unexpected locations
+CFL#016	4	Control Flow	Do not have overly complex functions
+CFL#017	9	Control Flow	Do not make explicit comparisons to true or false
+CFL#018	4	Control Flow	Use range-based for loops if possible
+CFL#019	9	Control Flow	Use explicit parentheses when using multiple different operators in an expression
+CFL#024	1	Control Flow	A statement must have a side-effect, i.e., it must do something
+CFL#025	2	Control Flow	Use a reference to a range based loop "auto" variable if it is modified in its body
+CFL#026	3	Control Flow	Use conditions to avoid spurious wakes
+COM#002	2	Comments	All files must include copyright information
+COM#003	10	Comments	All comments are to be written in English
+COM#005	9	Comments	Do not leave commented-out code in the source file
+CON#001	2	Conversions	Make unsafe type conversions explicit rather than implicit
+CON#002	2	Conversions	Do not cast away const
+CON#004	1	Conversions	Use the new cast operators (static_cast, const_cast, dynamic_cast, and reinterpret_cast) instead of the C-style casts
+CON#007	3	Conversions	Do not convert implicitly from a boolean type to a non-boolean type, and vice versa
+CON#009	2	Conversions	Don't compare an address to null
+ERR#001	1	Error Handling	Do not let destructors throw exceptions
+ERR#005	6	Error Handling	Check for all errors reported from functions
+ERR#006	1	Error Handling	Don't use exception specifications, but do use noexcept when applicable
+ERR#012	1	Error Handling	Only throw objects of class type
+ERR#014	1	Error Handling	Do not catch objects by value
+ERR#017	3	Error Handling	A catch-all clause must do a rethrow
+INT#001	2	Class Interface	Non-copy-constructors that can be called with one argument shall be declared as explicit
+INT#002	2	Class Interface	Declare non-constant data members private
+INT#006	2	Class Interface	A member function that should not change the state of the object shall be declared const
+INT#008	7	Class Interface	Use constant references (const &) instead of call-by-value, unless using a basic data type, a simple object or a pointer
+INT#011	9	Class Interface	If you overload one of a closely related set of operators, then you should overload the whole set and preserve the same invariants that exist for built-in types
+INT#021	9	Class Interface	Pass arguments of class types by reference or pointer if the class is meant as a public base class
+INT#022	4	Class Interface	A pointer or reference parameter should be declared const if the function does not change the object bound to it
+INT#023	5	Class Interface	The copy constructor and the copy assignment operator shall always have a const parameter
+INT#026	2	Class Interface	In a derived class, if you need to override one of a set of the base class's overloaded virtual member functions, then you must override the whole set, or use using-declarations to bring all of the functions in the base class into the scope of the derived class
+INT#027	2	Class Interface	If you override one of the base class's virtual functions, then you shall use the "override" or "final" keyword
+INT#028	2	Class Interface	Supply default arguments with the function's declaration, not with the function's definition
+INT#030	2	Class Interface	Do not misuse a pointer when an array is requested
+NAM#002	1	Naming	Do not use identifiers which begin with an underscore ('_') followed by a capital
+NAM#008	1	Naming	Do not use identifiers that contain two or more underscores in a row
+OAL#003	1	Object Allocation	If you overload operator new for a class, you should have a corresponding operator delete
+OAL#009	2	Object Allocation	Do not overload the global operator new or the global operator delete
+OAL#011	2	Object Allocation	Use smart pointers for memory management
+OAL#012	2	Object Allocation	Don't use auto_ptr, use unique_ptr instead
+OAL#013	2	Object Allocation	Use std::make_shared instead of constructing a shared_ptr from a raw pointer
+OAL#018	1	Object Allocation	Don't forget to give scoped variables a name
+OLC#001	2	Object Life Cycle	If objects of a class should never be copied, then the copy constructor and the copy assignment operator shall be declared as deleted functions
+OLC#003	2	Object Life Cycle	A function must never return, or in any other way give access to, references or pointers to local variables outside the scope in which they are declared
+OLC#004	1	Object Life Cycle	Every variable that is declared is to be given a value before it is used
+OLC#005	1	Object Life Cycle	Don't call virtual functions in constructors and destructors
+OLC#006	9	Object Life Cycle	Variables and types are to be declared with the smallest possible scope
+OLC#009	7	Object Life Cycle	Literals should be used only on the definition of constants and enumerations
+OLC#010	9	Object Life Cycle	Declare each variable in a separate declaration statement
+OLC#012	6	Object Life Cycle	Do not initialise static variables with other (external) static variables
+OLC#016	2	Object Life Cycle	Do not re-declare a visible name in a nested scope
+OLC#017	1	Object Life Cycle	Initialize all data members of built-in types
+OLC#018	1	Object Life Cycle	Let the order of the initializer list be: first base class constructor(s), then data members in the same order of declaration as in the header file
+OLC#019	5	Object Life Cycle	If passing the "this" pointer to a constructor initializer list, be aware that the object is not yet fully constructed
+OLC#020	2	Object Life Cycle	Don't pass member variables to the base class in the constructor's initializer list
+OLC#021	1	Object Life Cycle	Initialize atomic variables correctly
+OOP#001	2	Object Oriented Programming	If you define or =delete any copy, move, or destructor function, define or =delete them all
+OOP#004	9	Object Oriented Programming	Derive from more than one base class with the same parent with care
+OOP#011	2	Object Oriented Programming	Never redefine an inherited non-virtual method
+OOP#013	1	Object Oriented Programming	A base class destructor should be either public and virtual, or protected and non-virtual
+OOP#018	2	Object Oriented Programming	When overriding a (virtual) function from a base class, the derived class should give the same const modifier to the function.
+ORG#001	3	Code Organization	Enclose all code in header files within include guards
+ORG#003	3	Code Organization	From a source file include only header files
+ORG#006	8	Code Organization	C++ header files have the extension .h, .hpp or .hxx
+ORG#007	8	Code Organization	C++ source files have the extension .cpp
+ORG#010	1	Code Organization	Do not let assertions change the state of the program
+ORG#011	7	Code Organization	Everything must reside in a namespace
+ORG#012	5	Code Organization	Never put "using namespace" in header files
+ORG#013	5	Code Organization	Don't put definitions in header files
+PCA#001	1	Parts of C++ to Avoid	Don't use malloc, calloc, realloc, free and cfree for memory management
+PCA#002	4	Parts of C++ to Avoid	Do not assume that an enumerator has a specific value
+PCA#003	4	Parts of C++ to Avoid	Use overloaded functions and chained function calls instead of functions with an unspecified number of arguments
+PCA#005	9	Parts of C++ to Avoid	Use the iostream library instead of C-style I/O
+PCA#006	1	Parts of C++ to Avoid	Do not use setjmp and longjmp
+PCA#008	1	Parts of C++ to Avoid	Do not redefine keywords
+PCA#009	9	Parts of C++ to Avoid	Use an array class instead of built-in arrays
+PCA#010	6	Parts of C++ to Avoid	Do not use unions
+PCA#011	5	Parts of C++ to Avoid	Do not use bit-fields
+PCA#016	7	Parts of C++ to Avoid	Use enum classes instead of old-style enums
+PCA#017	1	Parts of C++ to Avoid	Don't compare unrelated enumerations
+PCA#018	5	Parts of C++ to Avoid	Use functionality from the std library if possible
+PCA#019	5	Parts of C++ to Avoid	Use string_view correctly
+POR#001	3	Portability	Never use absolute file paths
+POR#003	4	Portability	Do not assume that a char is signed or unsigned
+POR#004	1	Portability	Do not cast a pointer to a shorter quantity to a pointer to a longer quantity
+POR#005	1	Portability	Do not assume that pointers and integers have the same size
+POR#006	5	Portability	Use explicit type conversions for arithmetic using signed and unsigned values
+POR#018	6	Portability	Avoid the use of #pragma directives
+POR#019	5	Portability	Include file names shall always be treated as case-sensitive
+POR#021	6	Portability	Avoid the use of conditional compilation
+POR#025	2	Portability	Floating point values shall not be compared using the == or != operators
+POR#028	9	Portability	Always return a value from main
+POR#029	1	Portability	Do not depend on the order of evaluation of arguments to a function
+POR#031	5	Portability	Do not depend on implementation defined behavior of shift operators for built-in types
+POR#032	9	Object Allocation	Use nullptr instead of 0 or NULL for pointers
+POR#033	2	Portability	Do not make assumptions on the size of int
+POR#037	1	Portability	Avoid the use of #pragma warning directive.
+PRE#001	7	Preprocessor	Do not define macros instead of constants, enums, or type definitions
+PRE#002	4	Preprocessor	Use parentheses around macro and macro parameters
+PRE#004	9	Preprocessor	Do not use the preprocessor directive #define to obtain more efficient code; instead, use inline or template methods/functions
+STA#002	4	Static Objects	Objects with static storage duration should be declared only within the scope of a class, function, or unnamed namespace
+STY#017	9	Style	If a method/function has no formal parameter, do not use the keyword void
+STY#020	10	Style	Use a typedef to simplify program syntax when declaring function pointers
+STY#024	10	Style	The name of an #include guard shall contain at least the name of the header file.
+STY#025	9	Style	Do not use letters that can be mistaken for digits, and vice versa
+STY#029	9	Style	Always provide an access specifier for class members

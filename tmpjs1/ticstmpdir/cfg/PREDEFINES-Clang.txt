@@ -1,0 +1,2 @@
+// Clang specific defines
+#define _HAVE_STDC 1

@@ -1,0 +1,16 @@
+// Coverity 2022.03 and below
+COV_SCALA_DEADCODE	1	Control flow issues	The indicated dead code may have performed some action; that action will never occur
+COV_SCALA_NESTING_INDENT_MISMATCH_02	2	Control flow issues	The indentation of this code suggests it is nested when it is not
+COV_SCALA_UNREACHABLE	1	Control flow issues	Actions intended to be performed by the unreachable code will never occur
+
+COV_SCALA_COPY_PASTE_ERROR	1	Incorrect expression	The copied code will not have its intended effect
+COV_SCALA_IDENTICAL_BRANCHES	1	Incorrect expression	The conditions could be combined
+COV_SCALA_UNINTENDED_INTEGER_DIVISION	2	Incorrect expression	When dividing two values of integer types, integer division is used, which ignores any remainder. When such a result is used in a context expecting a floating-point number, it is likely that floating-point division was intended.
+
+COV_SCALA_CONSTANT_EXPRESSION_RESULT	1	Integer handling issues	A simple assignment would have the same effect: operands don't affect result.
+COV_SCALA_OVERFLOW_BEFORE_WIDEN	2	Integer handling issues	The expression's value may not be what the programmer intended, because the expression is evaluated using a narrow (i.e. few bits) integer type.
+
+COV_SCALA_FORWARD_NULL	2	Null pointer dereferences	If the value is null or undefined, this code will cause an exception such as a TypeError
+COV_SCALA_REVERSE_INULL	2	Null pointer dereferences	There may be a null pointer exception, or else the comparison against null is unnecessary.
+
+COV_SCALA_NO_EFFECT	1	Scala Issue	Perhaps the code was intended to affect the behavior of the program, but it does not.

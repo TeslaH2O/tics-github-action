@@ -1,0 +1,87 @@
+GOCS101	golint	don't use .*? in package name
+GOCS102	golint	don't use .*? in Go names; use .*?
+GOCS102	golint	receiver name .*? should be consistent with previous receiver name .*? for .*?
+GOCS102	golint	receiver name should be a reflection of its identity; don't use generic names such as "this" or "self"
+GOCS102	golint	don't use .*? in Go names; .*? should be .*?
+GOCS102	golint	.*? name should not be .*?
+GOCS103	golint	^(const|range|struct|var|type|method|function|func) .*? should be .*?
+GOCS103	golint	error strings should not be capitalized or end with punctuation or a newline
+GOCS103	golint	error .*? should have name of the form .*?
+GOCS104	golint	should drop .*? from declaration of var .*?; it is the zero value
+GOCS104	golint	should omit type .*? from declaration of var .*?; it will be inferred from the right-hand side
+GOCS105	golint	should omit 2nd value from range; this loop is equivalent to `for .*? range ...`
+GOCS106	golint	exported .*? returns unexported type .*?, which can be annoying to use
+GOCS107	golint	should replace .*? with .*?
+GOCS108	golint	should not use basic type .*? as key in context.WithValue
+GOCS109	golint	.*? name will be used as .*? by other packages, and that stutters; consider calling this .*?
+GOCS110	golint	comment on exported (const|range|struct|var|type|method|function|func) .*? should be of the form ".*? ...".*?
+GOCS110	golint	exported .*? should have its own declaration
+GOCS110	golint	exported .*? should have comment.*? or be unexported
+GOCS111	golint	should not use dot imports
+GOCS111	golint	a blank import should be only in a main or test package, or have a comment justifying it
+GOCS112	golint	if block ends with a return statement, so drop this else and outdent its block.*?
+GOCS113	golint	package comment is detached; there should be no blank lines between it and the package statement
+GOCS113	golint	package comment should be of the form ".*?..."
+GOCS113	golint	package comment should not have.*?
+GOCS113	golint	should have a package comment, unless it's in another file for this package
+GOCS114	golint	.*? is of type .*?; don't use unit-specific .*?
+GOCS115	golint	.*? should be the first parameter of a function
+GOCS115	golint	error should be the last type when returning multiple items
+
+GOCS201	govet	assign:self-assignment of .*? to .*?
+GOCS202	govet	atomic:direct assignment to atomic value
+GOCS203	govet	bool:(redundant|suspect) (and|or): .*? (\|\||&&) .*?
+GOCS204	govet	buildtags:\+build comment must appear before package clause and be followed by a blank line
+GOCS204	govet	buildtags:invalid double negative in build constraint: .*?
+GOCS204	govet	buildtags:possible malformed \+build comment
+GOCS204	govet	buildtags:invalid non-alphanumeric build constraint: .*?
+GOCS205	govet	cgocall:possibly passing Go type with embedded pointer to C
+GOCS206	govet	composites:.*? composite literal uses unkeyed fields
+GOCS207	govet	copylocks:function call copies lock value: .*?
+GOCS207	govet	copylocks:call of .*? copies lock value: .*?
+GOCS207	govet	copylocks:.*? passes lock by value: .*?
+GOCS207	govet	copylocks:range var .*? copies lock: .*?
+GOCS207	govet	copylocks:variable declaration copies lock value to .*?: .*?
+GOCS207	govet	copylocks:return copies lock value: .*?
+GOCS207	govet	copylocks:assignment copies lock value to .*?: .*?
+GOCS207	govet	copylocks:literal copies lock value from .*?: .*?
+GOCS209	govet	lostcancel:the cancel function returned by context\..*? should be called, not discarded, to avoid a context leak
+GOCS209	govet	lostcancel:the .*? function is not used on all paths \(possible context leak\)
+GOCS209	govet	lostcancel:this return statement may be reached without using the .*? var defined on line \d+
+GOCS210	govet	methods:method .*? should have signature .*?
+GOCS211	govet	nilfunc:comparison of function .*? .*? nil is always .*?
+GOCS212	govet	printf:missing argument for .*?\(".*?"\): format reads arg \d+, have only \d+ args
+GOCS212	govet	printf:unrecognized printf flag for verb .*?: .*?
+GOCS212	govet	printf:index value \[0\] for .*?\(".*?"\); indexes start at 1
+GOCS212	govet	printf:arg .*? for \* in printf format not of type int
+GOCS212	govet	printf:arg .*? in .*? call is a function value, not a function call
+GOCS212	govet	printf:arg .*? for printf causes recursive call to String method
+GOCS212	govet	printf:wrong number of args for format in .*? call: \d+ needed but \d+ args
+GOCS212	govet	printf:arg .*? in printf call is a function value, not a function call
+GOCS212	govet	printf:no formatting directive in .*? call
+GOCS212	govet	printf:missing verb at end of format string in .*? call
+GOCS212	govet	printf:bad syntax for printf argument index: \[.*?\]
+GOCS212	govet	printf:unrecognized printf verb .*?
+GOCS212	govet	printf:.*? call ends with newline
+GOCS212	govet	printf:bad syntax for printf argument index: .*?
+GOCS212	govet	printf:possible formatting directive in .*? call
+GOCS212	govet	printf:first argument to .*? is .*?\..*?
+GOCS212	govet	printf:illegal syntax for printf argument index
+GOCS212	govet	printf:arg .*? in .*? call causes recursive call to String method
+GOCS212	govet	printf:arg .*? for printf verb .*? of wrong type: .*?
+GOCS213	govet	rangeloops:range variable .*? captured by func literal
+GOCS214	govet	shadow:declaration of .*? shadows declaration at .*?
+GOCS215	govet	shift:.*? .*?too small for shift of \d+
+GOCS216	govet	structtags:struct field .*? repeats .*? tag .*? also at .*?
+GOCS216	govet	structtags:struct field tag .*? not compatible with reflect\.StructTag\.Get: .*?
+GOCS216	govet	structtags:unable to read struct tag .*?
+GOCS216	govet	structtags:struct field .*? has .*? tag but is not exported
+GOCS217	govet	tests:.*? refers to unknown field or method: .*?\..*?
+GOCS217	govet	tests:.*? has malformed example suffix: .*?
+GOCS217	govet	tests:.*? refers to unknown identifier: .*?
+GOCS217	govet	tests:.*? should return nothing
+GOCS217	govet	tests:.*? should be niladic
+GOCS217	govet	tests:.*? has malformed name: first letter after '.*?' must not be lowercase
+GOCS218	govet	unreachable:unreachable code
+GOCS219	govet	unsafeptr:possible misuse of unsafe\.Pointer
+GOCS220	govet	unusedresult:result of .*? call not used

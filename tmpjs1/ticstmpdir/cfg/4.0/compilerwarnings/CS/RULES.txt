@@ -1,0 +1,173 @@
+CS0028	4	Compiler Warning	'function declaration' has the wrong signature to be an entry point
+CS0067	3	Compiler Warning	The event 'event' is never used
+CS0078	4	Compiler Warning	The 'l' suffix is easily confused with the digit '1' -- use 'L' for clarity
+CS0105	3	Compiler Warning	The using directive for 'namespace' appeared previously in this namespace
+CS0108	2	Compiler Warning	'member1' hides inherited member 'member2'. Use the new keyword if hiding was intended.
+CS0109	4	Compiler Warning	The member 'member' does not hide an inherited member. The new keyword is not required
+CS0114	2	Compiler Warning	'function1' hides inherited member 'function2'. To make the current method override that implementation, add the override keyword. Otherwise add the new keyword.
+CS0118	2	Compiler Warning	Construct is inappropriately used.
+CS0162	2	Compiler Warning	Unreachable code detected
+CS0164	2	Compiler Warning	This label has not been referenced
+CS0168	3	Compiler Warning	The variable is assigned but its value is never used
+CS0169	3	Compiler Warning	The private field 'class member' is never used
+CS0183	1	Compiler Warning	The given expression is always of the provided ('type') type
+CS0184	1	Compiler Warning	The given expression is never of the provided ('type') type
+CS0197	1	Compiler Warning	Passing 'argument' as ref or out or taking its address may cause a runtime exception because it is a field of a marshal-by-reference class
+CS0219	3	Compiler Warning	The variable 'variable' is assigned but its value is never used
+CS0234	3	Compiler Warning	Type or namespace does not exist.
+CS0246	3	Compiler Warning	The type or namespace could not be found.
+CS0251	2	Compiler Warning	Indexing an array with a negative index (array indices always start at zero)
+CS0252	2	Compiler Warning	Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'type'
+CS0253	2	Compiler Warning	Possible unintended reference comparison; to get a value comparison, cast the right hand side to type 'type'
+CS0278	2	Compiler Warning	'type' does not implement the 'pattern name' pattern. 'method name' is ambiguous with 'method name'.
+CS0279	2	Compiler Warning	'type name' does not implement the 'pattern name' pattern. 'method name' is either static or not public.
+CS0280	2	Compiler Warning	'type' does not implement the 'pattern name' pattern. 'method name' has the wrong signature.
+CS0282	3	Compiler Warning	There is no defined ordering between fields in multiple declarations of partial class or struct 'type'. To specify an ordering, all instance fields must be in the same declaration.
+CS0308	4	Compiler Warning	The non-generic type-or-method cannot be used with type arguments.
+CS0402	4	Compiler Warning	'identifier' : an entry point cannot be generic or in a generic type
+CS0414	3	Compiler Warning	The private field 'field' is assigned but its value is never used
+CS0419	3	Compiler Warning	Ambiguous reference in cref attribute: 'Method Name1'. Assuming 'Method Name2', but could have also matched other overloads including 'Method Name3'.
+CS0420	1	Compiler Warning	'identifier': a reference to a volatile field will not be treated as volatile
+CS0422	4	Compiler Warning	The /incremental option is no longer supported
+CS0429	4	Compiler Warning	Unreachable expression code detected
+CS0435	2	Compiler Warning	The namespace 'namespace' in 'assembly' conflicts with the imported type 'type' in 'assembly'. Using the namespace defined in 'assembly'..
+CS0436	2	Compiler Warning	The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
+CS0437	2	Compiler Warning	The type 'type' in 'assembly2' conflicts with the imported namespace 'namespace' in 'fassembly1'. Using the type defined in 'assembly'.
+CS0440	2	Compiler Warning	Defining an alias named 'global' is ill-advised since 'global::' always references the global namespace and not an alias
+CS0444	2	Compiler Warning	Predefined type 'type name 1' was not found in 'System namespace 1' but was found in 'System namespace 2'
+CS0458	2	Compiler Warning	The result of the expression is always 'null' of type 'type name'
+CS0464	2	Compiler Warning	Comparing with null of type 'type' always produces 'false'
+CS0465	1	Compiler Warning	Introducing a 'Finalize' method can interfere with destructor invocation. Did you intend to declare a destructor?
+CS0467	2	Compiler Warning	Ambiguity between method 'method' and non-method 'non-method'. Using method group.
+CS0469	2	Compiler Warning	The 'goto case' value is not implicitly convertible to type 'type'
+CS0472	2	Compiler Warning	The result of the expression is always 'value1' since a value of type 'value2' is never equal to 'null' of type 'value3'
+CS0473	2	Compiler Warning	Explicit interface implementation '{0}' matches more than one interface member. Which interface member is actually chosen is implementation-dependent. Consider using a non-explicit implementation instead.
+CS0602	1	Compiler Warning	The feature 'old_feature' is deprecated. Please use 'new_feature' instead
+CS0612	1	Compiler Warning	'member' is obsolete
+CS0618	2	Compiler Warning	'member' is obsolete: 'text'
+CS0626	1	Compiler Warning	Method, operator, or accessor 'method' is marked external and has no attributes on it. Consider adding a DllImport attribute to specify the external implementation
+CS0628	4	Compiler Warning	'member' : new protected member declared in sealed class
+CS0642	3	Compiler Warning	Possible mistaken empty statement
+CS0649	4	Compiler Warning	Field 'field' is never assigned to, and will always have its default value 'value'
+CS0652	2	Compiler Warning	Comparison to integral constant is useless; the constant is outside the range of type 'type'
+CS0657	1	Compiler Warning	'attribute modifier' is not a valid attribute location for this declaration. Valid attribute locations for this declaration are 'locations'. All attributes in this block will be ignored.
+CS0658	1	Compiler Warning	'attribute modifier' is not a recognized attribute location. All attributes in this block will be ignored.
+CS0659	3	Compiler Warning	'class' overrides Object.Equals(object o) but does not override Object.GetHashCode()
+CS0660	3	Compiler Warning	'class' defines operator == or operator != but does not override Object.Equals(object o)
+CS0661	3	Compiler Warning	'class' defines operator == or operator != but does not override Object.GetHashCode()
+CS0665	3	Compiler Warning	Assignment in conditional expression is always constant; did you mean to use == instead of = ?
+CS0672	1	Compiler Warning	Member 'member1' overrides obsolete member 'member2. Add the Obsolete attribute to 'member1'
+CS0675	3	Compiler Warning	Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first
+CS0684	1	Compiler Warning	'interface' interface marked with 'CoClassAttribute' not marked with 'ComImportAttribute'
+CS0688	1	Compiler Warning	'method1' has a link demand, but overrides or implements 'method2' which does not have a link demand. A security hole may exist.
+CS0693	3	Compiler Warning	Type parameter 'type parameter' has the same name as the type parameter from outer type 'type'
+CS0728	2	Compiler Warning	Possibly incorrect assignment to local 'variable' which is the argument to a using or lock statement. The Dispose call or unlocking will happen on the original value of the local.
+CS0809	1	Compiler Warning	Obsolete member 'memberA' overrides non-obsolete member 'memberB'.
+CS0811	4	Compiler Warning	The fully qualified name for '{0}' is too long for debug information. Compile without '/debug' option.
+CS0824	1	Compiler Warning	Constructor 'name' is marked external.
+CS1030	1	Compiler Warning	#warning: 'text'
+CS1058	1	Compiler Warning	A previous catch clause already catches all exceptions. All exceptions thrown will be wrapped in a System.Runtime.CompilerServices.RuntimeWrappedException
+CS1060	1	Compiler Warning	Use of possibly unassigned field 'name'. Struct instance variables are initially unassigned if struct is unassigned.
+CS1062	3	Compiler Warning	The best overloaded Add method '{0}' for the collection initializer element is obsolete. {1}
+CS1064	3	Compiler Warning	The best overloaded Add method '{0}' for the collection initializer element is obsolete.
+CS1066	2	Compiler Warning	The default value specified for parameter '{0}' will have no effect because it applies to a member that is used in contexts that do not allow optional arguments
+CS1072	2	Compiler Warning	Expected identifier or numeric literal.
+CS1200	1	Compiler Warning	The feature 'invalid feature' is deprecated. Please use 'valid feature' instead'.
+CS1201	1	Compiler Warning	The feature 'invalid feature' is deprecated. Please use 'valid feature' instead.
+CS1202	1	Compiler Warning	The feature 'invalid feature' is deprecated. Please use 'valid feature' instead'.
+CS1203	1	Compiler Warning	The feature 'feature' is deprecated. Please use 'feature' instead'.
+CS1522	1	Compiler Warning	Empty switch block
+CS1570	1	Compiler Warning	XML comment on 'construct' has badly formed XML ? 'reason'
+CS1571	2	Compiler Warning	XML comment on 'construct' has a duplicate param tag for 'parameter'
+CS1572	2	Compiler Warning	XML comment on 'construct' has a param tag for 'parameter', but there is no parameter by that name
+CS1573	4	Compiler Warning	Parameter 'parameter' has no matching param tag in the XML comment for 'parameter' (but other parameters do)
+CS1574	1	Compiler Warning	XML comment on 'construct' has syntactically incorrect cref attribute 'name'
+CS1580	1	Compiler Warning	Invalid type for parameter 'parameter number' in XML comment cref attribute
+CS1581	1	Compiler Warning	Invalid return type in XML comment cref attribute
+CS1584	1	Compiler Warning	XML comment on 'member' has syntactically incorrect cref attribute 'invalid_syntax'
+CS1587	2	Compiler Warning	XML comment is not placed on a valid language element
+CS1589	1	Compiler Warning	Unable to include XML fragment 'fragment' of file 'file' -- reason
+CS1590	1	Compiler Warning	Invalid XML include element -- Missing file attribute
+CS1591	4	Compiler Warning	Missing XML comment for publicly visible type or member 'Type_or_Member'
+CS1592	1	Compiler Warning	Badly formed XML in included comments file -- 'reason'
+CS1598	1	Compiler Warning	XML parser could not be loaded for the following reason: 'reason'. The XML documentation file 'file' will not be generated.
+CS1607	1	Compiler Warning	Assembly generation -- reason
+CS1610	4	Compiler Warning	Unable to delete temporary file 'file' used for default Win32 resource -- resource
+CS1616	1	Compiler Warning	Option 'option' overrides attribute 'attribute' given in a source file or added module
+CS1633	1	Compiler Warning	Unrecognized #pragma directive
+CS1634	1	Compiler Warning	Expected disable or restore
+CS1635	1	Compiler Warning	Cannot restore warning 'warning code' because it was disabled globally
+CS1645	1	Compiler Warning	Feature 'feature' is not part of the standardized ISO C# language specification, and may not be accepted by other compilers
+CS1658	1	Compiler Warning	'warning text'. See also error 'error code'
+CS1668	2	Compiler Warning	Invalid search path 'path' specified in 'path string' -- 'system error message'
+CS1682	1	Compiler Warning	Reference to type 'type' claims it is nested within 'nested type', but it could not be found
+CS1683	1	Compiler Warning	Reference to type 'Type Name' claims it is defined in this assembly, but it is not defined in source or any added modules
+CS1684	1	Compiler Warning	Reference to type 'Type Name' claims it is defined in 'Namespace', but it could not be found
+CS1685	1	Compiler Warning	The predefined type 'System.type name' is defined in multiple assemblies in the global alias; using definition from 'File Name'
+CS1687	1	Compiler Warning	Source file has exceeded the limit of 16,707,565 lines representable in the PDB, debug information will be incorrect
+CS1690	1	Compiler Warning	Accessing a member on 'member' may cause a runtime exception because it is a field of a marshal-by-reference class
+CS1691	1	Compiler Warning	'number' is not a valid warning number
+CS1692	1	Compiler Warning	Invalid number
+CS1694	1	Compiler Warning	Invalid filename specified for preprocessor directive. Filename is too long or not a valid filename.
+CS1695	1	Compiler Warning	Invalid #pragma checksum syntax; should be #pragma checksum "filename" "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}" "XXXX..."
+CS1696	1	Compiler Warning	Single-line comment or end-of-line expected
+CS1697	1	Compiler Warning	Different checksum values given for 'file name'
+CS1698	2	Compiler Warning	Circular assembly reference 'AssemblyName1' does not match the output assembly name 'AssemblyName2'. Try adding a reference to 'AssemblyName1' or changing the output assembly name to match.
+CS1699	1	Compiler Warning	Use command line option "compiler_option" or appropriate project settings instead of "attribute_name"
+CS1700	3	Compiler Warning	Assembly reference Assembly Name is invalid and cannot be resolved
+CS1701	3	Compiler Warning	Assuming assembly reference '{0}' used by '{1}' matches identity '{2}' of '{3}', you may need to supply runtime policy
+CS1702	3	Compiler Warning	Assuming assembly reference '{0}' used by '{1}' matches identity '{2}' of '{3}', you may need to supply runtime policy
+CS1707	1	Compiler Warning	Delegate 'DelegateName' bound to 'MethodName1' instead of 'MethodName2' because of new language rules
+CS1709	1	Compiler Warning	Filename specified for preprocessor directive is empty
+CS1710	2	Compiler Warning	XML comment on 'type' has a duplicate typeparam tag for 'parameter'
+CS1711	2	Compiler Warning	XML comment on 'type' has a typeparam tag for 'parameter', but there is no type parameter by that name
+CS1712	4	Compiler Warning	Type parameter 'type parameter' has no matching typeparam tag in the XML comment on 'type' (but other type parameters do)
+CS1717	3	Compiler Warning	Assignment made to same variable; did you mean to assign something else?
+CS1718	3	Compiler Warning	Comparison made to same variable; did you mean to compare something else?
+CS1720	1	Compiler Warning	Expression will always cause a System.NullReferenceException because the default value of 'generic type' is null
+CS1723	1	Compiler Warning	XML comment on 'param' has cref attribute 'attribute' that refers to a type parameter
+CS1734	3	Compiler Warning	XML comments warning
+CS1735	3	Compiler Warning	XML comments warning
+CS1762	1	Compiler Warning	A reference was created to embedded interop assembly '<assembly1>' because of an indirect reference to that assembly from assembly '<assembly2>'. Consider changing the 'Embed Interop Types' property on either assembly.
+CS1911	1	Compiler Warning	Access to member 'name' through a 'base' keyword from an anonymous method, lambda expression, query expression, or iterator results in unverifiable code. Consider moving the access into a helper method on the containing type.
+CS1927	2	Compiler Warning	Ignoring /win32manifest for module because it only applies to assemblies.
+CS1956	1	Compiler Warning	Member 'name' implements interface member 'name' in type 'type'. There are multiple matches for the interface member at run-time. It is implementation dependent which method will be called.
+CS1957	1	Compiler Warning	Member 'name' overrides 'method'. There are multiple override candidates at run-time. It is implementation dependent which method will be called.
+CS1974	2	Compiler Warning	The dynamically dispatched call to method '{0}' may fail at runtime because one or more applicable overloads are conditional methods.
+CS1981	2	Compiler Warning	Using '{0}' to test compatibility with '{1}' is essentially identical to testing compatibility with '{2}' and will succeed for all non-null values
+CS1998	4	Compiler Warning	This async method lacks operators and will run synchronously
+CS2002	1	Compiler Warning	Source file 'file' specified multiple times
+CS2014	1	Compiler Warning	Compiler option 'old option' is obsolete, please use 'new option' instead
+CS2023	1	Compiler Warning	Ignoring /noconfig option because it was specified in a response file
+CS2029	1	Compiler Warning	Invalid value for '/define'; 'identifier' is not a valid identifier
+CS3000	1	Compiler Warning	Methods with variable arguments are not CLS-compliant
+CS3001	1	Compiler Warning	Argument type 'type' is not CLS-compliant
+CS3002	1	Compiler Warning	Return type of 'method' is not CLS-compliant
+CS3003	1	Compiler Warning	Type of 'variable' is not CLS-compliant
+CS3004	1	Compiler Warning	Mixed and decomposed Unicode characters are not CLS-compliant
+CS3005	1	Compiler Warning	Identifier 'identifier' differing only in case is not CLS-compliant
+CS3006	1	Compiler Warning	Overloaded method 'method' differing only in ref or out, or in array rank, is not CLS-compliant
+CS3007	1	Compiler Warning	Overloaded method 'method' differing only by unnamed array types is not CLS-compliant
+CS3008	1	Compiler Warning	Identifier 'identifier' differing only in case is not CLS-compliant
+CS3009	1	Compiler Warning	'type': base type 'type' is not CLS-compliant
+CS3010	1	Compiler Warning	'member': CLS-compliant interfaces must have only CLS-compliant members
+CS3011	1	Compiler Warning	'member': only CLS-compliant members can be abstract
+CS3012	1	Compiler Warning	You cannot specify the CLSCompliant attribute on a module that differs from the CLSCompliant attribute on the assembly
+CS3013	1	Compiler Warning	Added modules must be marked with the CLSCompliant attribute to match the assembly
+CS3014	1	Compiler Warning	'member' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute
+CS3015	1	Compiler Warning	'method signature' has no accessible constructors which use only CLS-compliant types
+CS3016	1	Compiler Warning	Arrays as attribute arguments is not CLS-compliant
+CS3017	1	Compiler Warning	You cannot specify the CLSCompliant attribute on a module that differs from the CLSCompliant attribute on the assembly
+CS3018	1	Compiler Warning	'type' cannot be marked as CLS-Compliant because it is a member of non CLS-compliant type 'type'
+CS3019	2	Compiler Warning	CLS compliance checking will not be performed on 'type' because it is not visible from outside this assembly.
+CS3021	2	Compiler Warning	'type' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute
+CS3022	1	Compiler Warning	CLSCompliant attribute has no meaning when applied to parameters. Try putting it on the method instead.
+CS3023	1	Compiler Warning	CLSCompliant attribute has no meaning when applied to return types. Try putting it on the method instead.
+CS3024	1	Compiler Warning	Constraint type 'type' is not CLS-compliant.
+CS3026	1	Compiler Warning	CLS-compliant field 'field' cannot be volatile
+CS3027	1	Compiler Warning	'type_1' is not CLS-compliant because base interface 'type_2' is not CLS-compliant
+CS4014	1	Compiler Warning	Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+CS4024	2	Compiler Warning	The CallerLineNumberAttribute applied to parameter '{0}' will have no effect because it applies to a member that is used in contexts that do not allow optional arguments
+CS4025	2	Compiler Warning	The CallerFilePathAttribute applied to parameter '{0}' will have no effect because it applies to a member that is used in contexts that do not allow optional arguments
+CS4026	2	Compiler Warning	The CallerMemberNameAttribute applied to parameter '{0}' will have no effect because it applies to a member that is used in contexts that do not allow optional arguments
+CS5000	1	Compiler Warning	Unknown compiler option '/option'

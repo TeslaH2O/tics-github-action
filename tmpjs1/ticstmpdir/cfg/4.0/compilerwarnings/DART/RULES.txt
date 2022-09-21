@@ -1,0 +1,72 @@
+can_be_null_after_null_aware	1	Compiler Warning	The target expression uses '?.', so its value can be null.
+dead_code	1	Compiler Warning	Dead code.
+dead_code_catch_following_catch	1	Compiler Warning	Dead code: catch clauses after a 'catch (e)' or an 'on Object catch (e)' are never reached.
+dead_code_on_catch_subtype	1	Compiler Warning	Dead code: this on-catch block will never be executed.
+deprecated_extends_function	1	Compiler Warning	Extending 'Function' is deprecated.
+deprecated_function_class_declaration	1	Compiler Warning	Declaring a class named 'Function' is deprecated.
+deprecated_member_use	1	Compiler Warning	Member is deprecated and shouldn't be used.
+deprecated_member_use_from_same_package	1	Compiler Warning	Member is deprecated and shouldn't be used.
+deprecated_mixin_function	1	Compiler Warning	Mixing in 'Function' is deprecated.
+division_optimization	1	Compiler Warning	The operator x ~/ y is more efficient than (x / y).toInt().
+duplicate_hidden_name	1	Compiler Warning	Duplicate hidden name.
+duplicate_import	1	Compiler Warning	Duplicate import.
+duplicate_shown_name	1	Compiler Warning	Duplicate shown name.
+file_import_inside_lib_references_file_outside	1	Compiler Warning	A file in the 'lib' directory shouldn't import a file outside the 'lib' directory.
+file_import_outside_lib_references_file_inside	1	Compiler Warning	A file outside the 'lib' directory shouldn't reference a file inside the 'lib' directory using a relative path.
+import_deferred_library_with_load_function	1	Compiler Warning	Library defines a top-level function named 'loadLibrary' which is hidden by deferring this library.
+inference_failure_on_uninitialized_variable	1	Compiler Warning	The type of an uninitialized variable cannot be inferred without either a type or initializer.
+invalid_factory_annotation	1	Compiler Warning	Only methods can be annotated as factories.
+invalid_factory_method_decl	1	Compiler Warning	Factory method must have a return type.
+invalid_factory_method_impl	1	Compiler Warning	Factory method doesn't return a newly allocated object.
+invalid_immutable_annotation	1	Compiler Warning	Only classes can be annotated as being immutable.
+invalid_literal_annotation	1	Compiler Warning	Only const constructors can be annotated as being literal.
+invalid_required_param	1	Compiler Warning	Type parameter is annotated with @required but only named parameters without default value can be annotated with it.
+invalid_sealed_annotation	1	Compiler Warning	Member is annotated with '@sealed' but only classes can be annotated with it.
+invalid_use_of_protected_member	1	Compiler Warning	Invalid use of protected member.
+invalid_use_of_visible_for_template_member	1	Compiler Warning	Invalid use of visible for template member.
+invalid_use_of_visible_for_testing_member	1	Compiler Warning	Invalid use of visible for testing member.
+invalid_visibility_annotation	1	Compiler Warning	Member is annotated, but this annotation is only meaningful on declarations of public members.
+is_double	1	Compiler Warning	When compiled to JS, this test might return true when the left hand side is an int.
+is_int	1	Compiler Warning	When compiled to JS, this test might return true when the left hand side is a double.
+is_not_double	1	Compiler Warning	When compiled to JS, this test might return false when the left hand side is an int.
+is_not_int	1	Compiler Warning	When compiled to JS, this test might return false when the left hand side is a double.
+missing_js_lib_annotation	1	Compiler Warning	The @JS() annotation can only be used if it is also declared on the library directive.
+missing_required_param	1	Compiler Warning	Parameter is required.
+missing_required_param_with_details	1	Compiler Warning	Parameter is required.
+missing_return	1	Compiler Warning	Missing return statement.
+mixin_on_sealed_class	1	Compiler Warning	Class should not be used as a mixin constraint.
+must_be_immutable	1	Compiler Warning	This class (or a class which this class inherits from) is marked as '@immutable', but one or more of its instance fields are not final.
+must_call_super	1	Compiler Warning	This method overrides a method annotated as @mustCallSuper, but does not invoke the overridden method.
+non_const_call_to_literal_constructor	1	Compiler Warning	This instance creation must be 'const', because a constructor is marked as '@literal'.
+non_const_call_to_literal_constructor_using_new	1	Compiler Warning	This instance creation must be 'const', because a constructor is marked as '@literal'.
+null_aware_before_operator	1	Compiler Warning	The left operand uses '?.', so its value can be null.
+null_aware_in_condition	1	Compiler Warning	The value of the '?.' operator can be 'null', which isn't appropriate in a condition.
+null_aware_in_logical_operator	1	Compiler Warning	The value of the '?.' operator can be 'null', which isn't appropriate as an operand of a logical operator.
+override_equals_but_not_hash_code	1	Compiler Warning	Class overrides 'operator==', but not 'get hashCode'.
+override_on_non_overriding_field	1	Compiler Warning	Field doesn't override an inherited getter or setter.
+override_on_non_overriding_getter	1	Compiler Warning	Getter doesn't override an inherited getter.
+override_on_non_overriding_method	1	Compiler Warning	Method doesn't override an inherited method.
+override_on_non_overriding_setter	1	Compiler Warning	Setter doesn't override an inherited setter.
+package_import_contains_dot_dot	1	Compiler Warning	A package import shouldn't contain '..'.
+sdk_version_async_exported_from_core	1	Compiler Warning	Class was not exported from 'dart:core' until version 2.1, but this code is required to be able to run on earlier versions.
+sdk_version_set_literal	1	Compiler Warning	Set literals were not supported until version 2.2, but this code is required to be able to run on earlier versions.
+sdk_version_ui_as_code	1	Compiler Warning	The for, if and spread elements were not supported until version 2.2.2, but this code is required to be able to run on earlier versions.
+strict_raw_type	1	Compiler Warning	Generic type should have explicit type arguments but doesn't.
+subtype_of_sealed_class	1	Compiler Warning	Class should not be extended, mixed in, or implemented because it is sealed.
+type_check_is_not_null	1	Compiler Warning	Tests for non-null should be done with '!= null'.
+type_check_is_null	1	Compiler Warning	Tests for null should be done with '== null'.
+undefined_hidden_name	1	Compiler Warning	Library doesn't export this member.
+undefined_shown_name	1	Compiler Warning	Library doesn't export this member.
+unnecessary_cast	1	Compiler Warning	Unnecessary cast.
+unnecessary_no_such_method	1	Compiler Warning	Unnecessary 'noSuchMethod' declaration.
+unnecessary_null_aware_call	1	Compiler Warning	The target expression cannot be null, and so '?.' is not necessary.
+unnecessary_type_check_false	1	Compiler Warning	Unnecessary type check, the result is always false.
+unnecessary_type_check_true	1	Compiler Warning	Unnecessary type check, the result is always true.
+unused_catch_clause	1	Compiler Warning	The exception variable isn't used, so the 'catch' clause can be removed.
+unused_catch_stack	1	Compiler Warning	The stack trace variable isn't used and can be removed.
+unused_element	1	Compiler Warning	Element isn't used.
+unused_field	1	Compiler Warning	The value of this field isn't used.
+unused_import	1	Compiler Warning	Unused import.
+unused_label	1	Compiler Warning	Label isn't used.
+unused_local_variable	1	Compiler Warning	The value of the local variable isn't used.
+unused_shown_name	1	Compiler Warning	Name is shown, but not used.

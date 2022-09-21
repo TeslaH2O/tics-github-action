@@ -1,0 +1,377 @@
+//SEE http://pylint-messages.wikidot.com/all-codes
+//SEE http://techwiki.asml.com/index.php/ASML_pylint_rules
+PYCONTAINER	3	Container	Pylint container rule
+C0102	3	Basic	Black listed name
+C0103	3	Basic	Invalid name
+C0111	3	Basic	Missing docstring
+C0112	3	Basic	Empty docstring
+C0121	3	Basic	Missing required attribute
+C0202	3	Classes	Class method should have "cls" as first argument
+C0203	3	Classes	Metaclass method should have "mcs" as first argument
+//disabled in pylintrc file, not in ASML documentation
+//but found?
+C0301	3	Format	Line too long
+//disabled in pylintrc file, not in ASML documentation
+//but found?
+C0302	3	Format	Too many lines in module
+//disabled in pylintrc file, not in ASML documentation
+//but found?
+C0321	3	Format	More than one statement on a single line
+C0322	3	Format	Operator not preceded by a space
+C0323	3	Format	Operator not followed by a space
+C0324	3	Format	Comma not followed by a space
+E0011	1	Main messages	Unrecognized file option
+E0012	1	Main messages	Bad option value
+E0100	1	Basic	__init__ method is a generator
+E0101	1	Basic	Explicit return in __init__
+E0102	1	Basic	item already defined
+E0103	1	Basic	item not properly in loop
+E0104	1	Basic	Return outside function
+E0105	1	Basic	Yield outside function
+E0106	1	Basic	Return with argument inside generator
+E0202	1	Classes	An attribute inherited hides this method
+E0203	1	Classes	Access to member before its definition
+E0211	1	Classes	Method has no argument
+E0213	1	Classes	Method should have "self" as first argument
+E0221	1	Classes	Interface resolved is not a class
+E0222	1	Classes	Missing method from interface
+E0501	1	Miscellaneous	Non ascii characters found but no encoding specified (PEP 263)
+E0502	1	Miscellaneous	Wrong encoding specified
+E0503	1	Miscellaneous	Unknown encoding specified
+E0601	1	Variables	Using variable before assignment
+E0602	1	Variables	Undefined variable
+E0611	1	Variables	No name in module
+E0701	1	Exceptions	Bad except clauses order
+E0702	1	Exceptions	Raising item while only classes, instances or string are allowed
+//E0710 has been changed in documentation to E1010
+//E0710	1	UNKNOWN	Raising a new style class which doesn't inherit from BaseException
+E1001	1	Newstyle	Use __slots__ on an old style class
+E1002	1	Newstyle	Use super on an old style class
+E1003	1	Newstyle	Bad first argument given to super class
+//disabled in pylintrc file, not in ASML documentation
+//but is found?
+E1101	1	Typecheck	item has no member
+E1102	1	Typecheck	item is not callable
+//disabled in pylintrc file, not in ASML documentation
+//but found?
+E1103	1	Typecheck	item has no member (but some types could not be inferred)
+E1111	1	Typecheck	Assigning to function call which doesn't return
+
+R0201	4	Classes	Method could be a function
+R0401	4	Imports	Cyclic import
+R0801	4	Similarities	Similar lines
+R0901	4	DesignSet	Too many ancestors
+R0902	4	DesignSet	Too many instance attributes
+//disabled in pylintrc file
+//but found?
+R0903	4	DesignSet	Too few public methods
+R0904	4	DesignSet	Too many public methods
+R0911	4	DesignSet	Too many return statements
+R0912	4	DesignSet	Too many branches
+R0913	4	DesignSet	Too many arguments
+R0914	4	DesignSet	Too many local variables
+R0915	4	DesignSet	Too many statements
+//disabled in pylintrc file, not in ASML documentation
+//R0921	4	DesignSet	Abstract class not referenced
+//disabled in pylintrc file, not in ASML documentation
+//R0922	4	DesignSet	Abstract class is only referenced x times
+//disabled in pylintrc file, not in ASML documentation
+//R0923	4	DesignSet	Interface not implemented
+W0101	2	Basic	Unreachable code
+W0102	2	Basic	Dangerous default value as argument
+W0104	2	Basic	Statement seems to have no effect
+W0105	2	Basic	String statement has no effect
+W0107	2	Basic	Unnecessary pass statement
+//not disabled in pylintrc, not available in ASML documentation
+W0108	2	UNKNOWN	Lambda may not be necessary
+//W0122 has been changed to R0122
+//W0122	2	Basic	Use of the exec statement
+W0141	2	Basic	Used builtin function
+//disabled in pylintrc file, not in ASML documentation
+//but found?
+W0142	2	Basic	Used * or ** magic
+//disabled in ASML documentation, not in pylintrc
+W0201	2	Classes	Attribute defined outside __init__
+W0211	2	Classes	Static method as first argument
+W0212	2	Classes	Access to a protected member of a client class
+//W0221 has been changed to E0221
+//W0221	2	Classes	Arguments number differs from method
+W0222	2	Classes	Signature differs from method
+W0223	2	Classes	Method is abstract in class but is not overridden
+//ASML documentation says: Make error
+W0231	2	Classes	__init__ method from base class is not called
+//W0232 has been changed to R0232
+//W0232	2	Classes	Class has no __init__ method
+W0233	2	Classes	__init__ method from a non direct base class is called
+//W0301 has been changed in documentation to W0106
+//but found?
+W0301	2	Basic	Unnecessary semicolon
+//W0311 has been changed to E0311
+//W0311	2	Format	Bad indentation
+//W0312 has been changed to E0312
+//W0312	2	Format	Found incorrect indentation
+W0331	2	Format	Use of the <> operator
+W0332	2	Format	Use l as long integer identifier
+//not disabled in pylintrc, not available in ASML documentation
+W0333	2	UNKNOWN	Use of the `` operator
+W0401	2	Imports	Wildcard import
+W0402	2	Imports	Uses of a deprecated module
+//disabled in pylintrc file, not in ASML documentation
+//W0403	2	Imports	Relative import
+W0404	2	Imports	Reimport
+W0406	2	Imports	Module import itself
+W0410	2	Imports	__future__ import is not the first non docstring statement
+//not disabled in pylintrc, not available in ASML documentation
+W0511	2	UNKNOWN	Warning notes in code comments
+W0601	2	Variables	Global variable undefined at the module level
+W0602	2	Variables	Using global but no assigment is done
+//disabled in pylintrc file, not in ASML documentation
+W0603	2	Variables	Using the global statement
+W0604	2	Variables	Using the global statement at the module level
+W0611	2	Variables	Unused import
+W0612	2	Variables	Unused variable
+//disabled in pylintrc file, not in ASML documentation
+//but found?
+W0613	2	Variables	Unused argument
+W0614	2	Variables	Unused import from wildcard import
+//W0621 has been changed to E0621
+//W0621	1	Variables	Redefining name from outer scope
+//W0622 has been changed to E0622
+//W0622	2	Variables	Redefining built-in
+W0631	2	Variables	Using possibly undefined loop variable
+W0701	2	Exceptions	Raising a string exception
+W0702	2	Exceptions	No exception type(s) specified
+//disabled in pylintrc file, not in ASML documentation
+//but is found?
+W0703	2	Exceptions	Catch "Exception"
+W0704	2	Exceptions	Except doesn't do anything
+//W0710 has been changed in documentation to W1010
+W0710	2	Newstyle	Exception doesn't inherit from standard "Exception" class
+W1001	2	Newstyle	Use of "property" on an old style class
+W1111	2	Typecheck	Assigning to function call which only returns None
+
+//CHANGED RULES FROM AXXXX TO AYYYY (see above)
+W0106	2	Basic	Unnecessary semicolon
+E1010	1	Newstyle	Raising a new style class
+W1010	2	Newstyle	Exception doesn't inherit from standard "Exception" class
+
+//CHANGED RULES FROM AXXXX TO BXXXX
+E0311	1	Format	Bad indentation
+E0312	1	Format	Found incorrect indentation
+E0621	1	Variables	Redefining name from outer scope
+E0622	1	Variables	Redefining built-in
+R0122	4	Basic	Use of the exec statement
+R0221	4	Classes	Arguments number differs from method
+R0232	4	Classes	Class has no __init__ method
+R0511	4	Miscellaneous	Warning not as FIXME, XXX, TODO or TDB. is detected
+
+//UNDOCUMENTED NEWLY FOUND RULES
+W0099	1	Main message	Illegal disabling of message
+I9901	5	Main message	Constant modification
+I9902	5	Main message	scope violation for interface
+W0150	2	Basic	return statement in finally block may swallow exception
+E9902	1	Main message	scope violation for interface
+W9904	5	Main message	Refactor with enumeration value provided by interface
+
+// New rules in Pylint 1.6
+E0112	5	Miscellaneous	Emitted when there are more than one starred expressions (`*x`) in an assignment. This is a SyntaxError.
+E0113	5	Miscellaneous	Emitted when a star expression is used as a starred assignment target.
+E0110	5	Miscellaneous	Used when an abstract class with `abc.ABCMeta` as metaclass has abstract methods and is instantiated.
+E0111	5	Miscellaneous	Used when the first argument to reversed() builtin isn't a sequence (does not implement __reversed__, nor __getitem__ and __len__
+E0116	5	Miscellaneous	Emitted when the `continue` keyword is found inside a finally clause, which is a SyntaxError.
+E0117	5	Miscellaneous	Emitted when a nonlocal variable does not have an attached name somewhere in the parent scopes
+E0114	5	Miscellaneous	Emitted when a star expression is not used in an assignment target.
+E0115	5	Miscellaneous	Emitted when a name is both nonlocal and global.
+W1628	5	Miscellaneous	Used when a __hex__ method is defined (method is not used by Python 3)
+W1609	5	Miscellaneous	Used when the raw_input built-in function is referenced (missing from Python 3)
+W1608	5	Miscellaneous	Used when the long built-in function is referenced (missing from Python 3)
+W1607	5	Miscellaneous	Used when the file built-in function is referenced (missing from Python 3)
+W1606	5	Miscellaneous	Used when the execfile built-in function is referenced (missing from Python 3)
+W1605	5	Miscellaneous	Used when the coerce built-in function is referenced (missing from Python 3)
+W1604	5	Miscellaneous	Used when the cmp built-in function is referenced (missing from Python 3)
+W1603	5	Miscellaneous	Used when the buffer built-in function is referenced (missing from Python 3)
+W1602	5	Miscellaneous	Used when the basestring built-in function is referenced (missing from Python 3)
+W1601	5	Miscellaneous	Used when the apply built-in function is referenced (missing from Python 3)
+E1304	5	Miscellaneous	Used when a format string that uses named conversion specifiers is used with a dictionary that doesn't contain all the keys required by the format string.
+E1305	5	Miscellaneous	Used when a format string that uses unnamed conversion specifiers is given too many arguments.
+E0108	5	Miscellaneous	Duplicate argument names in function definitions are syntax errors.
+W1617	5	Miscellaneous	Used when a __setslice__ method is defined (method is not used by Python 3)
+E1301	5	Miscellaneous	Used when a format string terminates before the end of a conversion specifier.
+E1133	5	Miscellaneous	Used when a non-iterable value is used in place where iterable is expected
+C0411	5	Miscellaneous	Used when PEP8 import order is not respected (standard imports first, then third-party libraries, then local imports)
+E1131	5	Miscellaneous	Emitted when a binary arithmetic operation between two operands is not supported.
+E1130	5	Miscellaneous	Emitted when a unary operand is used on an object which does not support this type of operation
+E1137	5	Miscellaneous	Emitted when an object does not support item assignment (i.e. doesn't define __setitem__ method)
+E1136	5	Miscellaneous	Emitted when a subscripted value doesn't support subscription(i.e. doesn't define __getitem__ method)
+E1135	5	Miscellaneous	Emitted when an instance in membership test expression doesn't implement membership protocol (__contains__/__iter__/__getitem__)
+E1134	5	Miscellaneous	Used when a non-mapping value is used in place where mapping is expected
+C0113	5	Miscellaneous	Used when a boolean expression contains an unneeded negation.
+W1618	5	Miscellaneous	Used when an import is not accompanied by ``from __future__ import absolute_import`` (default behaviour in Python 3)
+W1619	5	Miscellaneous	Used for non-floor division w/o a float literal or ``from __future__ import division`` (Python 3 returns a float for int division unconditionally)
+W1610	5	Miscellaneous	Used when the reduce built-in function is referenced (missing from Python 3)
+W1611	5	Miscellaneous	Used when the StandardError built-in function is referenced (missing from Python 3)
+W1612	5	Miscellaneous	Used when the unicode built-in function is referenced (missing from Python 3)
+W1613	5	Miscellaneous	Used when the xrange built-in function is referenced (missing from Python 3)
+W1614	5	Miscellaneous	Used when a __coerce__ method is defined (method is not used by Python 3)
+W1615	5	Miscellaneous	Used when a __delslice__ method is defined (method is not used by Python 3)
+W1616	5	Miscellaneous	Used when a __getslice__ method is defined (method is not used by Python 3)
+C0410	5	Miscellaneous	Used when import statement importing multiple modules is detected.
+E0604	5	Miscellaneous	Used when an invalid (non-string) object occurs in __all__.
+R0123	5	Miscellaneous	Used when comparing an object to a literal, which is usually what you do not want to do, since you can compare to a different literal than what was expected altogether.
+W0622	5	Miscellaneous	Used when a variable or function override a built-in.
+W0623	5	Miscellaneous	Used when an exception handler assigns the exception to an existing name
+W0621	5	Miscellaneous	Used when a variable's name hide a name defined in the outer scope.
+W0705	5	Miscellaneous	Used when an except catches a type that was already caught by a previous handler.
+C0204	5	Miscellaneous	Used when a metaclass class method has a first argument named differently than the value specified in valid-metaclass-classmethod-first-arg option (default to "mcs"), recommended to easily differentiate them from regular instance methods.
+E0632	5	Miscellaneous	Used when there is an unbalanced tuple unpacking in assignment
+C0200	5	Miscellaneous	Emitted when code that iterates with range and len is encountered. Such code can be simplified by using the enumerate builtin.
+C0201	5	Miscellaneous	Emitted when the keys of a dictionary are iterated through the .keys() method. It is enough to just iterate through the dictionary itself, as in "for key in dictionary".
+E1124	5	Miscellaneous	Used when a function call would result in assigning multiple values to a function parameter, one value from a positional argument and one from a keyword argument.
+E1125	5	Miscellaneous	Used when a function call does not pass a mandatory keyword-only argument.
+E1126	5	Miscellaneous	Used when a sequence type is indexed with an invalid type. Valid types are ints, slices, and objects with an __index__ method.
+E1127	5	Miscellaneous	Used when a slice index is not an integer, None, or an object with an __index__ method.
+E1120	5	Miscellaneous	Used when a function call passes too few arguments.
+E1121	5	Miscellaneous	Used when a function call passes too many positional arguments.
+E1123	5	Miscellaneous	Used when a function call passes a keyword argument that doesn't correspond to one of the function's parameter names.
+C0305	5	Miscellaneous	Used when there are trailing blank lines in a file.
+F0202	5	Miscellaneous	Used when Pylint has been unable to check methods signature compatibility for an unexpected reason. Please report this kind if you don't make sense of it.
+W1501	5	Miscellaneous	Python supports: r, w, a[, x] modes with b, +, and U (only with r) options. See http://docs.python.org/2/library/functions.html#open
+W1502	5	Miscellaneous	Using datetime.time in a boolean context can hide subtle bugs when the time they represent matches midnight UTC. This behaviour was fixed in Python 3.5. See http://bugs.python.org/issue13936 for reference.
+C0304	5	Miscellaneous	Used when the last line in a file is missing a newline.
+C0330	5	Miscellaneous	TODO
+W0512	5	Miscellaneous	Used when a source line cannot be decoded using the specified source file encoding.
+E1128	5	Miscellaneous	Used when an assignment is done on a function call but the inferred function returns nothing but None.
+R0916	5	Miscellaneous	Used when a if statement contains too many boolean expressions
+E1205	5	Miscellaneous	Used when a logging format string is given too few arguments.
+C0412	5	Miscellaneous	Used when imports are not grouped by packages
+E0633	5	Miscellaneous	Used when something which is not a sequence is used in an unpack assignment
+C0303	5	Miscellaneous	Used when there is whitespace between the end of a line and the newline.
+R1701	5	Miscellaneous	Usen when multiple consecutive isinstance calls can be merged into one.
+E0603	5	Miscellaneous	Used when an undefined variable name is referenced in __all__.
+W1302	5	Miscellaneous	Used when a PEP 3101 format string is invalid.
+W1303	5	Miscellaneous	Used when a PEP 3101 format string that uses named fields doesn't receive one or more required keywords.
+W1300	5	Miscellaneous	Used when a format string that uses named conversion specifiers is used with a dictionary whose keys are not all strings.
+E1206	5	Miscellaneous	Used when a logging format string is given too many arguments
+W1306	5	Miscellaneous	Used when a PEP 3101 format string uses an attribute specifier ({0.length}), but the argument passed for formatting doesn't have that attribute.
+W1307	5	Miscellaneous	Used when a PEP 3101 format string uses a lookup specifier ({a[1]}), but the argument passed for formatting doesn't contain or doesn't have that key as an attribute.
+W1304	5	Miscellaneous	Used when a PEP 3101 format string that uses named fields is used with an argument that is not required by the format string.
+W1305	5	Miscellaneous	Used when a PEP 3101 format string contains both automatic field numbering (e.g. '{}') and manual field specification (e.g. '{0}').
+E1201	5	Miscellaneous	Used when a logging statement format string terminates before the end of a conversion specifier.
+E1200	5	Miscellaneous	Used when an unsupported format character is used in a logging statement format string.
+C1001	5	Miscellaneous	Used when a class is defined that does not inherit from another class and does not inherit explicitly from "object".
+E0239	5	Miscellaneous	Used when a class inherits from something which is not a class.
+E0237	5	Miscellaneous	Used when assigning to an attribute not defined in the class slots.
+E0236	5	Miscellaneous	Used when an invalid (non-string) object occurs in __slots__.
+E1129	5	Miscellaneous	Used when an instance in a with statement doesn't implement the context manager protocol(__enter__/__exit__).
+W0311	5	Miscellaneous	Used when an unexpected number of indentation's tabulations or spaces has been found.
+W1636	5	Miscellaneous	Used when the map built-in is referenced in a non-iterating context (returns an iterator in Python 3)
+W1637	5	Miscellaneous	Used when the zip built-in is referenced in a non-iterating context (returns an iterator in Python 3)
+E1609	5	Miscellaneous	Used when the import star syntax is used somewhere else than the module level.
+W1634	5	Miscellaneous	Used when the intern built-in is referenced (Moved to sys.intern in Python 3)
+R0203	5	Miscellaneous	Used when a static method is defined without using the decorator syntax.
+R0202	5	Miscellaneous	Used when a class method is defined without using the decorator syntax.
+E1310	5	Miscellaneous	The argument to a str.{l,r,}strip call contains a duplicate character,
+W1503	5	Miscellaneous	The first argument of assertTrue and assertFalse is a condition. If a constant is passed as parameter, that condition will be always true. In this case a warning should be emitted.
+W0125	5	Miscellaneous	Emitted when a conditional statement (If or ternary if) uses a constant value for its test. This might not be what the user intended to do.
+W0124	5	Miscellaneous	Emitted when a `with` statement component returns multiple values and uses name binding with `as` only for a part of those values, as in with ctx() as a, b. This can be misleading, since it's not clear if the context manager returns a tuple or if the node without a name binding is another context manager.
+W0120	5	Miscellaneous	Loops should only have an else clause if they can exit early with a break statement, otherwise the statements under else should be on the same scope as the loop itself.
+W0123	5	Miscellaneous	Used when you use the "eval" function, to discourage its usage. Consider using `ast.literal_eval` for safely evaluating strings containing Python expressions from untrusted sources.
+W0122	5	Miscellaneous	Used when you use the "exec" statement (function for Python 3), to discourage its usage. That doesn't mean you cannot use it !
+W0403	5	Miscellaneous	Used when an import relative to the package directory is detected.
+W1640	5	Miscellaneous	Using the cmp argument for list.sort or the sorted builtin should be avoided, since it was removed in Python 3. Using either `key` or `functools.cmp_to_key` should be preferred.
+W1401	5	Miscellaneous	Used when a backslash is in a literal string but not as an escape.
+W1402	5	Miscellaneous	Used when an escape like \u is encountered in a byte string where it has no effect.
+E1601	5	Miscellaneous	Used when a print statement is used (`print` is a function in Python 3)
+E0303	5	Miscellaneous	Used when an __len__ method returns something which is not a non-negative integer
+E0302	5	Miscellaneous	Emitted when a special method was defined with an invalid number of parameters. If it has too few or too many, it might not work at all.
+E0301	5	Miscellaneous	Used when an __iter__ method returns something which is not an iterable (i.e. has no `next` method)
+E1004	5	Miscellaneous	Used when the super builtin didn't receive an argument.
+W1202	5	Miscellaneous	Used when a logging statement has a call form of "logging.<logging method>(format_string.format(format_args...))". Such calls should use % formatting instead, but leave interpolation to the logging function by passing the parameters as arguments.
+W1201	5	Miscellaneous	Used when a logging statement has a call form of "logging.<logging method>(format_string % (format_args...))". Such calls should leave string interpolation to the logging method itself and be written "logging.<logging method>(format_string, format_args...)" so that the program may avoid incurring the cost of the interpolation in those cases in which no message will be logged. For more, see http://www.python.org/dev/peps/pep-0282/.
+C0327	5	Miscellaneous	Used when there are mixed (LF and CRLF) newline signs in a file.
+W1622	5	Miscellaneous	Used when an object's next() method is called (Python 3 uses the next() built-in function)
+W1505	5	Miscellaneous	The method is marked as deprecated and will be removed in a future version of Python. Consider looking for an alternative in the documentation.
+W0232	5	Miscellaneous	Used when a class has no __init__ method, neither its parent classes.
+W1623	5	Miscellaneous	Used when a metaclass is specified by assigning to __metaclass__ (Python 3 specifies the metaclass as a class statement argument)
+E1700	5	Miscellaneous	Used when an `yield` or `yield from` statement is found inside an async function.
+E1701	5	Miscellaneous	Used when an async context manager is used with an object that does not implement the async context management protocol.
+C0413	5	Miscellaneous	Used when code and imports are mixed
+E0704	5	Miscellaneous	Used when a bare raise is not used inside an except clause. This generates an error, since there are no active exceptions to be reraised. An exception to this rule is represented by a bare raise inside a finally clause, which might work, as long as an exception is raised inside the try block, but it is nevertheless a code smell that must not be relied upon.
+E0703	5	Miscellaneous	Used when using the syntax "raise ... from ...", where the exception context is not an exception, nor None.
+E0238	5	Miscellaneous	Used when an invalid __slots__ is found in class. Only a string, an iterable or a sequence is permitted.
+E1608	5	Miscellaneous	Used when encountering the old octal syntax, removed in Python 3. To use the new syntax, prepend 0o on the number.
+C0123	5	Miscellaneous	The idiomatic way to perform an explicit typecheck in Python is to use isinstance(x, Y) rather than type(x) == Y, type(x) is Y. Though there are unusual situations where these give different results.
+C0122	5	Miscellaneous	Used when the constant is placed on the left side of a comparison. It is usually clearer in intent to place it in the right hand side of the comparison.
+W0312	5	Miscellaneous	Used when there are some mixed tabs and spaces in a module.
+E1132	5	Miscellaneous	Emitted when a function call got multiple values for a keyword.
+C0326	5	Miscellaneous	Used when a wrong number of spaces is used around an operator, bracket or block opener.
+E1603	5	Miscellaneous	Python3 will not allow implicit unpacking of exceptions in except clauses. See http://www.python.org/dev/peps/pep-3110/
+E1602	5	Miscellaneous	Used when parameter unpacking is specified for a function(Python 3 doesn't allow it)
+E1605	5	Miscellaneous	Used when the deprecated "``" (backtick) operator is used instead of the str() function.
+E1604	5	Miscellaneous	Used when the alternate raise syntax 'raise foo, bar' is used instead of 'raise foo(bar)'.
+E1607	5	Miscellaneous	Used when the deprecated "<>" operator is used instead of "!=". This is removed in Python 3.
+E1606	5	Miscellaneous	Used when "l" or "L" is used to mark a long integer. This will not work in Python 3, since `int` and `long` types have merged.
+W1621	5	Miscellaneous	Used for calls to dict.viewkeys(), viewvalues() or viewitems() (Python 3 lacks these methods)
+W1620	5	Miscellaneous	Used for calls to dict.iterkeys(), itervalues() or iteritems() (Python 3 lacks these methods)
+W0109	5	Miscellaneous	Used when a dictionary expression binds the same key multiple times.
+W1625	5	Miscellaneous	Used when a string exception is raised. This will not work on Python 3.
+W1624	5	Miscellaneous	Indexing exceptions will not work on Python 3. Use `exception.args[index]` instead.
+W1627	5	Miscellaneous	Used when a __oct__ method is defined (method is not used by Python 3)
+W1629	5	Miscellaneous	Used when a __nonzero__ method is defined (method is not used by Python 3)
+W1301	5	Miscellaneous	Used when a format string that uses named conversion specifiers is used with a dictionary that contains keys not required by the format string.
+W0221	5	Miscellaneous	Used when a method has a different number of arguments than in the implemented interface or in an overridden method.
+W0711	5	Miscellaneous	Used when the exception to catch is of the form "except A or B:". If intending to catch multiple, rewrite as "except (A, B):"
+C0402	5	Miscellaneous	Used when a word in docstring is not spelled correctly.
+C0403	5	Miscellaneous	Used when a word in docstring cannot be checked by enchant.
+E1306	5	Miscellaneous	Used when a format string that uses unnamed conversion specifiers is given too few arguments
+C0401	5	Miscellaneous	Used when a word in comment is not spelled correctly.
+E1300	5	Miscellaneous	Used when a unsupported format character is used in a format string.
+C0325	5	Miscellaneous	Used when a single item in parentheses follows an if, for, or other keyword.
+E1302	5	Miscellaneous	Used when a format string contains both named (e.g. '%(foo)d') and unnamed (e.g. '%d') conversion specifiers. This is also used when a named conversion specifier contains * for the minimum field width and/or precision.
+E1303	5	Miscellaneous	Used when a format string that uses named conversion specifiers is used with an argument that is not a mapping.
+E0710	5	Miscellaneous	Used when a new style class which doesn't inherit from BaseException is raised.
+E0711	5	Miscellaneous	Used when NotImplemented is raised instead of NotImplementedError
+E0712	5	Miscellaneous	Used when a class which doesn't inherit from BaseException is used as an exception in an except clause.
+E0240	5	Miscellaneous	Used when a class has an inconsistent method resolution order.
+E0241	5	Miscellaneous	Used when a class has duplicate bases.
+E1138	5	Miscellaneous	Emitted when an object does not support item deletion (i.e. doesn't define __delitem__ method)
+W0110	5	Miscellaneous	Used when a lambda is the first argument to "map" or "filter". It could be clearer as a list comprehension or generator expression.
+E0107	5	Miscellaneous	Used when you attempt to use the C-style pre-increment orpre-decrement operator -- and ++, which doesn't exist in Python.
+W1632	5	Miscellaneous	Used when the input built-in is referenced (backwards-incompatible semantics in Python 3)
+W1633	5	Miscellaneous	Used when the round built-in is referenced (backwards-incompatible semantics in Python 3)
+W1630	5	Miscellaneous	Used when a __cmp__ method is defined (method is not used by Python 3)
+W1626	5	Miscellaneous	Used when the reload built-in function is referenced (missing from Python 3). You can use instead imp.reload or importlib.reload.
+W1635	5	Miscellaneous	Used when the unichr built-in is referenced (Use chr in Python 3)
+W0640	5	Miscellaneous	A variable used in a closure is defined in a loop. This will result in all closures using the same value for the closed-over variable.
+W1638	5	Miscellaneous	Used when the range built-in is referenced in a non-iterating context (returns an iterator in Python 3)
+W1639	5	Miscellaneous	Used when the filter built-in is referenced in a non-iterating context (returns an iterator in Python 3)
+W0199	5	Miscellaneous	A call of assert on a tuple will always evaluate to true if the tuple is not empty, and will always evaluate to false if it is.
+E0401	5	Miscellaneous	Used when pylint has been unable to import a module.
+E0402	5	Miscellaneous	Used when a relative import tries to access too many levels in the current package.
+R0102	5	Miscellaneous	Used when an if statement can be replaced with 'bool(test)'.
+R0101	5	Miscellaneous	Used when a function or a method has too many nested blocks. This makes the code less understandable and maintainable.
+R1260	5	Miscellaneous	Used when a method or function is too complex based on McCabe Complexity Cyclomatic
+C0198	5	Miscellaneous	Used when a docstring does not have triple double quotes.
+W9009	5	Miscellaneous	Please add documentation about what this generator yields.
+I0022	5	Miscellaneous	Some inline pylint options have been renamed or reworked, only the most recent form should be used. NOTE:skip-all is only available with pylint >= 0.26
+W9004	5	Miscellaneous	Please add parameter type declarations for all parameters.
+W9007	5	Miscellaneous	Please add documentation about what this method returns.
+W9006	5	Miscellaneous	Please document exceptions for all raised exception types.
+W9008	5	Miscellaneous	Please remove the return documentation from this method.
+I0012	5	Miscellaneous	Used when an inline option enables a message or a messages category.
+I0011	5	Miscellaneous	Used when an inline option disables a message or a messages category.
+I0010	5	Miscellaneous	Used when an inline option is either badly formatted or can't be used inside modules.
+I0013	5	Miscellaneous	Used to inform that the file will not be checked
+C0199	5	Miscellaneous	Used when a blank line is found at the beginning of a docstring.
+W9010	5	Miscellaneous	Please remove the yields documentation from this method.
+F0010	5	Miscellaneous	Used when an exception occured while building the Astroid representation which could be handled by astroid.
+E0001	5	Miscellaneous	Used when a syntax error is raised for a module.
+W9003	5	Miscellaneous	Please add parameter declarations for all parameters.
+F0002	5	Miscellaneous	Used when an unexpected error occurred while building the Astroid representation. This is usually accompanied by a traceback. Please report such errors !
+W9005	5	Miscellaneous	Please remove parameter declarations in the class or constructor.
+F0001	5	Miscellaneous	Used when an error occurred preventing the analysis of a module (unable to find it for instance).
+R5501	5	Miscellaneous	Used when an else statement is immediately followed by an if statement and does not contain statements that would be unrelated to it.
+I0001	5	Miscellaneous	Used to inform that a built-in module has not been checked using the raw checkers.
+I0020	5	Miscellaneous	A message was triggered on a line, but suppressed explicitly by a disable= comment in the file. This message is not generated for messages that are ignored due to configuration settings.
+I0021	5	Miscellaneous	Reported when a message is explicitly disabled for a line or a block of code, but never triggered.
+R0204	5	Miscellaneous	Used when the type of a variable changes inside a method or a function.

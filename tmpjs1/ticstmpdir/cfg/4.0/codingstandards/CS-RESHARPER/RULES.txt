@@ -1,0 +1,790 @@
+AbstractClassConstructorCanBeMadeProtected	4	BestPractice	Constructor of an abstract class can be made protected
+AccessRightsInText	2	CodeSmell	Cannot access symbol in text argument
+AccessToDisposedClosure	2	CodeSmell	Access to disposed captured variable
+AccessToForEachVariableInClosure	2	CodeSmell	Access to foreach variable in closure
+AccessToModifiedClosure	2	CodeSmell	Access to modified captured variable
+AccessToStaticMemberViaDerivedType	2	BestPractice	Access to a static member of a type via a derived type
+AddressOfMarshalByRefObject	2	CodeSmell	Captured field reference of a marshal-by-reference class may cause a runtime exception
+AmdExternalModule	3	LanguageUsage	AMD module may be converted to external module
+AngularHtml.Banana	2	CodeSmell	'Banana in a box' [()] violation in Angular 2 binding
+AnnotationConflictInHierarchy	2	CodeSmell	Annotation conflict in hierarchy
+AnnotationRedundancyAtValueType	2	BestPractice	Nullability attribute usage with declaration of void or value type
+AnnotationRedundancyInHierarchy	2	BestPractice	Annotation duplicate in hierarchy
+ArgumentsStyleAnonymousFunction	4	CodeStyleIssues	Use preferred argument style for anonymous functions
+ArgumentsStyleLiteral	4	CodeStyleIssues	Use preferred argument style for literal values
+ArgumentsStyleNamedExpression	4	CodeStyleIssues	Use preferred argument style for named expressions
+ArgumentsStyleOther	4	CodeStyleIssues	Use preferred argument style
+ArgumentsStyleStringLiteral	4	CodeStyleIssues	Use preferred argument style for string literal values
+ArrangeAccessorOwnerBody	3	CodeStyleIssues	Use preferred body style: Convert to property, indexer or event with preferred body style
+ArrangeDefaultValueWhenTypeEvident	3	CodeStyleIssues	Use preferred style of default value expression when type is evident
+ArrangeDefaultValueWhenTypeNotEvident	4	CodeStyleIssues	Use preferred style of default value expression when type is not evident
+ArrangeModifiersOrder	3	CodeStyleIssues	Adjust modifiers declaration order
+ArrangeObjectCreationWhenTypeEvident	3	CodeStyleIssues	Use preferred style of 'new' expression when created type is evident
+ArrangeObjectCreationWhenTypeNotEvident	4	CodeStyleIssues	Use preferred style of 'new' expression when created type is not evident
+ArrangeRedundantParentheses	4	CodeStyleIssues	Remove redundant parentheses
+ArrangeStaticMemberQualifier	4	CodeStyleIssues	Add/remove qualifier for static members
+ArrangeThisQualifier	4	CodeStyleIssues	Add/remove 'this.' qualifier
+ArrangeTrailingCommaInMultilineLists	4	CodeStyleIssues	Use preferred style for trailing comma before new line in multiline lists
+ArrangeTrailingCommaInSinglelineLists	4	CodeStyleIssues	Use preferred style for trailing comma when the last element is not followed by a new line
+ArrangeTypeMemberModifiers	4	CodeStyleIssues	Use explicit or implicit modifier definition for type members
+ArrangeTypeModifiers	4	CodeStyleIssues	Use explicit or implicit modifier definition for types
+ArrangeVarKeywordsInDeconstructingDeclaration	3	CodeStyleIssues	Join or separate 'var' in deconstruction declarations
+Asp.ContentPlaceholderNotResolved	1	CodeSmell	Unknown content placeholder
+Asp.CustomPageParserFilterType	2	CodeSmell	Unsupported pageParserFilterType
+Asp.DeadCode	2	CodeSmell	ASP.NET Dead Code
+Asp.Entity	2	CodeSmell	Unknown HTML entity
+Asp.Image	2	CodeSmell	Wrong image size
+Asp.InvalidControlType	1	CodeSmell	Invalid control type
+Asp.NotResolved	1	CodeSmell	Unknown symbol
+Asp.ResolveWarning	2	CodeSmell	ASP.NET Resolve Warning
+Asp.SkinNotResolved	1	CodeSmell	Unknown skin
+Asp.TagAttributeWithOptionalValue	2	BestPractice	Attribute with optional value problem
+Asp.ThemeNotResolved	1	CodeSmell	Unknown theme
+Asp.Warning	2	CodeSmell	ASP.NET Warning
+AspOdsMethodReferenceResolveError	1	CodeSmell	Object data source method resolve problem
+AspUnusedRegisterDirectiveHighlighting	2	CodeRedundancy	Unused register directive
+AssignNullToNotNullAttribute	2	ConstraintViolation	Possible 'null' assignment to non-nullable entity
+AssignToConstant	1	CodeSmell	Assignment to constant
+AssignToImplicitGlobalInFunctionScope	2	CodeSmell	Assignment to an implicitly declared global variable
+AssignedValueIsNeverUsed	2	CodeRedundancy	Assigned value is never used
+AssignedValueWontBeAssignedToCorrespondingField	2	CodeSmell	Parameter-property value assigned inside constructor won't be assigned to class property
+AssignmentInConditionExpression	2	CodeSmell	Assignment to a variable inside a conditional statement
+AssignmentInConditionalExpression	2	CodeSmell	Assignment in conditional expression
+AssignmentIsFullyDiscarded	2	CodeRedundancy	Assignment results are fully discarded
+Asxx.PathError	2	CodeSmell	Path error
+AsyncIteratorInvocationWithoutAwaitForeach	2	CodeSmell	Async iterator invocation without 'await foreach'
+AutoPropertyCanBeMadeGetOnly.Global	3	BestPractice	Auto-property can be made get-only: Non-private accessibility
+AutoPropertyCanBeMadeGetOnly.Local	3	BestPractice	Auto-property can be made get-only: Private accessibility
+BadChildStatementIndent	2	FormattingIssues	Incorrect indent: Around child statement
+BadControlBracesIndent	3	FormattingIssues	Incorrect indent: Around statement braces
+BaseMemberHasParams	2	BestPractice	Base member has 'params' parameter, but overrider hasn't
+BaseMethodCallWithDefaultParameter	2	CodeSmell	Call to base member with implicit default parameters
+BaseObjectEqualsIsObjectEquals	2	CodeSmell	Call to 'base.Equals(...)' is reference equality
+BaseObjectGetHashCodeCallInGetHashCode	2	CodeSmell	Overridden GetHashCode calls base 'Object.GetHashCode()'
+BitwiseOperatorOnEnumWithoutFlags	2	CodeSmell	Bitwise operation on enum which is not marked by [Flags] attribute
+BlockScopeRedeclaration	1	CodeSmell	Redeclaration of let/const
+BuiltInTypeReferenceStyle	4	CodeStyleIssues	Replace built-in type reference with a CLR type name or a keyword
+BuiltInTypeReferenceStyleForMemberAccess	4	CodeStyleIssues	Replace built-in type reference with a CLR type name or a keyword in static member access expressions
+ByRefArgumentIsVolatileField	2	CodeSmell	Captured reference to 'volatile' field will not be treated as 'volatile'
+CDeclarationWithImplicitIntType	2	CodeSmell	Type-specifier missing, defaults to int
+CallerCalleeUsing	2	CodeSmell	Using of 'arguments.caller' and 'arguments.callee'
+CannotApplyEqualityOperatorToType	2	ConstraintViolation	Compare with '==' types marked by 'CannotApplyEqualityOperatorAttribute'
+CenterTagIsObsolete	2	BestPractice	Obsolete tags and attributes: <center> is obsolete
+CheckForReferenceEqualityInstead	3	BestPractice	Check for reference equality instead: Check for reference equality instead
+CheckForReferenceEqualityInstead	3	BestPractice	Check for reference equality instead: Check for reference equality instead
+CheckForReferenceEqualityInstead	3	BestPractice	Check for reference equality instead: Check for reference equality instead
+CheckForReferenceEqualityInstead	3	BestPractice	Check for reference equality instead: Check for reference equality instead
+CheckNamespace	2	ConstraintViolation	Namespace does not correspond to file location
+Class	3	LanguageUsage	Class emulation may be converted to class
+ClassCannotBeInstantiated	2	LanguageUsage	Class cannot be instantiated
+ClassNeverInstantiated.Global	3	CodeSmell	Class is never instantiated: Non-private accessibility
+ClassNeverInstantiated.Local	3	CodeSmell	Class is never instantiated: Private accessibility
+ClassWithVirtualMembersNeverInherited.Global	3	DeclarationRedundancy	Class with virtual (overridable) members never inherited: Non-private accessibility
+ClassWithVirtualMembersNeverInherited.Local	3	DeclarationRedundancy	Class with virtual (overridable) members never inherited: Private accessibility
+ClearAttributeIsObsolete	2	BestPractice	Obsolete tags and attributes: Attribute 'clear' is obsolete
+ClearAttributeIsObsolete.All	2	BestPractice	Obsolete tags and attributes: Attribute 'clear' is obsolete
+ClosureOnModifiedVariable	2	CodeSmell	Closure on a variable modified in loop of outer scope
+CoVariantArrayConversion	2	CodeSmell	Co-variant array conversion
+CoercedEqualsUsing	2	CodeSmell	Using of coerced equality: Using of coerced equality operator
+CollectionNeverQueried.Global	2	CodeSmell	Collection's content is never queried: Non-private accessibility
+CollectionNeverQueried.Local	2	CodeSmell	Collection's content is never queried: Private accessibility
+CollectionNeverUpdated.Global	2	CodeSmell	Collection is never updated: Non-private accessibility
+CollectionNeverUpdated.Local	2	CodeSmell	Collection is never updated: Private accessibility
+CommaNotValidHere	1	CodeSmell	Comma is not valid here
+CommonJsExternalModule	3	LanguageUsage	CommonJs module may be converted to external module
+CompareOfFloatsByEqualityOperator	2	CodeSmell	Equality comparison of floating point numbers
+ConditionIsAlwaysConst	2	CodeSmell	Condition is always constant
+ConditionIsAlwaysTrueOrFalse	2	CodeRedundancy	Expression is always 'true' or always 'false'
+ConditionalTernaryEqualBranch	2	CodeSmell	'?:' expression has identical true and false branches
+ConfusingCharAsIntegerInConstructor	2	CodeSmell	Char is possibly unintentionally used as integer
+ConstantConditionalAccessQualifier	2	CodeRedundancy	Conditional access qualifier expression is known to be null or not null
+ConstantNullCoalescingCondition	2	CodeRedundancy	'??' condition is known to be null or not null
+ConstructorCallNotUsed	2	CodeSmell	Constructor call is not used or possibly used for side-effects
+ConstructorInitializerLoop	2	CodeSmell	Possible cyclic constructor call
+ContainerAnnotationRedundancy	2	BestPractice	Container nullability attribute usage with declaration of non-container type
+ContractAnnotationNotParsed	2	ConstraintViolation	Problem in contract annotation definition
+ConvertClosureToMethodGroup	3	LanguageUsage	Convert lambda expression to method group
+ConvertConditionalTernaryExpressionToSwitchExpression	4	LanguageUsage	Use switch expression
+ConvertIfDoToWhile	3	BestPractice	Convert 'if do while' to 'while
+ConvertIfStatementToConditionalTernaryExpression	3	LanguageUsage	'if' statement can be re-written as '?:' expression
+ConvertIfStatementToNullCoalescingAssignment	3	LanguageUsage	'if' statement can be re-written as '??=' assignment
+ConvertIfStatementToNullCoalescingExpression	3	LanguageUsage	'if' statement can be re-written as '??' expression
+ConvertIfStatementToReturnStatement	4	LanguageUsage	'if-return' statement can be re-written as 'return' statement
+ConvertIfStatementToSwitchExpression	4	LanguageUsage	Convert 'if' statement to 'switch' expression
+ConvertIfStatementToSwitchStatement	4	LanguageUsage	Convert 'if' statement to 'switch' statement
+ConvertIfToOrExpression	3	BestPractice	Convert 'if' to '||'
+ConvertNullableToShortForm	3	LanguageUsage	Convert 'Nullable<T>' to 'T?'
+ConvertSwitchStatementToSwitchExpression	4	LanguageUsage	Use switch expression
+ConvertToAutoProperty	3	LanguageUsage	Convert property to auto-property
+ConvertToAutoPropertyWhenPossible	4	LanguageUsage	Convert property to auto-property (when possible)
+ConvertToAutoPropertyWithPrivateSetter	4	LanguageUsage	Convert property to auto-property with private setter
+ConvertToCompoundAssignment	4	LanguageUsage	Use compound assignment
+ConvertToConstant.Global	4	BestPractice	Convert local variable or field to constant: Non-private accessibility
+ConvertToConstant.Local	4	BestPractice	Convert local variable or field to constant: Private accessibility
+ConvertToLambdaExpression	3	LanguageUsage	Convert to lambda expression
+ConvertToLocalFunction	3	LanguageUsage	Convert delegate variable to local function
+ConvertToNullCoalescingCompoundAssignment	3	LanguageUsage	Use compound assignment
+ConvertToStaticClass	3	LanguageUsage	Convert to static class
+ConvertToUsingDeclaration	3	LanguageUsage	Convert to 'using' declaration
+ConvertToVbAutoProperty	3	BestPractice	Convert property to auto-property
+ConvertToVbAutoPropertyWhenPossible	4	BestPractice	Convert property to auto-property when possible
+ConvertToVbAutoPropertyWithPrivateSetter	4	BestPractice	Convert property to auto-property with private setter
+CreateSpecializedOverload	4	BestPractice	String literal usage allows creating specialized overload
+CssBrowserCompatibility	2	CodeSmell	CSS symbol / syntax is not compatible with a specific browser
+CssCaniuseFeatureRequiresPrefix	4	CodeSmell	CSS feature requires vendor prefix for a specific browser
+CssCaniuseUnsupportedFeature	4	CodeSmell	CSS feature is not supported by a specific browser
+CssNotResolved	1	CodeSmell	Unknown CSS symbol
+CssObsolete	4	CodeSmell	CSS symbol is obsolete
+CssPropertyDoesNotOverrideVendorProperty	2	CodeSmell	Property does not override vendor-prefixed property
+DeclarationHides	4	CodeSmell	Declaration hides another declaration from an outer scope
+DeclarationIsEmpty	2	DeclarationRedundancy	Declaration is empty
+DeclarationVisibilityError	1	CodeSmell	Exported entity uses a private entity
+DefaultValueAttributeForOptionalParameter	2	CodeSmell	Possibly misleading 'DefaultValueAttribute' usage to define optional parameter value
+DlTagContainsNonDtOrDdElements	4	CodeSmell	Elements not allowed in context: <dl> contains elements other than <dt> or <dd> or they are unclosed
+DoubleColonsExpected	1	CodeSmell	Two colons expected
+DoubleColonsPreferred	3	BestPractice	Two colons preferred
+DoubleNegationInPattern	3	BestPractice	Simplify negated pattern
+DoubleNegationOfBoolean	2	CodeRedundancy	Double negation of boolean is redundant
+DoubleNegationOperator	3	CodeRedundancy	Double negation operator
+DuplicateIdentifierError	1	CodeSmell	Duplicate identifier
+DuplicateReferenceComment	2	CodeRedundancy	Duplicate reference comment is redundant
+DuplicateResource	2	CodeSmell	Duplicate resource name
+DuplicatingLocalDeclaration	2	DeclarationRedundancy	Duplicate local declaration
+DuplicatingPropertyDeclaration	2	CodeSmell	Duplicate property declaration
+DuplicatingSwitchLabel	2	CodeSmell	Duplicate switch label
+DynamicShiftRightOpIsNotInt	2	CodeSmell	Right operand of dynamic shift operation should be convertible to 'int'
+ElidedTrailingElement	2	CodeSmell	A trailing element of an array is elided
+EmptyConstructor	2	DeclarationRedundancy	Empty constructor
+EmptyDestructor	2	DeclarationRedundancy	Empty destructor
+EmptyEmbeddedStatement	2	BestPractice	Empty control statement body
+EmptyForStatement	2	CodeRedundancy	Empty 'for' loop is redundant
+EmptyGeneralCatchClause	2	CodeSmell	Empty general catch clause
+EmptyNamespace	2	DeclarationRedundancy	Empty namespace declaration
+EmptyObjectPropertyDeclaration	1	CodeSmell	Object property declaration is expected
+EmptyReturnValueForTypeAnnotatedFunction	2	CodeSmell	Empty return value for type-annotated function
+EmptyStatement	2	BestPractice	Empty statement is redundant
+EmptyTitleTag	4	BestPractice	Important tags or attributes missing: Empty <title>
+EntityNameCapturedOnly.Global	2	DeclarationRedundancy	Entity is only used to capture its name: Non-private accessibility
+EntityNameCapturedOnly.Local	2	DeclarationRedundancy	Entity is only used to capture its name: Private accessibility
+EnumUnderlyingTypeIsInt	2	DeclarationRedundancy	Underlying type of enum is 'int'
+EnumerableSumInExplicitUncheckedContext	2	CodeSmell	'Enumerable.Sum' invocation in explicit unchecked context
+EqualExpressionComparison	2	CodeSmell	Similar expressions comparison
+ErrorInXmlDocReference	1	CodeSmell	Error in XML doc comment reference
+EventNeverInvoked	2	CodeSmell	Event never invoked
+EventNeverInvoked.Global	3	CodeSmell	Abstract or virtual (overridable) event is never invoked
+EventNeverSubscribedTo.Global	3	CodeSmell	Event is never subscribed to: Non-private accessibility
+EventNeverSubscribedTo.Local	3	CodeSmell	Event is never subscribed to: Private accessibility
+EventUnsubscriptionViaAnonymousDelegate	2	CodeSmell	Event unsubscription via anonymous delegate
+ExperimentalFeature	1	CodeSmell	Experimental feature usage when language level set to stable
+ExplicitCallerInfoArgument	2	CodeSmell	Explicit argument passed to parameter with caller info attribute
+ExpressionIsAlwaysConst	2	CodeSmell	Expression is always constant
+ExpressionIsAlwaysNull	2	CodeRedundancy	Expression is always 'null'
+FieldCanBeMadeReadOnly.Global	3	BestPractice	Field can be made readonly: Non-private accessibility
+FieldCanBeMadeReadOnly.Local	3	BestPractice	Field can be made readonly: Private accessibility
+ForCanBeConvertedToForeach	3	LanguageUsage	For-loop can be converted into foreach-loop
+ForStatementConditionIsTrue	2	CodeRedundancy	'true' is redundant as 'for'-statement condition
+ForeachCanBeConvertedToQueryUsingAnotherGetEnumerator	4	LanguageUsage	Foreach loop can be converted into LINQ-expression but another 'GetEnumerator' method will be used
+ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator	4	LanguageUsage	Part of foreach loop can be converted into LINQ-expression but another 'GetEnumerator' method will be used
+FormatStringPlaceholdersMismatch	2	CodeSmell	Format string placeholders mismatch
+FormatStringProblem	2	CodeSmell	String formatting method problems
+FunctionNeverReturns	2	CodeSmell	Function never returns
+FunctionParameterNamedArguments	2	CodeSmell	Parameter name 'arguments' clashes with pre-defined JS function-scope variable
+FunctionRecursiveOnAllPaths	2	CodeSmell	Function is recursive on all execution paths
+FunctionUsedOutOfScope	2	CodeStyleIssues	Function is used outside of scope which it is declared
+GCSuppressFinalizeForTypeWithoutDestructor	2	CodeSmell	'GC.SuppressFinalize' is invoked for type without destructor
+GenericEnumeratorNotDisposed	2	CodeSmell	Instance of IEnumerator is never disposed
+HeuristicUnreachableCode	2	CodeRedundancy	Heuristically unreachable code
+HeuristicallyUnreachableCode	2	CodeSmell	Heuristically unreachable code
+HexColorValueWithAlpha	1	CodeSmell	Invalid hexadecimal value of color
+ImplicitAnyError	1	CodeSmell	'Implicit any' inspection when NoImplicitAny is set
+ImplicitAnyTypeWarning	2	CodeStyleIssues	Element has implicit 'any' type
+ImportKeywordNotWithInvocation	1	CodeSmell	'import' keyword is not allowed here.
+InactivePreprocessorBranch	2	CodeInfo	Inactive preprocessor branch
+InconsistentFunctionReturns	2	CodeSmell	Inconsistent function returns
+InconsistentNaming	2	ConstraintViolation	Inconsistent Naming
+InconsistentlySynchronizedField	2	CodeSmell	Inconsistent synchronization on field
+IncorrectOperandInTypeOfComparison	2	CodeSmell	Comparison of 'typeof' expression with incorrect value
+IncorrectTripleSlashLocation	2	CodeSmell	Triple-slash directives are only valid at the top of the file
+IndexingByInvalidRange	2	CodeSmell	Possible 'System.ArgumentOutOfRangeException'. Start index should be less than or equal to end index
+InheritdocInvalidUsage	2	CodeSmell	Usage of <inheritdoc /> is invalid.
+InlineOutVariableDeclaration	3	LanguageUsage	Inline 'out' variable declaration
+InlineTemporaryVariable	4	LanguageUsage	Inline temporary variable
+IntDivisionByZero	2	CodeSmell	Division by zero in at least one execution path.
+IntVariableOverflow	2	CodeSmell	Possible overflow.
+IntVariableOverflowInCheckedContext	2	CodeSmell	Possible overflow in checked context.
+IntVariableOverflowInUncheckedContext	2	CodeSmell	Possible overflow in unchecked context.
+InternalModule	3	LanguageUsage	Immediately-invoked function expression may be converted to internal module
+InterpolatedStringExpressionIsNotIFormattable	2	CodeSmell	Formatting is specified, but interpolated string expression is not IFormattable
+IntroduceOptionalParameters.Global	3	LanguageUsage	Introduce optional parameters: Non-private accessibility
+IntroduceOptionalParameters.Local	3	LanguageUsage	Introduce optional parameters: Private accessibility
+IntroduceVariableToApplyGuard	4	BestPractice	Introducing variable will allow to apply type guard
+InvalidAttributeValue	2	CodeSmell	Invalid attribute value
+InvalidJsonSyntax	1	CodeSmell	Invalid JSON syntax
+InvalidValue	1	CodeSmell	Invalid value
+InvalidValueType	2	CodeSmell	Resource value type is invalid
+InvalidXmlDocComment	2	CodeSmell	Invalid XML documentation comment
+InvertCondition	4	BestPractice	Invert condition: Invert condition
+InvertIf	4	LanguageUsage	Invert 'if' statement to reduce nesting
+InvocationIsSkipped	4	CodeInfo	Method invocation is skipped
+InvocationOfNonFunction	2	CodeSmell	Invocation of non-function expression
+InvokeAsExtensionMethod	3	LanguageUsage	Convert static method invocation to extension method call
+InvokedExpressionMaybeNonFunction	2	CodeSmell	Invoked expression is not a function value
+IsExpressionAlwaysFalse	2	CodeSmell	The given expression of 'is' operator is never of the provided type
+IsExpressionAlwaysOfType	2	CodeSmell	The provided type of 'is' operator matches any non-null value
+IsExpressionAlwaysTrue	2	CodeSmell	The given expression of 'is' operator is always of the provided type
+IteratorMethodResultIsIgnored	2	CodeSmell	Return value of iterator is not used
+IteratorNeverReturns	2	CodeSmell	Iterator never returns
+JoinDeclarationAndInitializer	3	BestPractice	Join local variable declaration and assignment
+JoinDeclarationAndInitializerJs	3	BestPractice	Join local variable declaration and assignment
+JoinNullCheckWithUsage	3	LanguageUsage	Join null check with assignment
+JsPathNotFound	1	CodeSmell	Path for reference comment not found
+JsUnreachableCode	2	CodeRedundancy	Unreachable code
+JsonValidationFailed	1	CodeSmell	JSON validation failed
+JumpMustBeInLoop	2	CodeSmell	Use 'break' or 'continue' outside of loop body
+LValueIsExpected	1	CodeSmell	L-value expected error
+LabelOrSemicolonExpected	1	CodeSmell	Use of expression after break or continue
+Lambda	3	LanguageUsage	Function expression may be converted to lambda expression
+LessSpecificOverloadThanMainSignature	2	CodeSmell	Overload is less specific than the main signature
+LexicalDeclarationNeedsBlock	1	CodeSmell	Lexical declaration can only be declared inside a block.
+LocalFunctionCanBeMadeStatic	4	BestPractice	Local function can be made static
+LocalFunctionHidesMethod	2	CodeSmell	Local function hides method
+LocalFunctionRedefinedLater	2	CodeSmell	Local function is redefined later
+LocalVariableHidesMember	2	CodeSmell	Local variable hides member
+LocalizableElement	2	CodeSmell	Element is localizable
+LongLiteralEndingLowerL	2	CodeSmell	The 'l' suffix is easily confused with the digit '1'
+LoopCanBeConvertedToQuery	4	LanguageUsage	Loop can be converted into LINQ-expression
+LoopVariableIsNeverChangedInsideLoop	2	CodeSmell	Loop control variable is never changed inside loop
+MathAbsMethodIsRedundant	2	CodeRedundancy	Math.Abs() argument is always non-negative
+MathClampMinGreaterThanMax	2	CodeSmell	Inconsistent arguments passed to 'Math.Clamp()' method.
+MeaninglessDefaultParameterValue	2	DeclarationRedundancy	'DefaultParameterValueAttribute' should be used in conjunction with 'OptionalAttribute'
+MemberCanBeMadeStatic.Global	4	BestPractice	Member can be made static (shared): Non-private accessibility
+MemberCanBeMadeStatic.Local	4	BestPractice	Member can be made static (shared): Private accessibility
+MemberCanBePrivate.Global	3	BestPractice	Member can be made private: Non-private accessibility
+MemberCanBePrivate.Local	3	BestPractice	Member can be made private: Private accessibility
+MemberCanBeProtected.Global	3	BestPractice	Member can be made protected: Non-private accessibility
+MemberCanBeProtected.Local	3	BestPractice	Member can be made protected: Private accessibility
+MemberHidesStaticFromOuterClass	2	CodeSmell	Member hides static member from outer class
+MemberInitializerValueIgnored	2	CodeSmell	Member initialized value ignored
+MergeAndPattern	3	LanguageUsage	Merge 'and' pattern
+MergeCastWithTypeCheck	3	CodeSmell	Type check and casts can be merged
+MergeConditionalExpression	3	LanguageUsage	Merge conditional ?: expression into conditional access
+MergeIntoLogicalPattern	4	LanguageUsage	Merge null/pattern/value checks into 'or'/'and' patterns
+MergeIntoNegatedPattern	4	LanguageUsage	Merge negated null/pattern checks into complex pattern
+MergeIntoPattern	3	LanguageUsage	Merge null/pattern checks into complex pattern
+MergeSequentialChecks	4	LanguageUsage	Merge sequential checks into single conditional access check
+MethodHasAsyncOverload	3	BestPractice	Method has async overload
+MethodHasAsyncOverloadWithCancellation	3	BestPractice	Method has async overload with cancellation support
+MethodOverloadWithOptionalParameter	2	CodeSmell	Method with optional or 'params' parameter is hidden by overload
+MethodSafeThis	3	LanguageUsage	Member assigned by a function may be converted to function member
+MethodSupportsCancellation	3	BestPractice	Method supports cancellation
+MissingAltAttributeInImgTag	4	BestPractice	Important tags or attributes missing: <img> should specify alternative text
+MissingAttribute	2	CodeSmell	Missing required attribute
+MissingBodyTag	2	BestPractice	Important tags or attributes missing: Missing <body>
+MissingHasOwnPropertyInForeach	2	CodeSmell	There is no .hasOwnProperty() check in a body of 'for in' loop. This will cause an enumeration of prototype properties
+MissingHeadAndBodyTags	2	BestPractice	Important tags or attributes missing: Missing <head> and <body>
+MissingHeadTag	2	BestPractice	Important tags or attributes missing: Missing <head>
+MissingTitleTag	4	BestPractice	Important tags or attributes missing: Missing <title>
+MisuseOfOwnerFunctionThis	2	CodeSmell	Misuse of 'this' qualifier in inner function
+MoreSpecificForeachVariableTypeAvailable	3	BestPractice	Iteration variable can be declared with a more specific type
+MoreSpecificSignatureAfterLessSpecific	2	CodeSmell	More specific signature follows less specific
+MultipleDeclarationsInForeach	1	CodeSmell	Multiple declarations in 'for in' error
+MultipleNullableAttributesUsage	2	BestPractice	Multiple nullable attributes usage
+MultipleOrderBy	2	CodeSmell	Multiple sequential 'OrderBy' invocation
+MultipleOutputTags	2	CodeSmell	Multiple output tags defined
+MultipleResolveCandidatesInText	2	CodeSmell	Ambiguous symbols in text argument
+MustUseReturnValue	2	CodeSmell	Return value of [MustUseReturnValue] annotated method is not used
+Mvc.ActionNotResolved	1	CodeSmell	MVC: Unknown action
+Mvc.AreaNotResolved	1	CodeSmell	MVC: Unknown area
+Mvc.ControllerNotResolved	1	CodeSmell	MVC: Unknown controller
+Mvc.InvalidModelType	1	CodeSmell	MVC: Mismatch Model Type
+Mvc.MasterpageNotResolved	1	CodeSmell	MVC: Unknown masterpage
+Mvc.PartialViewNotResolved	1	CodeSmell	MVC: Unknown partial view
+Mvc.TemplateNotResolved	1	CodeSmell	MVC: Unknown template
+Mvc.ViewComponentNotResolved	1	CodeSmell	MVC: Unknown view component
+Mvc.ViewComponentViewNotResolved	1	CodeSmell	MVC: Unknown view component view
+Mvc.ViewNotResolved	1	CodeSmell	MVC: Unknown view
+NativeTypePrototypeExtending	2	CodeSmell	Extending prototype of native object
+NativeTypePrototypeOverwriting	2	CodeSmell	Overwriting prototype of native object
+NegationOfRelationalPattern	3	BestPractice	Simplify negated relational pattern
+NegativeEqualityExpression	3	BestPractice	Simplify negative equality expression
+NegativeIndex	2	CodeSmell	Possible 'System.ArgumentOutOfRangeException'. Index must be a non-negative integer
+NestedStringInterpolation	3	BestPractice	Nested string interpolation can be inlined
+NonAssignedConstant	1	CodeSmell	Non-assigned constant
+NonAtomicCompoundOperator	2	CodeSmell	Suspicious 'volatile' field usage: compound operation is not atomic. 'Interlocked' class can be used instead
+NonConstantEqualityExpressionHasConstantResult	2	CodeSmell	According to values of the bit masks, expression result will always be the same.
+NonParsableElement	2	CodeInfo	Part of the code cannot be parsed
+NonReadonlyMemberInGetHashCode	2	CodeSmell	Non-readonly type member referenced in 'GetHashCode()'
+NonVolatileFieldInDoubleCheckLocking	2	CodeSmell	Possible incorrect implementation of Double-Check Locking. Checked field must be volatile or assigned from local variable after 'Thread.MemoryBarrier()' call
+NotAccessedField.Global	3	CodeSmell	Non-accessed field: Non-private accessibility
+NotAccessedField.Local	2	CodeSmell	Non-accessed field: Private accessibility
+NotAccessedVariable	2	DeclarationRedundancy	Non-accessed local variable
+NotAllPathsReturnValue	2	CodeSmell	Not all code paths return a value
+NotAssignedOutParameter	2	CodeSmell	'out' parameter is not assigned upon exit
+NotDeclaredInParentCulture	2	CodeSmell	Resource is not declared in base culture
+NotNullMemberIsNotInitialized	2	ConstraintViolation	Non-nullable member is not initialized at constructor exit
+NotObservableAnnotationRedundancy	2	BestPractice	Nullability attribute used with declaration that cannot be directly referenced from other code
+NotOverriddenInSpecificCulture	2	CodeSmell	Resource is not overridden in specific culture
+NotResolved	2	CodeSmell	Cannot resolve symbol
+NotResolvedInText	2	CodeSmell	Cannot resolve symbol in text argument
+ObjectCreationAsStatement	2	CodeSmell	Possible unassigned object created by 'new' expression
+ObjectDestructuringWithoutParentheses	1	CodeSmell	Non-parenthesized object destructuring assignment cannot be used in an expression statement
+ObjectLiteralsAreNotCommaFree	1	CodeSmell	Comma is expected in object literal
+OlTagContainsNonLiElements	4	CodeSmell	Elements not allowed in context: <ol> contains elements other than <li> or <li> is unclosed
+OneWayOperationContractWithReturnType	2	CodeSmell	One way operations must not return values
+OperationContractWithoutServiceContract	2	CodeSmell	Method is marked as OperationContract but containing type isn't marked as ServiceContract
+OperatorIsCanBeUsed	2	CodeSmell	Operator 'is'/'Type Of ... Is ...' can be used
+OptionalParameterHierarchyMismatch	2	CodeSmell	Mismatch of optional parameter value in overridden method
+OptionalParameterRefOut	2	CodeSmell	'ref' or 'out' parameter with [Optional] attribute
+OtherTagsInsideScript1	1	CodeSmell	Script tag errors: Other tags inside <script> - possibly unclosed <script>
+OtherTagsInsideScript2	1	CodeSmell	Script tag errors: Other tags inside <script> - possibly unclosed <script>
+OtherTagsInsideUnclosedScript	1	CodeSmell	Script tag errors: Unclosed <script> with other tags inside
+OutputTagRequired	2	CodeSmell	Output tag required
+OverloadSignatureInferring	4	LanguageUsage	Possible overloads may be inferred by function body
+OverriddenWithEmptyValue	2	CodeSmell	Resource overrides base resource with empty value
+OverriddenWithSameValue	3	CodeRedundancy	Resource is overridden with identical value
+ParameterDoesntMakeAnySense	2	DeclarationRedundancy	Parameter doesn't participate in the main signature
+ParameterHidesMember	2	CodeSmell	Parameter hides member
+ParameterOnlyUsedForPreconditionCheck.Global	3	DeclarationRedundancy	Parameter is only used for precondition check: Non-private accessibility
+ParameterOnlyUsedForPreconditionCheck.Local	2	DeclarationRedundancy	Parameter is only used for precondition check: Private accessibility
+ParameterTypeCanBeEnumerable.Global	4	BestPractice	Parameter type can be IEnumerable<T>: Non-private accessibility
+ParameterTypeCanBeEnumerable.Local	4	BestPractice	Parameter type can be IEnumerable<T>: Private accessibility
+ParameterValueIsNotUsed	2	CodeSmell	Parameter value is not used
+PartialMethodParameterNameMismatch	2	CodeSmell	Parameter name differs in partial method declaration
+PartialMethodWithSinglePart	2	DeclarationRedundancy	Redundant 'partial' modifier on method declaration
+PartialTypeWithSinglePart	2	DeclarationRedundancy	Redundant 'partial' modifier on type declaration
+PathNotResolved	1	CodeSmell	Cannot resolve file system path
+PatternAlwaysMatches	2	CodeSmell	The source expression always matches the provided pattern
+PatternAlwaysOfType	2	CodeSmell	The source expression is always of pattern's type
+PatternIsAlwaysTrueOrFalse	2	CodeRedundancy	Pattern is always 'true' or always 'false'
+PatternNeverMatches	2	CodeSmell	The source expression never matches the provided pattern
+PolymorphicFieldLikeEventInvocation	2	CodeSmell	Invocation of polymorphic field-like event
+PossibleInfiniteInheritance	2	CodeSmell	Possible infinite inheritance
+PossibleIntendedRethrow	2	CodeSmell	Exception rethrow possibly intended
+PossibleInterfaceMemberAmbiguity	2	CodeSmell	Possible ambiguity while accessing member by interface
+PossibleInvalidCastException	2	CodeSmell	Possible 'System.InvalidCastException'
+PossibleInvalidCastExceptionInForeachLoop	2	CodeSmell	Possible 'System.InvalidCastException' in foreach loop
+PossibleInvalidOperationException	2	CodeSmell	Possible 'System.InvalidOperationException'
+PossibleLossOfFraction	2	CodeSmell	Possible loss of fraction
+PossibleMistakenArgument	2	BestPractice	Possible mistaken argument: Possible mistaken argument
+PossibleMistakenCallToGetType	2	BestPractice	Possible mistaken call to GetType(): Possible mistaken call to GetType()
+PossibleMistakenCallToGetType	2	BestPractice	Possible mistaken call to GetType(): Possible mistaken call to GetType()
+PossibleMultipleEnumeration	2	CodeSmell	Possible multiple enumeration
+PossibleMultipleWriteAccessInDoubleCheckLocking	2	CodeSmell	Possible incorrect implementation of Double-Check Locking pattern. Possible multiple write access to checked field
+PossibleNullReferenceException	2	CodeSmell	Possible 'System.NullReferenceException'
+PossibleStructMemberModificationOfNonVariableStruct	2	CodeSmell	Value assigned to a property of non-variable qualifier expression can be lost
+PossibleUnintendedLinearSearchInSet	2	CodeSmell	Possibly unintended linear search in set
+PossibleUnintendedQueryableAsEnumerable	3	CodeSmell	IQueryable is possibly unintentionally used as IEnumerable
+PossibleUnintendedReferenceComparison	2	CodeSmell	Possible unintended reference comparison
+PossibleWriteToMe	2	CodeSmell	Possible write to 'Me'
+PossiblyImpureMethodCallOnReadonlyVariable	2	CodeSmell	Possibly impure struct method is called on readonly variable: struct value always copied before invocation
+PossiblyIncorrectlyBrokenStatement	2	CodeSmell	Statement is possibly incorrectly broken by a newline
+PossiblyMissingIndexerInitializerComma	2	CodeSmell	Possibly missing comma before indexer initializer
+PossiblyMistakenUseOfInterpolatedStringInsert	2	CodeSmell	Possibly unintended string interpolation instead of format string template.
+PossiblyMistakenUseOfParamsMethod	2	CodeSmell	Method with 'params' is invoked while more specific method is available
+PossiblyUnassignedProperty	4	CodeSmell	Use of possibly unassigned property or global variable
+PrivateFieldCanBeConvertedToLocalVariable	2	CodeRedundancy	Private field can be converted to local variable
+PrivateVariableCanBeMadeReadonly	4	BestPractice	Private class field can be made readonly
+PropertyCanBeMadeInitOnly.Global	3	BestPractice	Property can be made init-only: Non-private accessibility
+PropertyCanBeMadeInitOnly.Local	3	BestPractice	Property can be made init-only: Private accessibility
+PropertyGetterCannotHaveParameters	1	CodeSmell	Property getter cannot have parameters
+PropertyNotResolved	1	CodeSmell	Cannot resolve property
+PropertySetterMustHaveSingleParameter	1	CodeSmell	Property setter must have a single parameter
+PublicConstructorInAbstractClass	3	BestPractice	Make constructor in abstract class protected
+PureAttributeOnVoidMethod	2	CodeSmell	'void' method is annotated by [Pure] attribute
+QualifiedExpressionIsNull	2	CodeSmell	Qualifier is 'null' or 'undefined'
+QualifiedExpressionMaybeNull	2	CodeSmell	Qualifier can be 'null' or 'undefined'
+Razor.LayoutNotResolved	1	CodeSmell	Unknown Razor layout
+Razor.SectionNotResolved	1	CodeSmell	Unknown Razor section
+ReadAccessInDoubleCheckLocking	2	CodeSmell	Possible incorrect implementation of Double-Check Locking pattern. Read access to checked field
+Redundant	2	CodeRedundancy	Redundant code
+RedundantAbstractModifier	2	CodeRedundancy	Redundant 'abstract' modifier
+RedundantAlwaysMatchSubpattern	3	CodeRedundancy	Redundant always match subpattern
+RedundantAnonymousTypePropertyName	2	CodeRedundancy	Redundant anonymous type property explicit name
+RedundantArgumentDefaultValue	2	CodeRedundancy	Redundant argument with default value
+RedundantArrayCreationExpression	4	CodeRedundancy	Array creation can be replaced with array initializer
+RedundantArrayLowerBoundSpecification	2	CodeRedundancy	Redundant array lower bound specification
+RedundantAssignment	2	CodeRedundancy	Assignment is not used
+RedundantAttributeParentheses	4	CodeRedundancy	Parentheses are redundant if attribute has no arguments
+RedundantAttributeUsageProperty	3	CodeRedundancy	Redundant [AttributeUsage] attribute property assignment
+RedundantBaseConstructorCall	2	DeclarationRedundancy	Redundant base constructor call
+RedundantBaseQualifier	2	CodeRedundancy	Redundant 'base.' qualifier
+RedundantBlock	2	CodeRedundancy	Redundant block
+RedundantBoolCompare	2	CodeRedundancy	Redundant boolean comparison
+RedundantCaseLabel	2	CodeRedundancy	Redundant 'case' label
+RedundantCast	2	CodeRedundancy	Redundant cast
+RedundantCatchClause	2	CodeRedundancy	Redundant catch clause
+RedundantCheckBeforeAssignment	2	CodeRedundancy	Redundant condition check before assignments
+RedundantCollectionInitializerElementBraces	4	CodeRedundancy	Redundant braces in collection initializer
+RedundantComparisonWithBoolean	2	CodeRedundancy	Comparison of boolean with boolean value is equivalent to value or negated value
+RedundantCssHack	2	CodeRedundancy	Redundant CSS hack
+RedundantDeclarationSemicolon	4	CodeRedundancy	Redundant semicolon after type or namespace declaration
+RedundantDefaultMemberInitializer	2	DeclarationRedundancy	Redundant member initializer
+RedundantDelegateCreation	2	CodeRedundancy	Explicit delegate creation expression is redundant
+RedundantDisableWarningComment	2	CodeSmell	Redundant disable code inspection comment
+RedundantDiscardDesignation	3	CodeRedundancy	Redundant discard designation
+RedundantElseBlock	2	DeclarationRedundancy	Redundant 'else' block
+RedundantEmptyCaseElse	2	CodeRedundancy	Redundant empty 'Case Else' statement
+RedundantEmptyConstructor	2	DeclarationRedundancy	Redundant empty constructor without parameters
+RedundantEmptyFinallyBlock	2	CodeRedundancy	Redundant empty finally block
+RedundantEmptyObjectCreationArgumentList	4	CodeRedundancy	Redundant empty argument list on object creation expression
+RedundantEmptyObjectOrCollectionInitializer	2	CodeRedundancy	Redundant empty object or collection initializer
+RedundantEmptySwitchSection	2	CodeRedundancy	Redundant empty switch section
+RedundantEnumerableCastCall	2	CodeRedundancy	Redundant 'IEnumerable.Cast<T>' or 'IEnumerable.OfType<T>' call
+RedundantExplicitArrayCreation	2	CodeRedundancy	Redundant explicit type in array creation
+RedundantExplicitArraySize	2	CodeRedundancy	Redundant explicit size specification in array creation
+RedundantExplicitNullableCreation	2	CodeRedundancy	Redundant explicit nullable type creation
+RedundantExplicitParamsArrayCreation	3	CodeRedundancy	Redundant explicit array creation in argument of 'params' parameter
+RedundantExplicitPositionalPropertyDeclaration	2	CodeRedundancy	Redundant explicit positional property declaration
+RedundantExplicitTupleComponentName	2	CodeRedundancy	Redundant explicit tuple component name
+RedundantExtendsListEntry	2	DeclarationRedundancy	Redundant class or interface specification in base types list
+RedundantFixedPointerDeclaration	3	CodeRedundancy	Redundant fixed pointer declaration
+RedundantIfElseBlock	4	CodeRedundancy	Redundant 'else' keyword
+RedundantImmediateDelegateInvocation	3	CodeRedundancy	Immediate delegate invocation
+RedundantIntermediateVariable	4	LanguageUsage	Intermediate local variable is redundant and can be safely inlined
+RedundantIsBeforeRelationalPattern	3	BestPractice	Redundant 'is'
+RedundantIteratorKeyword	2	CodeRedundancy	Iterator function without 'Yield' statements
+RedundantJumpStatement	2	CodeRedundancy	Redundant control flow jump statement
+RedundantLambdaParameterType	2	CodeRedundancy	Redundant lambda expression parameter type specification
+RedundantLambdaSignatureParentheses	4	CodeRedundancy	Redundant lambda signature parentheses
+RedundantLocalClassName	4	DeclarationRedundancy	Redundant local class name
+RedundantLocalFunctionName	4	DeclarationRedundancy	Redundant local function name
+RedundantLogicalConditionalExpressionOperand	2	CodeRedundancy	Redundant operand in logical conditional expression
+RedundantMeQualifier	2	CodeRedundancy	Redundant 'Me.' qualifier
+RedundantMyBaseQualifier	2	CodeRedundancy	Redundant 'MyBase.' qualifier
+RedundantMyClassQualifier	2	CodeRedundancy	Redundant 'MyClass.' qualifier
+RedundantNameQualifier	2	CodeRedundancy	Redundant name qualifier
+RedundantNotNullConstraint	2	CodeRedundancy	Redundant 'notnull' constraint on type parameter constrained by non-nullable base type.
+RedundantNullableAnnotationOnReferenceTypeConstraint	2	CodeRedundancy	Redundant nullable annotation on 'class?' constraint of type parameter constrained by non-nullable base type.
+RedundantNullableAnnotationOnTypeConstraintHasNonNullableBaseType	2	CodeRedundancy	Redundant nullable annotation on base type constraint of type parameter constrained by another non-nullable base type.
+RedundantNullableAnnotationOnTypeConstraintHasNonNullableTypeKind	2	CodeRedundancy	Redundant nullable annotation on base type constraint of type parameter having non-nullable type kind.
+RedundantNullableTypeMark	2	CodeRedundancy	Type check for nullable type is equal to underlying type check
+RedundantOverflowCheckingContext	2	CodeRedundancy	Redundant arithmetic overflow checking context
+RedundantOverload.Global	3	DeclarationRedundancy	Redundant method overload: Non-private accessibility
+RedundantOverload.Local	3	DeclarationRedundancy	Redundant method overload: Private accessibility
+RedundantOverriddenMember	2	DeclarationRedundancy	Redundant member override
+RedundantParams	2	DeclarationRedundancy	'params' modifier is always ignored on overrides
+RedundantParentTypeDeclaration	2	CodeRedundancy	Redundant parent type specification in extends/implements
+RedundantPatternParentheses	4	CodeRedundancy	Remove redundant pattern-matching parentheses
+RedundantPropertyParentheses	4	CodeRedundancy	Parameterless property parentheses are redundant
+RedundantPropertyPatternClause	3	CodeRedundancy	Redundant property pattern clause
+RedundantQualifier	2	CodeRedundancy	Redundant qualifier
+RedundantQueryOrderByAscendingKeyword	4	CodeRedundancy	Redundant 'orderby' clause 'ascending' keyword
+RedundantRangeBound	3	CodeRedundancy	Redundant range bound
+RedundantReadonlyModifier	3	CodeRedundancy	Redundant 'readonly' modifier
+RedundantRecordBody	2	CodeRedundancy	Redundant 'record' type declaration body
+RedundantSetterValueParameterDeclaration	4	CodeRedundancy	Explicit 'value' parameter declaration is redundant
+RedundantStringFormatCall	2	CodeRedundancy	Redundant 'string.Format()' call
+RedundantStringInterpolation	3	CodeRedundancy	Redundant string interpolation
+RedundantStringToCharArrayCall	2	CodeRedundancy	Redundant 'string.ToCharArray()' call
+RedundantStringType	3	CodeRedundancy	Redundant string type
+RedundantTernaryExpression	2	CodeRedundancy	Redundant conditional ternary expression usage
+RedundantToStringCall	2	CodeRedundancy	Redundant 'object.ToString()' call
+RedundantToStringCallForValueType	4	CodeRedundancy	Redundant 'object.ToString()' call for value types
+RedundantTypeArgumentsOfMethod	2	CodeRedundancy	Redundant type arguments of method
+RedundantTypeCast	2	CodeRedundancy	Type cast is redundant: expression is always of provided type
+RedundantTypeCastStructural	2	CodeRedundancy	Type cast is redundant: expression is of a structurally compatible type
+RedundantUnits	2	CodeRedundancy	Redundant measure unit
+RedundantUnsafeContext	2	CodeRedundancy	Unsafe context declaration is redundant
+RedundantUsingDirective	2	CodeRedundancy	Redundant using directive
+RedundantVariableTypeSpecification	4	CodeStyleIssues	Type specification is redundant, because variable type is contextually determined from the type of assigned value
+RedundantVerbatimPrefix	3	CodeRedundancy	Redundant verbatim prefix
+RedundantVerbatimStringPrefix	3	CodeRedundancy	Redundant verbatim string prefix
+RedundantWithExpression	3	CodeSmell	Empty 'with' expression is redundant
+ReferenceEqualsWithValueType	2	CodeSmell	'Object.ReferenceEquals' is always false because it is called with value type
+RegExpInspections	2	LanguageUsage	Regular Expression Inspections
+RemoveRedundantOrStatement.False	3	BestPractice	Remove redundant statement: Remove redundant statement
+RemoveRedundantOrStatement.True	3	BestPractice	Remove redundant statement: Remove redundant statement
+RemoveToList	3	BestPractice	Remove ToList(): Remove ToList()
+RemoveToList	3	BestPractice	Remove ToList(): Remove ToList()
+ReplaceAutoPropertyWithComputedProperty	4	LanguageUsage	Replace auto-property with computed property
+ReplaceIndicingWithArrayDestructuring	4	LanguageUsage	Subsequent indexers can be replaced by a destructuring declaration or assignment
+ReplaceIndicingWithShortHandPropertiesAfterDestructuring	4	LanguageUsage	Subsequent indexers in object literal fields can be simplified with destructuring
+ReplaceObjectPatternWithVarPattern	3	LanguageUsage	Replace object pattern not performing any additional checks with 'var' pattern
+ReplaceSliceWithRangeIndexer	3	LanguageUsage	Use range indexer
+ReplaceSubstringWithRangeIndexer	4	LanguageUsage	Use range indexer
+ReplaceUndefinedCheckingSeriesWithObjectDestructuring	4	LanguageUsage	A series of undefined-checks for properties can be replaced with destructuring
+ReplaceWithDestructuringSwap	4	LanguageUsage	Intermediate local variable is redundant because it can be replaced with a destructuring swap expression
+ReplaceWithFirstOrDefault	3	BestPractice	Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)
+ReplaceWithFirstOrDefault	3	BestPractice	Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)
+ReplaceWithFirstOrDefault	3	BestPractice	Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)
+ReplaceWithFirstOrDefault	3	BestPractice	Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)
+ReplaceWithLastOrDefault	3	BestPractice	Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)
+ReplaceWithLastOrDefault	3	BestPractice	Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)
+ReplaceWithLastOrDefault	3	BestPractice	Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)
+ReplaceWithLastOrDefault	3	BestPractice	Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)
+ReplaceWithOfType	3	BestPractice	Replace with OfType<T>(): Replace with OfType<T>()
+ReplaceWithOfType	3	BestPractice	Replace with OfType<T>(): Replace with OfType<T>()
+ReplaceWithOfType	3	BestPractice	Replace with OfType<T>(): Replace with OfType<T>()
+ReplaceWithOfType.Any	3	BestPractice	Replace with OfType<T>().Any(): Replace with OfType<T>().Any()
+ReplaceWithOfType.Any	3	BestPractice	Replace with OfType<T>().Any(): Replace with OfType<T>().Any(..)
+ReplaceWithOfType.Count	3	BestPractice	Replace with OfType<T>().Count(): Replace with OfType<T>().Count()
+ReplaceWithOfType.Count	3	BestPractice	Replace with OfType<T>().Count(): Replace with OfType<T>().Count(..)
+ReplaceWithOfType.First	3	BestPractice	Replace with OfType<T>().First(): Replace with OfType<T>().First()
+ReplaceWithOfType.First	3	BestPractice	Replace with OfType<T>().First(): Replace with OfType<T>().First(..)
+ReplaceWithOfType.FirstOrDefault	3	BestPractice	Replace with OfType<T>().FirstOrDefault(): Replace with OfType<T>().FirstOrDefault()
+ReplaceWithOfType.FirstOrDefault	3	BestPractice	Replace with OfType<T>().FirstOrDefault(): Replace with OfType<T>().FirstOrDefault(..)
+ReplaceWithOfType.Last	3	BestPractice	Replace with OfType<T>().Last(): Replace with OfType<T>().Last()
+ReplaceWithOfType.Last	3	BestPractice	Replace with OfType<T>().Last(): Replace with OfType<T>().Last(..)
+ReplaceWithOfType.LastOrDefault	3	BestPractice	Replace with OfType<T>().LastOrDefault(): Replace with OfType<T>().LastOrDefault()
+ReplaceWithOfType.LastOrDefault	3	BestPractice	Replace with OfType<T>().LastOrDefault(): Replace with OfType<T>().LastOrDefault(..)
+ReplaceWithOfType.LongCount	3	BestPractice	Replace with OfType<T>().LongCount(): Replace with OfType<T>().LongCount()
+ReplaceWithOfType.Single	3	BestPractice	Replace with OfType<T>().Single(): Replace with OfType<T>().Single()
+ReplaceWithOfType.Single	3	BestPractice	Replace with OfType<T>().Single(): Replace with OfType<T>().Single(..)
+ReplaceWithOfType.SingleOrDefault	3	BestPractice	Replace with OfType<T>().SingleOrDefault(): Replace with OfType<T>().SingleOrDefault()
+ReplaceWithOfType.SingleOrDefault	3	BestPractice	Replace with OfType<T>().SingleOrDefault(): Replace with OfType<T>().SingleOrDefault(..)
+ReplaceWithOfType.Where	3	BestPractice	Replace with OfType<T>().Where(): Replace with OfType<T>().Where(..)
+ReplaceWithSimpleAssignment.False	3	BestPractice	Replace with simple assignment: Replace with simple assignment
+ReplaceWithSimpleAssignment.True	3	BestPractice	Replace with simple assignment: Replace with simple assignment
+ReplaceWithSingleAssignment.False	3	BestPractice	Replace with single assignment: Replace with single assignment
+ReplaceWithSingleAssignment.True	3	BestPractice	Replace with single assignment: Replace with single assignment
+ReplaceWithSingleCallToAny	3	BestPractice	Replace with single call to Any(..): Replace with single call to Any(..)
+ReplaceWithSingleCallToCount	3	BestPractice	Replace with single call to Count(..): Replace with single call to Count(..)
+ReplaceWithSingleCallToFirst	3	BestPractice	Replace with single call to First(..): Replace with single call to First(..)
+ReplaceWithSingleCallToFirstOrDefault	3	BestPractice	Replace with single call to FirstOrDefault(..): Replace with single call to FirstOrDefault(..)
+ReplaceWithSingleCallToLast	3	BestPractice	Replace with single call to Last(..): Replace with single call to Last(..)
+ReplaceWithSingleCallToLastOrDefault	3	BestPractice	Replace with single call to LastOrDefault(..): Replace with single call to LastOrDefault(..)
+ReplaceWithSingleCallToSingle	3	BestPractice	Replace with single call to Single(..): Replace with single call to Single(..)
+ReplaceWithSingleCallToSingleOrDefault	3	BestPractice	Replace with single call to SingleOrDefault(..): Replace with single call to SingleOrDefault(..)
+ReplaceWithSingleOrDefault	3	BestPractice	Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)
+ReplaceWithSingleOrDefault	3	BestPractice	Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)
+ReplaceWithSingleOrDefault	3	BestPractice	Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)
+ReplaceWithSingleOrDefault	3	BestPractice	Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)
+ReplaceWithStringIsNullOrEmpty	3	BestPractice	Use 'String.IsNullOrEmpty'
+RequiredBaseTypesConflict	2	ConstraintViolation	Required base type conflicting another type
+RequiredBaseTypesDirectConflict	2	ConstraintViolation	Type specified in '[BaseTypeRequired]' attribute conflicts another type
+RequiredBaseTypesIsNotInherited	2	ConstraintViolation	Base type is required
+RequiresFallbackColor	2	CodeSmell	Requires fallback color
+ResourceItemNotResolved	1	CodeSmell	Cannot resolve resource item
+ResourceNotResolved	1	CodeSmell	Cannot resolve resource
+ResxNotResolved	2	CodeSmell	Cannot resolve symbol
+ReturnFromGlobalScopetWithValue	2	CodeSmell	Return statement with a value in the global scope
+ReturnTypeCanBeEnumerable.Global	4	BestPractice	Return type can be IEnumerable<T>: Non-private accessibility
+ReturnTypeCanBeEnumerable.Local	4	BestPractice	Return type can be IEnumerable<T>: Private accessibility
+ReturnTypeCanBeNotNullable	2	CodeSmell	Return type of a function can be non-nullable
+ReturnValueOfPureMethodIsNotUsed	2	CodeSmell	Return value of pure method is not used
+RouteTemplates.ActionRoutePrefixCanBeExtractedToControllerRoute	4	CodeInfo	Action's route prefix can be extracted to controller's route
+RouteTemplates.AmbiguousMatchingConstraintConstructor	2	CodeInfo	More than one parameter constraint's constructor matched
+RouteTemplates.AmbiguousRouteMatch	2	CodeInfo	Route matches multiple endpoints
+RouteTemplates.ConstraintArgumentCannotBeConverted	2	CodeInfo	Route parameter constraint argument cannot be converted to target type
+RouteTemplates.ControllerRouteParameterIsNotPassedToMethods	4	CodeInfo	Controller's route parameter can be passed to methods
+RouteTemplates.DuplicatedParameter	2	CodeInfo	Parameter declared in route more than once
+RouteTemplates.MatchingConstraintConstructorNotResolved	2	CodeInfo	Matching parameter constraint's constructor not found
+RouteTemplates.MethodMissingRouteParameters	4	CodeInfo	Not all route parameters are passed to method
+RouteTemplates.OptionalParameterCanBePrecededOnlyBySinglePeriod	2	CodeInfo	Optional parameter can be preceded only by single period ('.') in the segment
+RouteTemplates.OptionalParameterMustBeAtTheEndOfSegment	2	CodeInfo	Optional parameter must be at the end of the segment
+RouteTemplates.ParameterConstraintCanBeSpecified	4	CodeInfo	Route parameter constraint can be added due to type of method argument
+RouteTemplates.ParameterTypeAndConstraintsMismatch	2	CodeInfo	Type of parameter doesn't satisfy constraints declared in route template
+RouteTemplates.ParameterTypeCanBeMadeStricter	3	CodeInfo	Parameter's type can be made stricter due to applied constraints
+RouteTemplates.RouteParameterConstraintNotResolved	2	CodeInfo	Route parameter constraint not resolved
+RouteTemplates.RouteParameterIsNotPassedToMethod	4	CodeInfo	Route parameter can be passed to method
+RouteTemplates.RouteTokenNotResolved	2	CodeInfo	Route token not resolved
+RouteTemplates.SymbolNotResolved	2	CodeInfo	Symbol not resolved
+RouteTemplates.SyntaxError	2	CodeInfo	Syntax error
+SafeCastIsUsedAsTypeCheck	3	CodeSmell	Try cast and check for null can be replaced with a type check
+SameImportsWithDifferentName	2	DeclarationRedundancy	Same item is imported twice with different names
+SameVariableAssignment	2	DeclarationRedundancy	Assignment of a local variable to itself is redundant
+ScriptTagHasBothSrcAndContentAttributes	1	CodeSmell	Script tag errors: <script> with both src and content
+ScriptTagWithContentBeforeIncludes	4	CodeSmell	Script tag errors: <script> with content before included <script>
+SealedMemberInSealedClass	2	DeclarationRedundancy	Sealed member in sealed class
+ServiceContractWithoutOperations	2	CodeSmell	Interfaces marked as ServiceContract should declare at least one OperationContract
+ShiftExpressionRealShiftCountIsZero	2	CodeSmell	Actual shift count equals zero.
+ShiftExpressionResultEqualsZero	2	CodeSmell	Constant shift expression with non-zero operands results in zero value.
+ShiftExpressionRightOperandNotEqualRealCount	2	CodeSmell	Suspicious shift count for this type of left operand.
+ShiftExpressionZeroLeftOperand	2	CodeSmell	Shift expression with zero left operand equals zero.
+SimilarAnonymousTypeNearby	4	CodeSmell	Similar anonymous type detected nearby
+SimilarExpressionsComparison	2	CodeSmell	Similar expressions comparison
+SimplifyConditionalOperator	3	BestPractice	Simplify conditional operator
+SimplifyConditionalTernaryExpression	3	BestPractice	Simplify conditional ternary expression
+SimplifyIIf	3	BestPractice	Simplify 'IIf'
+SimplifyLinqExpressionUseAll	3	BestPractice	Simplify LINQ expression (use 'All')
+SimplifyLinqExpressionUseAny	3	BestPractice	Simplify LINQ expression (use 'Any')
+SpecifyACultureInStringConversionExplicitly	2	BestPractice	Specify string culture explicitly
+SpecifyStringComparison	4	BestPractice	Specify string comparison explicitly
+SpecifyVariableTypeExplicitly	4	CodeStyleIssues	Type of variable may be specified explicitly
+StackAllocInsideLoop	2	CodeSmell	Using stackalloc inside loop
+StatementTermination	2	BestPractice	Statement termination doesn't match code style
+StaticMemberInGenericType	2	CodeSmell	Static field or auto-property in generic type
+StaticMemberInitializerReferesToMemberBelow	2	CodeSmell	Static member initializer refers to static member below or in other part
+StaticProblemInText	2	CodeSmell	Cannot access static symbol in text argument
+StringCompareIsCultureSpecific	2	BestPractice	String.Compare is culture-specific: String.Compare(string, string) is culture-specific
+StringCompareIsCultureSpecific	2	BestPractice	String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific
+StringCompareIsCultureSpecific	2	BestPractice	String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific
+StringCompareIsCultureSpecific	2	BestPractice	String.Compare is culture-specific: String.Compare(string, int, string, int) is culture-specific
+StringCompareIsCultureSpecific	2	BestPractice	String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific
+StringCompareIsCultureSpecific	2	BestPractice	String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific
+StringCompareToIsCultureSpecific	2	BestPractice	String.CompareTo is culture-specific: String.CompareTo is culture-specific
+StringConcatenationToTemplateString	4	LanguageUsage	String concatenation can be converted to a template string
+StringIndexOfIsCultureSpecific	2	BestPractice	String.IndexOf is culture-specific: String.IndexOf(string) is culture-specific
+StringIndexOfIsCultureSpecific	2	BestPractice	String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific
+StringIndexOfIsCultureSpecific	2	BestPractice	String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific
+StringLastIndexOfIsCultureSpecific	2	BestPractice	String.LastIndexOf is culture-specific: String.LastIndexOf(string) is culture-specific
+StringLastIndexOfIsCultureSpecific	2	BestPractice	String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific
+StringLastIndexOfIsCultureSpecific	2	BestPractice	String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific
+StringLiteralAsInterpolationArgument	3	BestPractice	String literal can be inlined
+StringLiteralWrongQuotes	4	CodeStyleIssues	Non-compliant quotes around string literal
+StructCanBeMadeReadOnly	3	BestPractice	Struct can be made readonly
+SuggestBaseTypeForParameter	4	BestPractice	Parameter can be declared with base type
+SuggestDiscardDeclarationVarStyle	4	CodeStyleIssues	Use preferred style for discard declaration
+SuggestVarOrType_BuiltInTypes	4	CodeStyleIssues	Use preferred 'var' style: For built-in types
+SuggestVarOrType_DeconstructionDeclarations	4	CodeStyleIssues	Use preferred 'var' style: In deconstruction declarations
+SuggestVarOrType_Elsewhere	4	CodeStyleIssues	Use preferred 'var' style: Elsewhere
+SuggestVarOrType_SimpleTypes	4	CodeStyleIssues	Use preferred 'var' style: When type is simple
+SuperCall	3	LanguageUsage	Invocation of parent class may be converted to super call
+SuperCallProhibitsThis	1	CodeSmell	'super' must be called before accessing 'this' in the constructor of a derived class.
+SuppressNullableWarningExpressionAsInvertedIsExpression	2	CodeSmell	Nullable warning suppression operator might be confused with inverted 'is' expression
+SuspiciousInstanceofCheck	2	CodeSmell	Suspicious 'instanceof' check
+SuspiciousLambdaBlock	2	CodeSmell	Possible mistake: ambiguous lambda block and object literal
+SuspiciousMathSignMethod	2	CodeRedundancy	Math.Sign() method always gives the same result
+SuspiciousThisUsage	2	CodeSmell	Suspicious 'this' usage in context of local function inside class member
+SuspiciousTypeConversion.Global	2	CodeSmell	Suspicious type conversion or check
+SuspiciousTypeofCheck	2	CodeSmell	Suspicious 'typeof' check
+SwitchExpressionHandlesSomeKnownEnumValuesWithExceptionInDefault	4	CodeSmell	Some values of the enum are not processed inside switch expression and are handled via exception in default arm
+SwitchStatementForEnumMissesDefaultSection	4	CodeSmell	Switch statement for enum values does not have default section
+SwitchStatementHandlesSomeKnownEnumValuesWithDefault	4	CodeSmell	Some values of the enum are not processed inside switch statement and are handled via default section
+SwitchStatementMissingSomeEnumCasesNoDefault	4	CodeSmell	Some values of the enum are not processed inside switch statement
+SymbolFromNotCopiedLocallyReferenceUsedWarning	2	CodeSmell	Symbol from module that might be missing at runtime
+SyntaxIsNotAllowed	2	CodeSmell	Syntax is not allowed in specified CSS version
+TailRecursiveCall	4	CodeSmell	Tail recursive call can be replaced with loop
+TasksNotLoaded	2	CodeSmell	Unknown tasks assembly
+TernaryCanBeReplacedByItsCondition	2	CodeRedundancy	Ternary operator may be replaced by it's condition
+ThisInGlobalContext	2	CodeSmell	Use of 'this' in global context
+ThreadStaticAtInstanceField	2	CodeSmell	[ThreadStatic] doesn't work with instance fields
+ThreadStaticFieldHasInitializer	2	CodeSmell	Thread static field has initializer
+ThrowMustBeFollowedByExpression	1	CodeSmell	Expression is expected after 'throw' statement
+TooWideLocalVariableScope	3	BestPractice	Local variable has too wide declaration scope
+TryCastAlwaysSucceeds	3	CodeSmell	Safe cast expression always succeeds
+TryStatementsCanBeMerged	4	BestPractice	try-catch and try-finally statements can be merged
+TsNotResolved	1	CodeSmell	Use of undeclared variable
+TsResolvedFromInaccessibleModule	1	CodeSmell	Cannot resolve, probably symbol is located in inaccessible module
+TypeGuardDoesntAffectAnything	2	DeclarationRedundancy	Type guard doesn't affect variable's type in any way
+TypeGuardProducesNeverType	2	DeclarationRedundancy	Type guard definitely produces 'never' type for the variable
+TypeParameterCanBeVariant	3	BestPractice	Type parameter could be declared as covariant or contravariant
+TypeParameterHidesTypeParamFromOuterScope	2	CodeSmell	Type parameter hides type parameter declared in outer scope
+UlTagContainsNonLiElements	4	CodeSmell	Elements not allowed in context: <ul> contains elements other than <li> or <li> is unclosed
+UnassignedField.Global	3	CodeSmell	Unassigned field: Non-private accessibility
+UnassignedField.Local	2	CodeSmell	Unassigned field: Private accessibility
+UnassignedGetOnlyAutoProperty	2	BestPractice	Get-only auto-property is never assigned
+UnassignedReadonlyField	2	CodeSmell	Unassigned readonly field
+UnclosedScript	1	CodeSmell	Script tag errors: Unclosed <script>
+UnexpectedValue	1	CodeSmell	Value is unexpected
+UnknownCssClass	2	CodeSmell	Unknown CSS class
+UnknownCssVariable	2	CodeSmell	Unknown custom property
+UnknownCssVendorExtension	4	CodeSmell	Unknown vendor-specific extension
+UnknownItemGroup	2	CodeSmell	Unknown item group
+UnknownMetadata	2	CodeSmell	Unknown metadata
+UnknownOutputParameter	2	CodeSmell	Unknown output parameter
+UnknownProperty	2	CodeSmell	Unknown property
+UnknownTarget	2	CodeSmell	Unknown target
+UnknownTask	2	CodeSmell	Unknown task
+UnknownTaskAttribute	2	CodeSmell	Unknown task attribute
+UnreachableCode	2	BestPractice	Unreachable code detected
+UnreachableSwitchArmDueToIntegerAnalysis	2	CodeSmell	Heuristically unreachable switch arm due to integer analysis.
+UnreachableSwitchCaseDueToIntegerAnalysis	2	CodeSmell	Heuristically unreachable case due to integer analysis.
+UnrealHeaderToolError	1	UnrealHeaderTool	UnrealHeaderTool errors
+UnrealHeaderToolParserError	1	UnrealHeaderTool	UnrealHeaderTool C++ parser errors
+UnrealHeaderToolWarning	2	UnrealHeaderTool	UnrealHeaderTool warnings
+UnsafeCommaInObjectPropertiesList	2	CodeSmell	Trailing redundant comma in object properties list may be error
+UnsupportedRequiredBaseType	2	ConstraintViolation	BaseTypeRequired attribute supports only classes and interfaces
+UnusedAnonymousMethodSignature	2	CodeRedundancy	Anonymous method signature is not necessary
+UnusedAutoPropertyAccessor.Global	2	CodeSmell	Auto-property accessor is never used: Non-private accessibility
+UnusedAutoPropertyAccessor.Local	2	CodeSmell	Auto-property accessor is never used: Private accessibility
+UnusedImportClause	2	CodeRedundancy	Unused import clause
+UnusedInheritedParameter	4	DeclarationRedundancy	Unused parameter of inherited member
+UnusedLabel	2	DeclarationRedundancy	Unused label
+UnusedLocalFunction	2	DeclarationRedundancy	Local function is never used
+UnusedLocalFunction.Compiler	2	DeclarationRedundancy	Local function is never used
+UnusedLocalFunctionParameter	2	DeclarationRedundancy	Unused parameter of local function
+UnusedLocalFunctionReturnValue	2	DeclarationRedundancy	Local function return value is never used
+UnusedLocalImport	2	DeclarationRedundancy	Unused local import
+UnusedLocals	2	DeclarationRedundancy	Unused local variable / function / class
+UnusedMember.Global	3	DeclarationRedundancy	Type member is never used: Non-private accessibility
+UnusedMember.Local	2	DeclarationRedundancy	Type member is never used: Private accessibility
+UnusedMemberHierarchy.Global	3	DeclarationRedundancy	Type member is only used in overrides: Non-private accessibility
+UnusedMemberHierarchy.Local	2	DeclarationRedundancy	Type member is only used in overrides: Private accessibility
+UnusedMemberInSuper.Global	3	DeclarationRedundancy	Type member is never accessed via base type: Non-private accessibility
+UnusedMemberInSuper.Local	2	DeclarationRedundancy	Type member is never accessed via base type: Private accessibility
+UnusedMethodReturnValue.Global	3	DeclarationRedundancy	Method return value is never used: Non-private accessibility
+UnusedMethodReturnValue.Local	2	DeclarationRedundancy	Method return value is never used: Private accessibility
+UnusedParameter	2	DeclarationRedundancy	Unused parameter
+UnusedParameter.Global	3	DeclarationRedundancy	Unused parameter: Non-private accessibility
+UnusedParameter.Local	2	DeclarationRedundancy	Unused parameter: Private accessibility
+UnusedParameterInPartialMethod	2	DeclarationRedundancy	Unused parameter in partial method
+UnusedPositionalParameterCompiler	2	DeclarationRedundancy	Unused positional parameter
+UnusedProperty	2	DeclarationRedundancy	Unused property or function
+UnusedTupleComponentInReturnValue	2	DeclarationRedundancy	Component of the tuple is never used
+UnusedType.Global	3	DeclarationRedundancy	Type is never used: Non-private accessibility
+UnusedType.Local	2	DeclarationRedundancy	Type is never used: Private accessibility
+UnusedTypeParameter	2	DeclarationRedundancy	Unused type parameter
+UnusedVariable	2	DeclarationRedundancy	Unused local variable
+UsageOfDefinitelyUnassignedValue	2	CodeSmell	Usage of unassigned local variable
+UsageOfPossiblyUnassignedValue	2	CodeSmell	Usage of possibly unassigned local variable
+UseArrayCreationExpression	3	BestPractice	Use array creation expression: Use array creation expression
+UseArrayCreationExpression	3	BestPractice	Use array creation expression: Use array creation expression
+UseAsInsteadOfTypeCast	4	LanguageUsage	Use 'as' operator instead of type assertion
+UseAwaitUsing	3	LanguageUsage	Convert to 'await using' statement or declaration
+UseCancellationTokenForIAsyncEnumerable	3	BestPractice	Use cancellation token
+UseCollectionCountProperty	3	CodeSmell	Use collection's count property
+UseDeconstruction	4	LanguageUsage	Use deconstruction
+UseDeconstructionOnParameter	4	LanguageUsage	Use deconstruction (on parameter declaration)
+UseFormatSpecifierInFormatString	3	CodeSmell	Use format specifier in format strings
+UseFormatSpecifierInInterpolation	3	CodeSmell	Use format specifier in interpolated strings
+UseImplicitByValModifier	4	CodeRedundancy	Use implicit 'ByVal' modifier
+UseImplicitlyTypedVariableEvident	4	CodeRedundancy	Use implicitly typed variable declaration (evident)
+UseIndexFromEndExpression	3	LanguageUsage	Use index from end expression
+UseIndexedProperty	3	BestPractice	Use indexed property
+UseIsOperator	3	BestPractice	Use 'is' operator: Use 'is' operator
+UseIsOperator	3	BestPractice	Use 'is' operator: Use 'is' operator
+UseMethodAny	3	BestPractice	Use method Any(): Use method Any()
+UseMethodAny	3	BestPractice	Use method Any(): Use method Any()
+UseMethodAny	3	BestPractice	Use method Any(): Use method Any()
+UseMethodAny	3	BestPractice	Use method Any(): Use method Any()
+UseMethodAny	3	BestPractice	Use method Any(): Use method Any()
+UseMethodIsInstanceOfType	3	BestPractice	Use method IsInstanceOfType(..): Use method IsInstanceOfType(..)
+UseNameOfInsteadOfTypeOf	3	LanguageUsage	Use 'nameof' expression to reference type's name
+UseNameofExpression	3	LanguageUsage	Use 'nameof' expression to reference name
+UseNegatedPatternInIsExpression	4	LanguageUsage	Convert negated 'is' expression to 'is' expression with negated pattern
+UseNegatedPatternMatching	4	LanguageUsage	Convert 'as' expression type check and the following null check into negated pattern matching
+UseNullPropagation	4	LanguageUsage	Replace if statement with null-propagating code
+UseObjectOrCollectionInitializer	3	LanguageUsage	Use object or collection initializer when possible
+UseOfImplicitGlobalInFunctionScope	2	CodeSmell	Use of implicitly declared global variable
+UseOfPossiblyUnassignedProperty	2	CodeSmell	Use of possibly unassigned property in a static initializer
+UsePatternMatching	3	LanguageUsage	Convert 'as' expression type check and the following null check into pattern matching
+UsePositionalDeconstructionPattern	4	LanguageUsage	Use positional deconstruction pattern
+UseStringInterpolation	3	LanguageUsage	Use string interpolation expression
+UseSwitchCasePatternVariable	3	CodeSmell	Type pattern and casts can be merged
+UseVerbatimString	4	BestPractice	Literal's length can be reduced by using verbatim string
+UselessBinaryOperation	2	CodeSmell	Useless arithmetical operation.
+UselessComparisonToIntegralConstant	2	CodeRedundancy	Comparison to integral constant is useless.
+UsingOfReservedWord	2	BestPractice	Use of future reserved word
+ValueParameterNotUsed	2	CodeSmell	'value' parameter is not used
+ValueRangeAttributeViolation	2	ConstraintViolation	Possible violation of 'ValueRange'/'NonNegativeValue' attribute
+ValueShouldHaveUnits	1	CodeSmell	Value should have units
+VariableCanBeMadeConst	4	LanguageUsage	Variable can be made constant
+VariableCanBeMadeLet	4	LanguageUsage	'var' variable can be made 'let' variable
+VariableCanBeMovedToInnerBlock	4	LanguageUsage	Local variable can be safely moved to inner block
+VariableCanBeNotNullable	2	CodeSmell	Variable can be declared as non-nullable
+VariableHidesOuterVariable	2	CodeSmell	Variable in local function hides variable from outer scope
+VariableUsedBeforeDeclared	2	CodeSmell	Variable is used before it is declared
+VariableUsedInInnerScopeBeforeDeclared	2	CodeStyleIssues	Variable is used in inner scope before it is declared
+VariableUsedOutOfScope	2	CodeStyleIssues	Variable is used outside of scope which it is declared
+VbUnreachableCode	2	CodeRedundancy	Unreachable code
+VirtualMemberCallInConstructor	2	CodeSmell	Virtual member call in constructor
+VirtualMemberNeverOverridden.Global	3	DeclarationRedundancy	Virtual (overridable) member is never overridden: Non-private accessibility
+VirtualMemberNeverOverridden.Local	3	DeclarationRedundancy	Virtual (overridable) member is never overridden: Private accessibility
+VoidMethodWithMustUseReturnValueAttribute	2	CodeSmell	'void' method is annotated by [MustUseReturnValue] attribute
+Web.MappedPath	4	CodeInfo	Mapped path
+WebConfig.ModuleNotResolved	1	CodeSmell	Cannot resolve module
+WebConfig.ModuleQualificationResolve	2	CodeSmell	Module qualification required
+WebConfig.RedundantAddNamespaceTag	2	CodeRedundancy	Redundant add namespace element
+WebConfig.RedundantLocationTag	2	CodeRedundancy	Redundant location element
+WebConfig.TagPrefixRedundand	2	CodeRedundancy	Redundant tagPrefix declaration
+WebConfig.TypeNotResolved	1	CodeSmell	Cannot resolve symbol
+WebConfig.UnusedAddTag	2	CodeRedundancy	Redundant add element
+WebConfig.UnusedElementDueToConfigSourceAttribute	2	CodeRedundancy	Redundant element or attribute because of 'configSource' attribute
+WebConfig.UnusedRemoveOrClearTag	2	CodeRedundancy	Redundant remove or clear element
+WebConfig.WebConfigPathWarning	2	CodeSmell	Referenced path cannot be found in the website
+WebConfig.WrongModule	1	CodeSmell	Wrong module
+WithExpressionInsteadOfInitializer	3	CodeSmell	'with' expression is used instead of object initializer
+WrongExpressionStatement	2	CodeSmell	Suspicious expression statement
+WrongPublicModifierSpecification	4	CodeStyleIssues	Non-compliant 'public' modifier or its absence
+WrongRequireRelativePath	4	CodeStyleIssues	Non-compliant path style inside 'require'

@@ -1,0 +1,32 @@
+swift-closing_brace	9	Style	Closing brace with closing parenthesis should not have any whitespaces in the middle.
+swift-colon	9	Style	Colons should be next to the identifier when specifying a type.
+swift-comma	9	Style	There should be no space before and one after any comma.
+swift-conditional_binding_cascade	5	Design	Repeated `let` statements in conditional binding cascade should be avoided.
+swift-control_statement	8	Style	if,for,while,do statements shouldn't wrap their conditionals in parentheses.
+swift-cyclomatic_complexity	5	Design	Complexity of function bodies should be limited.
+swift-empty_count	5	Design	Prefer checking `isEmpty` over comparing `count` to zero.
+swift-file_length	6	Design	Files should not span too many lines.
+swift-force_cast	5	Design	Force casts should be avoided.
+swift-force_try	5	Design	Force tries should be avoided.
+swift-force_unwrapping	5	Design	Force unwrapping should be avoided.
+swift-function_body_length	5	Design	Functions bodies should not span too many lines
+swift-function_parameter_count	5	Design	Number of function parameters should be low.
+swift-leading_whitespace	9	Style	Files should not contain leading whitespace.
+swift-legacy_cggeometry_functions	5	Design	Struct extension properties and methods are preferred over legacy functions.
+swift-legacy_constant	4	Design	Struct-scoped constants are preferred over legacy global constants.
+swift-legacy_constructor	4	Design	Swift constructors are preferred over legacy convenience functions.
+swift-line_length	9	Style	Lines should not span too many characters.
+swift-missing_docs	7	Documentation	Public declarations should be documented.
+swift-nesting	5	Design	Types should be nested at most 1 level deep, and statements should be nested at most 5 levels deep.
+swift-opening_brace	9	Style	Opening braces should be preceded by a single space and on the same line as the declaration.
+swift-operator_whitespace	9	Style	Operators should be surrounded by a single whitespace when defining them.
+swift-return_arrow_whitespace	9	Style	Return arrow and return type should be separated by a single space or on a separate line.
+swift-statement_position	8	Style	Else and catch should be on the same line, one space after the previous declaration.
+swift-todo	8	Style	TODOs and FIXMEs should be avoided.
+swift-trailing_newline	9	Style	Files should have a single trailing newline.
+swift-trailing_semicolon	7	Style	Lines should not have trailing semicolons.
+swift-trailing_whitespace	9	Style	Lines should not have trailing whitespace.
+swift-type_body_length	5	Design	Type bodies should not span too many lines.
+swift-type_name	7	Naming	Type name should only contain alphanumeric characters, start with an uppercase character and span between 3 and 40 characters in length.
+swift-valid_docs	5	Documentation	Documented declarations should be valid.
+swift-variable_name	7	Naming	Variable names should only contain alphanumeric characters and start with a lowercase character or should only contain capital letters.

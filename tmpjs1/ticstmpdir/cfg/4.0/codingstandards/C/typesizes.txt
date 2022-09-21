@@ -1,0 +1,4 @@
+// type sizes of ISO standard types in bytes
+short:2
+int:4
+long:4

@@ -1,0 +1,17 @@
+BD-SECURITY-ARRAY_C	1	Security	Avoid tainted data in array indexes
+BD-SECURITY-BUFWRITE_C	1	Security	Prevent buffer overflows from tainted data
+BD-SECURITY-INTOVERF_C	1	Security	Protect against integer overflow/underflow from tainted data
+BD-SECURITY-LOG_C	2	Security	Avoid passing unvalidated binary data to log methods
+BD-SECURITY-OVERFFMT_C	1	Security	Avoid buffer overflow from tainted data due to defining incorrect format limits
+BD-SECURITY-OVERFRD_C	1	Security	Avoid buffer read overflow from tainted data
+BD-SECURITY-OVERFWR_C	1	Security	Avoid buffer write overflow from tainted data
+BD-SECURITY-RAND_C	2	Security	Properly seed pseudorandom number generators
+BD-SECURITY-TDALLOC_C	2	Security	Validate potentially tainted data before it is used to determine the size of memory allocation
+BD-SECURITY-TDCMD_C	1	Security	Protect against command injection
+BD-SECURITY-SENSLOG_C	2	Security	Avoid passing sensitive data to functions that write to log files
+BD-SECURITY-TDENV_C	1	Security	Protect against environment injection
+BD-SECURITY-TDFNAMES_C	1	Security	Protect against file name injection
+BD-SECURITY-TDINPUT_C	1	Security	Exclude unsanitized user input from format strings
+BD-SECURITY-TDSQL_C	1	Security	Protect against SQL injection
+BD-SECURITY-TDCONSOLE_C	1	Security	Avoid printing tainted data on the output console
+BD-SECURITY-XXEXRC_C	2	Security	Disable resolving XML external entities (XXE) in libxerces-c

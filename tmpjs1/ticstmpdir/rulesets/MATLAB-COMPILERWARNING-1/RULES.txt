@@ -1,0 +1,105 @@
+ATAS	2	MATLAB Classes	The attribute value <name> is unexpected. Use a single meta-classobject or a cell array of meta-class objects.
+ATCA	2	MATLAB Classes	The attribute value <name> is unexpected. Use a cell array of meta-class objects instead.
+ATNAS	2	MATLAB Classes	Set attribute <name> to a single meta-class object or a cell array of meta-class objects.
+ATNCA	2	MATLAB Classes	Set attribute <name> to a cell array of meta-class objects.
+ATPPI	2	MATLAB Classes	The attribute value <name> is unexpected. Use 'public', 'private', 'protected', 'immutable', or a cell array of meta-classes instead.
+ATTF	2	MATLAB Classes	The Code Analyzer is unable to determine if the expression assigned to the <name> attribute evaluates to true or false.
+ATTOF	2	MATLAB Classes	Setting the class attribute Abstract to false is not recommended.
+ATUNK	1	MATLAB Classes	Unknown attribute name <name>.
+BADNOT	1	Syntax Errors	Using ~ to ignore a value is not permitted in this context.
+BDOPT	1	Syntax Errors	Option <name> is ignored because it is invalid.
+CFERR	2	File Errors	Cannot open or read the Code Analyzer settings from file <FILE>. Using default settings instead.
+CFIG	1	Syntax Errors	The Code Analyzer settings file, <FILE>, has an error on line <number>.
+CLSUNK	1	MATLAB Classes	This class, or one of its superclasses, could not be found on MATLAB's path.
+COLND	2	Syntax Errors	END or Colon can only be used to index arrays. This might be an incorrect use.
+DSARG	1	Syntax Errors	The DRANGE function must have 1, 2, or 3 arguments.
+EMGRO	1	MATLAB for Code Generation Messages	Code generation does not support variable <name> size growth through indexing.
+EMLOAD	1	MATLAB for Code Generation Messages	The output of a call to LOAD is not assigned to a variable. Assign its output to a variable without subscripting.
+EMNODEF	1	MATLAB for Code Generation Messages	The variable <name> might be used before it is defined.
+EMNSI	1	MATLAB for Code Generation Messages	Code generation requires IF and WHILE conditions to be scalar.
+EMSCR	1	MATLAB for Code Generation Messages	Code generation does not support scripts.
+EMTAG	2	MATLAB for Code Generation Messages	The compilation directive (or pragma) EML is not recommended. UseCODEGEN instead.
+EMTC	1	MATLAB for Code Generation Messages	Code generation does not support TRY/CATCH constructions.
+EMVDF	1	MATLAB for Code Generation Messages	Code generation requires variable <name> to be fully defined before subscripting it.
+EMXTR	2	MATLAB for Code Generation Messages	The EML package is not recommended. Use CODER instead.
+ERTXT	1	Errors, Warnings, etc.	Specify an error message with the message identifier.
+FCONF	1	Syntax Errors	Unable to define local function <name> because it has the same name as the file.
+FCONV	1	Syntax Errors	Unable to define variable <name> because it has the same name as the script.
+FNSWA	1	Syntax Errors	Function name must start with alphabetic character.
+GPFST	1	Syntax Errors	A GLOBAL or PERSISTENT declaration must precede first use.
+ITERS	2	Strings and Character Vectors	The Code Analyzer type analysis may be incorrect here.
+MCANI	1	MATLAB Classes	Abstract property <name> cannot be initialized.
+MCAPP	1	MATLAB Classes	The private property <name> cannot be Abstract.
+MCASC	1	MATLAB Classes	Abstract property <name> cannot be used in a Sealed class.
+MCCBD	1	MATLAB Classes	The constructor <NAME> must be fully defined in the class definition file.
+MCCBS	1	MATLAB Classes	A superclass constructor is being called, but <NAME> is not a declared superclass name.
+MCCBU	1	MATLAB Classes	This superclass constructor is called after a use of the constructed object.
+MCCMC	1	MATLAB Classes	The constructor for superclass <NAME> can only be called once.
+MCCPE	2	MATLAB Classes	Attempting to call a property or event <NAME> as a function.
+MCCPI	2	MATLAB Classes	The Constant property <name> needs to be initialized.
+MCCSOP	1	MATLAB Classes	Unable to modify Constant property <name>.
+MCCSP	2	MATLAB Classes	Constant property <name> is not modified. '<name>.<name>' createsa struct named <name> with a field named <name>.
+MCDIR	1	File Errors	Class name <name> and @directory name do not agree: <FILE>.
+MCEB	2	MATLAB Classes	The class has an <reserved word> block, so must be a handle class(line <number>).
+MCFIL	1	File Errors	Class name <name> and file name do not agree: <file>.
+MCG1I	1	MATLAB Classes	Get methods must have exactly one input.
+MCG1O	1	MATLAB Classes	Get methods must have exactly one output.
+MCGCP	2	MATLAB Classes	Defining a get method for a constant property will not be supported in a future release.
+MCGSA	1	MATLAB Classes	Method <NAME> tries to set or get an abstract property.
+MCHC	2	MATLAB Classes	The class <name> is derived from a handle class (line <number>).
+MCHM	2	MATLAB Classes	A property is set in object <NAME>, but the modified object is not used or returned, implying that this class is a handle class (line <number>).
+MCHV1	1	MATLAB Classes	Conflict between handle and value class usage (lines <number> and<number>).
+MCHV2	2	MATLAB Classes	Probable conflict between handle and value class usage (lines <number> and <number>).
+MCHV3	2	MATLAB Classes	Possible conflict between handle and value class usage (lines <number> and <number>).
+MCMSP	1	MATLAB Classes	The private method <name> cannot be Abstract.
+MCNPN	2	MATLAB Classes	<name> is referenced but is not a property, method, or event namedefined in this class.
+MCNPR	2	MATLAB Classes	<name> is not a property, but is the target of an assignment.
+MCPIN	1	MATLAB Classes	Unable to initialize class property to an instance of the class itself.
+MCPO	2	MATLAB Classes	The property <NAME> is observable, which implies the class is a handle class (line <number>).
+MCPSG	1	MATLAB Classes	The set/get function <NAME> must be fully defined in the class definition file.
+MCS1O	1	MATLAB Classes	Set Methods must have at most one output.
+MCS2I	1	MATLAB Classes	Set Methods must have exactly two inputs.
+MCSAC	2	MATLAB Classes	SetAccess cannot be set on Constant properties.
+MCSCC	1	MATLAB Classes	To call the superclass constructor, the name of the subclass constructor <name> must match the name of the subclass <name>.
+MCSCF	1	MATLAB Classes	A superclass constructor must be assigned to the first constructor output argument.
+MCSCM	1	MATLAB Classes	To call a superclass method, the method name <name> must match the name of the subclass method <name>.
+MCSCN	1	MATLAB Classes	Method <NAME> tries to set a constant property.
+MCSCO	1	MATLAB Classes	A superclass constructor must be called using the first constructor output argument.
+MCSCT	1	MATLAB Classes	A call to a superclass constructor must appear at the top level (not conditional) in a constructor.
+MCSGA	1	MATLAB Classes	Set/Get method <NAME> must be defined in a METHODS block with no attributes.
+MCSGP	1	MATLAB Classes	The method <NAME> does not refer to a valid property name.
+MCSH	2	MATLAB Classes	Method <NAME> has a signature consistent with a handle class (line <number>).
+MCSNO	2	MATLAB Classes	Set method's first argument <name> is not returned, implying a handle class.
+MCSUP	2	MATLAB Classes	A set method for a non-Dependent property should not access another property (<name>).
+MCSV	2	MATLAB Classes	Method <NAME> has a signature consistent with a value class (line<number>).
+MCSWA	1	MATLAB Classes	A sealed class cannot specify allowed subclasses.
+MCVC	2	MATLAB Classes	The class <NAME> has no superclasses, so must be value class (line <number>).
+MOBSRV	2	MATLAB Classes	Using SetObservable or GetObservable on a Constant property has no effect.
+MTAGS	1	MATLAB Classes	Cannot use the <name> attribute when using the <name> attribute.
+MTMAT	1	MATLAB Classes	The attribute <name> cannot be set more than once.
+NCHKE	2	Errors, Warnings, etc.	Use NARGOUTCHK without ERROR.
+NCHKOS	1	Errors, Warnings, etc.	NARGINCHK does not return any values.
+NOCLS	1	Syntax Errors	Function name can only contain dots if it is a class method.
+NPERS	1	Syntax Errors	A PERSISTENT declaration is not valid in scripts.
+PFCEL	1	Strings and Character Vectors	The function <NAME> does not support cell arrays (argument <number>).
+REDEF	1	Syntax Errors	The current use of <name> is inconsistent with its previous use or definition.
+ROWLN	1	Syntax Errors	All matrix rows must be the same length.
+SPERR	2	Errors, Warnings, etc.	ERROR takes SPRINTF-like arguments directly.
+SPWRN	2	Errors, Warnings, etc.	WARNING takes SPRINTF-like arguments directly.
+STCI	2	Strings and Character Vectors	Use STRCMPI(str1,str2) instead of using UPPER/LOWER in a call to STRCMP.
+STCMP	2	Strings and Character Vectors	Use STRCMP instead of == or ~= to compare character vectors.
+STCUL	2	Strings and Character Vectors	The comparison will likely fail due to case mismatch.
+STISA	2	Strings and Character Vectors	Consider using ISA instead of comparing the class name.
+STLOW	2	Strings and Character Vectors	In this comparison the call to UPPER/LOWER is unnecessary.
+STRCL1	2	Strings and Character Vectors	<name> is not recommended. Use <name> instead.
+STRCLFH	2	Strings and Character Vectors	<name> is not recommended. Use <name> instead.
+STRCLQT	2	Strings and Character Vectors	<name> is not recommended. Use <name> instead.
+STREMP	2	Strings and Character Vectors	<name> is not recommended. Use <name> instead.
+STRIFCND	2	Strings and Character Vectors	<name> is not recommended. Use <name> instead.
+STRQUOT	2	Strings and Character Vectors	<name> is not recommended. Use <name> instead.
+TWOCM	1	Syntax Errors	A comma cannot immediately follow another comma.
+VTPCON	1	Types Declarations	Input argument to validator must be a constant value.
+VTPEAL	1	Types Declarations	Specify at least one input argument for validator.
+VTPUA	1	Types Declarations	The property name is <name>. Did you mean to reference it?
+WLAST	2	Errors, Warnings, etc.	WARNING('') does not reset the warning state. Use LASTWARN('') instead.
+WTXT	1	Errors, Warnings, etc.	Specify a warning message with the message identifier.

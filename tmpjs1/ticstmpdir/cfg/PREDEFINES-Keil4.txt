@@ -1,0 +1,17 @@
+#define __ASM __asm
+#define __asm(x)
+#define __declspec(x)
+#define __attribute__(x)
+#define __NO_EMBEDDED_ASM 1
+#define __inline
+#define __pure
+#define __value_in_regs
+#define __svc(x)
+#define __softfp
+#define __irq
+#define __swi(x)
+#define __packed
+#define __align(x)
+#define __ESCAPE__(x) 0.7
+#define __weak
+#define __STATIC_INLINE

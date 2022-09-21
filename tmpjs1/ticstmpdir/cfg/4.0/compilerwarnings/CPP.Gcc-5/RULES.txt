@@ -1,0 +1,195 @@
+CPP.Gcc-Wabi	5	Compiler warning	Warn when G++ generates code that is probably not compatible with the vendor-neutral C++ ABI.
+CPP.Gcc-Wabi-tag	5	Compiler warning	Warn if a subobject has an abi_tag attribute that the complete object type does not have.
+CPP.Gcc-Waddress	2	Compiler warning	Warn about suspicious uses of memory addresses.
+CPP.Gcc-Waggregate-return	4	Compiler warning	Warn if any functions that return structures or unions are defined or called.
+CPP.Gcc-Waggressive-loop-optimizations	2	Compiler warning	Warn if a loop with constant number of iterations triggers undefined behavior.
+CPP.Gcc-Waliasing	3	Compiler warning	Warn about possible aliasing of dummy arguments.
+CPP.Gcc-Walign-commons	5	Compiler warning	Warn about alignment of COMMON blocks.
+CPP.Gcc-Wampersand	3	Compiler warning	Warn about missing ampersand in continued character constants.
+CPP.Gcc-Warray-bounds	1	Compiler warning	This option is only active when -ftree-vrp is active (default for -O2 and above).
+CPP.Gcc-Warray-temporaries	3	Compiler warning	Warn about creation of array temporaries.
+CPP.Gcc-Wassign-intercept	6	Compiler warning	Warn whenever an Objective-C assignment is being intercepted by the garbage collector.
+CPP.Gcc-Wattributes	4	Compiler warning	Warn about inappropriate attribute usage.
+CPP.Gcc-Wbad-function-cast	2	Compiler warning	Warn whenever a function call is cast to a non-matching type.
+CPP.Gcc-Wbool-compare	3	Compiler warning	Warn about boolean expression compared with an integer value different from true/false.
+CPP.Gcc-Wbuiltin-macro-redefined	2	Compiler warning	Warn when a built-in preprocessor macro is undefined or redefined.
+CPP.Gcc-Wc++-compat	3	Compiler warning	Warn about ISO C constructs that are outside of the common subset of ISO C and ISO C++.
+CPP.Gcc-Wc++11-compat	3	Compiler warning	Warn about C++ constructs whose meaning differs between ISO C++ 1998 and ISO C++ 2011.
+CPP.Gcc-Wc++14-compat	3	Compiler warning	Warn about C++ constructs whose meaning differs between ISO C++ 2011 and ISO C++ 2014.
+CPP.Gcc-Wc-binding-type	3	Compiler warning	Warn if the type of a variable might be not interoperable with C.
+CPP.Gcc-Wc90-c99-compat	3	Compiler warning	Warn about features not present in ISO C90, but present in ISO C99.
+CPP.Gcc-Wc99-c11-compat	3	Compiler warning	Warn about features not present in ISO C99, but present in ISO C11.
+CPP.Gcc-Wcast-align	2	Compiler warning	Warn whenever a pointer is cast such that the required alignment of the target is increased.
+CPP.Gcc-Wcast-qual	2	Compiler warning	Warn whenever a pointer is cast so as to remove a type qualifier from the target type.
+CPP.Gcc-Wcast-result	2	Compiler warning	Warn about casts that will produce a null result.
+CPP.Gcc-Wchar-subscripts	1	Compiler warning	Warn if an array subscript has type "char".
+CPP.Gcc-Wcharacter-truncation	3	Compiler warning	Warn about truncated character expressions.
+CPP.Gcc-Wchkp	1	Compiler warning	Warn about memory access errors found by Pointer Bounds Checker.
+CPP.Gcc-Wclobbered	1	Compiler warning	Warn for variables that might be changed by longjmp or vfork.
+CPP.Gcc-Wcomment	3	Compiler warning	Warn whenever a comment-start sequence /* appears in a /* comment, or whenever a Backslash-Newline appears in a // comment.
+CPP.Gcc-Wcompare-reals	2	Compiler warning	Warn about equality comparisons involving REAL or COMPLEX expressions.
+CPP.Gcc-Wconditionally-supported	5	Compiler warning	Warn for conditionally-supported constructs.
+CPP.Gcc-Wconversion	2	Compiler warning	Warn for implicit conversions that may alter a value.
+CPP.Gcc-Wconversion-extra	3	Compiler warning	Warn about most implicit conversions.
+CPP.Gcc-Wconversion-null	1	Compiler warning	Warn for converting NULL from/to a non-pointer type.
+CPP.Gcc-Wcoverage-mismatch	6	Compiler warning	Warn in case profiles in -fprofile-use do not match.
+CPP.Gcc-Wcpp	1	Compiler warning	Warning messages emitted by "#warning" directives.
+CPP.Gcc-Wctor-dtor-privacy	2	Compiler warning	Warn when a class seems unusable because all the constructors or destructors in that class are private, and it has neither friends nor public static member functions.
+CPP.Gcc-Wdate-time	5	Compiler warning	Warn about __TIME__, __DATE__ and __TIMESTAMP__ usage.
+CPP.Gcc-Wdeclaration-after-statement	3	Compiler warning	Warn when a declaration is found after a statement in a block.
+CPP.Gcc-Wdelete-incomplete	1	Compiler warning	Warn when deleting a pointer to incomplete type.
+CPP.Gcc-Wdelete-non-virtual-dtor	1	Compiler warning	Warn when delete is used to destroy an instance of a class that has virtual functions and non-virtual destructor.
+CPP.Gcc-Wdeprecated	4	Compiler warning	Warn if a deprecated compiler feature, class, method, or field is used.
+CPP.Gcc-Wdeprecated-declarations	6	Compiler warning	Warn about uses of functions, variables, and types marked as deprecated by using the "deprecated" attribute.
+CPP.Gcc-Wdesignated-init	4	Compiler warning	Warn about positional initialization of structs requiring designated initializers.
+CPP.Gcc-Wdisabled-optimization	5	Compiler warning	Warn if a requested optimization pass is disabled.
+CPP.Gcc-Wdiscarded-array-qualifiers	4	Compiler warning	Warn if qualifiers on arrays which are pointer targets are discarded.
+CPP.Gcc-Wdiscarded-qualifiers	4	Compiler warning	Warn if type qualifiers on pointers are discarded.
+CPP.Gcc-Wdiv-by-zero	1	Compiler warning	Warn about compile-time integer division by zero.
+CPP.Gcc-Wdouble-promotion	3	Compiler warning	Give a warning when a value of type "float" is implicitly promoted to "double".
+CPP.Gcc-Weffc++	5	Compiler warning	Warn about violations of Effective C++ style rules.
+CPP.Gcc-Wempty-body	2	Compiler warning	Warn if an empty body occurs in an if, else or do while statement.
+CPP.Gcc-Wendif-labels	2	Compiler warning	Warn whenever an #else or an #endif are followed by text.
+CPP.Gcc-Wenum-compare	1	Compiler warning	Warn about a comparison between values of different enumerated types.
+CPP.Gcc-Wfloat-equal	1	Compiler warning	Warn if floating-point values are used in equality comparisons.
+CPP.Gcc-Wformat	1	Compiler warning	Check calls to "printf" and "scanf", etc.
+CPP.Gcc-Wformat-contains-nul	2	Compiler warning	Warn about format strings that contain NUL bytes.
+CPP.Gcc-Wformat-extra-args	1	Compiler warning	Warn if passing too many arguments to a function for its format string.
+CPP.Gcc-Wformat-nonliteral	3	Compiler warning	If -Wformat is specified, also warn if the format string is not a string literal and so cannot be checked, unless the format function takes its format arguments as a "va_list".
+CPP.Gcc-Wformat-security	4	Compiler warning	If -Wformat is specified, also warn about uses of format functions that represent possible security problems.
+CPP.Gcc-Wformat-signedness	3	Compiler warning	Warn about sign differences with format functions.
+CPP.Gcc-Wformat-y2k	6	Compiler warning	If -Wformat is specified, also warn about "strftime" formats that may yield only a two-digit year.
+CPP.Gcc-Wformat-zero-length	3	Compiler warning	Warn about zero-length formats.
+CPP.Gcc-Wfree-nonheap-object	1	Compiler warning	Warn when attempting to free a non-heap object.
+CPP.Gcc-Wfunction-elimination	3	Compiler warning	Warn about function call elimination.
+CPP.Gcc-Wignored-qualifiers	4	Compiler warning	Warn if the return type of a function has a type qualifier such as "const".
+CPP.Gcc-Wimplicit	3	Compiler warning	Warn about implicit declarations.
+CPP.Gcc-Wimplicit-function-declaration	3	Compiler warning	Give a warning whenever a function is used before being declared.
+CPP.Gcc-Wimplicit-int	3	Compiler warning	Warn when a declaration does not specify a type.
+CPP.Gcc-Wimplicit-interface	3	Compiler warning	Warn about calls with implicit interface.
+CPP.Gcc-Wimplicit-procedure	3	Compiler warning	Warn about called procedures not explicitly declared
+CPP.Gcc-Wincompatible-pointer-types	2	Compiler warning	Warn when there is a conversion between pointers that have incompatible types.
+CPP.Gcc-Winherited-variadic-ctor	4	Compiler warning	Warn about C++11 inheriting constructors when the base has a variadic constructor.
+CPP.Gcc-Winit-self	1	Compiler warning	Warn about uninitialized variables that are initialized with themselves.
+CPP.Gcc-Winline	2	Compiler warning	Warn if a function that is declared as inline cannot be inlined.
+CPP.Gcc-Wint-conversion	1	Compiler warning	Warn about incompatible integer to pointer and pointer to integer conversions.
+CPP.Gcc-Wint-to-pointer-cast	2	Compiler warning	Warn when there is a cast to a pointer from an integer of a different size.
+CPP.Gcc-Wintrinsic-shadow	3	Compiler warning	Warn if a user-procedure has the same name as an intrinsic.
+CPP.Gcc-Wintrinsics-std	3	Compiler warning	Warn on intrinsics not part of the selected standard.
+CPP.Gcc-Winvalid-memory-model	1	Compiler warning	Warn when an atomic memory model parameter is known to be outside the valid range.
+CPP.Gcc-Winvalid-offsetof	1	Compiler warning	Warn about invalid uses of the "offsetof" macro.
+CPP.Gcc-Winvalid-pch	1	Compiler warning	Warn if a precompiled header is found in the search path but can't be used.
+CPP.Gcc-Wjump-misses-init	2	Compiler warning	Warn if a "goto" statement or a "switch" statement jumps forward across the initialization of a variable, or jumps backward to a label after the variable has been initialized.
+CPP.Gcc-Wline-truncation	5	Compiler warning	Warn about truncated source lines.
+CPP.Gcc-Wliteral-suffix	3	Compiler warning	Warn when a string or character literal is followed by a ud-suffix which does not begin with an underscore.
+CPP.Gcc-Wlogical-not-parentheses	3	Compiler warning	Warn when logical not is used on the left hand side operand of a comparison.
+CPP.Gcc-Wlogical-op	2	Compiler warning	Warn about suspicious uses of logical operators in expressions.
+CPP.Gcc-Wlong-long	5	Compiler warning	Warn if long long type is used.
+CPP.Gcc-Wmain	4	Compiler warning	Warn if the type of main is suspicious.
+CPP.Gcc-Wmaybe-uninitialized	1	Compiler warning	For an automatic variable, if there exists a path from the function entry to a use of the variable that is initialized, but there exist some other paths for which the variable is not initialized, the compiler emits a warning if it cannot prove the uninitialized paths are not executed at run time.
+CPP.Gcc-Wmemset-transposed-args	1	Compiler warning	Warn about suspicious calls to memset where the third argument is constant literal zero and the second is not.
+CPP.Gcc-Wmissing-braces	3	Compiler warning	Warn if an aggregate or union initializer is not fully bracketed.
+CPP.Gcc-Wmissing-declarations	3	Compiler warning	Warn if a global function is defined without a previous declaration.
+CPP.Gcc-Wmissing-field-initializers	2	Compiler warning	Warn if a structure's initializer has some fields missing.
+CPP.Gcc-Wmissing-include-dirs	1	Compiler warning	Warn if a user-supplied include directory does not exist.
+CPP.Gcc-Wmissing-parameter-type	4	Compiler warning	Warn about function parameters declared without a type specifier in K&R-style functions.
+CPP.Gcc-Wmissing-prototypes	3	Compiler warning	Warn if a global function is defined without a previous prototype declaration.
+CPP.Gcc-Wmultichar	2	Compiler warning	Warn about use of multi-character character constants.
+CPP.Gcc-Wnarrowing	2	Compiler warning	Warn when a narrowing conversion prohibited by C++11 occurs within { }.
+CPP.Gcc-Wnested-externs	3	Compiler warning	Warn if an "extern" declaration is encountered within a function.
+CPP.Gcc-Wnoexcept	2	Compiler warning	Warn when a noexcept-expression evaluates to false because of a call to a function that does not have a non-throwing exception specification (i.
+CPP.Gcc-Wnon-template-friend	3	Compiler warning	Warn when non-templatized friend functions are declared within a template.
+CPP.Gcc-Wnon-virtual-dtor	2	Compiler warning	Warn when a class has virtual functions and an accessible non- virtual destructor, in which case it is possible but unsafe to delete an instance of a derived class through a pointer to the base class.
+CPP.Gcc-Wnonnull	1	Compiler warning	Warn about passing a null pointer for arguments marked as requiring a non-null value by the "nonnull" function attribute.
+CPP.Gcc-Wodr	2	Compiler warning	Warn about some C++ One Definition Rule violations during link time optimization.
+CPP.Gcc-Wold-style-cast	3	Compiler warning	Warn if an old-style (C-style) cast to a non-void type is used within a C++ program.
+CPP.Gcc-Wold-style-declaration	4	Compiler warning	Warn for obsolescent usages, according to the C Standard, in a declaration.
+CPP.Gcc-Wold-style-definition	4	Compiler warning	Warn if an old-style function definition is used.
+CPP.Gcc-Wopenmp-simd	4	Compiler warning	Warn if a simd directive is overridden by the vectorizer cost model.
+CPP.Gcc-Woverflow	1	Compiler warning	Warn about overflow in arithmetic expressions.
+CPP.Gcc-Woverlength-strings	1	Compiler warning	Warn about string constants that are longer than the "minimum maximum" length specified in the C standard.
+CPP.Gcc-Woverloaded-virtual	2	Compiler warning	Warn when a function declaration hides virtual functions from a base class.
+CPP.Gcc-Woverride-init	2	Compiler warning	Warn if an initialized field without side effects is overridden when using designated initializers.
+CPP.Gcc-Wpacked	1	Compiler warning	Warn if a structure is given the packed attribute, but the packed attribute has no effect on the layout or size of the structure.
+CPP.Gcc-Wpacked-bitfield-compat	4	Compiler warning	The 4.
+CPP.Gcc-Wpadded	3	Compiler warning	Warn if padding is included in a structure, either to align an element of the structure or to align the whole structure.
+CPP.Gcc-Wparentheses	4	Compiler warning	Warn if parentheses are omitted in certain contexts, such as when there is an assignment in a context where a truth value is expected, or when operators are nested whose precedence people often get confused about.
+CPP.Gcc-Wpedantic	3	Compiler warning	Issue all the warnings demanded by strict ISO C and ISO C++; reject all programs that use forbidden extensions, and some other programs that do not follow ISO C and ISO C++.
+CPP.Gcc-Wpmf-conversions	2	Compiler warning	Warn when converting the type of pointers to member functions.
+CPP.Gcc-Wpointer-arith	2	Compiler warning	Warn about anything that depends on the "size of" a function type or of "void".
+CPP.Gcc-Wpointer-sign	2	Compiler warning	Warn for pointer argument passing or assignment with different signedness.
+CPP.Gcc-Wpointer-to-int-cast	2	Compiler warning	Warn when a pointer is cast to an integer of a different size.
+CPP.Gcc-Wpragmas	3	Compiler warning	Warn about misuses of pragmas.
+CPP.Gcc-Wproperty-assign-default	3	Compiler warning	Warn if a property for an Objective-C object has no assign semantics specified.
+CPP.Gcc-Wprotocol	4	Compiler warning	Warn if inherited methods are unimplemented.
+CPP.Gcc-Wreal-q-constant	3	Compiler warning	Warn about real-literal-constants with 'q' exponent- letter.
+CPP.Gcc-Wrealloc-lhs	4	Compiler warning	Warn when a left-hand-side array variable is reallocated.
+CPP.Gcc-Wrealloc-lhs-all	4	Compiler warning	Warn when a left-hand-side variable is reallocated.
+CPP.Gcc-Wredundant-decls	2	Compiler warning	Warn if anything is declared more than once in the same scope, even in cases where multiple declaration is valid and changes nothing.
+CPP.Gcc-Wreorder	2	Compiler warning	Warn when the order of member initializers given in the code does not match the order in which they must be executed.
+CPP.Gcc-Wreturn-local-addr	1	Compiler warning	Warn about returning a pointer/reference to a local or temporary variable.
+CPP.Gcc-Wreturn-type	4	Compiler warning	Warn whenever a function is defined with a return type that defaults to "int".
+CPP.Gcc-Wselector	2	Compiler warning	Warn if multiple methods of different types for the same selector are found during compilation.
+CPP.Gcc-Wsequence-point	2	Compiler warning	Warn about code that may have undefined semantics because of violations of sequence point rules in the C and C++ standards.
+CPP.Gcc-Wshadow	2	Compiler warning	Warn whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed.
+CPP.Gcc-Wshadow-ivar	2	Compiler warning	Warn if a local declaration hides an instance variable.
+CPP.Gcc-Wshift-count-negative	2	Compiler warning	Warn if shift count is negative.
+CPP.Gcc-Wshift-count-overflow	2	Compiler warning	Warn if shift count >= width of type.
+CPP.Gcc-Wsign-compare	2	Compiler warning	Warn when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned.
+CPP.Gcc-Wsign-promo	2	Compiler warning	Warn when overload resolution chooses a promotion from unsigned or enumerated type to a signed type, over a conversion to an unsigned type of the same size.
+CPP.Gcc-Wsized-deallocation	4	Compiler warning	Warn about missing sized deallocation functions.
+CPP.Gcc-Wsizeof-array-argument	2	Compiler warning	Warn when sizeof is applied on a parameter declared as an array.
+CPP.Gcc-Wsizeof-pointer-memaccess	3	Compiler warning	Warn for suspicious length parameters to certain string and memory built-in functions if the argument uses "sizeof".
+CPP.Gcc-Wstack-protector	3	Compiler warning	This option is only active when -fstack-protector is active.
+CPP.Gcc-Wstrict-aliasing	2	Compiler warning	It warns about code that might break the strict aliasing rules that the compiler is using for optimization.
+CPP.Gcc-Wstrict-null-sentinel	5	Compiler warning	Warn about the use of an uncasted "NULL" as sentinel.
+CPP.Gcc-Wstrict-overflow	2	Compiler warning	It warns about cases where the compiler optimizes based on the assumption that signed overflow does not occur.
+CPP.Gcc-Wstrict-prototypes	3	Compiler warning	Warn if a function is declared or defined without specifying the argument types.
+CPP.Gcc-Wstrict-selector-match	2	Compiler warning	Warn if multiple methods with differing argument and/or return types are found for a given selector when attempting to send a message using this selector to a receiver of type "id" or "Class".
+CPP.Gcc-Wsuggest-attribute=const	6	Compiler warning	Warn about functions which might be candidates for __attribute__((const)).
+CPP.Gcc-Wsuggest-attribute=format	6	Compiler warning	Warn about functions which might be candidates for format attributes.
+CPP.Gcc-Wsuggest-attribute=noreturn	6	Compiler warning	Warn about functions which might be candidates for __attribute__((noreturn)).
+CPP.Gcc-Wsuggest-attribute=pure	6	Compiler warning	Warn about functions which might be candidates for __attribute__((pure)).
+CPP.Gcc-Wsuggest-final-methods	6	Compiler warning	Warn about C++ virtual methods where adding final keyword would improve code quality.
+CPP.Gcc-Wsuggest-final-types	6	Compiler warning	Warn about C++ polymorphic types where adding final keyword would improve code quality.
+CPP.Gcc-Wsuggest-override	4	Compiler warning	Suggest that the override keyword be used when the declaration of a virtual function overrides another.
+CPP.Gcc-Wsurprising	2	Compiler warning	Warn about "suspicious" constructs.
+CPP.Gcc-Wswitch	2	Compiler warning	Warn whenever a "switch" statement has an index of enumerated type and lacks a "case" for one or more of the named codes of that enumeration.
+CPP.Gcc-Wswitch-bool	2	Compiler warning	Warn about switches with boolean controlling expression.
+CPP.Gcc-Wswitch-default	3	Compiler warning	Warn whenever a "switch" statement does not have a "default" case.
+CPP.Gcc-Wswitch-enum	2	Compiler warning	Warn whenever a "switch" statement has an index of enumerated type and lacks a "case" for one or more of the named codes of that enumeration.
+CPP.Gcc-Wsync-nand	4	Compiler warning	Warn when "__sync_fetch_and_nand" and "__sync_nand_and_fetch" built-in functions are used.
+CPP.Gcc-Wsystem-headers	3	Compiler warning	Print warning messages for constructs found in system header files.
+CPP.Gcc-Wtarget-lifetime	2	Compiler warning	Warn if the pointer in a pointer assignment might outlive its target.
+CPP.Gcc-Wtraditional	3	Compiler warning	Warn about certain constructs that behave differently in traditional and ISO C.
+CPP.Gcc-Wtraditional-conversion	2	Compiler warning	Warn if a prototype causes a type conversion that is different from what would happen to the same argument in the absence of a prototype.
+CPP.Gcc-Wtrampolines	2	Compiler warning	Warn about trampolines generated for pointers to nested functions.
+CPP.Gcc-Wtrigraphs	1	Compiler warning	Most trigraphs in comments cannot affect the meaning of the program.
+CPP.Gcc-Wtype-limits	1	Compiler warning	Warn if a comparison is always true or always false due to the limited range of the data type, but do not warn for constant expressions.
+CPP.Gcc-Wundeclared-selector	6	Compiler warning	Warn if a "@selector(.
+CPP.Gcc-Wundef	2	Compiler warning	Warn if an undefined identifier is evaluated in an #if directive.
+CPP.Gcc-Wunderflow	2	Compiler warning	Warn about underflow of numerical constant expressions.
+CPP.Gcc-Wuninitialized	1	Compiler warning	Warn if an automatic variable is used without first being initialized or if a variable may be clobbered by a "setjmp" call.
+CPP.Gcc-Wunknown-pragmas	1	Compiler warning	Warn when a "#pragma" directive is encountered that is not understood by GCC.
+CPP.Gcc-Wunsuffixed-float-constants	5	Compiler warning	Issue a warning for any floating constant that does not have a suffix.
+CPP.Gcc-Wunused-but-set-parameter	3	Compiler warning	Warn whenever a function parameter is assigned to, but otherwise unused (aside from its declaration).
+CPP.Gcc-Wunused-but-set-variable	3	Compiler warning	Warn whenever a local variable is assigned to, but otherwise unused (aside from its declaration).
+CPP.Gcc-Wunused-dummy-argument	3	Compiler warning	Warn about unused dummy arguments.
+CPP.Gcc-Wunused-function	3	Compiler warning	Warn whenever a static function is declared but not defined or a non-inline static function is unused.
+CPP.Gcc-Wunused-label	3	Compiler warning	Warn whenever a label is declared but not used.
+CPP.Gcc-Wunused-local-typedefs	3	Compiler warning	Warn when a typedef locally defined in a function is not used.
+CPP.Gcc-Wunused-macros	5	Compiler warning	Warn about macros defined in the main file that are unused.
+CPP.Gcc-Wunused-parameter	3	Compiler warning	Warn whenever a function parameter is unused aside from its declaration.
+CPP.Gcc-Wunused-result	3	Compiler warning	Warn if a caller of a function, marked with attribute warn_unused_result, does not use its return value.
+CPP.Gcc-Wunused-value	2	Compiler warning	Warn whenever a statement computes a result that is explicitly not used.
+CPP.Gcc-Wunused-variable	3	Compiler warning	Warn whenever a local variable or non-constant static variable is unused aside from its declaration.
+CPP.Gcc-Wuse-without-only	3	Compiler warning	Warn about USE statements that have no ONLY qualifier.
+CPP.Gcc-Wuseless-cast	4	Compiler warning	Warn when an expression is casted to its own type.
+CPP.Gcc-Wvarargs	4	Compiler warning	Warn upon questionable usage of the macros used to handle variable arguments like va_start.
+CPP.Gcc-Wvariadic-macros	4	Compiler warning	Warn if variadic macros are used in pedantic ISO C90 mode, or the GNU alternate syntax when in pedantic ISO C99 mode.
+CPP.Gcc-Wvector-operation-performance	3	Compiler warning	Warn if vector operation is not implemented via SIMD capabilities of the architecture.
+CPP.Gcc-Wvirtual-move-assign	4	Compiler warning	Warn if a virtual base has a non-trivial move assignment operator.
+CPP.Gcc-Wvla	5	Compiler warning	Warn if variable length array is used in the code.
+CPP.Gcc-Wvolatile-register-var	2	Compiler warning	Warn if a register variable is declared volatile.
+CPP.Gcc-Wwrite-strings	4	Compiler warning	When compiling C, give string constants the type "const char[length]" so that copying the address of one into a non-"const" "char *" pointer produces a warning.
+CPP.Gcc-Wzero-as-null-pointer-constant	4	Compiler warning	Warn when a literal '0' is used as null pointer constant.

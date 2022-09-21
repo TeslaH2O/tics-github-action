@@ -1,0 +1,82 @@
+//cpp.alpha.core.BoolAssignment	ScanBuild	alpha.core.BoolAssignment/Assignment of a non-Boolean value
+//cpp.alpha.core.CastSize	ScanBuild	alpha.core.CastSize/Cast region with wrong size.
+//cpp.alpha.core.CastToStruct	ScanBuild	alpha.core.CastToStruct
+//cpp.alpha.core.FixedAddr	ScanBuild	alpha.core.FixedAddr/Use fixed address
+//cpp.alpha.core.IdenticalExpr	ScanBuild	alpha.core.IdenticalExpr
+//cpp.alpha.core.PointerArithm	ScanBuild	alpha.core.PointerArithm
+//cpp.alpha.core.PointerSub	ScanBuild	alpha.core.PointerSub
+//cpp.alpha.core.SizeofPtr	ScanBuild	alpha.core.SizeofPtr
+//cpp.alpha.cplusplus.NewDeleteLeaks	ScanBuild	alpha.cplusplus.NewDeleteLeaks
+//cpp.alpha.cplusplus.VirtualCall	ScanBuild	alpha.cplusplus.VirtualCall
+//cpp.alpha.deadcode.IdempotentOperations	ScanBuild	alpha.deadcode.IdempotentOperations
+//cpp.alpha.deadcode.UnreachableCode	ScanBuild	alpha.deadcode.UnreachableCode
+//cpp.alpha.osx.cocoa.Dealloc	ScanBuild	alpha.osx.cocoa.Dealloc/Missing ivar release (leak)
+//cpp.alpha.osx.cocoa.DirectIvarAssignment	ScanBuild	alpha.osx.cocoa.DirectIvarAssignment
+//cpp.alpha.osx.cocoa.DirectIvarAssignmentForAnnotatedFunctions	ScanBuild	alpha.osx.cocoa.DirectIvarAssignmentForAnnotatedFunctions
+//cpp.alpha.osx.cocoa.InstanceVariableInvalidation	ScanBuild	alpha.osx.cocoa.InstanceVariableInvalidation
+//cpp.alpha.osx.cocoa.MissingInvalidationMethod	ScanBuild	alpha.osx.cocoa.MissingInvalidationMethod
+//cpp.alpha.osx.cocoa.MissingSuperCall	ScanBuild	alpha.osx.cocoa.MissingSuperCall
+//cpp.alpha.unix.Chroot	ScanBuild	alpha.unix.Chroot
+//cpp.alpha.unix.MallocWithAnnotations	ScanBuild	alpha.unix.MallocWithAnnotations
+//cpp.alpha.unix.PthreadLock	ScanBuild	alpha.unix.PthreadLock/Double locking
+//cpp.alpha.unix.SimpleStream	ScanBuild	alpha.unix.SimpleStream/Double fclose
+//cpp.alpha.unix.Stream	ScanBuild	alpha.unix.Stream/Resource Leak
+//cpp.alpha.unix.cstring.BufferOverlap	ScanBuild	alpha.unix.cstring.BufferOverlap
+//cpp.alpha.unix.cstring.NotNullTerminated	ScanBuild	alpha.unix.cstring.NotNullTerminated
+//cpp.alpha.unix.cstring.OutOfBounds	ScanBuild	alpha.unix.cstring.OutOfBounds
+cpp.core.CallAndMessage	ScanBuild	core.CallAndMessage/Called function pointer is an uninitialized pointer value
+cpp.core.DivideZero	ScanBuild	core.DivideZero/Division by zero
+cpp.core.DynamicTypePropagation	ScanBuild	core.DynamicTypePropagation/Dynamic and static type mismatch
+cpp.core.NonNullParamChecker	ScanBuild	core.NonNullParamChecker/Null pointer passed as an argument to a 'nonnull' parameter
+cpp.core.NullDereference	ScanBuild	core.NullDereference/Dereference of null pointer
+cpp.core.StackAddressEscape	ScanBuild	core.StackAddressEscape/Return of address to stack-allocated memory
+cpp.core.UndefinedBinaryOperatorResult	ScanBuild	core.UndefinedBinaryOperatorResult/Result of operation is garbage or undefined
+cpp.core.VLASize	ScanBuild	core.VLASize/Dangerous variable-length array (VLA) declaration
+cpp.core.builtin.BuiltinFunctions	ScanBuild	core.builtin.BuiltinFunctions
+cpp.core.builtin.NoReturnFunctions	ScanBuild	core.builtin.NoReturnFunctions
+cpp.core.uninitialized.ArraySubscript	ScanBuild	core.uninitialized.ArraySubscript/Array subscript is undefined
+cpp.core.uninitialized.Assign	ScanBuild	core.uninitialized.Assign
+cpp.core.uninitialized.Branch	ScanBuild	core.uninitialized.Branch/Branch condition evaluates to a garbage value
+cpp.core.uninitialized.CapturedBlockVariable	ScanBuild	core.uninitialized.CapturedBlockVariable/uninitialized variable captured by block
+cpp.core.uninitialized.UndefReturn	ScanBuild	core.uninitialized.UndefReturn/Garbage return value
+cpp.cplusplus.NewDelete	ScanBuild	cplusplus.NewDelete
+cpp.deadcode.DeadStores	ScanBuild	deadcode.DeadStores
+//cpp.debug.ConfigDumper	ScanBuild	debug.ConfigDumper
+//cpp.debug.DumpCFG	ScanBuild	debug.DumpCFG
+//cpp.debug.DumpCallGraph	ScanBuild	debug.DumpCallGraph
+//cpp.debug.DumpCalls	ScanBuild	debug.DumpCalls
+//cpp.debug.DumpDominators	ScanBuild	debug.DumpDominators
+//cpp.debug.DumpLiveVars	ScanBuild	debug.DumpLiveVars
+//cpp.debug.DumpTraversal	ScanBuild	debug.DumpTraversal
+//cpp.debug.ExprInspection	ScanBuild	debug.ExprInspection
+//cpp.debug.Stats	ScanBuild	debug.Stats
+//cpp.debug.TaintTest	ScanBuild	debug.TaintTest
+//cpp.debug.ViewCFG	ScanBuild	debug.ViewCFG
+//cpp.debug.ViewCallGraph	ScanBuild	debug.ViewCallGraph
+//cpp.debug.ViewExplodedGraph	ScanBuild	debug.ViewExplodedGraph
+//cpp.llvm.Conventions	ScanBuild	llvm.Conventions
+//cpp.osx.API	ScanBuild	osx.API/API
+//cpp.osx.SecKeychainAPI	ScanBuild	osx.SecKeychainAPI
+//cpp.osx.cocoa.AtSync	ScanBuild	osx.cocoa.AtSync/Nil value used as mutex for @synchronized() 
+//cpp.osx.cocoa.ClassRelease	ScanBuild	osx.cocoa.ClassRelease
+//cpp.osx.cocoa.IncompatibleMethodTypes	ScanBuild	osx.cocoa.IncompatibleMethodTypes
+//cpp.osx.cocoa.Loops	ScanBuild	osx.cocoa.Loops
+//cpp.osx.cocoa.NSAutoreleasePool	ScanBuild	osx.cocoa.NSAutoreleasePool/Use -drain instead of -release
+//cpp.osx.cocoa.NSError	ScanBuild	osx.cocoa.NSError
+//cpp.osx.cocoa.NilArg	ScanBuild	osx.cocoa.NilArg
+//cpp.osx.cocoa.NonNilReturnValue	ScanBuild	osx.cocoa.NonNilReturnValue
+//cpp.osx.cocoa.RetainCount	ScanBuild	osx.cocoa.RetainCount
+//cpp.osx.cocoa.SelfInit	ScanBuild	osx.cocoa.SelfInit/Missing
+//cpp.osx.cocoa.UnusedIvars	ScanBuild	osx.cocoa.UnusedIvars
+//cpp.osx.cocoa.VariadicMethodTypes	ScanBuild	osx.cocoa.VariadicMethodTypes
+//cpp.osx.coreFoundation.CFError	ScanBuild	osx.coreFoundation.CFError
+//cpp.osx.coreFoundation.CFNumber	ScanBuild	osx.coreFoundation.CFNumber
+//cpp.osx.coreFoundation.CFRetainRelease	ScanBuild	osx.coreFoundation.CFRetainRelease
+//cpp.osx.coreFoundation.containers.OutOfBounds	ScanBuild	osx.coreFoundation.containers.OutOfBounds
+//cpp.osx.coreFoundation.containers.PointerSizedValues	ScanBuild	osx.coreFoundation.containers.PointerSizedValues
+cpp.unix.API	ScanBuild	unix.API
+cpp.unix.Malloc	ScanBuild	unix.Malloc/Memory leak
+cpp.unix.MallocSizeof	ScanBuild	unix.MallocSizeof
+cpp.unix.MismatchedDeallocator	ScanBuild	unix.MismatchedDeallocator
+cpp.unix.cstring.BadSizeArg	ScanBuild	unix.cstring.BadSizeArg
+cpp.unix.cstring.NullArg	ScanBuild	unix.cstring.NullArg/Nullability

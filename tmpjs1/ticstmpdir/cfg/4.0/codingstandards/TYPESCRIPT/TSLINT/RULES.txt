@@ -1,0 +1,66 @@
+align	4	Style	Enforce vertical alignment.
+ban	3	Style	Ban the use of specific functions.
+class-name	4	Style	Enforce PascalCased class and interface names.
+comment-format	4	Style	Enforce rules for single-line comments.
+curly	2	Style	Enforce braces for 'if'/'for'/'do'/'while' statements.
+eofline	4	Style	Enforce the file to end with a newline.
+forin	2	Style	Enforce a 'for ... in' statement to be filtered with an 'if' statement.
+indent	4	Style	Enforce indentation with tabs or spaces.
+interface-name	4	Style	Enforce the rule that interface names must begin with a capital 'I'.
+jsdoc-format	4	Style	Enforce basic format rules for jsdoc comments -- comments starting with '/**'.
+label-position	4	Style	Enforce labels only on sensible statements.
+max-line-length	4	Style	Set the maximum length of a line.
+member-access	4	Style	Enforce using explicit visibility on class members.
+member-ordering	4	Style	Enforce member ordering.
+no-any	3	Style	Disallow usages of 'any' as a type decoration.
+no-arg	3	Style	Disallow access to 'arguments.callee'.
+no-bitwise	3	Style	Disallow bitwise operators.
+no-conditional-assignment	1	Style	Disallow any type of assignment in any conditionals.
+no-console	3	Style	Disallow access to the specified functions on 'console'.
+no-consecutive-blank-lines	4	Style	Disallow having more than one blank line in a row in a file.
+no-construct	3	Style	Disallow access to the constructors of 'String', 'Number', and 'Boolean'.
+no-constructor-vars	2	Style	Disallows parameter properties in class constructors.
+no-debugger	4	Style	Disallow 'debugger' statements.
+no-duplicate-variable	2	Style	Disallow duplicate variable declarations in the same block scope.
+no-shadowed-variable	2	Style	Disallow shadowed variable declarations.
+no-empty	3	Style	Disallow empty blocks.
+no-eval	3	Style	Disallow 'eval' function invocations.
+no-inferrable-types	4	Style	Disallow explicit type declarations for variables or parameters initialized to a number, string, or boolean.
+no-internal-module	4	Style	Disallow internal 'module', use 'namespace' instead.
+no-require-imports	4	Style	Disallow require() style imports.
+no-string-literal	3	Style	Disallow object access via string literals.
+no-switch-case-fall-through	2	Style	Disallow falling through case statements.
+no-trailing-whitespace	4	Style	Disallow trailing whitespace at the end of a line.
+no-unused-expression	2	Style	Disallow unused expression statements, that is, expression statements that are not assignments or function invocations (and thus no-ops).
+no-use-before-declare	2	Style	Disallow usage of variables before their declaration.
+no-var-keyword	4	Style	Disallow usage of the 'var' keyword, use 'let' or 'const' instead.
+no-var-requires	4	Style	Disallow the use of require statements except in import statements, banning the use of forms such as 'var module = require("module")'.
+one-line	4	Style	Enforce the specified tokens to be on the same line as the expression preceding it.
+quotemark	4	Style	Enforce consistent single or double quoted string literals.
+radix	4	Style	Enforce the radix parameter of 'parseInt'.
+semicolon	4	Style	Enforce semicolons at the end of every statement.
+switch-default	2	Style	Enforce a 'default' case in 'switch' statements.
+trailing-comma	4	Style	Enforce or disallows trailing comma within array and object literals, destructuring assignment and named imports.
+triple-equals	4	Style	Enforce === and !== in favor of == and !=.
+typedef	2	Style	Enforce type definitions to exist.
+typedef-whitespace	4	Style	Enforce spacing whitespace for type definitions.
+variable-name	3	Style	Check variables names for various errors.
+whitespace	4	Style	Enforce spacing whitespace.
+no-unnecessary-type-assertion	2	Style	Enforce that a type assertion does not change the type of an expression.
+promise-function-async	3	Style	Requires any function or method that returns a promise to be marked async.
+await-promise	3	Style	Warns for an awaited value that is not a Promise.
+no-floating-promises	2	Style	Promises returned by functions must be handled appropriately.
+no-for-in-array	3	Style	Disallows iterating over an array with a for-in loop.
+no-inferred-empty-object-type	3	Style	Disallow type inference of {} (empty object type) at function and constructor call sites.
+no-unbound-method	3	Style	Warns when a method is used as outside of a method call.
+no-unsafe-any	3	Style	Warns when using an expression of type 'any' in a dynamic way.
+no-use-before-declare	2	Style	Disallows usage of variables before their declaration.
+no-void-expression	3	Style	Requires expressions of type void to appear in statement position.
+restrict-plus-operands	3	Style	When adding two variables, operands must both be of type number or of type string.
+strict-type-predicates	3	Style	Warns for type predicates that are always true or always false.
+use-default-type-parameter	4	Style	Warns if an explicitly specified type argument is the default for that type parameter.
+match-default-export-name	4	Style	Requires that a default import have the same name as the declaration it imports.
+no-boolean-literal-compare	3	Style	Warns on comparison to a boolean literal.
+no-unnecessary-qualifier	4	Style	Warns when a namespace qualifier is unnecessary.
+return-undefined	4	Style	Prefer return in void functions and return undefined in value-returning functions.
+strict-boolean-expressions	3	Style	Restricts the types allowed in boolean expressions.

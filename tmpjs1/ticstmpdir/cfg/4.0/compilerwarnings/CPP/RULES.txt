@@ -1,0 +1,879 @@
+CPP4001	4	Compiler Warning	Nonstandard extension 'single line comment' was used
+CPP4002	1	Compiler Warning	Too many actual parameters for macro 'identifier'
+CPP4003	1	Compiler Warning	Not enough actual parameters for macro 'identifier'
+CPP4004	1	Compiler Warning	Incorrect construction after 'defined'
+CPP4005	1	Compiler Warning	'identifier' : macro redefinition
+CPP4006	1	Compiler Warning	#undef expected an identifier
+CPP4007	2	Compiler Warning	'function' : must be 'attribute'
+CPP4008	2	Compiler Warning	'identifier' : 'attribute' attribute ignored
+CPP4009	1	Compiler Warning	String too big; trailing characters truncated
+CPP4010	1	Compiler Warning	Single-line comment contains line-continuation character
+CPP4011	1	Compiler Warning	'identifier' : identifier was truncated to 'number' characters
+CPP4012	1	Compiler Warning	Float constant in a cross compilation
+CPP4013	3	Compiler Warning	'function' undefined; assuming extern returning int
+CPP4014	1	Compiler Warning	Concatenating mismatched wide strings
+CPP4015	1	Compiler Warning	'identifier' : type of bit field must be integral
+CPP4016	3	Compiler Warning	'function' : no function return type; using int as default
+CPP4018	3	Compiler Warning	'expression' : signed/unsigned mismatch
+CPP4019	4	Compiler Warning	Empty statement at global scope
+CPP4020	1	Compiler Warning	'function' : too many actual parameters
+CPP4021	1	Compiler Warning	'function' : too few actual parameters
+CPP4022	1	Compiler Warning	'function' : pointer mismatch for actual parameter 'number'
+CPP4023	3	Compiler Warning	'symbol' : based pointer passed to unprototyped function : parameter number
+CPP4024	1	Compiler Warning	'function' : different types for formal and actual parameter 'number'
+CPP4025	1	Compiler Warning	'number' : based pointer passed to function with variable arguments: parameter number
+CPP4026	1	Compiler Warning	Function declared with formal parameter list
+CPP4027	1	Compiler Warning	Function declared without formal parameter list
+CPP4028	1	Compiler Warning	Formal parameter 'number' different from declaration
+CPP4029	1	Compiler Warning	Declared formal parameter list different from definition
+CPP4030	1	Compiler Warning	First formal parameter list longer than the second list
+CPP4031	1	Compiler Warning	Second formal parameter list longer than the first list
+CPP4032	4	Compiler Warning	Formal parameter 'number' has different type when promoted
+CPP4033	1	Compiler Warning	'function' must return a value
+CPP4034	1	Compiler Warning	Sizeof returns 0
+CPP4035	3	Compiler Warning	'function' : no return value
+CPP4036	1	Compiler Warning	Unnamed 'type' as actual parameter
+CPP4037	1	Compiler Warning	Conflicting ambient class modifiers
+CPP4038	1	Compiler Warning	'modifier' : illegal ambient class modifier
+CPP4041	1	Compiler Warning	Compiler limit : terminating browser output
+CPP4042	1	Compiler Warning	'identifier' : has bad storage class
+CPP4043	1	Compiler Warning	Function specifier used more than once
+CPP4044	1	Compiler Warning	Specifier __huge on 'identifier' ignored; can only be applied to array
+CPP4045	1	Compiler Warning	'array' : array bounds overflow
+CPP4047	1	Compiler Warning	'operator' : 'identifier1' differs in levels of indirection from 'identifier2'
+CPP4048	1	Compiler Warning	Different declared array subscripts : 'identifier1' and 'identifier2'
+CPP4049	1	Compiler Warning	Compiler limit : terminating line number emission
+CPP4051	2	Compiler Warning	Type conversion; possible loss of data
+CPP4052	1	Compiler Warning	Function declarations different; one contains variable arguments
+CPP4053	4	Compiler Warning	One void operand for '?:'
+CPP4054	1	Compiler Warning	'conversion' : from function pointer 'type1' to data pointer 'type2'
+CPP4055	1	Compiler Warning	'conversion' : from data pointer 'type1' to function pointer 'type2'
+CPP4056	2	Compiler Warning	Overflow in floating point constant arithmetic
+CPP4057	4	Compiler Warning	'operator' : 'identifier1' indirection to slightly different base types from 'identifier2'
+CPP4058	1	Compiler Warning	Unions are now aligned on alignment requirement, not size
+CPP4059	1	Compiler Warning	Pascal string too big, length byte is length % 256
+CPP4060	3	Compiler Warning	Switch statement contains no 'case' or 'default' labels
+CPP4061	4	Compiler Warning	Enumerator 'identifier' in switch of enum 'enumeration' is not explicitly handled by a case label
+CPP4062	3	Compiler Warning	Enumerator 'identifier' in switch of enum 'enumeration' is not handled
+CPP4063	4	Compiler Warning	Case 'identifier' is not a valid value for switch of enum 'enumeration'
+CPP4064	4	Compiler Warning	Switch of incomplete enum 'enumeration'
+CPP4065	3	Compiler Warning	Switch statement contains 'default' but no 'case' labels
+CPP4066	3	Compiler Warning	Characters beyond first in wide-character constant ignored
+CPP4067	1	Compiler Warning	Unexpected tokens following preprocessor directive - expected a newline
+CPP4068	1	Compiler Warning	Unknown pragma
+CPP4069	3	Compiler Warning	Long double is the same precision as double
+CPP4070	1	Compiler Warning	Return of a 'void' expression
+CPP4071	2	Compiler Warning	'function' : no function prototype given
+CPP4072	1	Compiler Warning	'function' : no function prototype on 'convention' function
+CPP4073	3	Compiler Warning	Initializers put in library initialization area
+CPP4074	1	Compiler Warning	Initializers put in compiler reserved initialization area
+CPP4075	1	Compiler Warning	Initializers put in unrecognized initialization area
+CPP4076	1	Compiler Warning	'typemod' : can not be used with type 'typename'
+CPP4077	1	Compiler Warning	Unknown check_stack option
+CPP4078	1	Compiler Warning	Case constant 'value' too big for the type of the switch expression
+CPP4079	1	Compiler Warning	Unexpected token 'token'
+CPP4080	1	Compiler Warning	Expected identifier for segment name; found 'symbol'
+CPP4081	1	Compiler Warning	Expected 'token1'; found 'token2'
+CPP4082	1	Compiler Warning	Expected an identifier; found 'token'
+CPP4083	1	Compiler Warning	Expected 'token'; found identifier 'identifier'
+CPP4084	1	Compiler Warning	Expected a pragma keyword; found 'token'
+CPP4085	1	Compiler Warning	Expected pragma parameter to be 'on' or 'off'
+CPP4086	1	Compiler Warning	Expected pragma parameter to be '1', '2', '4', '8', or '16'
+CPP4087	1	Compiler Warning	'function' : declared with 'void' parameter list
+CPP4088	1	Compiler Warning	'function' : pointer mismatch in actual parameter 'number', formal parameter 'number'
+CPP4089	1	Compiler Warning	'function' : different types in actual parameter 'number', formal parameter 'number'
+CPP4090	1	Compiler Warning	'operation' : different 'modifier' qualifiers
+CPP4091	1	Compiler Warning	'keyword' : ignored on left of 'type' when no variable is declared
+CPP4092	4	Compiler Warning	Sizeof returns 'unsigned long'
+CPP4093	3	Compiler Warning	Unescaped newline in character constant in inactive code
+CPP4094	2	Compiler Warning	Untagged 'token' declared no symbols
+CPP4095	1	Compiler Warning	Expected ')'; found 'token'
+CPP4096	1	Compiler Warning	'a': interface is not a COM interface; will not be emitted to IDL
+CPP4097	1	Compiler Warning	Expected pragma parameter to be 'restore' or 'off'
+CPP4098	1	Compiler Warning	'function' : void function returning a value
+CPP4099	2	Compiler Warning	'identifier' : type name first seen using 'objecttype1' now seen using 'objecttype2'
+CPP4100	4	Compiler Warning	'identifier' : unreferenced formal parameter
+CPP4101	3	Compiler Warning	'identifier' : unreferenced local variable
+CPP4102	3	Compiler Warning	'label' : unreferenced label
+CPP4103	1	Compiler Warning	'filename' : alignment changed after including header, may be due to missing #pragma pack(pop)
+CPP4104	1	Compiler Warning	'identifier' : near data in same_seg pragma; ignored
+CPP4105	1	Compiler Warning	'identifier' : code modifiers only on function or pointer to function
+CPP4106	1	Compiler Warning	Pragma requires an integer between 1 and 127
+CPP4107	1	Compiler Warning	Pragma requires an integer between 15 and 255
+CPP4108	1	Compiler Warning	Pragma requires an integer between 79 and 132
+CPP4109	1	Compiler Warning	Unexpected identifier 'identifier'
+CPP4110	1	Compiler Warning	Unexpected token 'number'
+CPP4111	1	Compiler Warning	Unexpected token 'string'
+CPP4112	1	Compiler Warning	#line requires an integer between 1 and number
+CPP4113	1	Compiler Warning	'identifier1' differs in parameter lists from 'identifier2'
+CPP4114	1	Compiler Warning	Same type qualifier used more than once
+CPP4115	1	Compiler Warning	'type' : named type definition in parentheses
+CPP4116	1	Compiler Warning	Unnamed type definition in parentheses
+CPP4117	1	Compiler Warning	Macro name 'name' is reserved; 'Command' ignored
+CPP4118	1	Compiler Warning	Pragma not supported during fast compile
+CPP4119	1	Compiler Warning	Different bases 'base1' and 'base2' specified
+CPP4120	1	Compiler Warning	Based/unbased mismatch
+CPP4121	4	Compiler Warning	'symbol' : alignment of a member was sensitive to packing
+CPP4122	1	Compiler Warning	'function' : alloc_text applicable only to functions with C linkage
+CPP4123	1	Compiler Warning	different base expressions specified
+CPP4124	1	Compiler Warning	__fastcall with stack checking is inefficient
+CPP4125	4	Compiler Warning	Decimal digit terminates octal escape sequence
+CPP4126	1	Compiler Warning	'option' : unknown memory-model command-line option
+CPP4127	4	Compiler Warning	Conditional expression is constant
+CPP4128	4	Compiler Warning	Storage-class specifier after type
+CPP4129	1	Compiler Warning	'character' : unrecognized character escape sequence
+CPP4130	4	Compiler Warning	'operator' : logical operation on address of string constant
+CPP4131	4	Compiler Warning	'function' : uses old-style declarator
+CPP4132	4	Compiler Warning	'object' : const object should be initialized
+CPP4133	3	Compiler Warning	'type' : incompatible types - from 'type1' to 'type2'
+CPP4134	4	Compiler Warning	Conversion between pointers to members of same class
+CPP4135	3	Compiler Warning	Conversion between different integral types
+CPP4136	3	Compiler Warning	Conversion between different floating-point types
+CPP4137	1	Compiler Warning	'function' : no return value from floating-point function
+CPP4138	1	Compiler Warning	'*/' found outside of comment
+CPP4139	1	Compiler Warning	'hexnumber' : hex escape sequence is out of range
+CPP4141	1	Compiler Warning	'modifier' : used more than once
+CPP4142	1	Compiler Warning	Benign redefinition of type
+CPP4143	1	Compiler Warning	Pragma 'same_seg' not supported; use __based allocation
+CPP4144	1	Compiler Warning	'expression' : relational expression as switch expression
+CPP4145	1	Compiler Warning	'expression1' : relational expression as switch expression; possible confusion with 'expression2'
+CPP4146	2	Compiler Warning	Unary minus operator applied to unsigned type, result still unsigned
+CPP4150	2	Compiler Warning	Deletion of pointer to incomplete type 'type'; no destructor called
+CPP4152	4	Compiler Warning	Non standard extension, function/data ptr conversion in expression
+CPP4153	1	Compiler Warning	Function/data pointer conversion in expression
+CPP4154	1	Compiler Warning	Deletion of an array expression; conversion to pointer supplied
+CPP4155	1	Compiler Warning	Deletion of an array expression without using the array form of 'delete'
+CPP4156	2	Compiler Warning	Deletion of an array expression without using the array form of 'delete'; array form substituted
+CPP4157	1	Compiler Warning	Pragma was ignored by C compiler
+CPP4158	1	Compiler Warning	Assuming #pragma pointers_to_members(full_generality, inheritance)
+CPP4159	3	Compiler Warning	#pragma pragma(pop,...) : has popped previously pushed identifier 'identifier'
+CPP4160	1	Compiler Warning	#pragma pragma(pop,...) : did not find previously pushed identifier 'identifier'
+CPP4161	3	Compiler Warning	#pragma pragma(pop...) : more pops than pushes
+CPP4162	1	Compiler Warning	'identifier' : no function with C linkage found
+CPP4163	1	Compiler Warning	'identifier' : not available as an intrinsic function
+CPP4164	1	Compiler Warning	'identifier' : intrinsic function not declared
+CPP4165	1	Compiler Warning	'HRESULT' is being converted to 'bool'; are you sure this is what you want?
+CPP4166	1	Compiler Warning	Illegal calling convention for constructor/destructor
+CPP4167	1	Compiler Warning	Function : only available as an intrinsic function
+CPP4168	1	Compiler Warning	Compiler limit : out of debugger types, delete program database 'database' and rebuild
+CPP4170	1	Compiler Warning	Unexpected end of file found
+CPP4171	1	Compiler Warning	'identifier' : modifier functions require prototypes
+CPP4172	1	Compiler Warning	Returning address of local variable or temporary
+CPP4173	1	Compiler Warning	Enabling the option option will hinder the performance of incremental compilation
+CPP4174	1	Compiler Warning	'name' : not available as a #pragma component
+CPP4175	1	Compiler Warning	#pragma component(browser, on) : browser info must initially be specified on the command line
+CPP4176	1	Compiler Warning	'subcomponent' : unknown subcomponent for #pragma component browser
+CPP4177	1	Compiler Warning	#pragma pragma should be at global scope
+CPP4178	1	Compiler Warning	Case constant 'constant' too big for the type of the switch expression
+CPP4179	1	Compiler Warning	'//*' : parsed as '/' and '/*': confusion with standard '//' comments
+CPP4180	1	Compiler Warning	Qualifier applied to function type has no meaning; ignored
+CPP4181	1	Compiler Warning	Qualifier applied to reference type; ignored
+CPP4182	1	Compiler Warning	#include nesting level is 'number' deep; possible infinite recursion
+CPP4183	1	Compiler Warning	'identifier': missing return type; assumed to be a member function returning 'int'
+CPP4185	1	Compiler Warning	Ignoring unknown #import attribute 'attribute'
+CPP4186	1	Compiler Warning	#import attribute 'attribute' requires count arguments; ignored
+CPP4187	1	Compiler Warning	#import attributes 'attribute1' and 'attribute2' are incompatible; both ignored
+CPP4188	1	Compiler Warning	constant expression is not integral
+CPP4189	4	Compiler Warning	'identifier' : local variable is initialized but not referenced
+CPP4190	1	Compiler Warning	'identifier1' has C-linkage specified, but returns UDT 'identifier2' which is incompatible with C
+CPP4191	3	Compiler Warning	'operator/operation' : unsafe conversion from 'type of expression' to 'type required'
+CPP4192	3	Compiler Warning	Automatically excluding 'name' while importing type library 'library'
+CPP4193	3	Compiler Warning	#pragma warning(pop): no matching '#pragma warning(push)'
+CPP4194	1	Compiler Warning	#pragma start_map_region cannot be nested; ignored
+CPP4195	1	Compiler Warning	#pragma stop_map_region used without matching #pragma start_map_region; ignored
+CPP4196	1	Compiler Warning	expected '%$L' or '%$L'; found '%$L'
+CPP4197	3	Compiler Warning	'type' : top-level volatile in cast is ignored
+CPP4200	2	Compiler Warning	Nonstandard extension used : zero-sized array in struct/union
+CPP4201	4	Compiler Warning	Nonstandard extension used : nameless struct/union
+CPP4202	4	Compiler Warning	Nonstandard extension used : '...': prototype parameter in name list illegal
+CPP4203	4	Compiler Warning	Nonstandard extension used : union with static member variable
+CPP4204	4	Compiler Warning	Nonstandard extension used : non-constant aggregate initializer
+CPP4205	4	Compiler Warning	Nonstandard extension used : static function declaration in function scope
+CPP4206	4	Compiler Warning	Nonstandard extension used : translation unit is empty
+CPP4207	4	Compiler Warning	Nonstandard extension used : extended initializer form
+CPP4208	4	Compiler Warning	Nonstandard extension used : delete [exp] - exp evaluated but ignored
+CPP4209	4	Compiler Warning	Nonstandard extension used : benign typedef redefinition
+CPP4210	4	Compiler Warning	Nonstandard extension used : function given file scope
+CPP4211	4	Compiler Warning	Nonstandard extension used : redefined extern to static
+CPP4212	4	Compiler Warning	Nonstandard extension used : function declaration used ellipsis
+CPP4213	4	Compiler Warning	Nonstandard extension used : cast on l-value
+CPP4214	4	Compiler Warning	Nonstandard extension used : bit field types other than int
+CPP4215	1	Compiler Warning	Nonstandard extension used : long float
+CPP4216	1	Compiler Warning	Nonstandard extension used : float long
+CPP4217	1	Compiler Warning	'operator' : member template functions cannot be used for copy-assignment or copy-construction
+CPP4218	1	Compiler Warning	Nonstandard extension used : must specify at least a storage class or a type
+CPP4219	1	Compiler Warning	Nonstandard extension used : trailing ',' used for variable argument list
+CPP4220	4	Compiler Warning	Varargs matches remaining parameters
+CPP4221	4	Compiler Warning	Nonstandard extension used : 'identifier' : cannot be initialized using address of automatic variable
+CPP4222	4	Compiler Warning	Nonstandard extension used : 'identifier' : 'static' should not be used on member functions defined at file scope
+CPP4223	1	Compiler Warning	Nonstandard extension used : non-lvalue array converted to pointer
+CPP4224	1	Compiler Warning	Nonstandard extension used : formal parameter 'identifier' was previously defined as a type
+CPP4226	1	Compiler Warning	Nonstandard extension used : 'keyword' is an obsolete keyword
+CPP4227	1	Compiler Warning	Anachronism used : qualifiers on reference are ignored
+CPP4228	1	Compiler Warning	Nonstandard extension used : qualifiers after comma in declarator list are ignored
+CPP4229	1	Compiler Warning	Anachronism used : modifiers on data are ignored
+CPP4230	1	Compiler Warning	Anachronism used : modifiers/qualifiers interspersed; qualifier ignored
+CPP4231	3	Compiler Warning	Nonstandard extension used : 'identifier' before template explicit instantiation
+CPP4232	4	Compiler Warning	Nonstandard extension used : 'identifier' : address of dllimport 'dllimport' is not static, identity not guaranteed
+CPP4233	4	Compiler Warning	Nonstandard extension used : 'keyword' keyword only supported in C++, not C
+CPP4234	4	Compiler Warning	Nonstandard extension used: 'keyword' keyword reserved for future use
+CPP4235	4	Compiler Warning	Nonstandard extension used : 'keyword' keyword not supported on this architecture
+CPP4236	4	Compiler Warning	Nonstandard extension used : 'keyword' is an obsolete keyword, see documentation for __declspec(dllexport)
+CPP4237	1	Compiler Warning	'keyword' keyword is not yet supported, but reserved for future use
+CPP4238	4	Compiler Warning	Nonstandard extension used : class rvalue used as lvalue
+CPP4239	4	Compiler Warning	Nonstandard extension used : 'token' : conversion from 'type' to 'type'
+CPP4240	3	Compiler Warning	Nonstandard extension used : access to 'classname' now defined to be 'access specifier', previously it was defined to be 'access specifier'
+CPP4241	3	Compiler Warning	'member' : member access is restricted
+CPP4242	4	Compiler Warning	'identifier' : conversion from 'type1' to 'type2', possible loss of data
+CPP4243	3	Compiler Warning	'conversion type' conversion exists from 'type1' to 'type2', but is inaccessible
+CPP4244	2	Compiler Warning	'argument' : conversion from 'type1' to 'type2', possible loss of data
+CPP4245	4	Compiler Warning	'conversion' : conversion from 'type1' to 'type2', signed/unsigned mismatch
+CPP4247	3	Compiler Warning	'member' not accessible because 'class1' uses 'access' to inherit from 'class2'
+CPP4248	3	Compiler Warning	'class1' : cannot access 'access' 'member' declared in class 'class2'
+CPP4249	3	Compiler Warning	'class1' : no path to 'access' 'member' declared in virtual base 'class2'
+CPP4250	2	Compiler Warning	'class1' : inherits 'class2::member' via dominance
+CPP4251	1	Compiler Warning	'identifier' : class 'type' needs to have dll-interface to be used by clients of class 'type2'
+CPP4253	1	Compiler Warning	'identifier' : forming a pointer-to-member requires explicit use of the address-of operator ('&') and a qualified name
+CPP4254	4	Compiler Warning	'operator' : conversion from 'type1' to 'type2', possible loss of data
+CPP4255	4	Compiler Warning	'function' : no function prototype given: converting '()' to '(void)'
+CPP4256	4	Compiler Warning	'function' : constructor for class with virtual bases has '...'; calls may not be compatible with older versions of Visual C++
+CPP4258	1	Compiler Warning	'variable' : definition from the for loop is ignored; the definition from the enclosing scope is used"
+CPP4259	1	Compiler Warning	'identifier' : pure virtual function was not defined
+CPP4261	1	Compiler Warning	No override, 'class1::func1' has 'model' calling convention whereas 'class2::func2' has 'model' calling convention
+CPP4263	4	Compiler Warning	'function' : member function does not override any base class virtual member function
+CPP4264	1	Compiler Warning	'virtual_function' : no override available for virtual member function from base 'class'; function is hidden
+CPP4265	3	Compiler Warning	'class' : class has virtual functions, but destructor is not virtual
+CPP4266	4	Compiler Warning	'function' : no override available for virtual member function from base 'type'; function is hidden
+CPP4267	3	Compiler Warning	'var' : conversion from 'size_t' to 'type', possible loss of data
+CPP4268	4	Compiler Warning	'identifier' : 'const' static/global data initialized with compiler generated default constructor fills the object with zeros
+CPP4269	1	Compiler Warning	'identifier' : 'const' automatic data initialized with compiler generated default constructor produces unreliable results
+CPP4270	1	Compiler Warning	Nonstandard extension used: ' ': a non-const ' ' must be initialized with an l-value, not a function returning 'type2'
+CPP4271	1	Compiler Warning	'identifier' : 'naked' functions cannot be 'inline'; inline expansion not performed
+CPP4272	1	Compiler Warning	'function' : is marked __declspec(dllimport); must specify native calling convention when importing a function.
+CPP4273	1	Compiler Warning	'function' : inconsistent DLL linkage
+CPP4274	1	Compiler Warning	#ident ignored; see documentation for #pragma comment(exestr, 'string')
+CPP4275	2	Compiler Warning	Non - DLL-interface classkey 'identifier' used as base for DLL-interface classkey 'identifier'
+CPP4276	1	Compiler Warning	'function' : no prototype provided; assumed no parameters
+CPP4277	1	Compiler Warning	imported item 'classname::member' exists as both data member and function member; data member ignored
+CPP4278	3	Compiler Warning	'identifier': identifier in type library 'tlb' is already a macro; use the 'rename' qualifier
+CPP4279	3	Compiler Warning	'identifier': identifier in type library 'library' is a keyword; use the 'rename' qualifier
+CPP4280	3	Compiler Warning	'operator ->' was self recursive through type 'type'
+CPP4281	3	Compiler Warning	'operator ->' recursion occurred through type 'type'
+CPP4282	3	Compiler Warning	Then through type 'type'
+CPP4283	3	Compiler Warning	And through type 'type'
+CPP4284	2	Compiler Warning	Return type for 'identifier::operator ->' is not a UDT or reference to a UDT. Will produce errors if applied using infix notation
+CPP4285	2	Compiler Warning	Return type for 'identifier::operator ->' is recursive if applied using infix notation
+CPP4286	1	Compiler Warning	'type1' : is caught by base class ('type2') on line number
+CPP4287	3	Compiler Warning	'operator' : unsigned/negative constant mismatch
+CPP4288	1	Compiler Warning	Nonstandard extension used : 'var' : loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+CPP4289	4	Compiler Warning	Nonstandard extension used : 'var' : loop control variable declared in the for-loop is used outside the for-loop scope
+CPP4290	3	Compiler Warning	C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+CPP4291	1	Compiler Warning	'declaration' : no matching operator delete found; memory will not be freed if initialization throws an exception
+CPP4292	3	Compiler Warning	Terminating debug information emission for enum 'enum' with member 'member'
+CPP4293	1	Compiler Warning	'operator' : shift count negative or too big, undefined behavior
+CPP4295	4	Compiler Warning	'array' : array is too small to include a terminating null character
+CPP4296	4	Compiler Warning	'operator' : expression is always false
+CPP4297	1	Compiler Warning	'function' : function assumed not to throw an exception but does
+CPP4298	4	Compiler Warning	'identifier': identifier in type library 'library' is already a macro; renaming to '__identifier'
+CPP4299	4	Compiler Warning	'identifier': identifier in type library 'library' is a keyword; renaming to '__identifier'
+CPP4300	1	Compiler Warning	Conversion of pointer to non-integral type
+CPP4301	4	Compiler Warning	'derived_class::function': overriding virtual function only differs from 'base_class:function' by const/volatile qualifier
+CPP4302	2	Compiler Warning	'conversion' : truncation from 'type 1' to 'type 2'
+CPP4303	1	Compiler Warning	'cast' from 'type1' to 'type2' is deprecated, use static_cast, __try_cast or dynamic_cast
+CPP4304	3	Compiler Warning	'identifier' : simple type cast conversion of no expression
+CPP4305	1	Compiler Warning	'identifier' : truncation from 'type1' to 'type2'
+CPP4306	3	Compiler Warning	'identifier' : conversion from 'type1' to 'type2' of greater size
+CPP4307	2	Compiler Warning	'operator' : integral constant overflow
+CPP4308	2	Compiler Warning	Negative integral constant converted to unsigned type
+CPP4309	2	Compiler Warning	'conversion' : truncation of constant value
+CPP4310	3	Compiler Warning	Cast truncates constant value
+CPP4311	1	Compiler Warning	'variable' : pointer truncation from 'type' to 'type'
+CPP4312	1	Compiler Warning	'operation' : conversion from 'type1' to 'type2' of greater size
+CPP4313	1	Compiler Warning	'function' : 'format specifier' in format string conflicts with argument %d of type 'type'
+CPP4314	3	Compiler Warning	expected pragma parameter to be '32' or '64'
+CPP4315	4	Compiler Warning	'classname': 'this' pointer for member 'member' may not be aligned 'alignment' as expected by the constructor
+CPP4316	3	Compiler Warning	'identifier': object allocated on the heap may not be aligned 'alignment'
+CPP4317	1	Compiler Warning	'printf_family' : not enough arguments passed for format string
+CPP4318	1	Compiler Warning	Passing constant zero as the length to memset
+CPP4319	1	Compiler Warning	'operator' : zero extending 'type' to 'type' of greater size
+CPP4321	1	Compiler Warning	automatically generating an IID for interface '%$S'
+CPP4322	1	Compiler Warning	automatically generating a CLSID for class '%$S'
+CPP4323	1	Compiler Warning	re-using registered CLSID for class '%$S'
+CPP4324	4	Compiler Warning	'struct_name' : structure was padded due to __declspec(align())
+CPP4325	1	Compiler Warning	Attributes for standard section 'section' ignored
+CPP4326	1	Compiler Warning	Return type of 'function' should be 'type1' instead of 'type2'
+CPP4327	3	Compiler Warning	'assignment': indirection alignment of LHS ('alignment1') is greater than RHS ('alignment2')
+CPP4328	4	Compiler Warning	'function' : indirection alignment of formal parameter parameter_number (alignment_value_for_parameter) is greater than the actual argument alignment (actual_alignment)
+CPP4329	1	Compiler Warning	__declspec(align()) is ignored on enum
+CPP4330	1	Compiler Warning	attribute '%s' for section '%s' ignored
+CPP4333	1	Compiler Warning	'operator' : right shift by too large amount, data loss
+CPP4334	3	Compiler Warning	'operator' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+CPP4335	4	Compiler Warning	Mac file format detected: please convert the source file to either DOS or UNIX format
+CPP4336	4	Compiler Warning	Import cross-referenced type library 'type_lib1' before importing 'type_lib1'
+CPP4337	4	Compiler Warning	Cross-referenced type library 'typelib1' in 'typelib2' is being automatically imported
+CPP4338	4	Compiler Warning	#pragma %s: standard section '%s' is used
+CPP4339	4	Compiler Warning	'type' : use of undefined type detected in CLR meta-data - use of this type may lead to a runtime exception
+CPP4340	1	Compiler Warning	'value' : value wrapped from positive to negative value
+CPP4341	3	Compiler Warning	'value' : signed value is out of range for enum constant
+CPP4342	1	Compiler Warning	Behavior change: 'function' called, but a member operator was called in previous versions
+CPP4343	4	Compiler Warning	#pragma optimize("g",off) overrides /Og option
+CPP4344	1	Compiler Warning	Behavior change: use of explicit template arguments results in call to 'function'
+CPP4345	2	Compiler Warning	Behavior change: an object of POD type constructed with an initializer of the form () will be default-initialized
+CPP4346	1	Compiler Warning	'name' : dependent name is not a type
+CPP4347	4	Compiler Warning	Behavior change: 'function template' is called instead of 'function'
+CPP4348	1	Compiler Warning	'type' : redefinition of default parameter : parameter number
+CPP4350	1	Compiler Warning	Behavior change: 'member1' called instead of 'member2'
+CPP4351	1	Compiler Warning	New behavior: elements of array 'array' will be default initialized
+CPP4352	1	Compiler Warning	'%$I': intrinsic function already defined
+CPP4353	1	Compiler Warning	Nonstandard extension used: constant 0 as function expression. Use '__noop' function intrinsic instead
+CPP4354	1	Compiler Warning	'reference' : initialization of reference member requires a temporary variable
+CPP4355	1	Compiler Warning	'this' : used in base member initializer list
+CPP4356	2	Compiler Warning	'member' : static data member cannot be initialized via derived class
+CPP4357	3	Compiler Warning	Param array argument in formal argument list for delegate 'del' ignored when generating 'function'
+CPP4358	1	Compiler Warning	'operator': return type of combined delegates is not 'void'; returned value is undefined
+CPP4359	3	Compiler Warning	'type': actual alignment (8) is greater than the value specified in __declspec(align())
+CPP4362	2	Compiler Warning	'%$S': alignment greater than 8 bytes is not supported by CLR
+CPP4364	1	Compiler Warning	#using for assembly 'file' previously seen at location(line_number) without as_friend attribute; as_friend not applied
+CPP4365	4	Compiler Warning	'action' : conversion from 'type_1' to 'type_2', signed/unsigned mismatch
+CPP4366	4	Compiler Warning	The result of the unary 'operator' operator may be unaligned
+CPP4367	3	Compiler Warning	Conversion from '%$T' to '%$T' may cause datatype misalignment exception
+CPP4368	4	Compiler Warning	Cannot define 'member' as a member of managed 'type': mixed types are not supported
+CPP4369	1	Compiler Warning	'enumerator' : enumerator value 'value' cannot be represented as 'type', value is 'new_value'
+CPP4370	6	Compiler Warning	'classname': layout of class has changed from a previous version of the compiler due to better packing
+CPP4371	3	Compiler Warning	'classname': layout of class may have changed from a previous version of the compiler due to better packing of member 'member'
+CPP4373	3	Compiler Warning	'%$S': virtual function overrides '%$pS', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+CPP4374	1	Compiler Warning	'function1': interface method will not be implemented by non-virtual method 'function2'
+CPP4375	1	Compiler Warning	Non-public method 'method2' does not override 'method1'
+CPP4376	1	Compiler Warning	Access specifier 'old_specifier:' is no longer supported: please use 'new_specifier:' instead
+CPP4377	1	Compiler Warning	Native types are private by default; -d1PrivateNativeTypes is deprecated
+CPP4378	1	Compiler Warning	Must obtain function pointers to run initializers; consider System::ModuleHandle::ResolveMethodHandle
+CPP4379	1	Compiler Warning	Version version of the common language runtime is not supported by this compiler. Using this version may cause unexpected results.
+CPP4380	1	Compiler Warning	'%$S': A default constructor cannot be deprecated
+CPP4381	1	Compiler Warning	'function1': interface method will not be implemented by non-public method 'function2'
+CPP4382	1	Compiler Warning	Throwing 'type' : a type with __clrcall destructor or copy constructor can only be caught in /clr:pure module
+CPP4383	1	Compiler Warning	'instance_dereference_operator' : the meaning of dereferencing a handle can change, when a user-defined 'operator' operator exists; write the operator as a static function to be explicit about the operand
+CPP4384	1	Compiler Warning	#pragma 'make_public' should only be used at global scope
+CPP4385	1	Compiler Warning	'text' the 'identifier1' in base 'identifier2'
+CPP4386	1	Compiler Warning	'text' to the 'identifier1' in base 'identifier2'
+CPP4387	3	Compiler Warning	'%s': was considered
+CPP4388	4	Compiler Warning	'%$L': signed/unsigned mismatch
+CPP4389	4	Compiler Warning	'operator' : signed/unsigned mismatch
+CPP4390	3	Compiler Warning	';' : empty controlled statement found; is this the intent?
+CPP4391	1	Compiler Warning	'signature' : incorrect return type for intrinsic function, expected 'type'
+CPP4392	1	Compiler Warning	'signature' : incorrect number of arguments for intrinsic function, expected 'number' arguments
+CPP4393	1	Compiler Warning	'var' : const has no effect on literal data member; ignored
+CPP4394	4	Compiler Warning	'function' : per-appdomain symbol should not be marked with __declspec(dllexport)
+CPP4395	1	Compiler Warning	'function' : member function will be invoked on a copy of the initonly data member 'member'
+CPP4396	2	Compiler Warning	"name" : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+CPP4397	1	Compiler Warning	DefaultCharSetAttribute is ignored
+CPP4398	3	Compiler Warning	'variable' : per-process global object might not work correctly with multiple appdomains; consider using __declspec(appdomain)
+CPP4399	1	Compiler Warning	'symbol' : per-process symbol should not be marked with __declspec(dllimport) when compiled with /clr:pure
+CPP4400	4	Compiler Warning	'type' : const/volatile qualifiers on this type are not supported
+CPP4401	1	Compiler Warning	'bitfield' : member is bit field
+CPP4402	1	Compiler Warning	Must use PTR operator
+CPP4403	1	Compiler Warning	Illegal PTR operator
+CPP4404	3	Compiler Warning	Period on directive ignored
+CPP4405	1	Compiler Warning	'identifier' : identifier is reserved word
+CPP4406	1	Compiler Warning	Operand on directive ignored
+CPP4407	1	Compiler Warning	Cast between different pointer to member representations, compiler may generate incorrect code
+CPP4408	4	Compiler Warning	Anonymous union did not declare any data members
+CPP4409	1	Compiler Warning	Illegal instruction size
+CPP4410	1	Compiler Warning	Illegal size for operand
+CPP4411	1	Compiler Warning	'identifier' : symbol resolves to displacement register
+CPP4412	2	Compiler Warning	'function' : function signature contains type 'type'; C++ objects are unsafe to pass between pure code and mixed or native.
+CPP4413	2	Compiler Warning	'classname::member': reference member is initialized to a temporary that doesn't persist after the constructor exits
+CPP4414	3	Compiler Warning	'function' : short jump to function converted to near
+CPP4415	1	Compiler Warning	duplicate __declspec(code_seg('name'))
+CPP4416	1	Compiler Warning	__declspec(code_seg(...)) contains empty string: ignored
+CPP4417	1	Compiler Warning	an explicit template instantiation cannot have __declspec(code_seg(...)): ignored
+CPP4418	1	Compiler Warning	__declspec(code_seg(...)) ignored on an enum
+CPP4419	3	Compiler Warning	'symbol' has no effect when applied to private ref class 'class'.
+CPP4420	1	Compiler Warning	'operator' : operator not available, using 'operator' instead; run-time checking may be compromised
+CPP4421	3	Compiler Warning	'parameter': a reference parameter on a resumable function is potentially unsafe
+CPP4423	3	Compiler Warning	'std::bad_alloc': will be caught by class ('type') on line number
+CPP4424	3	Compiler Warning	catch for 'type1' preceded by 'type2' on line number; unpredictable behavior may result if 'std::bad_alloc' is thrown
+CPP4425	1	Compiler Warning	A SAL annotation cannot be applied to '...'
+CPP4426	1	Compiler Warning	optimization flags changed after including header, may be due to #pragma optimize()
+CPP4427	1	Compiler Warning	'operator': overflow in constant division, undefined behavior
+CPP4428	4	Compiler Warning	Universal-character-name encountered in source
+CPP4429	4	Compiler Warning	Possible incomplete or improperly formed universal-character-name
+CPP4430	4	Compiler Warning	Missing type specifier - int assumed. Note: C++ does not support default-int
+CPP4431	4	Compiler Warning	Missing type specifier - int assumed. Note: C no longer supports default-int
+CPP4432	4	Compiler Warning	A destructor in a ref-class must have public accessibility; changing to public access
+CPP4433	4	Compiler Warning	A finalizer must have protected accessibility; changing to protected access
+CPP4434	4	Compiler Warning	A class constructor must have private accessibility; changing to private access
+CPP4435	4	Compiler Warning	'derived_class': Object layout under /vd2 will change due to virtual base 'base_class'
+CPP4436	1	Compiler Warning	dynamic_cast from virtual base 'base_class' to 'derived_class' in constructor or destructor could fail with partially-constructed object
+CPP4437	4	Compiler Warning	dynamic_cast from virtual base 'base_class' to 'derived_class' could fail in some contexts
+CPP4438	2	Compiler Warning	'function': cannot be called safely in /await:clrcompat mode. If 'function' calls into the CLR it may result in CLR head corruption
+CPP4439	4	Compiler Warning	'function' : function definition with a managed type in the signature must have a __clrcall calling convention
+CPP4440	1	Compiler Warning	Calling convention redefinition from 'calling_convention1' to 'calling_convention2' ignored
+CPP4441	1	Compiler Warning	Calling convention of 'cc1' ignored; 'cc2' used instead
+CPP4442	1	Compiler Warning	embedded null terminator in __annotation argument. Value will be truncated.
+CPP4443	1	Compiler Warning	expected pragma parameter to be '0', '1', or '2'
+CPP4444	3	Compiler Warning	'identifier': top level '__unaligned' is not implemented in this context
+CPP4445	1	Compiler Warning	'function' : in a managed type a virtual method cannot be private
+CPP4446	1	Compiler Warning	'type': cannot map member 'name1' into this type, due to conflict with the type name. The method was renamed to 'name2'
+CPP4447	1	Compiler Warning	'main' signature found without threading model. Consider using 'int main(Platform::Array<Platform::String^>^ args)'.
+CPP4448	2	Compiler Warning	'type1' does not have a default interface specified in metadata. Picking: 'type2', which may fail at runtime.
+CPP4449	4	Compiler Warning	'type' an unsealed type should be marked as '[WebHostHidden]'
+CPP4450	4	Compiler Warning	'type1' should be marked as '[WebHostHidden]' because it derives from 'type2'
+CPP4451	4	Compiler Warning	'classname1::member': Usage of ref class 'classname2::member' inside this context can lead to invalid marshaling of object across contexts
+CPP4452	1	Compiler Warning	'identifier': public type cannot be at global scope. It must be in a namespace that is a child of the name of the output .winmd file.
+CPP4453	1	Compiler Warning	'type': A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]'
+CPP4454	1	Compiler Warning	'function' is overloaded by more than the number of input parameters without having [DefaultOverload] specified. Picking 'declaration' as the default overload
+CPP4455	1	Compiler Warning	'operator operator': literal suffix identifiers that do not start with an underscore are reserved
+CPP4456	3	Compiler Warning	Declaration hides previous local declaration
+CPP4457	3	Compiler Warning	Declaration hides function parameter
+CPP4458	3	Compiler Warning	Declaration hides class member
+CPP4459	3	Compiler Warning	Declaration hides global declaration
+CPP4460	4	Compiler Warning	CLR operator 'operator', has parameter passed by reference. CLR operator 'operator' has different semantics from C++ operator 'operator', did you intend to pass by value?
+CPP4461	1	Compiler Warning	'type' : this class has a finalizer 'finalizer' but no destructor 'dtor'
+CPP4462	1	Compiler Warning	'type' : cannot determine the GUID of the type. Program may fail at runtime.
+CPP4463	4	Compiler Warning	overflow; assigning 'value' to bit-field that can only hold values from 'min_value' to 'max_value'
+CPP4464	4	Compiler Warning	relative include path contains '..'
+CPP4467	4	Compiler Warning	usage of ATL attributes is deprecated
+CPP4468	3	Compiler Warning	'fallthrough': attribute must be followed by a case label or a default label
+CPP4470	1	Compiler Warning	Floating-point control pragmas ignored under /clr
+CPP4471	4	Compiler Warning	'enumeration': a forward declaration of an unscoped enumeration must have an underlying type (int assumed)
+CPP4472	1	Compiler Warning	'identifier' is a native enum: add an access specifier (private/public) to declare a 'WinRT|managed' enum
+CPP4474	3	Compiler Warning	Too many arguments passed for format string
+CPP4477	1	Compiler Warning	Format string 'string' requires an argument of type 'type', but variadic argument number has type 'type'
+CPP4480	4	Compiler Warning	Nonstandard extension used: specifying underlying type for enum 'enum'
+CPP4481	4	Compiler Warning	Nonstandard extension used: override specifier 'keyword'
+CPP4482	1	Compiler Warning	Nonstandard extension used: enum 'enum' used in qualified name
+CPP4483	1	Compiler Warning	syntax error: expected C++ keyword
+CPP4484	4	Compiler Warning	'override_function' : matches base ref class method 'base_class_function', but is not marked 'virtual', 'new' or 'override'; 'new' (and not 'virtual') is assumed
+CPP4485	4	Compiler Warning	'override_function' : matches base ref class method 'base_class_function ', but is not marked 'new' or 'override'; 'new' (and 'virtual') is assumed
+CPP4486	1	Compiler Warning	'function' : a private virtual method of a ref class or value class should be marked 'sealed'
+CPP4487	4	Compiler Warning	'derived_class_function' : matches inherited non-virtual method 'base_class_function' but is not explicitly marked 'new'
+CPP4488	1	Compiler Warning	'function' : requires 'keyword' keyword to implement the interface method 'interface_method'
+CPP4489	1	Compiler Warning	'specifier' : not allowed on interface method 'method'; override specifiers are only allowed on ref class and value class methods
+CPP4490	1	Compiler Warning	'override' : incorrect use of override specifier; 'function' does not match a base ref class method
+CPP4491	1	Compiler Warning	'name': has an illegal IDL version format
+CPP4492	1	Compiler Warning	'function1': matches base ref class method 'function2', but is not marked 'override'
+CPP4493	3	Compiler Warning	delete expression has no effect as the destructor of 'type' does not have 'public' accessibility
+CPP4494	1	Compiler Warning	'function' : Ignoring __declspec(allocator) because the function return type is not a pointer or reference
+CPP4499	4	Compiler Warning	'function' : an explicit specialization cannot have a storage class (ignored)"
+CPP4500	2	Compiler Warning	'class' : class has private/protected data members; user-defined constructor advised
+CPP4501	1	Compiler Warning	'identifier' : use of '::' unnecessary here
+CPP4502	1	Compiler Warning	'linkage specification' requires use of keyword 'extern' and must precede all other specifiers
+CPP4503	1	Compiler Warning	'identifier' : decorated name length exceeded, name was truncated
+CPP4504	4	Compiler Warning	Type still ambiguous after parsing 'number' tokens, assuming declaration
+CPP4505	4	Compiler Warning	'function' : unreferenced local function has been removed
+CPP4506	1	Compiler Warning	No definition for inline function 'function'
+CPP4507	4	Compiler Warning	Explicit linkage specified after default linkage was used
+CPP4508	1	Compiler Warning	'function' : function should return a value; 'void' return type assumed
+CPP4509	3	Compiler Warning	Nonstandard extension used: 'function' uses SEH and 'object' has destructor
+CPP4510	4	Compiler Warning	'class' : default constructor could not be generated
+CPP4511	3	Compiler Warning	'class' : copy constructor could not be generated
+CPP4512	4	Compiler Warning	'class' : assignment operator could not be generated
+CPP4513	4	Compiler Warning	'class' : destructor could not be generated
+CPP4514	4	Compiler Warning	'function' : unreferenced inline function has been removed
+CPP4515	4	Compiler Warning	'namespace' : namespace uses itself
+CPP4516	4	Compiler Warning	'class::symbol' : access-declarations are deprecated; member using-declarations provide a better alternative
+CPP4517	4	Compiler Warning	Access-declarations are deprecated; member using-declarations provide a better alternative
+CPP4518	1	Compiler Warning	'specifier' : storage-class or type specifier(s) unexpected here; ignored
+CPP4519	1	Compiler Warning	Default template arguments are only allowed on a class template
+CPP4520	3	Compiler Warning	'class' : multiple default constructors specified
+CPP4521	3	Compiler Warning	'class' : multiple copy constructors specified
+CPP4522	3	Compiler Warning	'class' : multiple assignment operators specified
+CPP4523	3	Compiler Warning	'class' : multiple destructors specified
+CPP4524	3	Compiler Warning	'class' : redundant use of 'friend' on destructor
+CPP4525	3	Compiler Warning	'class' : redundant use of 'friend' on constructor
+CPP4526	1	Compiler Warning	'function' : static member function cannot override virtual function 'virtual function'override ignored, virtual function will be hidden
+CPP4527	3	Compiler Warning	Instances of type 'class' can never be destroyed - user-defined destructor required
+CPP4530	1	Compiler Warning	C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+CPP4531	1	Compiler Warning	C++ exception handling not available on Windows CE. Use Structured Exception Handling
+CPP4532	1	Compiler Warning	'continue' : jump out of __finally/finally block has undefined behavior during termination handling
+CPP4533	1	Compiler Warning	Initialization of 'variable' is skipped by 'instruction'
+CPP4534	3	Compiler Warning	'constructor' will not be a default constructor for class 'class' due to the default argument
+CPP4535	3	Compiler Warning	Calling _set_se_translator() requires /EHa
+CPP4536	4	Compiler Warning	'type name' : type-name exceeds meta-data limit of 'limit' characters
+CPP4537	1	Compiler Warning	'object' : 'operator' applied to non-UDT type
+CPP4538	3	Compiler Warning	'type' : const/volatile qualifiers on this type are not supported
+CPP4539	1	Compiler Warning	'char': a universal-character-name specifies an invalid character
+CPP4540	1	Compiler Warning	Dynamic_cast used to convert to inaccessible or ambiguous base; run-time test will fail ('type1' to 'type2')
+CPP4541	1	Compiler Warning	'identifier' used on polymorphic type 'type' with /GR-; unpredictable behavior may result
+CPP4542	1	Compiler Warning	Skipping generation of merged injected text file, cannot write filetype file: 'issue': message
+CPP4543	3	Compiler Warning	Injected text suppressed by attribute 'no_injected_text'
+CPP4544	1	Compiler Warning	Default arguments on template declaration ignored
+CPP4545	1	Compiler Warning	Expression before comma evaluates to a function which is missing an argument list
+CPP4546	1	Compiler Warning	Function call before comma missing argument list
+CPP4547	1	Compiler Warning	'operator' : operator before comma has no effect; expected operator with side-effect
+CPP4548	1	Compiler Warning	Expression before comma has no effect; expected expression with side-effect
+CPP4549	1	Compiler Warning	'operator' : operator before comma has no effect; did you intend 'operator'?
+CPP4550	1	Compiler Warning	Expression evaluates to a function which is missing an argument list
+CPP4551	1	Compiler Warning	Function call missing argument list
+CPP4552	1	Compiler Warning	'operator' : operator has no effect; expected operator with side-effect
+CPP4553	1	Compiler Warning	'operator' : operator has no effect; did you intend 'operator'?
+CPP4554	3	Compiler Warning	'operator' : check operator precedence for possible error; use parentheses to clarify precedence
+CPP4555	1	Compiler Warning	Expression has no effect; expected expression with side-effect
+CPP4556	1	Compiler Warning	Value of intrinsic immediate argument 'value' is out of range 'lowerbound - upperbound'
+CPP4557	3	Compiler Warning	'__assume' contains effect 'effect'
+CPP4558	1	Compiler Warning	Value of operand 'value' is out of range 'lowerbound - upperbound'
+CPP4559	4	Compiler Warning	'function' : redefinition; the function gains __declspec(modifier)
+CPP4561	1	Compiler Warning	'__fastcall' incompatible with the '/clr' option: converting to '__stdcall'
+CPP4562	4	Compiler Warning	fully prototyped functions are required with the '/clr' option: converting '()' to '(void)'
+CPP4564	4	Compiler Warning	Method 'method' of class 'class' defines unsupported default parameter 'parameter'
+CPP4565	4	Compiler Warning	'function' : redefinition; the symbol was previously declared with __declspec(modifier)
+CPP4566	1	Compiler Warning	Character represented by universal-character-name 'char' cannot be represented in the current code page (page)
+CPP4568	1	Compiler Warning	'function': no members match the signature of the explicit override
+CPP4569	3	Compiler Warning	'function': no members match the signature of the explicit override
+CPP4570	3	Compiler Warning	'type' : is not explicitly declared as abstract but has abstract functions
+CPP4571	4	Compiler Warning	Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
+CPP4572	1	Compiler Warning	[ParamArray] attribute is deprecated under /clr, use '...' instead
+CPP4573	1	Compiler Warning	the usage of 'lambda function' requires the compiler to capture 'this' but the current default capture mode does not allow it
+CPP4574	4	Compiler Warning	'Identifier' is defined to be '0': did you mean to use '#if identifier'?
+CPP4575	1	Compiler Warning	'__vectorcall' incompatible with the '/clr' option: converting to '__stdcall'
+CPP4576	1	Compiler Warning	a parenthesized type followed by an initializer list is a non-standard explicit type conversion syntax
+CPP4577	1	Compiler Warning	'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed.
+CPP4578	1	Compiler Warning	'abs': conversion from 'type1' to 'type2', possible loss of data (Did you mean to call 'function' or to #include ?)
+CPP4580	3	Compiler Warning	[attribute] is deprecated; instead specify System::Attribute as a base class
+CPP4581	1	Compiler Warning	Deprecated behavior: '"string1"' replaced with 'string2' to process attribute
+CPP4582	4	Compiler Warning	'type': constructor is not implicitly called
+CPP4583	4	Compiler Warning	'type': destructor is not implicitly called
+CPP4584	1	Compiler Warning	'class1' : base-class 'class2' is already a base-class of 'class3'
+CPP4585	1	Compiler Warning	'class': A WinRT 'public ref class' must either be sealed or derive from an existing unsealed class
+CPP4586	1	Compiler Warning	'type': A public type cannot be declared in a top-level namespace called 'Windows'
+CPP4587	1	Compiler Warning	'anonymous_structure': behavior change: constructor is no longer implicitly called
+CPP4588	1	Compiler Warning	'anonymous_structure': behavior change: destructor is no longer implicitly called
+CPP4589	1	Compiler Warning	Constructor of abstract class 'type' ignores initializer for virtual base class 'type'
+CPP4591	1	Compiler Warning	'constexpr' call-depth limit of number exceeded (/constexpr:depth<NUMBER>)
+CPP4592	3	Compiler Warning	'function': 'constexpr' call evaluation failed; function will be called at run-time
+CPP4593	1	Compiler Warning	'function': 'constexpr' call evaluation step limit of 'limit' exceeded; use /constexpr:steps<NUMBER> to increase the limit
+CPP4594	3	Compiler Warning	'type': destructor will not be implicitly called if an exception is thrown
+CPP4595	1	Compiler Warning	'type': behavior change: destructor will no longer be implicitly called if an exception is thrown
+CPP4596	4	Compiler Warning	'identifier': illegal qualified name in member declaration
+CPP4597	1	Compiler Warning	undefined behavior: description
+CPP4598	1	Compiler Warning	'#include "header"': header number number in the precompiled header does not match current compilation at that position
+CPP4599	3	Compiler Warning	'flag path': command line argument number number does not match precompiled header
+CPP4600	1	Compiler Warning	#pragma 'macro name' : expected a valid non-empty string
+CPP4602	1	Compiler Warning	#pragma pop_macro : 'macro name' no previous #pragma push_macro for this identifier
+CPP4603	1	Compiler Warning	'<identifier>' : macro is not defined or definition is different after precompiled header use
+CPP4604	1	Compiler Warning	'type': passing argument by value across native and managed boundary requires valid copy constructor. Otherwise the runtime behavior is undefined
+CPP4605	1	Compiler Warning	'/Dmacro' specified on current command line, but was not specified when precompiled header was built
+CPP4606	1	Compiler Warning	#pragma warning : 'warning_number' ignored; Code Analysis warnings are not associated with warning levels
+CPP4608	3	Compiler Warning	'union_member' has already been initialized by another union member in the initializer list, 'union_member'
+CPP4609	3	Compiler Warning	'type1' derives from default interface 'interface' on type 'type2'. Use a different default interface for 'type1', or break the base/derived relationship.
+CPP4610	4	Compiler Warning	Object 'class' can never be instantiated - user-defined constructor required
+CPP4611	4	Compiler Warning	Interaction between 'function' and C++ object destruction is non-portable
+CPP4612	1	Compiler Warning	Error in include filename
+CPP4613	1	Compiler Warning	'segment' : class of segment cannot be changed
+CPP4614	1	Compiler Warning	'type' : varargs parameters with this type were promoted
+CPP4615	1	Compiler Warning	#pragma warning : unknown user warning type
+CPP4616	1	Compiler Warning	#pragma warning : warning number 'number' not a valid compiler warning
+CPP4617	1	Compiler Warning	#pragma warning : invalid warning number
+CPP4618	1	Compiler Warning	Pragma parameters included an empty string; pragma ignored
+CPP4619	3	Compiler Warning	#pragma warning : there is no warning number 'number'
+CPP4620	1	Compiler Warning	No postfix form of 'operator ++' found for type 'type', using prefix form
+CPP4621	1	Compiler Warning	No postfix form of 'operator --' found for type 'type', using prefix form
+CPP4622	3	Compiler Warning	Overwriting debug information formed during creation of the precompiled header in object file: 'file'
+CPP4623	4	Compiler Warning	'derived class' : default constructor could not be generated because a base class default constructor is inaccessible
+CPP4624	1	Compiler Warning	'derived class' : destructor could not be generated because a base class destructor is inaccessible
+CPP4625	4	Compiler Warning	'derived class' : copy constructor could not be generated because a base class copy constructor is inaccessible
+CPP4626	4	Compiler Warning	'derived class' : assignment operator could not be generated because a base class assignment operator is inaccessible
+CPP4627	1	Compiler Warning	'<identifier>': skipped when looking for precompiled header use
+CPP4628	1	Compiler Warning	Digraphs not supported with -Ze. Character sequence 'digraph' not interpreted as alternate token for 'char'
+CPP4629	4	Compiler Warning	Digraph used, character sequence 'digraph' interpreted as token 'char' (insert a space between the two characters if this is not what you intended)
+CPP4630	1	Compiler Warning	'symbol' : 'extern' storage class specifier illegal on member definition
+CPP4631	1	Compiler Warning	MSXML or XPath unavailable, XML document comments will not be processed. reason
+CPP4632	1	Compiler Warning	XML document comment: file - access denied: reason
+CPP4633	3	Compiler Warning	XML document comment target: error: reason
+CPP4634	4	Compiler Warning	XML document comment: cannot be applied: reason
+CPP4635	3	Compiler Warning	XML document comment target: badly-formed XML: reason
+CPP4636	3	Compiler Warning	XML document comment applied to 'construct': tag requires non-empty '' attribute.
+CPP4637	3	Compiler Warning	XML document comment target: <include> tag discarded. reason
+CPP4638	3	Compiler Warning	XML document comment target: reference to unknown symbol 'symbol'
+CPP4639	4	Compiler Warning	MSXML error, XML document comments will not be processed. reason
+CPP4640	3	Compiler Warning	'instance' : construction of local static object is not thread-safe
+CPP4641	3	Compiler Warning	XML document comment has an ambiguous cross reference
+CPP4642	2	Compiler Warning	'issue': could not import the constraints for generic parameter 'parameter'
+CPP4643	2	Compiler Warning	Forward declaring 'identifier' in namespace std is not permitted by the C++ Standard.
+CPP4644	3	Compiler Warning	usage of the macro-based offsetof pattern in constant expressions is non-standard; use offsetof defined in the C++ standard library instead
+CPP4645	3	Compiler Warning	Function declared with __declspec(noreturn) has a return statement
+CPP4646	3	Compiler Warning	Function declared with __declspec(noreturn) has non-void return type
+CPP4647	3	Compiler Warning	behavior change: __is_pod(type) has different value in previous versions
+CPP4648	3	Compiler Warning	standard attribute 'carries_dependency' is ignored
+CPP4649	3	Compiler Warning	attributes are ignored in this context
+CPP4650	1	Compiler Warning	Debugging information not in precompiled header; only global symbols from the header will be available
+CPP4651	1	Compiler Warning	'definition' specified for precompiled header but not for current compile
+CPP4652	1	Compiler Warning	Compiler option 'option' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+CPP4653	2	Compiler Warning	Compiler option 'option' inconsistent with precompiled header; current command-line option ignored
+CPP4654	4	Compiler Warning	Code placed before include of precompiled header line will be ignored. Add code to precompiled header.
+CPP4655	1	Compiler Warning	'symbol' : variable type is new since the last build, or is defined differently elsewhere
+CPP4656	1	Compiler Warning	'symbol' : data type is new or has changed since the last build, or is defined differently elsewhere
+CPP4657	1	Compiler Warning	Expression involves a data type that is new since the last build
+CPP4658	1	Compiler Warning	'function' : function prototype is new since the last build, or is declared differently elsewhere
+CPP4659	1	Compiler Warning	#pragma 'pragma' : use of reserved segment 'segment' has undefined behavior, use #pragma comment(linker, ...)
+CPP4660	2	Compiler Warning	Template-class specialization 'identifier' is already instantiated
+CPP4661	1	Compiler Warning	'identifier' : no suitable definition provided for explicit template instantiation request
+CPP4662	1	Compiler Warning	Explicit instantiation; template-class 'identifier1' has no definition from which to specialize 'identifier2'
+CPP4663	4	Compiler Warning	C++ language change: to explicitly specialize class template 'identifier' use the following syntax:
+CPP4665	4	Compiler Warning	C++ language change: assuming 'declaration' is an explicit specialization of a function template
+CPP4666	1	Compiler Warning	'declaration' : function differs from 'declaration' only by calling convention
+CPP4667	1	Compiler Warning	'function' : no function template defined that matches forced instantiation
+CPP4668	4	Compiler Warning	'symbol' is not defined as a preprocessor macro, replacing with '0' for 'directives'
+CPP4669	1	Compiler Warning	'cast' : unsafe conversion: 'class' is a managed type object
+CPP4670	4	Compiler Warning	'identifier' : this base class is inaccessible
+CPP4671	4	Compiler Warning	'identifier' : the copy constructor is inaccessible
+CPP4672	4	Compiler Warning	'identifier1' : ambiguous. First seen as 'identifier2'
+CPP4673	4	Compiler Warning	Throwing 'identifier' the following types will not be considered at the catch site
+CPP4674	1	Compiler Warning	'method' should be declared 'static' and have exactly one parameter
+CPP4676	4	Compiler Warning	'%s': the destructor is inaccessible
+CPP4677	1	Compiler Warning	'function': signature of non-private member contains assembly private type 'private_type'
+CPP4678	1	Compiler Warning	Base class 'base_type' is less accessible than 'derived_type'
+CPP4679	1	Compiler Warning	The compiler encountered a construct that it cannot support, that cannot be imported from metadata.
+CPP4680	4	Compiler Warning	'class' : coclass does not specify a default interface
+CPP4681	4	Compiler Warning	'class' : coclass does not specify a default interface that is an event source
+CPP4682	4	Compiler Warning	'parameter' : no directional parameter attribute specified, defaulting to [in]
+CPP4683	1	Compiler Warning	'function': event source has an 'out'-parameter; exercise caution when hooking multiple event handlers
+CPP4684	1	Compiler Warning	'attribute' : WARNING!! attribute may cause invalid code generation: use with caution
+CPP4685	1	Compiler Warning	Expecting '> >' found '>>' when parsing template parameters
+CPP4686	3	Compiler Warning	'user-defined type' : possible change in behavior, change in UDT return calling convention
+CPP4687	4	Compiler Warning	'class': a sealed abstract class cannot implement an interface 'interface'
+CPP4688	1	Compiler Warning	'constraint': constraint list contains assembly private type 'type'
+CPP4689	1	Compiler Warning	'%c': unsupported character in #pragma detect_mismatch; #pragma ignored
+CPP4690	4	Compiler Warning	[ emitidl( pop ) ] : more pops than pushes
+CPP4691	1	Compiler Warning	'type' : type referenced was expected in unreferenced assembly 'file', type defined in current translation unit used instead
+CPP4692	1	Compiler Warning	'function': signature of non-private member contains assembly private native type 'native_type'
+CPP4693	4	Compiler Warning	'class': a sealed abstract class cannot have any instance members 'Test'
+CPP4694	4	Compiler Warning	'class_1': a sealed abstract class cannot have a base-class 'base_class'
+CPP4695	1	Compiler Warning	#pragma execution_character_set: 'character set' is not a supported argument: currently only 'UTF-8' is supported
+CPP4696	1	Compiler Warning	/ZBvalue1 option out of range; assuming 'value2'
+CPP4698	3	Compiler Warning	'feature' is for evaluation purposes only and is subject to change or removal in future updates.
+CPP4699	4	Compiler Warning	Note: pre-compiled header usage information message
+CPP4700	1	Compiler Warning	Uninitialized local variable 'name' used
+CPP4701	4	Compiler Warning	Potentially uninitialized local variable 'name' used
+CPP4702	4	Compiler Warning	Unreachable code
+CPP4703	4	Compiler Warning	Potentially uninitialized local pointer variable 'name' used
+CPP4705	4	Compiler Warning	Statement has no effect
+CPP4706	4	Compiler Warning	Assignment within conditional expression
+CPP4709	4	Compiler Warning	Comma operator within array index expression
+CPP4710	4	Compiler Warning	'function' : function not inlined
+CPP4711	1	Compiler Warning	Function 'function' selected for inline expansion
+CPP4712	2	Compiler Warning	'symbol' : used as register - loss of debugging information
+CPP4713	1	Compiler Warning	Internal compiler error: restartable
+CPP4714	4	Compiler Warning	Function 'function' marked as __forceinline not inlined
+CPP4715	1	Compiler Warning	'function' : not all control paths return a value
+CPP4716	1	Compiler Warning	'function' must return a value
+CPP4717	1	Compiler Warning	'function' : recursive on all control paths, function will cause runtime stack overflow
+CPP4718	4	Compiler Warning	'function call' : recursive call has no side effects, deleting
+CPP4719	1	Compiler Warning	Double constant found when Qfast specified - use 'f' as a suffix to indicate single precision
+CPP4720	2	Compiler Warning	'initializing' : do not initialize a non-const 'type1' with a non-lvalue 'type2' function return
+CPP4721	1	Compiler Warning	'function': not available as an intrinsic
+CPP4722	1	Compiler Warning	'function' : destructor never returns, potential memory leak
+CPP4723	3	Compiler Warning	Potential divide by 0
+CPP4724	3	Compiler Warning	Potential mod by 0
+CPP4725	4	Compiler Warning	Instruction may be inaccurate on some Pentiums
+CPP4726	1	Compiler Warning	'option' : unknown memory-model command-line option
+CPP4727	1	Compiler Warning	"PCH named pch_file with same timestamp found in obj_file_1 and obj_file_2. Using first PCH.
+CPP4728	1	Compiler Warning	Attempt to take address of function identifier produces address of jump table entry
+CPP4729	1	Compiler Warning	Function too big for flow graph based warnings
+CPP4730	1	Compiler Warning	'main' : mixing _m64 and floating point expressions may result in incorrect code
+CPP4731	1	Compiler Warning	'pointer' : frame pointer register 'register' modified by inline assembly code
+CPP4732	1	Compiler Warning	intrinsic '%s' is not supported in this architecture
+CPP4733	1	Compiler Warning	Inline asm assigning to 'FS:0' : handler not registered as safe handler
+CPP4734	1	Compiler Warning	More than 64k line numbers in a COFF debug info section; stop emitting COFF debug line numbers for module 'module'
+CPP4738	3	Compiler Warning	Storing 32-bit float result in memory, possible loss of performance
+CPP4739	1	Compiler Warning	Reference to variable 'var' exceeds its storage space
+CPP4740	4	Compiler Warning	Flow in or out of inline asm code suppresses global optimization
+CPP4741	1	Compiler Warning	/Oq option ignored for __fastcall function 'function'
+CPP4742	1	Compiler Warning	'var' has different alignment in 'file1' and 'file2': number and number
+CPP4743	1	Compiler Warning	'type' has different size in 'file1' and 'file2': number and number bytes
+CPP4744	1	Compiler Warning	'var' has different type in 'file1' and 'file2': 'type1' and 'type2'
+CPP4746	4	Compiler Warning	volatile access of 'expression' is subject to /volatile:<iso|ms> setting; consider using __iso_volatile_load/store intrinsic functions
+CPP4747	1	Compiler Warning	Calling managed 'entrypoint': Managed code may not be run under loader lock, including the DLL entrypoint and calls reached from the DLL entrypoint
+CPP4748	3	Compiler Warning	/GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+CPP4749	3	Compiler Warning	conditionally supported: description
+CPP4750	1	Compiler Warning	'identifier': function with _alloca() inlined into a loop
+CPP4751	4	Compiler Warning	/arch:AVX does not apply to Intel(R) Streaming SIMD Extensions that are within inline ASM
+CPP4752	4	Compiler Warning	found Intel(R) Advanced Vector Extensions; consider using /arch:AVX
+CPP4754	4	Compiler Warning	Conversion rules for arithmetic operations in the comparison at %s(%d) mean that one branch cannot be executed. Cast '%s' to '%s' (or similar type of %d bytes).
+CPP4755	3	Compiler Warning	Conversion rules for arithmetic operations in the comparison at %s(%d) mean that one branch cannot be executed in an inlined function. Cast '%s' to '%s' (or similar type of %d bytes).
+CPP4756	2	Compiler Warning	Overflow in constant arithmetic
+CPP4757	4	Compiler Warning	subscript is a large unsigned value, did you intend a negative constant?
+CPP4761	1	Compiler Warning	Integral size mismatch in argument : conversion supplied
+CPP4763	2	Compiler Warning	'function' : function too large for postoptimizer
+CPP4764	4	Compiler Warning	Cannot align catch objects to greater than 16 bytes
+CPP4765	2	Compiler Warning	Recoverable heap overflow in postoptimizer
+CPP4766	2	Compiler Warning	Local symbol-table overflow
+CPP4767	4	Compiler Warning	section name '%s' is longer than 8 characters and will be truncated by the linker
+CPP4768	4	Compiler Warning	__declspec attributes before linkage specification are ignored
+CPP4770	4	Compiler Warning	partially validated enum 'name' used as index
+CPP4771	3	Compiler Warning	Bounds must be created using a simple pointer; MPX intrinsic function ignored
+CPP4772	1	Compiler Warning	#import referenced a type from a missing type library; 'missing_type' used as a placeholder
+CPP4773	1	Compiler Warning	Scoping too deep; deepest scoping merged when debugging
+CPP4774	4	Compiler Warning	'string' : format string expected in argument number is not a string literal
+CPP4775	3	Compiler Warning	nonstandard extension used in format string 'string' of function 'function'
+CPP4776	1	Compiler Warning	'%character' is not allowed in the format string of function 'function'
+CPP4777	4	Compiler Warning	'function' : format string 'string' requires an argument of type 'type1', but variadic argument number has type 'type2'
+CPP4778	3	Compiler Warning	'function' : unterminated format string 'string'
+CPP4784	1	Compiler Warning	Cannot initialize code-based pointer to 'identifier' in small model - generating large model
+CPP4786	1	Compiler Warning	'identifier' : identifier was truncated to 'number' characters in the debug information
+CPP4788	1	Compiler Warning	'identifier' : identifier was truncated to 'number' characters
+CPP4789	1	Compiler Warning	Destination of memory copy is too small
+CPP4790	2	Compiler Warning	Insufficient memory to process debugging information
+CPP4791	2	Compiler Warning	Loss of debugging information caused by optimization
+CPP4792	3	Compiler Warning	Function 'function' declared using sysimport and referenced from native code; import library required to link
+CPP4793	1	Compiler Warning	'function' : function is compiled as native code: 'reason'
+CPP4794	1	Compiler Warning	Segment of thread local storage variable 'variable' changed from 'section name' to '.tls$'
+CPP4798	1	Compiler Warning	Native code generated for p-code function 'function' with exception handler or unwind semantics
+CPP4799	1	Compiler Warning	No EMMS at end of function 'function'
+CPP4800	3	Compiler Warning	'type' : forcing value to bool 'true' or 'false' (performance warning)
+CPP4801	4	Compiler Warning	Return by reference is not verifiable: reason
+CPP4803	1	Compiler Warning	'method' : the raise method has a different storage class from that of the event, 'event'
+CPP4804	1	Compiler Warning	'operation' : unsafe use of type 'bool' in operation
+CPP4805	1	Compiler Warning	'operation' : unsafe mix of type 'type' and type 'type' in operation
+CPP4806	1	Compiler Warning	'operation' : unsafe operation: no value of type 'type' promoted to type 'type' can equal the given constant
+CPP4807	1	Compiler Warning	'operation' : unsafe mix of type 'type' and signed bitfield of type 'type'
+CPP4808	1	Compiler Warning	Case 'value' is not a valid value for switch condition of type 'bool'
+CPP4809	1	Compiler Warning	Switch statement has redundant 'default' label; all possible 'case' labels are given
+CPP4810	1	Compiler Warning	Value of pragma pack(show) == n
+CPP4811	1	Compiler Warning	Value of pragma conform(forScope, show) == value
+CPP4812	1	Compiler Warning	Obsolete declaration style: please use 'new_syntax' instead
+CPP4813	1	Compiler Warning	'function' : a friend function of a local class must have been previously declared
+CPP4815	4	Compiler Warning	'var' : zero-sized array in stack object will have no elements (unless the object is an aggregate that has been aggregate initialized)
+CPP4816	4	Compiler Warning	'param' : parameter has a zero-sized array which will be truncated (unless the object is passed by reference)
+CPP4817	1	Compiler Warning	'member' : illegal use of '.' to access this member; compiler replaced with '->'
+CPP4819	1	Compiler Warning	The file contains a character that cannot be represented in the current code page (number). Save the file in Unicode format to prevent data loss.
+CPP4820	4	Compiler Warning	'bytes' bytes padding added after construct 'member_name'
+CPP4821	1	Compiler Warning	Unable to determine Unicode encoding type, please save the file with signature (BOM)
+CPP4822	1	Compiler Warning	'member' : local class member function does not have a body
+CPP4823	3	Compiler Warning	'function' : uses pinning pointers but unwind semantics are not enabled. Consider using /EHa
+CPP4826	2	Compiler Warning	Conversion from 'type1 ' to 'type_2' is sign-extended. This may cause unexpected runtime behavior.
+CPP4827	3	Compiler Warning	A public 'ToString' method with 0 parameters should be marked as virtual and override
+CPP4829	1	Compiler Warning	Possibly incorrect parameters to function main. Consider 'int main(array<System::String^>^ argv)'
+CPP4832	1	Compiler Warning	Token 'token' is illegal after UDT 'type name'
+CPP4834	3	Compiler Warning	discarding return value of function with 'nodiscard' attribute
+CPP4835	1	Compiler Warning	'variable' : the initializer for exported data will not be run until managed code is first executed in the host assembly
+CPP4836	1	Compiler Warning	Nonstandard extension used : 'type' : local types or unnamed types cannot be used as template arguments
+CPP4837	4	Compiler Warning	Trigraph detected: '??%c' replaced by '%c'
+CPP4838	1	Compiler Warning	conversion from 'type_1' to 'type_2' requires a narrowing conversion
+CPP4839	2	Compiler Warning	non-standard use of class 'class' as an argument to a variadic function
+CPP4840	2	Compiler Warning	non-portable use of class 'class' as an argument to a variadic function
+CPP4841	2	Compiler Warning	non-standard extension used: extension
+CPP4842	2	Compiler Warning	the result of 'offsetof' applied to a type using multiple inheritance is not guaranteed to be consistent between compiler releases
+CPP4843	1	Compiler Warning	'type1': An exception handler of reference to array or function type is unreachable, use 'type2' instead
+CPP4844	4	Compiler Warning	'export module module_name;' is now the preferred syntax for declaring a module interface
+CPP4845	4	Compiler Warning	'__declspec(no_init_all)' is ignored if '/d1initall[0|1|2|3]' was not specified on the command line
+CPP4846	2	Compiler Warning	'value' is not a valid argument for '/d1initall': command-line flag ignored
+CPP4847	4	Compiler Warning	'__declspec(no_init_all)' can only be applied to a function, a class type, or a local variable: ignored
+CPP4848	4	Compiler Warning	support for standard attribute 'no_unique_address' in C++17 and earlier is a vendor extension
+CPP4866	2	Compiler Warning	compiler may not enforce left-to-right evaluation order for call to 'function'
+CPP4867	4	Compiler Warning	'function': function call missing argument list; use 'call' to create a pointer to member
+CPP4868	4	Compiler Warning	'file(line_number)' compiler may not enforce left-to-right evaluation order in braced initialization list
+CPP4869	3	Compiler Warning	'nodiscard' may only be applied to classes, enumerations, and functions with non-void return type
+CPP4872	2	Compiler Warning	floating point division by zero detected when compiling the call graph for the concurrency::parallel_for_each at: 'location'
+CPP4880	1	Compiler Warning	casting from 'const type_1' to 'type_2': casting away constness from a pointer or reference may result in undefined behavior in an amp restricted function
+CPP4881	4	Compiler Warning	the constructor and/or the destructor will not be invoked for tile_static variable 'variable'
+CPP4882	1	Compiler Warning	passing functors with non-const call operators to concurrency::parallel_for_each is deprecated
+CPP4900	1	Compiler Warning	Intermediate language mismatch between 'tool1' version 'version1' and 'tool2' version 'version2'
+CPP4901	1	Compiler Warning	'register' : too many formal parameters specified
+CPP4902	1	Compiler Warning	'register' : register already used once in this list
+CPP4903	1	Compiler Warning	'register' : is not a valid register in this context
+CPP4904	1	Compiler Warning	'function' : function previously seen with a different register list
+CPP4905	1	Compiler Warning	Wide string literal cast to 'LPSTR'
+CPP4906	1	Compiler Warning	String literal cast to 'LPWSTR'
+CPP4910	1	Compiler Warning	'<identifier>' : '__declspec(dllexport)' and 'extern' are incompatible on an explicit instantiation
+CPP4912	1	Compiler Warning	'attribute': attribute has undefined behavior on a nested UDT
+CPP4913	4	Compiler Warning	User defined binary operator ',' exists but no overload could convert all operands, default built-in binary operator ',' used
+CPP4916	1	Compiler Warning	in order to have a dispid, 'description': must be introduced by an interface
+CPP4917	1	Compiler Warning	'declarator' : a GUID can only be associated with a class, interface or namespace
+CPP4918	4	Compiler Warning	'character' : invalid character in pragma optimization list
+CPP4920	1	Compiler Warning	Enum enum member member=value already seen in enum enum as member=value
+CPP4921	3	Compiler Warning	'description': attribute value 'attribute' should not be multiply specified
+CPP4925	1	Compiler Warning	'method': dispinterface method cannot be called from script
+CPP4926	1	Compiler Warning	'identifier': symbol is already defined: attributes ignored
+CPP4927	1	Compiler Warning	Illegal conversion; more than one user-defined conversion has been implicitly applied
+CPP4928	1	Compiler Warning	Illegal copy-initialization; more than one user-defined conversion has been implicitly applied
+CPP4929	1	Compiler Warning	'file': typelibrary contains a union; ignoring the 'embedded_idl' qualifier
+CPP4930	1	Compiler Warning	'prototype': prototyped function not called (was a variable definition intended?)
+CPP4931	4	Compiler Warning	We are assuming the type library was built for number-bit pointers
+CPP4932	4	Compiler Warning	__identifier(identifier) and __identifier(identifier) are indistinguishable
+CPP4934	1	Compiler Warning	'__delegate(multicast)' is deprecated, use '__delegate' instead
+CPP4935	1	Compiler Warning	Assembly access specifier modified from 'access'
+CPP4936	4	Compiler Warning	This __declspec is supported only when compiled with /clr or /clr:pure
+CPP4937	4	Compiler Warning	'text1' and 'text2' are indistinguishable as arguments to 'directive'
+CPP4938	4	Compiler Warning	'var' : Floating point reduction variable may cause inconsistent results under /fp:strict or #pragma fenv_access
+CPP4939	1	Compiler Warning	#pragma vtordisp is deprecated and will be removed in a future release of Visual C++
+CPP4944	1	Compiler Warning	'symbol' : cannot import symbol from 'assembly1': as 'symbol' already exists in the current scope
+CPP4945	1	Compiler Warning	'symbol' : cannot import symbol from 'assembly2': as 'symbol' has already been imported from another assembly 'assembly1'
+CPP4946	1	Compiler Warning	Reinterpret_cast used between related classes: 'class1' and 'class2'
+CPP4947	1	Compiler Warning	'type_or_member' : marked as obsolete
+CPP4948	2	Compiler Warning	Return type of 'accessor' does not match the last parameter type of the corresponding setter
+CPP4949	1	Compiler Warning	Pragmas 'managed' and 'unmanaged' are meaningful only when compiled with '/clr[:option]'
+CPP4950	4	Compiler Warning	'type_or_member' : marked as obsolete
+CPP4951	1	Compiler Warning	'function' has been edited since profile data was collected, function profile data not used
+CPP4952	1	Compiler Warning	'function' : no profile data found in program database 'pgd_file'
+CPP4953	1	Compiler Warning	Inlinee 'function' has been edited since profile data was collected, profile data not used
+CPP4954	5	Compiler Warning	'function': not profiled (contains __int64 switch expression)
+CPP4955	1	Compiler Warning	'import2' : import ignored; already imported from 'import1'
+CPP4956	4	Compiler Warning	'type' : this type is not verifiable
+CPP4957	4	Compiler Warning	'cast' : explicit cast from 'cast_from' to 'cast_to' is not verifiable
+CPP4958	4	Compiler Warning	'operation' : pointer arithmetic is not verifiable
+CPP4959	4	Compiler Warning	Cannot define unmanaged struct 'type' in /clr:safe because accessing its members yields unverifiable code
+CPP4960	4	Compiler Warning	'function' is too big to be profiled
+CPP4961	4	Compiler Warning	No profile data was merged into '.pgd file', profile-guided optimizations disabled
+CPP4962	4	Compiler Warning	'function' : Profile-guided optimizations disabled because optimizations caused profile data to become inconsistent"
+CPP4963	1	Compiler Warning	'description': no profile data found; different compiler options were used in instrumented build
+CPP4964	1	Compiler Warning	No optimization options were specified; profile info will not be collected
+CPP4965	1	Compiler Warning	Implicit box of integer 0; use nullptr or explicit cast
+CPP4966	1	Compiler Warning	'function' has __code_seg annotation with unsupported segment name, annotation ignored
+CPP4970	2	Compiler Warning	delegate constructor: target object ignored since 'type' is static
+CPP4971	1	Compiler Warning	Argument order: <target object>, <target function> for delegate constructor is deprecated, use <target function>, <target object="">
+CPP4972	4	Compiler Warning	Directly modifying or treating the result of an unbox operation as an lvalue is unverifiable
+CPP4973	1	Compiler Warning	'symbol': marked as deprecated
+CPP4974	1	Compiler Warning	'symbol': marked as deprecated
+CPP4980	3	Compiler Warning	'keyword' : use of this keyword requires /clr:oldSyntax command line option
+CPP4981	3	Compiler Warning	Warbird: function 'function' marked as __forceinline not inlined because it contains exception semantics
+CPP4985	4	Compiler Warning	'symbol name': attributes not present on previous declaration.
+CPP4986	3	Compiler Warning	'declaration': exception specification does not match previous declaration
+CPP4987	4	Compiler Warning	nonstandard extension used: 'throw (...)'
+CPP4988	4	Compiler Warning	'variable': variable declared outside class/function scope
+CPP4989	4	Compiler Warning	'type': type has conflicting definitions.
+CPP4990	3	Compiler Warning	Warbird: message
+CPP4991	3	Compiler Warning	Warbird: function 'function' marked as __forceinline not inlined because protection level of inlinee is greater than the parent
+CPP4992	3	Compiler Warning	Warbird: function 'function' marked as __forceinline not inlined because it contains inline assembly which cannot be protected
+CPP4995	3	Compiler Warning	'function': name was marked as #pragma deprecated
+CPP4996	3	Compiler Warning	'function': was declared deprecated
+CPP4997	1	Compiler Warning	'class': coclass does not implement a COM interface or pseudo-interface
+CPP4998	1	Compiler Warning	EXPECTATION FAILED: expectation(value)
+CPP4999	1	Compiler Warning	UNKNOWN WARNING From the Help menu choose the Technical Support command or open the Technical Support help file for more information
+CPP5022	2	Compiler Warning	'type': multiple move constructors specified
+CPP5023	2	Compiler Warning	'type': multiple move assignment operators specified
+CPP5024	4	Compiler Warning	'type': move constructor was implicitly defined as deleted
+CPP5025	4	Compiler Warning	'type': move assignment operator was implicitly defined as deleted
+CPP5026	1	Compiler Warning	'type': move constructor was implicitly defined as deleted
+CPP5027	1	Compiler Warning	'type': move assignment operator was implicitly defined as deleted
+CPP5028	1	Compiler Warning	'name': Alignment specified in prior declaration (number) not specified in definition
+CPP5029	4	Compiler Warning	nonstandard extension used: alignment attributes in C++ apply to variables, data members and tag types only
+CPP5030	3	Compiler Warning	attribute 'attribute' is not recognized
+CPP5031	4	Compiler Warning	#pragma warning(pop): likely mismatch, popping warning state pushed in different file
+CPP5032	4	Compiler Warning	detected #pragma warning(push) with no corresponding #pragma warning(pop)
+CPP5033	1	Compiler Warning	'storage-class' is no longer a supported storage class
+CPP5034	4	Compiler Warning	use of intrinsic 'intrinsic' causes function function to be compiled as guest code
+CPP5035	4	Compiler Warning	use of feature 'feature' causes function function to be compiled as guest code
+CPP5036	1	Compiler Warning	varargs function pointer conversion when compiling with /hybrid:x86arm64 'type1' to 'type2'
+CPP5037	2	Compiler Warning	'*member-function*': an out-of-line definition of a member of a class template cannot have default arguments
+CPP5038	2	Compiler Warning	data member 'member1' will be initialized after data member 'member2'
+CPP5039	1	Compiler Warning	'function': pointer or reference to potentially throwing function passed to extern C function under -EHc. Undefined behavior may occur if this function throws an exception.
+CPP5040	2	Compiler Warning	dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+CPP5041	3	Compiler Warning	'definition': out-of-line definition for constexpr static data member is not needed and is deprecated in C++17
+CPP5042	2	Compiler Warning	'declaration': function declarations at block scope cannot be specified 'inline' in standard C++; remove 'inline' specifier
+CPP5043	2	Compiler Warning	'specification': exception specification does not match previous declaration
+CPP5044	2	Compiler Warning	An argument to command-line option option points to a path 'path' that does not exist
+CPP5045	4	Compiler Warning	Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+CPP5046	2	Compiler Warning	'function': Symbol involving type with internal linkage not defined
+CPP5047	3	Compiler Warning	use of nonstandard __if_exists with modules is not supported
+CPP5048	2	Compiler Warning	Use of macro 'macroname' may result in non-deterministic output
+CPP5049	4	Compiler Warning	'string': Embedding a full path may result in machine-dependent output
+CPP5050	3	Compiler Warning	Possible incompatible environment while importing module 'module_name': issue
+CPP5100	4	Compiler Warning	__VA_ARGS__ is reserved for use in variadic macros
+CPP5101	1	Compiler Warning	use of preprocessor directive in function-like macro argument list is undefined behavior
+CPP5102	2	Compiler Warning	ignoring invalid command-line macro definition 'value'
+CPP5103	2	Compiler Warning	pasting 'token1' and 'token2' does not result in a valid preprocessing token
+CPP5104	3	Compiler Warning	found 'string1#string2' in macro replacement list, did you mean 'string1""#string2'?
+CPP5105	2	Compiler Warning	macro expansion producing 'defined' has undefined behavior
+CPP5106	1	Compiler Warning	macro redefined with different parameter names
+CPP5107	2	Compiler Warning	missing terminating 'char' character

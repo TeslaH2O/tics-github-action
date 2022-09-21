@@ -1,0 +1,84 @@
+CS.BD.API.EQNULL	1	API	Make sure implementation of Object.Equals(Object) properly handles null values
+CS.BD.API.EQREFL	1	API	Make sure implementation of Object.Equals(Object) is reflexive
+
+CS.BD.CO.ITMOD	1	Collections	Do not modify collection while iterating over it
+
+CS.BD.EXCEPT.NR	1	Exceptions	Avoid NullReferenceException
+
+CS.BD.PB.ARRAY	2	Possible Bugs	Avoid accessing arrays out of bounds
+CS.BD.PB.CC	2	Possible Bugs	Avoid conditions that always evaluate to the same value
+CS.BD.PB.CHECKRET	2	Possible Bugs	Consistently check the returned value of non-void methods
+CS.BD.PB.DEREF	2	Possible Bugs	Avoid dereferencing before checking for null
+CS.BD.PB.DISP	2	Possible Bugs	Do not use disposed resources
+CS.BD.PB.EVIPT	1	Possible Bugs	Ensure that invoke parameter type correspond to delegate definition
+CS.BD.PB.FIN	2	Possible Bugs	Do not use managed resources in finalizers
+CS.BD.PB.NOTEXPLINIT	1	Possible Bugs	Avoid use before explicit initialization
+CS.BD.PB.INTOVERF	2	Possible Bugs	Avoid integer overflows
+CS.BD.PB.POVR	2	Possible Bugs	Avoid overwriting method parameters before each use
+CS.BD.PB.SBONE	3	Possible Bugs	Ensure proper usage of StringBuilder objects
+CS.BD.PB.STRNULL	2	Possible Bugs	Do not append null value to strings
+CS.BD.PB.SWITCH	2	Possible Bugs	Avoid switch with unreachable branches
+CS.BD.PB.UGHC	1	Possible Bugs	Do not base equality on the equality of hash codes
+CS.BD.PB.VOVR	3	Possible Bugs	Avoid unused values
+CS.BD.PB.ZERO	1	Possible Bugs	Avoid division by zero
+
+CS.BD.RES.LEAKS	1	Resources	Ensure resources are deallocated
+
+CS.BD.TRS.DIFCS	1	Threads & Synchronization	Variable should be used in context of single critical section
+CS.BD.TRS.INSTLOCK	2	Threads & Synchronization	Do not use an instance lock to protect shared static data
+CS.BD.TRS.MUTEX	1	Threads & Synchronization	Do not abandon unreleased mutexes
+CS.BD.TRS.ORDER	1	Threads & Synchronization	Do not acquire locks in different order
+
+CS.CS.UGHC	1	Hashes	Do not base equality on the equality of hash codes
+
+CS.CS.PB.USC.UC	1	Possible Bugs	Avoid unreachable code
+CS.CS.PB.USC.CC	3	Possible Bugs	Avoid unreachable code in condition
+CS.CS.PB.AWC	1	Possible Bugs	Avoid assignment within a condition
+CS.CS.PB.CEB	4	Possible Bugs	Avoid conditional statements with empty bodies
+CS.CS.PB.EEB	1	Possible Bugs	Avoid try, catch, finally and using statements with empty bodies
+CS.CS.PB.EVIPT	1	Possible Bugs	Ensure that invoke parameter type correspond to delegate definition
+CS.CS.PB.FPLI	1	Possible Bugs	Do not use floating point variables as loop indices
+CS.CS.PB.IDNE	1	Possible Bugs	Avoid increment and decrement statements which have no effect
+CS.CS.PB.IEB	1	Possible Bugs	Avoid iteration statements with empty bodies
+CS.CS.PB.MCO	1	Possible Bugs	Review '?:' operator for potential misuse
+CS.CS.PB.NSIVFLN	1	Possible Bugs	Do not increment or decrement on the same variable over multiple nested 'for' loop statements
+CS.CS.PB.VTNV	1	Possible Bugs	Do not compare value types to null
+CS.CS.PB.ANIL	2	Possible Bugs	Avoid non-iterable loops
+CS.CS.PB.BITBOOL	2	Possible Bugs	Do not use bitwise operators on bool operands
+CS.CS.PB.CCA	2	Possible Bugs	Avoid confusing assignments to constructor arguments
+CS.CS.PB.CNFA	2	Possible Bugs	Check for 'null' when using 'as' operator
+CS.CS.PB.DEFSWITCH	2	Possible Bugs	Provide 'default:' for each 'switch' statement
+CS.CS.PB.IVFLC	2	Possible Bugs	Use initializer variable in a condition of 'for' loop
+CS.CS.PB.IVFLI	2	Possible Bugs	Use initializer variable in 'for' loop iterator section
+CS.CS.PB.NACC	1	Possible Bugs	Avoid inaccessible classes and structs
+CS.CS.PB.NSIVFLB	2	Possible Bugs	Do not modify 'for' loop initializer variable in 'for' loop body
+CS.CS.PB.PUO	2	Possible Bugs	Avoid using the unary + operator
+CS.CS.PB.REA	2	Possible Bugs	Return empty collection instead of null
+CS.CS.PB.SHIFT	2	Possible Bugs	Do not use an integer outside the range of [0, 31] as the amount of a shift
+CS.CS.PB.WIBS	2	Possible Bugs	Avoid wrong indentation of blockless statements
+CS.CS.PB.INVOKE	3	Possible Bugs	Prefer asynchronous calls to synchronized calls
+ 
+CS.IFD.ATEF	1	Finalizers	Avoid throwing exceptions from finalizers
+
+CS.PB.II.NIE	1	Possible Bugs	Do not leave code which throws System.NotImplementedException
+CS.PB.AIOAC	3	Possible Bugs	Avoid possible integer overflow in assignment and comparison expressions
+CS.PB.AIRC	1	Possible Bugs	Avoid infinite recursive method calls
+CS.PB.ALVT	1	Possible Bugs	Do not use value types as arguments of Monitor.Enter and Monitor.Exit
+CS.PB.ATETS	1	Possible Bugs	Avoid throwing exceptions from ToString method
+CS.PB.CFF	1	Possible Bugs	Verify number of arguments in Composite Formatting feature
+CS.PB.CFSRLV	1	Possible Bugs	Close file system resource on local variable
+CS.PB.IAU	1	Possible Bugs	Avoid internal API usage in extensions code
+CS.PB.PAPI	1	Possible Bugs	Make sure that published API does not change
+CS.PB.REG	1	Possible Bugs	Don't use illegal regular expression
+CS.PB.TMTC	1	Possible Bugs	Ensure that method body used in ThreadStart/ParameterizedThreadStart is wrapped with 'try/catch'
+CS.PB.DNCF	2	Possible Bugs	Do not compare floating-point types for equality
+CS.PB.DNUP	2	Possible Bugs	Use TryParse method instead Parse on primitive types
+CS.PB.INOE	2	Possible Bugs	Use String.IsNullOrEmpty to check if a string is null or empty
+CS.PB.STATICFLD	4	Possible Bugs	Do not write to static fields from non-static methods
+CS.PB.STRIDX	2	Possible Bugs	Do not check whether the result of 'String.IndexOf()' is positive or not
+CS.PB.ALEEU	3	Possible Bugs	Use at least one method with an external effect on an object
+CS.PB.EMPTYMETHODS	3	Possible Bugs	Avoid empty methods
+CS.PB.OCTESC	3	Possible Bugs	Avoid suspicious octal escapes
+CS.PB.OF	3	Possible Bugs	Do not overload 'Finalize()'
+CS.PB.THROWFIN	3	Possible Bugs	Avoid 'throw' statements in 'finally' blocks
+CS.PB.PUBLICCTOR	4	Possible Bugs	Do not declare "public" constructors in non-public classes

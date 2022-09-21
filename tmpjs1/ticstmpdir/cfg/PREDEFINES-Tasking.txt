@@ -1,0 +1,47 @@
+/* Copied from the c166.h system include file of Tasking */
+
+#define _bit unsigned char
+#define bit unsigned char
+#define _bitword unsigned int
+#define bitword unsigned int
+#define _getbit(x) 0
+#define _putbit(x)
+#define _sfrbit unsigned char
+#define _esfrbit unsigned char
+#define _sfr unsigned int
+#define _esfr unsigned int
+#define _xsfr unsigned int
+#define _at( address )
+#define _atbit( name, offset )
+#define _inline
+#define _usm
+#define _nousm
+#define _bita
+#define _near
+#define near
+#define _xnear
+#define xnear
+#define _far
+#define far
+#define _huge
+#define huge
+#define _shuge
+#define shuge
+#define _system
+#define _iram
+#define _interrupt( x )
+#define interrupt( x )
+#define _using( x )
+#define using( x )
+
+/* other items */
+#define _noalign
+#define _packed
+
+#define _bfld(x,y,z)
+#define _diswdt()
+#define _mkhp(x,y) x
+#define _nop(x)
+#define _pof(x) 0
+#define _seg(x) x
+#define _sof(x) x
