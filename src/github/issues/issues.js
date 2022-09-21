@@ -1,6 +1,7 @@
 import { Octokit } from "@octokit/action"; //GitHub API client for GitHub Actions
 import core from '@actions/core';
 import { githubConfig } from '../configuration.js';
+import fs from 'fs';
 
 //Octokit client is authenticated
 const octokit = new Octokit();
@@ -25,9 +26,9 @@ const getParams = (inputparams) => {
 export const createIssueComment =  async(params) => {
     try {
         core.info(`\u001b[35m > Posting pull request decoration`);
-        console.log(processEnv);
-        console.log(processEnv.pull_request);
-        console.log(params);
+        const payload = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+        const prNum = payload.pull_request ? payload.pull_request.number : "1";
+        console.log(prNum);
         await octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/comments', getParams(params))
     } catch(e) {
         console.log("Create issue comment failed: ", e)
