@@ -25,6 +25,8 @@ const getParams = (inputparams) => {
 export const createIssueComment =  async(params) => {
     try {
         core.info(`\u001b[35m > Posting pull request decoration`);
+        console.log(processEnv);
+        console.log(processEnv.pull_request);
         console.log(params);
         await octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/comments', getParams(params))
     } catch(e) {
