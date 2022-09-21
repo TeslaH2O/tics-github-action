@@ -6,12 +6,15 @@ import core from '@actions/core';
 import { ticsConfig, githubConfig } from '../github/configuration.js';
 import { getTiobewebBaseUrlFromGivenUrl, doHttpRequest } from "./ApiHelper.js";
 import { postSummary } from "../index.js";
+import { getPRChangedFiles } from '../github/pulls/pulls.js';
+import { TicsPublisher } from '../tics/TicsPublisher.js';
+
 const execWithPromise = util.promisify(exec);
 
 export class TicsAnalyzer {
 
     run = async()  => {
-        let result = "";
+        let exitCode = 0;
         let installTicsApiFullUrl = "";
 
         try {
@@ -21,13 +24,13 @@ export class TicsAnalyzer {
                 let installTicsUrl = await this.retrieveInstallTics(ticsInstallApiBaseUrl);
                 installTicsApiFullUrl = tiobeWebBaseUrl + installTicsUrl;
             }
-            result = this.runTICSClient(installTicsApiFullUrl).then((result)=> {
-                return result;
+            exitCode = this.runTICSClient(installTicsApiFullUrl).then((exitCode)=> {
+                return exitCode;
             });
         } catch (error) {
            core.setFailed(error.message);
         }
-        return result;
+        return exitCode;
     }
 
     runTICSClient = async(url) => {
@@ -35,7 +38,7 @@ export class TicsAnalyzer {
         const ticsAnalysisCommand = this.getTicsClientArgs();
 
         core.info(`Invoking: ${this.runCommand(bootstrapCommand, ticsAnalysisCommand)}`);
-        const {stdout, stderr} = await execWithPromise(this.runCommand(bootstrapCommand, ticsAnalysisCommand), (err, stdout,stderr) => {
+        const {stdout, stderr} = await execWithPromise(this.runCommand(bootstrapCommand, ticsAnalysisCommand), (err, stdout, stderr) => {
             if (err && err.code != 0) {
                 core.info(stderr);
                 core.info(stdout);
@@ -49,7 +52,39 @@ export class TicsAnalyzer {
                 core.setFailed("There is a problem while running TICS Client Viewer. Please check that TICS is configured and all required parameters have been set in your workflow.");
                 return;
             } else {
-                return stdout;
+                core.info(stdout);
+                let locateExplorerUrl = stdout.match(/http.*Explorer.*/g);
+                let explorerUrl = "";
+                
+                if (!!locateExplorerUrl) {
+                    explorerUrl = locateExplorerUrl.slice(-1).pop();
+                    core.info(`\u001b[35m > Explorer url retrieved ${explorerUrl}`); 
+                } else {
+                    postSummary("There is a problem while running TICS Client Viewer", true);
+                    core.setFailed("There is a problem while running TICS Client Viewer.");
+                    return;
+                }
+
+                getPRChangedFiles().then((changeSet) => {
+                    core.info(`\u001b[35m > Retrieving changed files to analyse`);
+                    core.info(`Changed files list retrieved: ${changeSet}`);
+                    return changeSet;
+                }).then((changeSet) => {
+                    const ticsPublisher = new TicsPublisher();
+                    ticsPublisher.run().then((qualitygates) => {
+                        core.info(`\u001b[35m > Retrieved quality gates results`);
+
+                        return qualitygates;
+                    }).then((qualitygates) => {
+                        let results = {
+                            explorerUrl: explorerUrl,
+                            changeSet: changeSet,
+                            qualitygates: qualitygates
+                        };
+
+                        postSummary(results, false);
+                    })
+                });
             }
         });
     }
