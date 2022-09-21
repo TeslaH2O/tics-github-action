@@ -5,7 +5,8 @@ import fs from 'fs';
 
 //Octokit client is authenticated
 const octokit = new Octokit();
-let processEnv = process.env.GITHUB_EVENT_PATH;
+const payload = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+const pullRequestNum = payload.pull_request ? payload.pull_request.number : "";
 
 /* Helper functions to construct a checkrun */
 const getParams = (inputparams) => {
@@ -15,7 +16,7 @@ const getParams = (inputparams) => {
         accept: 'application/vnd.github.v3+json',
         owner: githubConfig.owner,
         repo: githubConfig.reponame,
-        issue_number: processEnv.pull_request.number,
+        issue_number: pullRequestNum,
         comment_id: inputparams.comment_id ?  inputparams.comment_id : '',
         body: inputparams.body ? inputparams.body : ''
     }
@@ -26,9 +27,7 @@ const getParams = (inputparams) => {
 export const createIssueComment =  async(params) => {
     try {
         core.info(`\u001b[35m > Posting pull request decoration`);
-        const payload = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
-        const prNum = payload.pull_request ? payload.pull_request.number : "1";
-        console.log(prNum);
+        console.log(pullRequestNum);
         await octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/comments', getParams(params))
     } catch(e) {
         console.log("Create issue comment failed: ", e)
