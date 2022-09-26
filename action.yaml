@@ -1,4 +1,4 @@
-name: 'TiCS Github Action'
+name: 'TiCS Github Action Old'
 author: 'TIOBE'
 description: 'Integrates TICS Client analysis to measure your code quality. The incorporated Quality gating feature enables you to analyze and decorate pull requests.'
 inputs:
