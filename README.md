@@ -61,12 +61,12 @@ The following inputs are available for this action:
 
  |Input|Description|Required|
  |---|---|---|
- | `projectName` | **Required** Name of the TiCS project present in the TICS Viewer. |true|
+ | `projectName` | Name of the TiCS project present in the TICS Viewer. |true|
  | `branchName` | Name of the branch in TiCS. | false |
  | `branchDir` | Location of the files to analyze. | false |
  | `calc` | Comma-separated list of metrics to be used. GATE metric is supported for TiCS Viewer versions higher than 2022.2.x. If not specified, GATE will be used by default. | false|
  | `clientToken` | A custom client-data token for the purpose of the Client Viewer functionality. This provides a static URL that is updated with every analysis. | false |
  | `tmpDir` | Location to store debug information. | false |
  | `installTics`| Boolean parameter to install TiCS command-line tools on a runner before executing the analysis. If not specified, TiCS should be installed manually on the machine that runs this job. | false |
- | `ticsConfiguration` | **Required** A URL pointing to the "cfg" API endpoint of the TiCS Viewer. It contains the name of the TiCS Analyzer Configuration or "-" in case of the default configuration. | true |
+ | `ticsConfiguration` | A URL pointing to the "cfg" API endpoint of the TiCS Viewer. It contains the name of the TiCS Analyzer Configuration or "-" in case of the default configuration. | true |
  
