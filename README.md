@@ -66,27 +66,14 @@ env:
 ### Action Parameters
 The following inputs are available for this action:
 
-```
-projectName:
-    description: 'Name of the TICS project present in the TICS Viewer'
-    required: true
-  branchName:
-    description: 'Name of the branch in TICS'
-    required: false
-  branchDir:
-    description: 'Location of the files to analyze'
-    required: false
-  calc:
-    description: 'Comma-separated list of metrics to be used'
-    required: false
-  clientToken:
-    description: 'A custom client-data token for the purpose of the Client Viewer functionality.'
-    required: false
-  tmpDir:
-    description: 'Location to store debug information'
-    required: false
-  installTics:
-    description: 'Boolean parameter to install TICS command-line tools on a runner before executing the analysis. If not specified, TICS should be installed manually on the machine that runs this job'
-    required: false
-  ticsConfiguration: 'A URL pointing to the "cfg" API endpoint of the TICS Viewer. It contains the name of the TICS Analyzer Configuration or "-" in case of the default configuration'
-```
+ |Input|Description|
+ |---|---|
+ |`projectName`| **Required** - Name of the TICS project present in the TICS Viewer|
+ |`branchName`|Name of the branch in TICS| 
+ |`branchDir`|Location of the files to analyze|
+ |`calc`| Comma-separated list of metrics to be used. GATE metric is supported for TiCS Viewers higher 2022.2.x. If not specified, GATE will be used by default. |  
+ |`clientToken`|A custom client-data token for the purpose of the Client Viewer functionality.|  
+ |`tmpDir`| Location to store debug information | 
+ | `installTics`| Boolean parameter to install TICS command-line tools on a runner before executing the analysis. If not specified, TICS should be installed manually on the machine that runs this job. | 
+ |`ticsConfiguration`| A URL pointing to the "cfg" API endpoint of the TICS Viewer. It contains the name of the TICS Analyzer Configuration or "-" in case of the default configuration | 
+ 
