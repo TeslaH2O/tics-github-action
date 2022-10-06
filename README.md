@@ -3,7 +3,7 @@ The TiCS Github action integrates TiCS Client analysis to measure your code qual
 
 ## Before you start 
 ### Prerequisites
-- A TiCS Viewer running somewhere on the network that is HTTP accessible by the runner on which you want to execute the action.
+- A TiCS Viewer running somewhere on the network that is HTTP(S) accessible by the runner on which you want to execute the action.
 
 ### Action Restrictions
 - It will only be triggered on a pull request event.
@@ -13,7 +13,7 @@ The TiCS Github action integrates TiCS Client analysis to measure your code qual
 
 ## Usage
 Add the `TiCS GitHub Action` to your workflow to launch TiCS code analysis and post the results of Quality Gating feature as part of your pull request.
-Below is an example of including the `TiCS GitHub Action` step as part of your workflow:
+Below is an example of how to include the `TiCS GitHub Action` step as part of your workflow:
 
 ```
 name: Main Workflow 
@@ -41,7 +41,7 @@ jobs:
           installTics: true
 ```
 ### Action Runners
-All GitHub-hosted or self-hosted runners are supported, apart from those running on macOS.
+Linux and Windows based runners, both Github-hosted and self-hosted, are supported.
 
 ### Environment Variables
 The environment variables that are necessary for the action to function:
@@ -59,14 +59,14 @@ env:
 ### Action Parameters
 The following inputs are available for this action:
 
- |Input|Description|
- |---|---|
- | `projectName` | **Required** Name of the TiCS project present in the TICS Viewer. |
- | `branchName` | Name of the branch in TiCS. | 
- | `branchDir` | Location of the files to analyze. |
- | `calc` | Comma-separated list of metrics to be used. GATE metric is supported for TiCS Viewer versions higher than 2022.2.x. If not specified, GATE will be used by default. | 
- | `clientToken` | A custom client-data token for the purpose of the Client Viewer functionality.|  
- | `tmpDir` | Location to store debug information. | 
- | `installTics`| Boolean parameter to install TiCS command-line tools on a runner before executing the analysis. If not specified, TiCS should be installed manually on the machine that runs this job. | 
- | `ticsConfiguration` | **Required** A URL pointing to the "cfg" API endpoint of the TiCS Viewer. It contains the name of the TiCS Analyzer Configuration or "-" in case of the default configuration. | 
+ |Input|Description|Required|
+ |---|---|---|
+ | `projectName` | **Required** Name of the TiCS project present in the TICS Viewer. |true|
+ | `branchName` | Name of the branch in TiCS. | false |
+ | `branchDir` | Location of the files to analyze. | false |
+ | `calc` | Comma-separated list of metrics to be used. GATE metric is supported for TiCS Viewer versions higher than 2022.2.x. If not specified, GATE will be used by default. | false|
+ | `clientToken` | A custom client-data token for the purpose of the Client Viewer functionality.| false |
+ | `tmpDir` | Location to store debug information. | false |
+ | `installTics`| Boolean parameter to install TiCS command-line tools on a runner before executing the analysis. If not specified, TiCS should be installed manually on the machine that runs this job. | false |
+ | `ticsConfiguration` | **Required** A URL pointing to the "cfg" API endpoint of the TiCS Viewer. It contains the name of the TiCS Analyzer Configuration or "-" in case of the default configuration. | true |
  
