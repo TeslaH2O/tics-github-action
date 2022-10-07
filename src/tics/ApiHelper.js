@@ -18,9 +18,9 @@ export const getTiobewebBaseUrlFromGivenUrl = (givenUrl) => {
 
     return parts.splice(parts, 5).join('/');
 }
-
+//process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 export const doHttpRequest = (url) => {
-
+    
     return new Promise((resolve, reject) => {
 
         let tempUrl = new URL(url);
@@ -28,7 +28,9 @@ export const doHttpRequest = (url) => {
         const client = (urlProtocol === 'http') ? http : https;
 
         const optionsInit = {
-          followAllRedirects: true
+          followAllRedirects: true,
+          rejectUnauthorized: false,
+          requestCert: true,
         }
 
         let authToken = ticsConfig.ticsAuthToken;
