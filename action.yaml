@@ -18,7 +18,7 @@ inputs:
     description: 'Authentication token to connect to the TICS Viewer'
     required: false
   clientToken:
-    description: 'A custom client-data token for the purpose of the Client Viewer functionality.'
+    description: 'A custom client-data token for the purpose of the Client Viewer functionality'
     required: false
   tmpDir:
     description: 'Location to store debug information'
@@ -26,6 +26,9 @@ inputs:
   installTics:
     description: 'Boolean parameter to install TICS command-line tools on a runner before executing the analysis'
     required: false
+  ticsConfiguration:
+    description: 'TICS configuration URL as shown in TICS viewer "Analyzer Configuration"'
+    required: true
 branding:
   icon: 'flag'
   color: 'blue'
